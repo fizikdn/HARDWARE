@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R27 Old Footprint=RC0402 New Footprint=RC0603
+Change Component Footprint: Designator=R28 Old Footprint=RC0402 New Footprint=RC0603
+Added Member To Class: ClassName=[11]-MAIN_POWER Member=Component FU4 RXE-250
+Added Member To Class: ClassName=[14]-CURRENT_METER Member=Component R47 330k

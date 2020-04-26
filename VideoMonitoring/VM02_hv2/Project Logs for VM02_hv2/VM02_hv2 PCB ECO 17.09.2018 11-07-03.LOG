@@ -1,0 +1,6 @@
+Added Component: Designator=R69(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R69-1
+Added Pin To Net: NetName=WAKEUP_OPI Pin=R69-2
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component R69 10k

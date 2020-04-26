@@ -1,0 +1,10 @@
+Added Component: Designator=XP8(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetFU3_2 Pin=FU3-2
+Added Pin To Net: NetName=NetFU3_2 Pin=XP8-2
+Added Net: Name=NetFU3_2
+Added Pin To Net: NetName=NetFU4_2 Pin=FU4-2
+Added Pin To Net: NetName=NetFU4_2 Pin=XP8-1
+Added Net: Name=NetFU4_2
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component XP8 DG330-2P

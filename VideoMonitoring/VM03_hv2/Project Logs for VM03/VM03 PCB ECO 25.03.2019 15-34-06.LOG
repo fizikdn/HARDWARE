@@ -1,0 +1,12 @@
+Added Component: Designator=C32(CAP_D12.5_H25)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DRE10/2.5"; VariantName = "[No Variations]"
+Added Component: Designator=C33(CAP_D12.5_H25)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DRE10/2.5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC32_1 Pin=C32-1
+Added Pin To Net: NetName=NetC32_2 Pin=C32-2
+Added Pin To Net: NetName=GND Pin=C33-1
+Added Pin To Net: NetName=NetC32_1 Pin=C33-2
+Added Member To Class: ClassName=[11]-BATTERY_BACKUP Member=Component C32 DRE10/2.5
+Added Member To Class: ClassName=[11]-BATTERY_BACKUP Member=Component C33 DRE10/2.5

@@ -1,0 +1,79 @@
+Removed Pin From Net: NetName=NetR57_2 Pin=R58-2
+Removed Pin From Net: NetName=NetR56_2 Pin=R59-2
+Removed Pin From Net: NetName=NetDD3_5 Pin=R71-1
+Removed Pin From Net: NetName=SDA_MCU Pin=R71-2
+Removed Pin From Net: NetName=NetDD3_6 Pin=R72-1
+Removed Pin From Net: NetName=SCL_MCU Pin=R72-2
+Removed Pin From Net: NetName=VIN_F Pin=R77-1
+Removed Pin From Net: NetName=+11V_VCAM Pin=R77-2
+Removed Pin From Net: NetName=NetC48_1 Pin=R79-1
+Removed Pin From Net: NetName=VIN_F Pin=R79-2
+Removed Pin From Net: NetName=+VCAM_DCDC Pin=R80-1
+Removed Pin From Net: NetName=NetFU1_2 Pin=R85-2
+Removed Pin From Net: NetName=NetFU1_2 Pin=VT13-2
+Removed Member From Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=R58
+Removed Member From Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=R59
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=R71
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=R72
+Removed Member From Class: ClassName=[11]-MAIN_POWER2 Member=R77
+Removed Member From Class: ClassName=[11]-MAIN_POWER2 Member=R79
+Removed Member From Class: ClassName=[11]-MAIN_POWER2 Member=R80
+Removed Member From Class: ClassName=[5]-OPI_MAIN Member=R85
+Removed Member From Class: ClassName=[5]-OPI_MAIN Member=VT13
+Change Component Comment : Designator=R27 Old Comment=100k New Comment=68k
+Change Component Comment : Designator=R28 Old Comment=100k New Comment=68k
+Change Component Comment : Designator=R58 Old Comment=n.p New Comment=1k
+Change Component Comment : Designator=R59 Old Comment=n.p New Comment=100k
+Change Component Comment : Designator=R71 Old Comment=n.p New Comment=100k
+Change component parameters: Designator = "R27"; Footprint = "RC0603"; UniqueID = "\NTCATCRQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "68k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28"; Footprint = "RC0603"; UniqueID = "\APRRLUTH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "68k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R58"; Footprint = "RC0603"; UniqueID = "\TVDNSQVU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R59"; Footprint = "RC0603"; UniqueID = "\EMUJOXUO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R71"; Footprint = "RC0603"; UniqueID = "\AHFGQJKX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C55(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C56(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=VD35(SOT-23(123))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentField6"; Value = "Published 8-Jun-2000, Modified 11-July-2000: SIM Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=CURRENT_CH_CAM Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C55-1
+Added Pin To Net: NetName=CURRENT_CH_LED Pin=C55-2
+Added Pin To Net: NetName=GND Pin=C56-1
+Added Pin To Net: NetName=GND Pin=R58-1
+Added Pin To Net: NetName=NetC32_2 Pin=R58-2
+Added Pin To Net: NetName=+3V3 Pin=R59-2
+Added Pin To Net: NetName=GND Pin=R71-1
+Added Pin To Net: NetName=+VCAM Pin=VD35-1
+Added Pin To Net: NetName=NetR59_1 Pin=VD35-3
+Added Pin To Net: NetName=NetFU1_2 Pin=XP2-1
+Added Pin To Net: NetName=NetC56_2 Pin=C56-2
+Added Pin To Net: NetName=NetC56_2 Pin=R71-2
+Added Pin To Net: NetName=NetC56_2 Pin=VD35-2
+Added Pin To Net: NetName=NetC56_2 Pin=XP1-12
+Added Net: Name=NetC56_2
+Added Member To Class: ClassName=[12]-MCU_INPUTS Member=Component C15 0.1uF
+Added Member To Class: ClassName=[12]-MCU_INPUTS Member=Component C55 0.1uF
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component C56 0.1uF
+Added Member To Class: ClassName=[11]-BATTERY_BACKUP Member=Component R58 1k
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component R59 100k
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component R71 100k
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component VD35 BAT54A

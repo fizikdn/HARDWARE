@@ -1,0 +1,210 @@
+Removed Pin From Net: NetName=CAM_EN Pin=DD1-37
+Removed Pin From Net: NetName=VIN Pin=FU2-1
+Removed Pin From Net: NetName=NetC20_2 Pin=R13-2
+Removed Pin From Net: NetName=NetC53_2 Pin=R21-2
+Removed Pin From Net: NetName=NetC52_2 Pin=R22-2
+Removed Pin From Net: NetName=VIN_F Pin=R25-2
+Removed Pin From Net: NetName=GND Pin=VD3-2
+Removed Pin From Net: NetName=NetFU2_2 Pin=VD5-1
+Removed Pin From Net: NetName=NetL3_1 Pin=VD5-2
+Removed Pin From Net: NetName=VIN_F Pin=VT7-3
+Removed Pin From Net: NetName=WAKEUP_OPI Pin=XP1-12
+Removed Pin From Net: NetName=NetC53_2 Pin=XP1-16
+Removed Pin From Net: NetName=NetC52_2 Pin=XP1-18
+Removed Pin From Net: NetName=NetC52_2 Pin=XP1-35
+Removed Pin From Net: NetName=NetC53_2 Pin=XP1-37
+Removed Pin From Net: NetName=NetR43_1 Pin=XP7-1
+Removed Pin From Net: NetName=NetR46_1 Pin=XP7-3
+Removed Member From Class: ClassName=[10]-MAIN_POWER Member=FU2
+Removed Member From Class: ClassName=[7]-GSM_MODEM_MAIN Member=R13
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=R21
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=R22
+Removed Member From Class: ClassName=[7]-GSM_MODEM_MAIN Member=VD3
+Removed Member From Class: ClassName=[10]-MAIN_POWER Member=VD5
+Change Component Footprint: Designator=VD3 Old Footprint=LED0805 New Footprint=SMC
+Change Component Footprint: Designator=VD5 Old Footprint=SMA New Footprint=LED0805
+Change Component Comment : Designator=R13 Old Comment=1k New Comment=10k
+Change Component Comment : Designator=VD5 Old Comment=GS1M New Comment=LED_0805
+Change Component Comment : Designator=VD3 Old Comment=LED_0805 New Comment=S3M
+Change Component Comment : Designator=R21 Old Comment=n.p New Comment=1k
+Change Component Comment : Designator=R22 Old Comment=n.p New Comment=1k
+Change component parameters: Designator = "FU2"; Footprint = "RXE-110"; UniqueID = "\MJWBGGBU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R13"; Footprint = "RC0603"; UniqueID = "\BULKPLRC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21"; Footprint = "RC0603"; UniqueID = "\PGHJGSOC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22"; Footprint = "RC0603"; UniqueID = "\JCKXGTGK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD3"; Footprint = "SMC"; UniqueID = "\QHVTWIDD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "S3M"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD5"; Footprint = "LED0805"; UniqueID = "\BKXISNGB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=FU1(RXE-185)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J4(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R60(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R61(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R62(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R63(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=S1(7906H-1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "{Value}"; VariantName = "[No Variations]"
+Added Component: Designator=S2(7906H-1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "{Value}"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP5(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD7(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=VD8(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=VD9(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=VD25(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=XP8(PLS-03)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC53_2 Pin=DD1-33
+Added Pin To Net: NetName=NetC52_2 Pin=DD1-45
+Added Pin To Net: NetName=VIN Pin=FU1-1
+Added Pin To Net: NetName=VIN_F Pin=FU2-1
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=+3V3 Pin=R13-2
+Added Pin To Net: NetName=NetFU2_2 Pin=R25-2
+Added Pin To Net: NetName=NetC20_2 Pin=R62-2
+Added Pin To Net: NetName=+3V3 Pin=R63-2
+Added Pin To Net: NetName=GND Pin=S1-3
+Added Pin To Net: NetName=GND Pin=S1-4
+Added Pin To Net: NetName=GND Pin=S2-3
+Added Pin To Net: NetName=GND Pin=S2-4
+Added Pin To Net: NetName=+3V3 Pin=TP1-1
+Added Pin To Net: NetName=+5V Pin=TP3-1
+Added Pin To Net: NetName=+5V_OPI Pin=TP4-1
+Added Pin To Net: NetName=+4V35 Pin=TP5-1
+Added Pin To Net: NetName=VIN_F Pin=TP6-1
+Added Pin To Net: NetName=NetL3_1 Pin=VD3-2
+Added Pin To Net: NetName=GND Pin=VD5-2
+Added Pin To Net: NetName=GND Pin=VD7-2
+Added Pin To Net: NetName=GND Pin=VD8-2
+Added Pin To Net: NetName=GND Pin=VD9-2
+Added Pin To Net: NetName=GND Pin=VD25-2
+Added Pin To Net: NetName=NetFU2_2 Pin=VT7-3
+Added Pin To Net: NetName=WAKEUP_OPI Pin=XP1-23
+Added Pin To Net: NetName=CAM_EN Pin=XP1-29
+Added Pin To Net: NetName=NetR46_1 Pin=XP7-1
+Added Pin To Net: NetName=NetR43_1 Pin=XP7-3
+Added Pin To Net: NetName=GND Pin=XP8-2
+Change Net Name : Old Net Name=LED_BATTERY New Net Name=LED_CAN
+Added Pin To Net: NetName=CONFIG_UART_RX Pin=XP1-38
+Added Pin To Net: NetName=CONFIG_UART_RX Pin=XP8-3
+Added Net: Name=CONFIG_UART_RX
+Added Pin To Net: NetName=CONFIG_UART_TX Pin=XP1-40
+Added Pin To Net: NetName=CONFIG_UART_TX Pin=XP8-1
+Added Net: Name=CONFIG_UART_TX
+Added Pin To Net: NetName=LED_CAMERA1 Pin=R21-2
+Added Pin To Net: NetName=LED_CAMERA1 Pin=XP1-37
+Added Net: Name=LED_CAMERA1
+Added Pin To Net: NetName=LED_CAMERA2 Pin=R22-2
+Added Pin To Net: NetName=LED_CAMERA2 Pin=XP1-35
+Added Net: Name=LED_CAMERA2
+Added Pin To Net: NetName=LED_CAMERA3 Pin=R60-2
+Added Pin To Net: NetName=LED_CAMERA3 Pin=XP1-33
+Added Net: Name=LED_CAMERA3
+Added Pin To Net: NetName=LED_CAMERA4 Pin=R61-2
+Added Pin To Net: NetName=LED_CAMERA4 Pin=XP1-31
+Added Net: Name=LED_CAMERA4
+Added Pin To Net: NetName=NetFU1_2 Pin=FU1-2
+Added Pin To Net: NetName=NetFU1_2 Pin=VD3-1
+Added Net: Name=NetFU1_2
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_1 Pin=R13-1
+Added Pin To Net: NetName=NetJ4_1 Pin=S1-1
+Added Pin To Net: NetName=NetJ4_1 Pin=S1-2
+Added Pin To Net: NetName=NetJ4_1 Pin=XP1-27
+Added Net: Name=NetJ4_1
+Added Pin To Net: NetName=NetR21_1 Pin=R21-1
+Added Pin To Net: NetName=NetR21_1 Pin=VD5-1
+Added Net: Name=NetR21_1
+Added Pin To Net: NetName=NetR22_1 Pin=R22-1
+Added Pin To Net: NetName=NetR22_1 Pin=VD7-1
+Added Net: Name=NetR22_1
+Added Pin To Net: NetName=NetR60_1 Pin=R60-1
+Added Pin To Net: NetName=NetR60_1 Pin=VD8-1
+Added Net: Name=NetR60_1
+Added Pin To Net: NetName=NetR61_1 Pin=R61-1
+Added Pin To Net: NetName=NetR61_1 Pin=VD9-1
+Added Net: Name=NetR61_1
+Added Pin To Net: NetName=NetR62_1 Pin=R62-1
+Added Pin To Net: NetName=NetR62_1 Pin=VD25-1
+Added Net: Name=NetR62_1
+Added Pin To Net: NetName=NetR63_1 Pin=R63-1
+Added Pin To Net: NetName=NetR63_1 Pin=S2-1
+Added Pin To Net: NetName=NetR63_1 Pin=S2-2
+Added Net: Name=NetR63_1
+Added Pin To Net: NetName=NetTP2_1 Pin=TP2-1
+Added Pin To Net: NetName=NetTP2_1 Pin=XP1-1
+Added Net: Name=NetTP2_1
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component FU1 RXE-185
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component FU2 RXE-110
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component J4 PLS-02
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component R13 10k
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component R21 1k
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component R22 1k
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component R60 1k
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component R61 1k
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component R62 1k
+Added Member To Class: ClassName=[15]-MCU_CONNECTORS Member=Component R63 10k
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component S1 SWT-2/5
+Added Member To Class: ClassName=[15]-MCU_CONNECTORS Member=Component S2 SWT-2/5
+Added Member To Class: ClassName=[4]-MCU_POWER Member=Component TP1 TESTPOINT1
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component TP2 TESTPOINT1
+Added Member To Class: ClassName=[6]-OPI_POWER Member=Component TP3 TESTPOINT1
+Added Member To Class: ClassName=[6]-OPI_POWER Member=Component TP4 TESTPOINT1
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component TP5 TESTPOINT1
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component TP6 TESTPOINT1
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component VD3 S3M
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component VD5 LED_0805
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component VD7 LED_0805
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component VD8 LED_0805
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component VD9 LED_0805
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component VD25 LED_0805
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component XP8 PLS03

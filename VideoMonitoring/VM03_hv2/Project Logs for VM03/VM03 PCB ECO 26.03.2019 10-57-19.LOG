@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=VD23-2
+Removed Pin From Net: NetName=GND Pin=VD24-2
+Added Pin To Net: NetName=CAM_GND Pin=VD23-2
+Added Pin To Net: NetName=LED_GND Pin=VD24-2

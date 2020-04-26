@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=+VCAM Pin=XP5-1
+Removed Pin From Net: NetName=NetR43_1 Pin=XP6-1
+Removed Pin From Net: NetName=GND Pin=XP6-2
+Removed Pin From Net: NetName=NetFU3_1 Pin=XP7-1
+Removed Pin From Net: NetName=NetR46_1 Pin=XP7-2
+Removed Pin From Net: NetName=VIN Pin=XP8-1
+Removed Pin From Net: NetName=GND Pin=XP8-2
+Removed Pin From Net: NetName=NetFU5_2 Pin=XP9-1
+Removed Pin From Net: NetName=NetFU4_2 Pin=XP9-2
+Removed Member From Class: ClassName=[14]-MAIN_CONNECTORS Member=XP8
+Removed Member From Class: ClassName=[14]-MAIN_CONNECTORS Member=XP9
+Change Component Footprint: Designator=XP5 Old Footprint=DG330-2P New Footprint=DG330-3P
+Change Component Footprint: Designator=XP6 Old Footprint=DG330-2P New Footprint=DG330-3P
+Change Component Footprint: Designator=XP7 Old Footprint=DG330-2P New Footprint=DG330-3P
+Change Component Comment : Designator=XP5 Old Comment=DG330-2P New Comment=DG330-3PIN
+Change Component Comment : Designator=XP6 Old Comment=DG330-2P New Comment=DG330-3PIN
+Change Component Comment : Designator=XP7 Old Comment=DG330-2P New Comment=DG330-3PIN
+Change component parameters: Designator = "XP5"; Footprint = "DG330-3P"; UniqueID = "\VBNPHFXE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-3PIN"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP6"; Footprint = "DG330-3P"; UniqueID = "\FHWVQWYG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-3PIN"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP7"; Footprint = "DG330-3P"; UniqueID = "\QBODNAQU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-3PIN"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN Pin=XP5-1
+Added Pin To Net: NetName=NetFU4_2 Pin=XP5-3
+Added Pin To Net: NetName=NetFU5_2 Pin=XP6-1
+Added Pin To Net: NetName=+VCAM Pin=XP6-2
+Added Pin To Net: NetName=GND Pin=XP6-3
+Added Pin To Net: NetName=NetR43_1 Pin=XP7-1
+Added Pin To Net: NetName=NetFU3_1 Pin=XP7-2
+Added Pin To Net: NetName=NetR46_1 Pin=XP7-3

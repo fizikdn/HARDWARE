@@ -1,0 +1,13 @@
+Added Component: Designator=FU1(RXE-185)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=FU2(RXE-110)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN Pin=FU1-1
+Added Pin To Net: NetName=NetFU1_2 Pin=FU1-2
+Added Pin To Net: NetName=VIN_F Pin=FU2-1
+Added Pin To Net: NetName=NetFU2_2 Pin=FU2-2
+Added Member To Class: ClassName=[12]-MCU_INPUTS Member=Component C53 100nF
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component FU1 RXE-185
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component FU2 RXE-110

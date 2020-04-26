@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=+3V3_OPI Pin=R74-1
+Removed Pin From Net: NetName=NetR75_1 Pin=VD31-1
+Removed Member From Class: ClassName=[5]-OPI_MAIN Member=R74
+Change Component Comment : Designator=R74 Old Comment=10k New Comment=1k
+Change component parameters: Designator = "R74"; Footprint = "RC0603"; UniqueID = "\XMIXNBBL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R83(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R84(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=VD32(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=VD33(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=VD34(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR75_1 Pin=VD32-1
+Added Pin To Net: NetName=GND Pin=VD32-2
+Added Pin To Net: NetName=GND Pin=VD33-2
+Added Pin To Net: NetName=GND Pin=VD34-2
+Added Pin To Net: NetName=NetR74_1 Pin=R74-1
+Added Pin To Net: NetName=NetR74_1 Pin=VD31-1
+Added Net: Name=NetR74_1
+Added Pin To Net: NetName=NetR83_1 Pin=R83-1
+Added Pin To Net: NetName=NetR83_1 Pin=VD33-1
+Added Net: Name=NetR83_1
+Added Pin To Net: NetName=NetR83_2 Pin=R83-2
+Added Pin To Net: NetName=NetR83_2 Pin=XP1-21
+Added Net: Name=NetR83_2
+Added Pin To Net: NetName=NetR84_1 Pin=R84-1
+Added Pin To Net: NetName=NetR84_1 Pin=VD34-1
+Added Net: Name=NetR84_1
+Added Pin To Net: NetName=NetR84_2 Pin=R84-2
+Added Pin To Net: NetName=NetR84_2 Pin=XP1-23
+Added Net: Name=NetR84_2
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component R74 1k
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component R83 1k
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component R84 1k
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component VD32 LED_0805
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component VD33 LED_0805
+Added Member To Class: ClassName=[13]-LED_INDICATION Member=Component VD34 LED_0805

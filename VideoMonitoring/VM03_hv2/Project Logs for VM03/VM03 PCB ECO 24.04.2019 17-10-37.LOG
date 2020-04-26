@@ -1,0 +1,8 @@
+Added Component: Designator=ANT1(IFA_GSM_3G)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetANT1_1 Pin=ANT1-1
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Member To Class: ClassName=[7]-GSM_MODEM_MAIN Member=Component ANT1 ANTENNA IFA GSM 3G
+Added Member To Class: ClassName=[12]-MCU_INPUTS Member=Component DA4 LM358

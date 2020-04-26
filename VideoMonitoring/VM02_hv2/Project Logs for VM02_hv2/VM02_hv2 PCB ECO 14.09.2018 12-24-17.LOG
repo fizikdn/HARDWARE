@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetJ4_1 Pin=S1-1
+Removed Pin From Net: NetName=NetJ4_1 Pin=S1-2
+Removed Pin From Net: NetName=GND Pin=S1-3
+Removed Pin From Net: NetName=GND Pin=S1-4
+Removed Member From Class: ClassName=[5]-OPI_MAIN Member=S1

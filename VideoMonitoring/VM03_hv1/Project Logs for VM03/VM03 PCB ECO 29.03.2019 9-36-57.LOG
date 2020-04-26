@@ -1,0 +1,12 @@
+Added Component: Designator=R76(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=R77(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC22_2 Pin=R76-1
+Added Pin To Net: NetName=VIN_F Pin=R76-2
+Added Pin To Net: NetName=VIN_F Pin=R77-1
+Added Pin To Net: NetName=+11V_VCAM Pin=R77-2
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component R76 n.p
+Added Member To Class: ClassName=[11]-MAIN_POWER2 Member=Component R77 n.p

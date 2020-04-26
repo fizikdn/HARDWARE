@@ -1,0 +1,13 @@
+Change Component Footprint: Designator=XP4 Old Footprint=USB_B_VERTICAL New Footprint=USB_A_FRONT
+Change Component Comment : Designator=XP4 Old Comment=USB2x02SD-H New Comment=USB1X04SD-H-CN
+Change component parameters: Designator = "XP4"; Footprint = "USB_A_FRONT"; UniqueID = "\FAIQHODM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "USB1X04SD-H-CN"; VariantName = "[No Variations]"
+Added Component: Designator=XP5(PLS-03)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GPS_TX Pin=XP5-1
+Added Pin To Net: NetName=GND Pin=XP5-2
+Added Pin To Net: NetName=GPS_RX Pin=XP5-3
+Added Member To Class: ClassName=[7]-GSM_MODEM_MAIN Member=Component ANT1 ANTENNA IFA GSM 3G
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component XP5 PLS03

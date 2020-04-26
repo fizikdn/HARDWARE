@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=NetC48_1 Pin=R62-2
+Added Component: Designator=R78(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=R79(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=R80(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=R81(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R82(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Component"; Value = "NCP18XH103J03RB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetFU2_2 Pin=R78-1
+Added Pin To Net: NetName=NetC22_2 Pin=R78-2
+Added Pin To Net: NetName=NetC48_1 Pin=R79-1
+Added Pin To Net: NetName=VIN_F Pin=R79-2
+Added Pin To Net: NetName=+VCAM_DCDC Pin=R80-1
+Added Pin To Net: NetName=NetC48_1 Pin=R81-2
+Added Pin To Net: NetName=NetC48_1 Pin=R82-2
+Added Pin To Net: NetName=+VPANEL Pin=FU1-2
+Added Pin To Net: NetName=+VPANEL Pin=R80-2
+Added Pin To Net: NetName=+VPANEL Pin=XP2-1
+Added Net: Name=+VPANEL
+Added Pin To Net: NetName=NetR62_2 Pin=R62-2
+Added Pin To Net: NetName=NetR62_2 Pin=R81-1
+Added Pin To Net: NetName=NetR62_2 Pin=R82-1
+Added Net: Name=NetR62_2
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component R78 n.p
+Added Member To Class: ClassName=[11]-MAIN_POWER2 Member=Component R79 n.p
+Added Member To Class: ClassName=[11]-MAIN_POWER2 Member=Component R80 n.p
+Added Member To Class: ClassName=[11]-MAIN_POWER2 Member=Component R81 10k
+Added Member To Class: ClassName=[11]-MAIN_POWER2 Member=Component R82 n.p

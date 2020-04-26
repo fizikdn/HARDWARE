@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+4V3 Pin=C4-1
+Removed Pin From Net: NetName=+4V3 Pin=C13-1
+Removed Pin From Net: NetName=+4V3 Pin=DA1-1
+Removed Pin From Net: NetName=+4V3 Pin=DA1-3
+Removed Pin From Net: NetName=+4V35 Pin=R3-1
+Removed Pin From Net: NetName=+4V3 Pin=R3-2
+Removed Pin From Net: NetName=+4V3 Pin=R14-2
+Removed Pin From Net: NetName=+4V3 Pin=VT3-2
+Removed Member From Class: ClassName=[4]-MCU_POWER Member=R3
+Added Pin To Net: NetName=+4V35 Pin=C4-1
+Added Pin To Net: NetName=+4V35 Pin=C13-1
+Added Pin To Net: NetName=+4V35 Pin=DA1-1
+Added Pin To Net: NetName=+4V35 Pin=DA1-3
+Added Pin To Net: NetName=+4V35 Pin=R14-2
+Added Pin To Net: NetName=+4V35 Pin=VT3-2

@@ -1,0 +1,4 @@
+Added Component: Designator=XP8(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component XP8 DG330-2P

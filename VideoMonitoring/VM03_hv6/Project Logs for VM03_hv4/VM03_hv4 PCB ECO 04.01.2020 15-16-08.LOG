@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=VUSB Pin=C83-1
+Removed Pin From Net: NetName=GND Pin=C83-2
+Removed Member From Class: ClassName=[6]-H3_MAIN Member=C83

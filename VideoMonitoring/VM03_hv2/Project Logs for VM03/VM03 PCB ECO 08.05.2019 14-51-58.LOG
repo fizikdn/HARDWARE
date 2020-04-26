@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=+VPANEL Pin=FU1-2
+Added Component: Designator=R85(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=VT13(SOT-23(123))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentField7"; Value = "Published 8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "OriginalName"; Value = "IRLML5103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "IRLML6402"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R85-2
+Added Pin To Net: NetName=+VPANEL Pin=VT13-3
+Added Pin To Net: NetName=NetFU1_2 Pin=FU1-2
+Added Pin To Net: NetName=NetFU1_2 Pin=VT13-2
+Added Net: Name=NetFU1_2
+Added Pin To Net: NetName=NetR85_1 Pin=R85-1
+Added Pin To Net: NetName=NetR85_1 Pin=VT13-1
+Added Pin To Net: NetName=NetR85_1 Pin=XP1-12
+Added Net: Name=NetR85_1
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component R85 10k
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component VT13 IRLML6402

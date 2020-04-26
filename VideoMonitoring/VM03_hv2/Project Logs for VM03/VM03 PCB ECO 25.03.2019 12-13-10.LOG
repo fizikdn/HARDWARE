@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetC14_1 Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=XP5-2
+Removed Pin From Net: NetName=GND Pin=XP5-3
+Removed Pin From Net: NetName=GND Pin=XP5-4
+Removed Pin From Net: NetName=GND Pin=XP5-5
+Removed Member From Class: ClassName=[7]-GSM_MODEM_MAIN Member=C15
+Removed Member From Class: ClassName=[7]-GSM_MODEM_MAIN Member=XP5

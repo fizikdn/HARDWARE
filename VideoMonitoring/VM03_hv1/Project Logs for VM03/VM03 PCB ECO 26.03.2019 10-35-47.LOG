@@ -1,0 +1,10 @@
+Added Component: Designator=XP4(USB_B_VERTICAL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "USB2x02SD-H"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=XP4-0
+Added Pin To Net: NetName=GND Pin=XP4-0
+Added Pin To Net: NetName=VUSB Pin=XP4-1
+Added Pin To Net: NetName=D- Pin=XP4-2
+Added Pin To Net: NetName=D+ Pin=XP4-3
+Added Pin To Net: NetName=GND Pin=XP4-4
+Added Member To Class: ClassName=[7]-GSM_MODEM_MAIN Member=Component XP4 USB2x02SD-H

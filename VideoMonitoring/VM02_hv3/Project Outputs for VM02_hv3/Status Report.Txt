@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:18:18 On 08.11.2018
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [VM02_hv3.PrjPcb]
+   Generated File[Bill of Materials-VM02_hv3.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:18:25 On 08.11.2018

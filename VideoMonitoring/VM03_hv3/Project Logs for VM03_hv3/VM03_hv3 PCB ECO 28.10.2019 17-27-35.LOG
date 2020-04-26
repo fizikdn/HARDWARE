@@ -1,0 +1,7 @@
+Added Component: Designator=BAT1(CR2032_ONBOARD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "CR2032-VBY4"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BAT1-1
+Added Pin To Net: NetName=NetC51_1 Pin=BAT1-2
+Change Net Name : Old Net Name=NetC51_1 New Net Name=NetBAT1_2
+Added Member To Class: ClassName=[15]-CLOCK Member=Component BAT1 CR2032-VBY4

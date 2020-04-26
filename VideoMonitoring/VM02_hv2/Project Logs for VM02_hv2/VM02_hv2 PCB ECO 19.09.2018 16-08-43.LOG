@@ -1,0 +1,6 @@
+Change Component Comment : Designator=C50 Old Comment=10nF New Comment=0.1uF
+Change component parameters: Designator = "C50"; Footprint = "CC0603"; UniqueID = "\QDCACPLI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR63_1 Pin=XP1-26
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component FU1 RXE-185

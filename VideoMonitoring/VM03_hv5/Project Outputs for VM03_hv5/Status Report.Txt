@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [VM03_hv5.PcbDoc]
+   Generated File[Pick Place for VM03_hv5.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:43:32 On 13.01.2020

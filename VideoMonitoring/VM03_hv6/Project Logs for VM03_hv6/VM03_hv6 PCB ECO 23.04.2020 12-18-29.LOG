@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=C48 Old Footprint=CC16X10_CAP0.5(1)(Primary) New Footprint=CAP10x16_FLAT
+Change Component Comment : Designator=C48 Old Comment=CAP0.5(1) New Comment=470uFx35V

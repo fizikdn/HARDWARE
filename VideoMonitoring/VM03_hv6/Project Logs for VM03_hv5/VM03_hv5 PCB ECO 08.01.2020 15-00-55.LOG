@@ -1,0 +1,57 @@
+Added Component: Designator=C98(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C99(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=DD5(SO14)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R117(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R118(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R119(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Component: Designator=VT25(SOT-23(123))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentField7"; Value = "Published 29-Sep-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "OriginalName"; Value = "BC846BLT1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BC817-40"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=C98-1
+Added Pin To Net: NetName=GND Pin=C98-2
+Added Pin To Net: NetName=GND Pin=C99-1
+Added Pin To Net: NetName=SIMIO Pin=C99-2
+Added Pin To Net: NetName=SIMIO Pin=DD5-2
+Added Pin To Net: NetName=SIMIO Pin=DD5-3
+Added Pin To Net: NetName=GND Pin=DD5-7
+Added Pin To Net: NetName=+3V3 Pin=DD5-14
+Added Pin To Net: NetName=+3V3 Pin=R117-2
+Added Pin To Net: NetName=GND Pin=R119-1
+Added Pin To Net: NetName=GND Pin=VT25-2
+Added Pin To Net: NetName=NetDD5_1 Pin=DD5-1
+Added Net: Name=NetDD5_1
+Added Pin To Net: NetName=NetDD5_4 Pin=DD5-4
+Added Net: Name=NetDD5_4
+Added Pin To Net: NetName=NetDD5_5 Pin=DD5-5
+Added Pin To Net: NetName=NetDD5_5 Pin=R118-2
+Added Net: Name=NetDD5_5
+Added Pin To Net: NetName=NetDD5_13 Pin=DD5-13
+Added Pin To Net: NetName=NetDD5_13 Pin=R117-1
+Added Pin To Net: NetName=NetDD5_13 Pin=VT25-3
+Added Net: Name=NetDD5_13
+Added Pin To Net: NetName=NetR118_1 Pin=R118-1
+Added Pin To Net: NetName=NetR118_1 Pin=R119-2
+Added Pin To Net: NetName=NetR118_1 Pin=VT25-1
+Added Net: Name=NetR118_1
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component C86 0.1uF
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component C98 0.1uF
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component C99 33pF
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component DD5 SN74HC4066D
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component R117 10k
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component R118 10k
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component R119 100k
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component VT25 BC817-40

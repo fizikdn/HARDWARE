@@ -1,0 +1,14 @@
+Added Component: Designator=R3(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R73(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "NCP18XH103J03RB"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R73-2
+Added Pin To Net: NetName=NetDD4_35 Pin=DD4-35
+Added Pin To Net: NetName=NetDD4_35 Pin=R3-2
+Added Pin To Net: NetName=NetDD4_35 Pin=R73-1
+Added Net: Name=NetDD4_35
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component R3 10k
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component R73 NCP18XH103J03RB

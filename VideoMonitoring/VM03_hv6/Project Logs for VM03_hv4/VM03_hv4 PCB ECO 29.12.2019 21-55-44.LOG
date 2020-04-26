@@ -1,0 +1,16 @@
+Added Component: Designator=R67(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330E"; VariantName = "[No Variations]"
+Added Component: Designator=VD16(LED3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=VD16-1
+Added Pin To Net: NetName=GPS_LED Pin=M1-6
+Added Pin To Net: NetName=GPS_LED Pin=R67-1
+Added Net: Name=GPS_LED
+Added Pin To Net: NetName=NetR67_2 Pin=R67-2
+Added Pin To Net: NetName=NetR67_2 Pin=VD16-2
+Added Net: Name=NetR67_2
+Added Member To Class: ClassName=[6]-H3_MAIN Member=Component R67 330E
+Added Member To Class: ClassName=[6]-H3_MAIN Member=Component VD16 LED_3
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component VD23 SK34SMA

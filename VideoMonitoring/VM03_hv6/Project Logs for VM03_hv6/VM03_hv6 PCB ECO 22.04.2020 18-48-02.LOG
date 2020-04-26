@@ -1,0 +1,77 @@
+Change Component Footprint: Designator=C42 Old Footprint=CAP_13x26 New Footprint=CAP10x20_FLAT
+Change Component Comment : Designator=C42 Old Comment=TLP102M1VI25R New Comment=GF2200/16
+Change component parameters: Designator = "C42"; Footprint = "CAP10x20_FLAT"; UniqueID = "\PCBECXHC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "GF2200/16"; VariantName = "[No Variations]"
+Added Component: Designator=VD30(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ15A"; VariantName = "[No Variations]"
+Added Component: Designator=VD31(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ15A"; VariantName = "[No Variations]"
+Added Component: Designator=VD32(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ15A"; VariantName = "[No Variations]"
+Added Component: Designator=VD33(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ15A"; VariantName = "[No Variations]"
+Added Component: Designator=VD34(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ15A"; VariantName = "[No Variations]"
+Added Component: Designator=VD35(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ15A"; VariantName = "[No Variations]"
+Added Component: Designator=VD36(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ15A"; VariantName = "[No Variations]"
+Added Component: Designator=VD37(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ15A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=VD30-1
+Added Pin To Net: NetName=GND Pin=VD31-1
+Added Pin To Net: NetName=GND Pin=VD32-1
+Added Pin To Net: NetName=GND Pin=VD33-1
+Added Pin To Net: NetName=GND Pin=VD34-1
+Added Pin To Net: NetName=GND Pin=VD35-1
+Added Pin To Net: NetName=GND Pin=VD36-1
+Added Pin To Net: NetName=GND Pin=VD37-1
+Added Pin To Net: NetName=NetVD30_2 Pin=VD30-2
+Added Pin To Net: NetName=NetVD30_2 Pin=VT6-3
+Added Pin To Net: NetName=NetVD30_2 Pin=XP8-4C
+Added Net: Name=NetVD30_2
+Added Pin To Net: NetName=NetVD31_2 Pin=VD31-2
+Added Pin To Net: NetName=NetVD31_2 Pin=VT7-3
+Added Pin To Net: NetName=NetVD31_2 Pin=XP8-4D
+Added Net: Name=NetVD31_2
+Added Pin To Net: NetName=NetVD32_2 Pin=VD32-2
+Added Pin To Net: NetName=NetVD32_2 Pin=VT5-3
+Added Pin To Net: NetName=NetVD32_2 Pin=XP8-4A
+Added Net: Name=NetVD32_2
+Added Pin To Net: NetName=NetVD33_2 Pin=VD33-2
+Added Pin To Net: NetName=NetVD33_2 Pin=VT9-3
+Added Pin To Net: NetName=NetVD33_2 Pin=XP8-5C
+Added Net: Name=NetVD33_2
+Added Pin To Net: NetName=NetVD34_2 Pin=VD34-2
+Added Pin To Net: NetName=NetVD34_2 Pin=VT10-3
+Added Pin To Net: NetName=NetVD34_2 Pin=XP8-5D
+Added Net: Name=NetVD34_2
+Added Pin To Net: NetName=NetVD35_2 Pin=VD35-2
+Added Pin To Net: NetName=NetVD35_2 Pin=VT8-3
+Added Pin To Net: NetName=NetVD35_2 Pin=XP8-5A
+Added Net: Name=NetVD35_2
+Added Pin To Net: NetName=NetVD36_2 Pin=VD36-2
+Added Pin To Net: NetName=NetVD36_2 Pin=VT11-3
+Added Pin To Net: NetName=NetVD36_2 Pin=XP8-4B
+Added Net: Name=NetVD36_2
+Added Pin To Net: NetName=NetVD37_2 Pin=VD37-2
+Added Pin To Net: NetName=NetVD37_2 Pin=VT12-3
+Added Pin To Net: NetName=NetVD37_2 Pin=XP8-5B
+Added Net: Name=NetVD37_2
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component VD30 SMBJ15A
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component VD31 SMBJ15A
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component VD32 SMBJ15A
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component VD33 SMBJ15A
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component VD34 SMBJ15A
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component VD35 SMBJ15A
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component VD36 SMBJ15A
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component VD37 SMBJ15A

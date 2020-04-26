@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=VD7 Old Footprint=DO-201_FLAT New Footprint=DO-201
+Change Component Comment : Designator=VD7 Old Comment=1.5KE150A New Comment=1.5KE
+Change component parameters: Designator = "VD7"; Footprint = "DO-201"; UniqueID = "\LFHCEWKM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

@@ -1,0 +1,92 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~VM03.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\VideoMonitoring\VM03\VM03.PrjPcb|ReportField=Title~Bill of Materials For Project [VM03.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~9:45:10|ReportField=ReportDate~20.05.2019|ReportField=ReportDateTime~20.05.2019 9:45:10|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~226|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~20.05.2019|ReportField=CurrentTime~9:44:41|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\VideoMonitoring\VM03\[1]-COVER_PAGE.SchDoc|ReportField=DocumentName~[1]-COVER_PAGE.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~06.07.2018|ReportField=Organization~|ReportField=ProjectName~VM03.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~VM03.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\VideoMonitoring\VM03\VM03.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|ANTENNA IFA GSM 3G|1.6mm Er=4.4|ANT1|1
+2|CR2032-VBY4||BAT1|1
+3|0.1uF|CC0603|C1, C3, C4, C36, C37, C40, C41, C42, C43, C44|10
+4|10uFx6.3V|CC0805|C2, C10|2
+5|4.7nF|CC0603|C5|1
+6|10pF|CC0603|C6|1
+7|2.2uF 6.3V|CC0805|C7|1
+8|CAP0.35|CAP0.35|C8, C9, C13|3
+9|33pFx50V|CC0603|C11|1
+10|1uF|CC0603|C12|1
+11|22pF|CC0603|C14, C45, C46|3
+12|33pF|CC0603|C16, C17, C18, C19|4
+13|0.1 uF|CC0603|C20, C21, C24, C25, C28, C47, C48, C51|8
+14|0.1uFx250V|CC1206|C22|1
+15|CAP0.5(1)|CAP0.5(1)|C23|1
+16|1000uFx6.3V|CAP0.35|C26|1
+17|470uFx35V|CAP0.5(1)|C27, C50|2
+18|10 nF|CC0603|C29, C52|2
+19|330pF|CC0603|C30, C53|2
+20|560pF|CC0603|C31, C54|2
+21|DRE10/2.5||C32, C33|2
+22|200pF|CC0603|C34, C35|2
+23|n.p|CC0603|C38, C39|2
+24|220uFx25V WLR|CAP0.35|C49|1
+25|AP2210K-ADJTRG1|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA1|1
+26|TPS61030PWP|Boost converter|DA2|1
+27|TPS54260DGQ||DA3, DA5|2
+28|LM358||DA4|1
+29|SN74LVC1G07DBV|Open Drain Single Bus Bufer|DD1, DD2|2
+30|PCF8563||DD3|1
+31|LPC11C24FBD48||DD4|1
+32|IS25LP016D-JBLE|S25FL016A0LMFI01|DD5|1
+33|MICROSMD010F-2|MICROSMD|FU1|1
+34|RXE-185|RXE-185|FU2|1
+35|MICROSMD010F|MICROSMD|FU3, FU4|2
+36|PLS-02|PLS-02|J1, J2, J3, J4, J5|5
+37|6.8 uH|SDR0805|L1|1
+38|15uH|SDR0805|L2, L3|2
+39|GL865-DUAL|GL868-DUAL|M1|1
+40|MS3V-T1R|CRYSTAL_32768 Hz|QR1|1
+41|NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR2|1
+42|11k 1%|RC0603|R1|1
+43|220k|RC1206|R2, R18, R19, R20, R68, R69, R70|7
+44|NCP18XH103J03RB|RC0603|R3|1
+45|27k|RC0603|R4|1
+46|18k 1%|RC0603|R5|1
+47|10k|RC0603|R6, R7, R11, R12, R14, R15, R16, R17, R29, R30, R47, R49, R50, R51, R52, R53, R56, R57, R73, R81, R85|21
+48|1E|RC0603|R8|1
+49|1M 1%|RC0603|R9|1
+50|110k 1%|RC0603|R10|1
+51|47k|RC0603|R13|1
+52|48k7 1%|RC0603|R21|1
+53|12k|RC0603|R22, R64|2
+54|240k|RC0603|R23, R66|2
+55|11k1 1%|RC0603|R24|1
+56|22E|Resistor 2512 1W|R25|1
+57|560E|RC0603|R26|1
+58|100k|RC0603|R27, R28|2
+59|0E1|Resistor 2512 1W|R31, R32|2
+60|1k|RC0603|R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R45, R74, R75, R83, R84|16
+61|4k7|RC0603|R44, R54, R55, R60, R61|5
+62|100E|RC0603|R46|1
+63|120E|RC0805|R48|1
+64|n.p|RC0603|R58, R59, R71, R72, R82|5
+65|130k 1%|RC0603|R62|1
+66|105k|RC0603|R63|1
+67|15k|RC0603|R65|1
+68|10k 1%|RC0603|R67|1
+69|n.p|RC1206|R76, R77, R78, R79, R80|5
+70|REPER_POINT_1.2|REPER1.2|REP1, REP2|2
+71|DTSM-61N|Switch, Single Pole, Single Throw, Normally Open|S1, S2|2
+72|BAT54S|1.0 Ampere General Purpose Rectifier|VD1|1
+73|S3M|Schottky Rectifier|VD2, VD28|2
+74|BZX84C15|Zener Voltage Regulator Diode|VD3, VD29|2
+75|1.5KE150A|1.5KE|VD4|1
+76|BZX84C39|Zener Voltage Regulator Diode|VD5|1
+77|SK34SMA|Schottky Rectifier|VD6, VD7, VD26, VD27|4
+78|LED_0805||VD8, VD9, VD10, VD11, VD12, VD13, VD14, VD15, VD16, VD17, VD18, VD19, VD20, VD21, VD23, VD24, VD31, VD32, VD33, VD34|20
+79|PESD2CAN|TVS for CAN|VD22|1
+80|BAT54C|BAT54C|VD25|1
+81|BZX84C13|Zener Voltage Regulator Diode|VD30|1
+82|IRLML6402|HEXFET Power MOSFET|VT1, VT3, VT13|3
+83|BC846B|BC846BLT1|VT2, VT4|2
+84|FQD7P20|HEXFET Power MOSFET|VT5, VT7, VT8, VT11|4
+85|BC857|PNP 100ma transistor|VT6, VT12|2
+86|BC817-40|NPN 500ma transistor|VT9, VT10|2
+87|BH-40|2.54mm connector with key|XP1|1
+88|DG330-2P|Degson 2 pin connector rear|XP2, XP3, XP7, XP8, XP9, XP10|6
+89|USB1X04SD-H-CN|Vertical USB connetctor,type A.THR|XP4|1
+90|C70710M0060492|SCV-W06A25-020|XP6|1
+91|PLS03|PLS03|XP11|1

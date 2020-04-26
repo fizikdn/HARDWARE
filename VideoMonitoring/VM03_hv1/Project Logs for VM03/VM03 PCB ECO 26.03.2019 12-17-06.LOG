@@ -1,0 +1,4 @@
+Change Component Comment : Designator=R26 Old Comment={Value} New Comment=560E
+Change component parameters: Designator = "R26"; Footprint = "RC0603"; UniqueID = "\DMWDOSQB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "560E"; VariantName = "[No Variations]"

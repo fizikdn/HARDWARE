@@ -1,0 +1,34 @@
+Added Component: Designator=XP2(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Component: Designator=XP3(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Component: Designator=XP7(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Component: Designator=XP8(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Component: Designator=XP9(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Component: Designator=XP10(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetFU1_2 Pin=XP2-1
+Added Pin To Net: NetName=GND Pin=XP2-2
+Added Pin To Net: NetName=GPS_TX Pin=XP3-1
+Added Pin To Net: NetName=GPS_RX Pin=XP3-2
+Added Pin To Net: NetName=GND Pin=XP7-1
+Added Pin To Net: NetName=+VIN Pin=XP7-2
+Added Pin To Net: NetName=+VLED Pin=XP9-1
+Added Pin To Net: NetName=LED_GND Pin=XP9-2
+Added Pin To Net: NetName=+VCAM Pin=XP10-1
+Added Pin To Net: NetName=CAM_GND Pin=XP10-2
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component XP2 DG330-2P
+Added Member To Class: ClassName=[5]-OPI_MAIN Member=Component XP3 DG330-2P
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component XP7 DG330-2P
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component XP8 DG330-2P
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component XP9 DG330-2P
+Added Member To Class: ClassName=[14]-MAIN_CONNECTORS Member=Component XP10 DG330-2P

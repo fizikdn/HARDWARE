@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=VUSB Pin=XP12-1
+Removed Pin From Net: NetName=D- Pin=XP12-2
+Removed Pin From Net: NetName=D+ Pin=XP12-3
+Removed Pin From Net: NetName=GND Pin=XP12-4
+Removed Member From Class: ClassName=[7]-GSM_MODEM_MAIN Member=XP12
+Added Component: Designator=XP9(USB_A_FRONT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "USB1X04SD-H-CN"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=XP9-0
+Added Pin To Net: NetName=GND Pin=XP9-0
+Added Pin To Net: NetName=VUSB Pin=XP9-1
+Added Pin To Net: NetName=D- Pin=XP9-2
+Added Pin To Net: NetName=D+ Pin=XP9-3
+Added Pin To Net: NetName=GND Pin=XP9-4
+Added Member To Class: ClassName=[7]-GSM_MODEM_MAIN Member=Component XP9 USB1X04SD-H-CN

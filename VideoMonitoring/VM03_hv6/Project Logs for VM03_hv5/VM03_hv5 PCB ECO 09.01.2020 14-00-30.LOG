@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=GND Pin=R96-1
+Removed Pin From Net: NetName=NetR96_2 Pin=R96-2
+Removed Pin From Net: NetName=GND Pin=R98-1
+Removed Pin From Net: NetName=NetR98_2 Pin=R98-2
+Removed Pin From Net: NetName=GND Pin=R100-1
+Removed Pin From Net: NetName=NetR100_2 Pin=R100-2
+Removed Pin From Net: NetName=GND Pin=R105-1
+Removed Pin From Net: NetName=NetR105_2 Pin=R105-2
+Removed Pin From Net: NetName=GND Pin=R107-1
+Removed Pin From Net: NetName=NetR107_2 Pin=R107-2
+Removed Pin From Net: NetName=GND Pin=R109-1
+Removed Pin From Net: NetName=NetR109_2 Pin=R109-2
+Removed Pin From Net: NetName=GND Pin=R114-1
+Removed Pin From Net: NetName=NetR114_2 Pin=R114-2
+Removed Pin From Net: NetName=GND Pin=R116-1
+Removed Pin From Net: NetName=NetR116_2 Pin=R116-2
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R96
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R98
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R100
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R105
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R107
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R109
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R114
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R116
+Change Net Name : Old Net Name=NetR96_2 New Net Name=NetVT11_7
+Change Net Name : Old Net Name=NetR98_2 New Net Name=NetVT12_7
+Change Net Name : Old Net Name=NetR100_2 New Net Name=NetVT13_7
+Change Net Name : Old Net Name=NetR105_2 New Net Name=NetVT11_5
+Change Net Name : Old Net Name=NetR107_2 New Net Name=NetVT12_5
+Change Net Name : Old Net Name=NetR109_2 New Net Name=NetVT13_5
+Change Net Name : Old Net Name=NetR114_2 New Net Name=NetVT23_7
+Change Net Name : Old Net Name=NetR116_2 New Net Name=NetVT23_5
+Added Member To Class: ClassName=[16]-ETH_SWITCH Member=Component C66 0.1uF

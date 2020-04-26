@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: F:\Projects_Files\Projects\Altium_Projects\VideoMonitoring\VM03_hv3\VM03_hv3.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_0.5|Scope=Board|Minimum=19.69
+RuleKind=ShortCircuit|RuleName=ShortCircuit_1|Scope=Board|Allowed=1
+RuleKind=Clearance|RuleName=Clearance_0.25|Scope=Board|Minimum=9.84
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

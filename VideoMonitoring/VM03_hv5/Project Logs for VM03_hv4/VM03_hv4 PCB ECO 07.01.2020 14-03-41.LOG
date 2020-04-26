@@ -1,0 +1,40 @@
+Added Component: Designator=TP1(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP5(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RESET Pin=TP1-1
+Added Pin To Net: NetName=SWCLK Pin=TP2-1
+Added Pin To Net: NetName=SWDIO Pin=TP3-1
+Added Pin To Net: NetName=ISP_START Pin=TP4-1
+Added Pin To Net: NetName=NetR7_1 Pin=TP5-1
+Added Pin To Net: NetName=MCU_RXD Pin=TP6-1
+Added Pin To Net: NetName=GND Pin=TP7-1
+Added Pin To Net: NetName=+VIN Pin=TP8-1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component TP1 TESTPOINT1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component TP2 TESTPOINT1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component TP3 TESTPOINT1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component TP4 TESTPOINT1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component TP5 TESTPOINT1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component TP6 TESTPOINT1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component TP7 TESTPOINT1
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component TP8 TESTPOINT1

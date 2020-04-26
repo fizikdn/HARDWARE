@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=SIM_OUT Pin=M1-51
+Added Pin To Net: NetName=SIM_OUT Pin=R74-2
+Added Pin To Net: NetName=SIM_OUT Pin=XP4-8
+Added Net: Name=SIM_OUT

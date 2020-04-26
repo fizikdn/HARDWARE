@@ -1,0 +1,26 @@
+Change Component Comment : Designator=R58 Old Comment=10k New Comment=n.p
+Change Component Comment : Designator=R59 Old Comment=10k New Comment=n.p
+Change component parameters: Designator = "R58"; Footprint = "RC0603"; UniqueID = "\RUPHCIMR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R59"; Footprint = "RC0603"; UniqueID = "\MVSFVGHY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=R72(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetDD3_5 Pin=R71-1
+Added Pin To Net: NetName=NetDD3_6 Pin=R72-1
+Change Net Name : Old Net Name=NetR36_2 New Net Name=LED_VPN_SERVER
+Change Net Name : Old Net Name=NetR37_2 New Net Name=LED_MODEM
+Change Net Name : Old Net Name=NetR38_2 New Net Name=LED_SEND
+Change Net Name : Old Net Name=NetR57_1 New Net Name=LED_EN
+Added Pin To Net: NetName=NetR71_2 Pin=R71-2
+Added Net: Name=NetR71_2
+Added Pin To Net: NetName=NetR72_2 Pin=R72-2
+Added Net: Name=NetR72_2
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component R71 n.p
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component R72 n.p

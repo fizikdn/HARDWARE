@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=CAM2_ON Pin=DD1-14
+Added Pin To Net: NetName=CAM2_ON Pin=DD1-13
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component FU5 MICROSMD010F
+Added Member To Class: ClassName=[17]-ETH_CONNECTOR Member=Component XP8 SRJ46282NL

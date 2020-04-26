@@ -1,0 +1,7 @@
+Material - FR4, 1.6mm.
+Solder mask color green.
+Layer stack:
+TOP
+GP1
+GP2
+BOT

@@ -1,0 +1,111 @@
+Removed Pin From Net: NetName=GND Pin=J5-2
+Removed Pin From Net: NetName=+3V3_OPI Pin=R65-1
+Removed Pin From Net: NetName=MCU_RXD Pin=R66-1
+Removed Pin From Net: NetName=MCU_TXD Pin=R67-1
+Removed Pin From Net: NetName=+3V3_OPI Pin=R68-1
+Removed Pin From Net: NetName=MCU_RXD Pin=VT11-3
+Removed Pin From Net: NetName=MCU_TXD Pin=VT12-3
+Removed Pin From Net: NetName=NetR49_2 Pin=XP1-3
+Removed Pin From Net: NetName=NetR50_2 Pin=XP1-5
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=R67
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=R68
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=VD27
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=VT11
+Removed Member From Class: ClassName=[3]-MCU_MAIN Member=VT12
+Change Component Footprint: Designator=VD27 Old Footprint=LED0805 New Footprint=SOT-23(123)
+Change Component Comment : Designator=R68 Old Comment=1k New Comment=4k7
+Change Component Comment : Designator=R65 Old Comment=10k New Comment=0E
+Change Component Comment : Designator=VD27 Old Comment=LED_0805 New Comment=BAT54C
+Change Component Comment : Designator=R66 Old Comment=n.p New Comment=0E
+Change Component Comment : Designator=R67 Old Comment=n.p New Comment=4k7
+Change component parameters: Designator = "R65"; Footprint = "RC0603"; UniqueID = "\NOVGRILD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R66"; Footprint = "RC0603"; UniqueID = "\QIQSJHTM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R67"; Footprint = "RC0603"; UniqueID = "\EGIOMXSD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R68"; Footprint = "RC0603"; UniqueID = "\UOYTGIHK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD27"; Footprint = "SOT-23(123)"; UniqueID = "\SQCFXWRA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C30(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C31(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C32(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=C33(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=DD5(SO-8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "PCF8563"; VariantName = "[No Variations]"
+Added Component: Designator=J6(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=QR2(MS3V-T1R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "MS3V-T1R"; VariantName = "[No Variations]"
+Added Component: Designator=U1(BR2032-1GU/1HM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C30-1
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=GND Pin=C33-1
+Added Pin To Net: NetName=GND Pin=DD5-4
+Added Pin To Net: NetName=MCU_RXD Pin=J5-1
+Added Pin To Net: NetName=MCU_TXD Pin=J6-1
+Added Pin To Net: NetName=GND Pin=QR2-3
+Added Pin To Net: NetName=MCU_RXD Pin=R65-1
+Added Pin To Net: NetName=MCU_TXD Pin=R66-1
+Added Pin To Net: NetName=+3V3 Pin=R67-2
+Added Pin To Net: NetName=+3V3 Pin=R68-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=+3V3 Pin=VD27-1
+Added Pin To Net: NetName=NetR49_2 Pin=XP1-17
+Added Pin To Net: NetName=NetR50_2 Pin=XP1-23
+Added Pin To Net: NetName=NetC30_2 Pin=C30-2
+Added Pin To Net: NetName=NetC30_2 Pin=U1-2
+Added Pin To Net: NetName=NetC30_2 Pin=U1-3
+Added Pin To Net: NetName=NetC30_2 Pin=U1-4
+Added Pin To Net: NetName=NetC30_2 Pin=VD27-2
+Added Net: Name=NetC30_2
+Added Pin To Net: NetName=NetC31_2 Pin=C31-2
+Added Pin To Net: NetName=NetC31_2 Pin=DD5-8
+Added Pin To Net: NetName=NetC31_2 Pin=VD27-3
+Added Net: Name=NetC31_2
+Added Pin To Net: NetName=NetC32_2 Pin=C32-2
+Added Pin To Net: NetName=NetC32_2 Pin=DD5-1
+Added Pin To Net: NetName=NetC32_2 Pin=QR2-2
+Added Net: Name=NetC32_2
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=NetC33_2 Pin=DD5-2
+Added Pin To Net: NetName=NetC33_2 Pin=QR2-1
+Added Net: Name=NetC33_2
+Added Pin To Net: NetName=NetDD5_5 Pin=DD5-5
+Added Pin To Net: NetName=NetDD5_5 Pin=R68-1
+Added Pin To Net: NetName=NetDD5_5 Pin=XP1-3
+Added Net: Name=NetDD5_5
+Added Pin To Net: NetName=NetDD5_6 Pin=DD5-6
+Added Pin To Net: NetName=NetDD5_6 Pin=R67-1
+Added Pin To Net: NetName=NetDD5_6 Pin=XP1-5
+Added Net: Name=NetDD5_6
+Added Pin To Net: NetName=NetJ5_2 Pin=J5-2
+Added Pin To Net: NetName=NetJ5_2 Pin=R65-2
+Added Pin To Net: NetName=NetJ5_2 Pin=XP1-8
+Added Net: Name=NetJ5_2
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=NetJ6_2 Pin=R66-2
+Added Pin To Net: NetName=NetJ6_2 Pin=XP1-10
+Added Net: Name=NetJ6_2
+Added Class: Name=[16]-CLOCK
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component J6 PLS-02

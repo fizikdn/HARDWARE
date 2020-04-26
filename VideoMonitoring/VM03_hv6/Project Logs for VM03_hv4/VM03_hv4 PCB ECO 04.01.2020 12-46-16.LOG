@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=C83-1
+Removed Pin From Net: NetName=V_IN Pin=C83-2
+Removed Pin From Net: NetName=VIN_F Pin=R70-1
+Removed Pin From Net: NetName=V_IN Pin=R70-2
+Removed Pin From Net: NetName=GND Pin=R77-1
+Removed Pin From Net: NetName=V_IN Pin=R77-2
+Removed Pin From Net: NetName=GND Pin=VD18-1
+Removed Pin From Net: NetName=+3V3 Pin=VD18-2
+Removed Pin From Net: NetName=V_IN Pin=VD18-3
+Removed Member From Class: ClassName=[20]-CONNECT_CONNECTORS Member=C83
+Removed Member From Class: ClassName=[20]-CONNECT_CONNECTORS Member=R70
+Removed Member From Class: ClassName=[20]-CONNECT_CONNECTORS Member=R77
+Removed Member From Class: ClassName=[20]-CONNECT_CONNECTORS Member=VD18
+Change Component Comment : Designator=R86 Old Comment=27k New Comment=4k7
+Change component parameters: Designator = "R86"; Footprint = "RC0603"; UniqueID = "\LJGSZHJU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC85_2 Pin=M1-56
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component C4 0.1uF
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component FU6 MICROSMD010F

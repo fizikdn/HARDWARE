@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VIN Pin=FU2-1
+Removed Pin From Net: NetName=VIN Pin=TP5-1
+Added Pin To Net: NetName=+VIN Pin=FU2-1
+Added Pin To Net: NetName=+VIN Pin=TP5-1

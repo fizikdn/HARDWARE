@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+VLED Pin=XP9-1
+Removed Pin From Net: NetName=LED_GND Pin=XP9-2
+Added Pin To Net: NetName=LED_GND Pin=XP9-1
+Added Pin To Net: NetName=+VLED Pin=XP9-2

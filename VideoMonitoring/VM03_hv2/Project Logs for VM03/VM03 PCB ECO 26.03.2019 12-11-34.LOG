@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=SCL_MCU Pin=DD4-15
+Added Pin To Net: NetName=SCL_MCU Pin=R72-2
+Added Net: Name=SCL_MCU
+Added Pin To Net: NetName=SDA_MCU Pin=DD4-16
+Added Pin To Net: NetName=SDA_MCU Pin=R71-2
+Added Net: Name=SDA_MCU

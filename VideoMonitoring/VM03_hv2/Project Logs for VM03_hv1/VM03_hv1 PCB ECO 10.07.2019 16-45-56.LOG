@@ -1,0 +1,4 @@
+Change Component Comment : Designator=R59 Old Comment=100k New Comment=4k7
+Change component parameters: Designator = "R59"; Footprint = "RC0603"; UniqueID = "\EMUJOXUO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"

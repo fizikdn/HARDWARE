@@ -1,0 +1,6 @@
+Added Component: Designator=J5(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J5-2
+Added Member To Class: ClassName=[15]-MCU_CONNECTORS Member=Component J5 PLS-02

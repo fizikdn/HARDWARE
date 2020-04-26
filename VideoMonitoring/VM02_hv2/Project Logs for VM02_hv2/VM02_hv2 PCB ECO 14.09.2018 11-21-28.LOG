@@ -1,0 +1,10 @@
+Added Component: Designator=TP7(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC20_2 Pin=TP7-1
+Added Pin To Net: NetName=VIN Pin=TP8-1
+Added Member To Class: ClassName=[7]-GSM_MODEM_MAIN Member=Component TP7 TESTPOINT1
+Added Member To Class: ClassName=[10]-MAIN_POWER Member=Component TP8 TESTPOINT1

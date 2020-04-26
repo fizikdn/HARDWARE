@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=MCU_RXD Pin=XP1-8
+Removed Pin From Net: NetName=MCU_TXD Pin=XP1-10
+Added Component: Designator=J5(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R65(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R66(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=R67(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=VT11(SOT-23(123))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "OriginalName"; Value = "2N7002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VT12(SOT-23(123))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "OriginalName"; Value = "2N7002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J5-2
+Added Pin To Net: NetName=MCU_RXD Pin=R66-1
+Added Pin To Net: NetName=MCU_TXD Pin=R67-1
+Added Pin To Net: NetName=MCU_RXD Pin=VT11-3
+Added Pin To Net: NetName=MCU_TXD Pin=VT12-3
+Added Pin To Net: NetName=+3V3_OPI Pin=R65-1
+Added Pin To Net: NetName=+3V3_OPI Pin=TP2-1
+Added Pin To Net: NetName=+3V3_OPI Pin=XP1-1
+Added Net: Name=+3V3_OPI
+Added Pin To Net: NetName=NetJ5_1 Pin=J5-1
+Added Pin To Net: NetName=NetJ5_1 Pin=R65-2
+Added Pin To Net: NetName=NetJ5_1 Pin=VT11-1
+Added Pin To Net: NetName=NetJ5_1 Pin=VT12-1
+Added Net: Name=NetJ5_1
+Added Pin To Net: NetName=NetR66_2 Pin=R66-2
+Added Pin To Net: NetName=NetR66_2 Pin=VT11-2
+Added Pin To Net: NetName=NetR66_2 Pin=XP1-8
+Added Net: Name=NetR66_2
+Added Pin To Net: NetName=NetR67_2 Pin=R67-2
+Added Pin To Net: NetName=NetR67_2 Pin=VT12-2
+Added Pin To Net: NetName=NetR67_2 Pin=XP1-10
+Added Net: Name=NetR67_2
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component J5 PLS-02
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component R65 10k
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component R66 n.p
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component R67 n.p
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component VT11 2N7002
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component VT12 2N7002

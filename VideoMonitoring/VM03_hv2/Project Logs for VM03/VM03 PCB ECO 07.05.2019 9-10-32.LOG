@@ -1,0 +1,8 @@
+Change Component Comment : Designator=R3 Old Comment=10k New Comment=NCP18XH103J03RB
+Change Component Comment : Designator=R73 Old Comment=NCP18XH103J03RB New Comment=10k
+Change component parameters: Designator = "R3"; Footprint = "RC0603"; UniqueID = "\FNPCUUNC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "NCP18XH103J03RB"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R73"; Footprint = "RC0603"; UniqueID = "\XHDEKEJO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"

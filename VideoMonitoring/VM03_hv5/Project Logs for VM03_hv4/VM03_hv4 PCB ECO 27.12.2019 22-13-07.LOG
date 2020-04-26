@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=SIMRST Pin=C33-2
+Removed Pin From Net: NetName=SIMCLK Pin=C34-2
+Removed Pin From Net: NetName=GND Pin=XP3-7
+Removed Pin From Net: NetName=GND Pin=XP3-8
+Removed Pin From Net: NetName=GND Pin=XP3-9
+Removed Pin From Net: NetName=GND Pin=XP3-10
+Removed Pin From Net: NetName=GND Pin=XP3-11
+Removed Pin From Net: NetName=GND Pin=XP3-12
+Removed Pin From Net: NetName=SIMVCC Pin=XP4-1
+Removed Pin From Net: NetName=SIMRST Pin=XP4-2
+Removed Pin From Net: NetName=SIMCLK Pin=XP4-3
+Removed Pin From Net: NetName=GND Pin=XP4-4
+Removed Pin From Net: NetName=SIMIO Pin=XP4-6
+Removed Pin From Net: NetName=GND Pin=XP4-7
+Removed Pin From Net: NetName=SIM_INPUT Pin=XP4-8
+Removed Member From Class: ClassName=[10]-MODEM_CONNECTORS Member=XP4
+Change Component Footprint: Designator=XP3 Old Footprint=786463001_molex New Footprint=SCVW06A25020
+Change Component Comment : Designator=XP3 Old Comment=786463001 New Comment=C70710M0060492
+Added Pin To Net: NetName=SIMCLK Pin=C33-2
+Added Pin To Net: NetName=SIMRST Pin=C34-2

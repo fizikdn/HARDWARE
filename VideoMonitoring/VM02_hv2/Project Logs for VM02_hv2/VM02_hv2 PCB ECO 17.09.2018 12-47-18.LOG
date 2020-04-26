@@ -1,0 +1,81 @@
+Removed Pin From Net: NetName=GND Pin=C53-1
+Removed Pin From Net: NetName=GND Pin=R47-1
+Removed Pin From Net: NetName=GND Pin=VD17-1
+Removed Pin From Net: NetName=+3V3 Pin=VD17-2
+Removed Pin From Net: NetName=NetR46_1 Pin=XP7-1
+Removed Pin From Net: NetName=NetR43_1 Pin=XP7-3
+Removed Member From Class: ClassName=[12]-MCU_INPUTS Member=C53
+Removed Member From Class: ClassName=[12]-MCU_INPUTS Member=R46
+Removed Member From Class: ClassName=[12]-MCU_INPUTS Member=R47
+Removed Member From Class: ClassName=[12]-MCU_INPUTS Member=VD17
+Change Component Footprint: Designator=VD17 Old Footprint=SOT-23(GSD) New Footprint=LED0805
+Change Component Comment : Designator=R47 Old Comment=33k New Comment=10k
+Change Component Comment : Designator=R46 Old Comment=100k New Comment=4k7
+Change Component Comment : Designator=VD17 Old Comment=BAT54S New Comment=LED_0805
+Change component parameters: Designator = "R46"; Footprint = "RC0603"; UniqueID = "\FMEWBEGD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R47"; Footprint = "RC0603"; UniqueID = "\YBWDPXPX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD17"; Footprint = "LED0805"; UniqueID = "\EVCNXCFD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=FU6(RXE-110)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R70(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Added Component: Designator=R72(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=VT13(D-PAK(TO-252AA))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentField7"; Value = "Published 8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "OriginalName"; Value = "IRLML5103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "IRFR9220"; VariantName = "[No Variations]"
+Added Component: Designator=VT14(SOT-23(123))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentField7"; Value = "Published 29-Sep-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "OriginalName"; Value = "BC846BLT1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "BC817-40"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN_F Pin=FU6-1
+Added Pin To Net: NetName=GND Pin=R70-1
+Added Pin To Net: NetName=+3V3 Pin=R71-2
+Added Pin To Net: NetName=NetR46_1 Pin=VD17-1
+Added Pin To Net: NetName=GND Pin=VD17-2
+Added Pin To Net: NetName=GND Pin=VT14-2
+Added Pin To Net: NetName=NetR43_1 Pin=XP7-1
+Added Pin To Net: NetName=+VLED Pin=R46-2
+Added Pin To Net: NetName=+VLED Pin=R70-2
+Added Pin To Net: NetName=+VLED Pin=VT13-2
+Added Pin To Net: NetName=+VLED Pin=XP7-3
+Added Net: Name=+VLED
+Added Pin To Net: NetName=NetFU6_2 Pin=FU6-2
+Added Pin To Net: NetName=NetFU6_2 Pin=R47-2
+Added Pin To Net: NetName=NetFU6_2 Pin=VT13-3
+Added Net: Name=NetFU6_2
+Added Pin To Net: NetName=NetR47_1 Pin=R47-1
+Added Pin To Net: NetName=NetR47_1 Pin=VT13-1
+Added Pin To Net: NetName=NetR47_1 Pin=VT14-3
+Added Net: Name=NetR47_1
+Added Pin To Net: NetName=NetR71_1 Pin=R71-1
+Added Pin To Net: NetName=NetR71_1 Pin=R72-1
+Added Pin To Net: NetName=NetR71_1 Pin=XP1-29
+Added Net: Name=NetR71_1
+Added Pin To Net: NetName=NetR72_2 Pin=R72-2
+Added Pin To Net: NetName=NetR72_2 Pin=VT14-1
+Added Net: Name=NetR72_2
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component FU6 RXE-110
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component R46 4k7
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component R47 10k
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component R70 10k
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component R71 4k7
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component R72 10k
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component VD17 LED_0805
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component VT13 IRFR9220
+Added Member To Class: ClassName=[9]-CAMERA_POWER_CONTROLLER Member=Component VT14 BC817-40

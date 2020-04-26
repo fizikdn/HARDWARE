@@ -1,0 +1,12 @@
+Added Component: Designator=DA4(SO-8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LM358"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CURRENT_CH_CAM Pin=DA4-1
+Added Pin To Net: NetName=NetDA4_2 Pin=DA4-2
+Added Pin To Net: NetName=CAM_GND Pin=DA4-3
+Added Pin To Net: NetName=GND Pin=DA4-4
+Added Pin To Net: NetName=LED_GND Pin=DA4-5
+Added Pin To Net: NetName=NetDA4_6 Pin=DA4-6
+Added Pin To Net: NetName=CURRENT_CH_LED Pin=DA4-7
+Added Pin To Net: NetName=+3V3 Pin=DA4-8
+Added Member To Class: ClassName=[12]-MCU_INPUTS Member=Component DA4 LM358

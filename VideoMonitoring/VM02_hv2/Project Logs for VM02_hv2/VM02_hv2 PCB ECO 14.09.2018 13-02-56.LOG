@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=+5V Pin=R24-1
+Added Pin To Net: NetName=+5V_OPI Pin=R24-1
+Added Member To Class: ClassName=[15]-MCU_CONNECTORS Member=Component S1 DTSM-61N

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GPS_TX Pin=XP5-1
+Removed Pin From Net: NetName=GND Pin=XP5-2
+Removed Pin From Net: NetName=GPS_RX Pin=XP5-3
+Removed Member From Class: ClassName=[5]-OPI_MAIN Member=XP5

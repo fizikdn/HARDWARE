@@ -1,0 +1,17 @@
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R73
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R74
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R80
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R82
+Added Pin To Net: NetName=NetR92_1 Pin=R92-1
+Added Pin To Net: NetName=NetR92_1 Pin=VT13-1
+Added Net: Name=NetR92_1
+Added Pin To Net: NetName=NetR93_1 Pin=R93-1
+Added Pin To Net: NetName=NetR93_1 Pin=VT14-1
+Added Net: Name=NetR93_1
+Added Pin To Net: NetName=NetR95_1 Pin=R95-1
+Added Pin To Net: NetName=NetR95_1 Pin=VT16-1
+Added Net: Name=NetR95_1
+Added Pin To Net: NetName=NetR96_1 Pin=R96-1
+Added Pin To Net: NetName=NetR96_1 Pin=VT18-1
+Added Net: Name=NetR96_1
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component XP11 MIF2X02PRP
