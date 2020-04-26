@@ -1,0 +1,5 @@
+Added Component: Designator=TP9(TESTPOINT1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=TP9-1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component TP9 TESTPOINT1

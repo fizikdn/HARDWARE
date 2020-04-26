@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=GND Pin=C82-1
+Removed Pin From Net: NetName=GND Pin=C83-1
+Removed Pin From Net: NetName=GND Pin=C84-1
+Removed Pin From Net: NetName=GND Pin=C85-1
+Removed Pin From Net: NetName=+3V3 Pin=R67-2
+Removed Pin From Net: NetName=+3V3 Pin=R68-2
+Removed Pin From Net: NetName=GND Pin=R69-1
+Removed Pin From Net: NetName=GND Pin=R70-1
+Removed Pin From Net: NetName=+3V3 Pin=R76-2
+Removed Pin From Net: NetName=GND Pin=R77-1
+Removed Pin From Net: NetName=GND Pin=R79-1
+Removed Pin From Net: NetName=+3V3 Pin=R94-2
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=C82
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=C83
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=C84
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=C85
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R67
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R68
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R69
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R70
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R76
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R77
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R79
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=R94
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=VD16
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=VD17
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=VD18
+Removed Member From Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=VD19
+Change Component Comment : Designator=DA1 Old Comment=NCP1117DT33RKG New Comment=LD1117S33CTR
+Change Component Comment : Designator=L6 Old Comment=SR1307 New Comment=SR1307-680KLB
+Change component parameters: Designator = "DA1"; Footprint = "SOT-223"; UniqueID = "\OITACCSX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "LD1117S33CTR"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L6"; Footprint = "SR1307"; UniqueID = "\FPYHYZYF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SR1307-680KLB"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GSM_LED Pin=M1-4
+Added Pin To Net: NetName=GSM_LED Pin=R6-1
+Added Net: Name=GSM_LED
+Added Pin To Net: NetName=NetVT11_2 Pin=VT11-2
+Added Pin To Net: NetName=NetVT11_2 Pin=XP9-2
+Added Net: Name=NetVT11_2
+Added Pin To Net: NetName=NetVT12_2 Pin=VT12-2
+Added Pin To Net: NetName=NetVT12_2 Pin=XP10-2
+Added Net: Name=NetVT12_2
+Added Pin To Net: NetName=NetVT15_2 Pin=VT15-2
+Added Pin To Net: NetName=NetVT15_2 Pin=XP11-2
+Added Net: Name=NetVT15_2
+Added Pin To Net: NetName=NetVT17_2 Pin=VT17-2
+Added Pin To Net: NetName=NetVT17_2 Pin=XP12-2
+Added Net: Name=NetVT17_2
+Added Pin To Net: NetName=STATE_LED Pin=M1-2
+Added Pin To Net: NetName=STATE_LED Pin=R3-1
+Added Net: Name=STATE_LED
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component XP15 MIF2X02PRP

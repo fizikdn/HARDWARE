@@ -1,0 +1,10 @@
+Added Component: Designator=R74(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=R74-1
+Added Pin To Net: NetName=GND Pin=XP4-7
+Added Pin To Net: NetName=NetR74_2 Pin=R74-2
+Added Pin To Net: NetName=NetR74_2 Pin=XP4-8
+Added Net: Name=NetR74_2
+Added Member To Class: ClassName=[15]-CLOCK Member=Component BAT1 CR2032-VBY4
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component R74 10k

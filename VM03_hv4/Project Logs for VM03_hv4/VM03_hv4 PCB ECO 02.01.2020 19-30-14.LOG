@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=NetVT11_2 Pin=XP9-2
+Removed Pin From Net: NetName=NetVT12_2 Pin=XP10-2
+Removed Pin From Net: NetName=NetVT15_2 Pin=XP11-2
+Removed Pin From Net: NetName=NetVT17_2 Pin=XP12-2
+Change Component Footprint: Designator=XP9 Old Footprint=MIF2X01PRP New Footprint=MIF2X02PRP
+Change Component Footprint: Designator=XP10 Old Footprint=MIF2X01PRP New Footprint=MIF2X02PRP
+Change Component Footprint: Designator=XP11 Old Footprint=MIF2X01PRP New Footprint=MIF2X02PRP
+Change Component Footprint: Designator=XP12 Old Footprint=MIF2X01PRP New Footprint=MIF2X02PRP
+Change Component Comment : Designator=XP9 Old Comment=MIF2X01PRP New Comment=MIF2X02PRP
+Change Component Comment : Designator=XP10 Old Comment=MIF2X01PRP New Comment=MIF2X02PRP
+Change Component Comment : Designator=XP11 Old Comment=MIF2X01PRP New Comment=MIF2X02PRP
+Change Component Comment : Designator=XP12 Old Comment=MIF2X01PRP New Comment=MIF2X02PRP
+Change component parameters: Designator = "XP9"; Footprint = "MIF2X02PRP"; UniqueID = "\JFMMJFMB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP10"; Footprint = "MIF2X02PRP"; UniqueID = "\VWJTMHUF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP11"; Footprint = "MIF2X02PRP"; UniqueID = "\NVFKASAP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP12"; Footprint = "MIF2X02PRP"; UniqueID = "\HEPXTLZU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetVT11_2 Pin=XP9-3
+Added Pin To Net: NetName=NetVT11_2 Pin=XP9-4
+Added Pin To Net: NetName=NetVT12_2 Pin=XP10-3
+Added Pin To Net: NetName=NetVT12_2 Pin=XP10-4
+Added Pin To Net: NetName=NetVT15_2 Pin=XP11-3
+Added Pin To Net: NetName=NetVT15_2 Pin=XP11-4
+Added Pin To Net: NetName=NetVT17_2 Pin=XP12-3
+Added Pin To Net: NetName=NetVT17_2 Pin=XP12-4

@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=GND Pin=C87-1
+Removed Pin From Net: NetName=GND Pin=R87-1
+Removed Pin From Net: NetName=NetC85_2 Pin=R94-2
+Removed Member From Class: ClassName=[20]-CONNECT_CONNECTORS Member=R94
+Change Component Footprint: Designator=R68 Old Footprint=RC0603 New Footprint=RC1206
+Change Component Comment : Designator=R68 Old Comment=100k New Comment=220k
+Change component parameters: Designator = "R68"; Footprint = "RC1206"; UniqueID = "\SYJFLAJO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "27k"; VariantName = "[No Variations]"
+Added Component: Designator=R73(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330E"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R70-1
+Added Pin To Net: NetName=NetC85_2 Pin=R73-2
+Added Pin To Net: NetName=NetC87_1 Pin=C87-1
+Added Pin To Net: NetName=NetC87_1 Pin=R70-2
+Added Pin To Net: NetName=NetC87_1 Pin=R87-1
+Added Net: Name=NetC87_1
+Added Pin To Net: NetName=NetR73_1 Pin=R73-1
+Added Pin To Net: NetName=NetR73_1 Pin=XP7-6
+Added Net: Name=NetR73_1
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R70 27k
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R73 330E

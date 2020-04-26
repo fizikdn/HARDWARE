@@ -1,0 +1,144 @@
+Removed Pin From Net: NetName=SS0 Pin=DD1-30
+Removed Pin From Net: NetName=NetVD21_2 Pin=XP16-1
+Removed Pin From Net: NetName=NetR68_1 Pin=XP16-2
+Removed Member From Class: ClassName=[20]-CONNECT_CONNECTORS Member=XP16
+Change Component Footprint: Designator=R68 Old Footprint=RC1206 New Footprint=RC0603
+Added Component: Designator=C82(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C83(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C84(CC0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uFx6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=C85(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=FU5(RC1210)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "MICROSMD010F"; VariantName = "[No Variations]"
+Added Component: Designator=R69(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R76(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "27k"; VariantName = "[No Variations]"
+Added Component: Designator=R77(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "27k"; VariantName = "[No Variations]"
+Added Component: Designator=R79(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "51E"; VariantName = "[No Variations]"
+Added Component: Designator=R86(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "27k"; VariantName = "[No Variations]"
+Added Component: Designator=R94(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330E"; VariantName = "[No Variations]"
+Added Component: Designator=VD17(SOT-23(GSD))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentField6"; Value = "Published 8-Jun-2000, Modified 11-July-2000: SIM Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD18(SOT-23(GSD))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentField6"; Value = "Published 8-Jun-2000, Modified 11-July-2000: SIM Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD19(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ5.0A"; VariantName = "[No Variations]"
+Added Component: Designator=VD25(SOT-23(GSD))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentField6"; Value = "Published 8-Jun-2000, Modified 11-July-2000: SIM Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP4(SCSW06D36020B-H)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP7(MIF2X03PRP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C82-1
+Added Pin To Net: NetName=GND Pin=C83-1
+Added Pin To Net: NetName=V_IN Pin=C83-2
+Added Pin To Net: NetName=GND Pin=C84-1
+Added Pin To Net: NetName=GND Pin=C85-1
+Added Pin To Net: NetName=SS0 Pin=DD1-26
+Added Pin To Net: NetName=VIN_F Pin=R70-1
+Added Pin To Net: NetName=V_IN Pin=R70-2
+Added Pin To Net: NetName=GND Pin=R76-1
+Added Pin To Net: NetName=GND Pin=R77-1
+Added Pin To Net: NetName=V_IN Pin=R77-2
+Added Pin To Net: NetName=+3V3 Pin=R79-2
+Added Pin To Net: NetName=+3V3 Pin=R86-2
+Added Pin To Net: NetName=GND Pin=VD17-1
+Added Pin To Net: NetName=+3V3 Pin=VD17-2
+Added Pin To Net: NetName=GND Pin=VD18-1
+Added Pin To Net: NetName=+3V3 Pin=VD18-2
+Added Pin To Net: NetName=V_IN Pin=VD18-3
+Added Pin To Net: NetName=GND Pin=VD19-1
+Added Pin To Net: NetName=GND Pin=VD25-1
+Added Pin To Net: NetName=+3V3 Pin=VD25-2
+Added Pin To Net: NetName=SIMVCC Pin=XP4-1
+Added Pin To Net: NetName=SIMRST Pin=XP4-2
+Added Pin To Net: NetName=SIMCLK Pin=XP4-3
+Added Pin To Net: NetName=GND Pin=XP4-4
+Added Pin To Net: NetName=SIMIO Pin=XP4-6
+Added Pin To Net: NetName=NetVD21_2 Pin=XP7-1
+Added Pin To Net: NetName=NetR68_1 Pin=XP7-2
+Added Pin To Net: NetName=GND Pin=XP7-4
+Added Pin To Net: NetName=NetC82_2 Pin=C82-2
+Added Pin To Net: NetName=NetC82_2 Pin=DD1-30
+Added Pin To Net: NetName=NetC82_2 Pin=R69-2
+Added Pin To Net: NetName=NetC82_2 Pin=R76-2
+Added Pin To Net: NetName=NetC82_2 Pin=VD17-3
+Added Net: Name=NetC82_2
+Added Pin To Net: NetName=NetC84_2 Pin=C84-2
+Added Pin To Net: NetName=NetC84_2 Pin=FU5-2
+Added Pin To Net: NetName=NetC84_2 Pin=R79-1
+Added Pin To Net: NetName=NetC84_2 Pin=VD19-2
+Added Net: Name=NetC84_2
+Added Pin To Net: NetName=NetC85_2 Pin=C85-2
+Added Pin To Net: NetName=NetC85_2 Pin=R86-1
+Added Pin To Net: NetName=NetC85_2 Pin=R94-2
+Added Pin To Net: NetName=NetC85_2 Pin=VD25-3
+Added Net: Name=NetC85_2
+Added Pin To Net: NetName=NetFU5_1 Pin=FU5-1
+Added Pin To Net: NetName=NetFU5_1 Pin=XP7-5
+Added Net: Name=NetFU5_1
+Added Pin To Net: NetName=NetR69_1 Pin=R69-1
+Added Pin To Net: NetName=NetR69_1 Pin=XP7-3
+Added Net: Name=NetR69_1
+Added Pin To Net: NetName=NetR73_2 Pin=R73-2
+Added Net: Name=NetR73_2
+Added Pin To Net: NetName=NetR74_2 Pin=R74-2
+Added Net: Name=NetR74_2
+Added Pin To Net: NetName=NetR80_2 Pin=R80-2
+Added Net: Name=NetR80_2
+Added Pin To Net: NetName=NetR82_2 Pin=R82-2
+Added Net: Name=NetR82_2
+Added Pin To Net: NetName=NetR94_1 Pin=R94-1
+Added Pin To Net: NetName=NetR94_1 Pin=XP7-6
+Added Net: Name=NetR94_1
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component C82 0.1uF
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component C83 0.47uF
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component C84 10uFx6.3V
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component C85 33pF
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component FU5 MICROSMD010F
+Added Member To Class: ClassName=[14]-CURRENT_METER Member=Component R48 10k
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R69 220k
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R70 220k
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R76 27k
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R77 27k
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R79 51E
+Added Member To Class: ClassName=[19]-CAMERA_PWR_CONNECTORS Member=Component R80 n.p
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R86 27k
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R94 330E
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component VD17 BAT54S
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component VD18 BAT54S
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component VD19 SMBJ5.0A
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component VD25 BAT54S
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component XP4 SCSW06D36020B-H
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component XP7 MIF2X03PRP

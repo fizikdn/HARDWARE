@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=CSSIM Pin=DD5-5
+Added Pin To Net: NetName=CSSIM Pin=M1-57
+Added Pin To Net: NetName=CSSIM Pin=R80-2
+Added Net: Name=CSSIM

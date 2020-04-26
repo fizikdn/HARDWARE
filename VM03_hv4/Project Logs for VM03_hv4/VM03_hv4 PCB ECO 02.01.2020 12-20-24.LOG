@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=INPUT_1 Pin=R86-2
+Removed Member From Class: ClassName=[20]-CONNECT_CONNECTORS Member=R86
+Added Component: Designator=R68(RC1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=INPUT_1 Pin=R68-2
+Added Pin To Net: NetName=NetR68_1 Pin=R68-1
+Added Pin To Net: NetName=NetR68_1 Pin=XP16-2
+Added Net: Name=NetR68_1
+Added Member To Class: ClassName=[20]-CONNECT_CONNECTORS Member=Component R68 100k

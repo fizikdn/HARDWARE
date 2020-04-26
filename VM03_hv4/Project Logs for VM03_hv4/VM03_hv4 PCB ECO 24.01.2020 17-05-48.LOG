@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=CAM2_ON Pin=DD1-14
+Change Component Comment : Designator=R33 Old Comment=10k 1% New Comment=10k
+Change component parameters: Designator = "R33"; Footprint = "RC0603"; UniqueID = "\REICMMIJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAM2_ON Pin=DD1-13

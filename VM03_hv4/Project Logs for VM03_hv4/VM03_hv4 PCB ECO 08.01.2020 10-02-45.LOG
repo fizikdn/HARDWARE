@@ -1,0 +1,9 @@
+Added Component: Designator=C95(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C95-1
+Added Pin To Net: NetName=NetC95_2 Pin=C95-2
+Added Pin To Net: NetName=NetC95_2 Pin=DD5-1
+Added Pin To Net: NetName=NetC95_2 Pin=XP4-6
+Added Net: Name=NetC95_2
+Added Member To Class: ClassName=[10]-MODEM_CONNECTORS Member=Component C95 33pF

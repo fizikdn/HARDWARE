@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=CANL Pin=J2-1
+Removed Member From Class: ClassName=[5]-MCU_CONNECTORS Member=J2
+Added Component: Designator=J?(PLS-02R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CANL Pin=J?-1
+Added Pin To Net: NetName=NetJ?_2 Pin=J?-2
+Added Pin To Net: NetName=NetJ?_2 Pin=R9-1
+Added Net: Name=NetJ?_2
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component J? PLS-02R
