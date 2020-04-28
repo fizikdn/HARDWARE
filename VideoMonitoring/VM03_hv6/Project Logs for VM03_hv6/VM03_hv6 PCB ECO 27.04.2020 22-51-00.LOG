@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GSM_RST Pin=XP10-5
+Removed Pin From Net: NetName=PWRKEY Pin=XP10-6
+Removed Pin From Net: NetName=GND Pin=XP10-11
+Removed Pin From Net: NetName=MODEM_STATUS Pin=XP10-12
+Added Pin To Net: NetName=PWRKEY Pin=XP10-5
+Added Pin To Net: NetName=GSM_RST Pin=XP10-6
+Added Pin To Net: NetName=MODEM_STATUS Pin=XP10-11
+Added Pin To Net: NetName=GND Pin=XP10-12
+Change Net Name : Old Net Name=NETLIGHT_A New Net Name=NETLIGHT_CATHODE
+Change Net Name : Old Net Name=NETLIGHT_K New Net Name=NETLIGHT_ANODE
+Added Member To Class: ClassName=[8]-MODEM_MAIN Member=Component XP10 PBD-16

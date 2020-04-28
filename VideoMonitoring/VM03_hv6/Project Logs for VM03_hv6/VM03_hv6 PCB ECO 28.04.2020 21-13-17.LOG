@@ -1,0 +1,6 @@
+Added Component: Designator=VD39(LED3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NETLIGHT_CATHODE Pin=VD39-1
+Added Pin To Net: NetName=NETLIGHT_ANODE Pin=VD39-2
+Added Member To Class: ClassName=[8]-MODEM_MAIN Member=Component VD39 LED_3

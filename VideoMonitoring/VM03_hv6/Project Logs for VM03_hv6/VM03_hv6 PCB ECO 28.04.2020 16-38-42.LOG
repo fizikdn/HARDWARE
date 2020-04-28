@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=+5V_CPU Pin=M1-1
+Added Pin To Net: NetName=+5V_CPU Pin=M1-22
+Added Pin To Net: NetName=+5V_CPU Pin=M1-41
+Added Pin To Net: NetName=+5V_CPU Pin=M1-43
+Added Pin To Net: NetName=+5V_CPU Pin=M1-46
+Added Pin To Net: NetName=+5V_CPU Pin=M1-48
+Added Pin To Net: NetName=+5V_CPU Pin=XP5-13
+Change Net Name : Old Net Name=+5V_CPU New Net Name=VUSB
+Added Pin To Net: NetName=+5V_H3 Pin=VT1-3
+Added Net: Name=+5V_H3

@@ -1,0 +1,13 @@
+Added Component: Designator=BAT1(CR2032_ONBOARD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "CR2032-VBY4"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BAT1-1
+Added Pin To Net: NetName=NetBAT1_2 Pin=BAT1-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+5V_CPU Pin=C3-2
+Added Member To Class: ClassName=[15]-CLOCK Member=Component BAT1 CR2032-VBY4
+Added Member To Class: ClassName=[3]-MCU_MAIN Member=Component C3 0.1uF
+Added Member To Class: ClassName=[14]-CURRENT_METER Member=Component R47 330k

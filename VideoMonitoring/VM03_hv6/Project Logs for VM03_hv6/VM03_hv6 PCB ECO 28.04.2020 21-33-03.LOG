@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=BAT1-1
+Removed Member From Class: ClassName=[15]-CLOCK Member=BAT1
+Added Component: Designator=B1(BR2032-1GU/1HM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_2 Pin=B1-3
+Added Pin To Net: NetName=NetB1_2 Pin=B1-4
+Added Pin To Net: NetName=NetB1_2 Pin=C81-2
+Added Pin To Net: NetName=NetB1_2 Pin=VD15-2
+Added Net: Name=NetB1_2
+Added Member To Class: ClassName=[15]-CLOCK Member=Component B1 BR2032-UNIVERSAL

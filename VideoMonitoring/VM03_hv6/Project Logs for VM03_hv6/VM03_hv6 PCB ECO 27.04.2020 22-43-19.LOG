@@ -1,0 +1,9 @@
+Change Net Name : Old Net Name=NetC31_2 New Net Name=SIMIO2
+Change Net Name : Old Net Name=NetC32_2 New Net Name=SIMVCC2
+Change Net Name : Old Net Name=NetC33_2 New Net Name=SIMCLK2
+Change Net Name : Old Net Name=NetC34_2 New Net Name=SIMRST2
+Change Net Name : Old Net Name=NetC37_1 New Net Name=SIMRST1
+Change Net Name : Old Net Name=NetC38_1 New Net Name=SIMCLK1
+Change Net Name : Old Net Name=NetC39_2 New Net Name=SIMVCC1
+Change Net Name : Old Net Name=NetC95_2 New Net Name=SIMIO1
+Change Net Name : Old Net Name=NetR29_2 New Net Name=SIM1_PRES

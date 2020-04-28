@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=GND Pin=XP10-1
+Removed Pin From Net: NetName=GND Pin=XP10-2
+Removed Pin From Net: NetName=+3V9 Pin=XP10-3
+Removed Pin From Net: NetName=+3V9 Pin=XP10-4
+Removed Pin From Net: NetName=GSM_RST Pin=XP10-5
+Removed Pin From Net: NetName=PWRKEY Pin=XP10-6
+Removed Pin From Net: NetName=GND Pin=XP10-7
+Removed Pin From Net: NetName=GND Pin=XP10-8
+Removed Pin From Net: NetName=GND Pin=XP10-11
+Removed Pin From Net: NetName=MODEM_STATUS Pin=XP10-12
+Removed Pin From Net: NetName=+3V9 Pin=XP10-13
+Removed Pin From Net: NetName=+3V9 Pin=XP10-14
+Removed Pin From Net: NetName=GND Pin=XP10-15
+Removed Pin From Net: NetName=GND Pin=XP10-16
+Removed Member From Class: ClassName=[8]-MODEM_MAIN Member=XP10
+Added Component: Designator=XP?(PBD16)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=XP?-1
+Added Pin To Net: NetName=GND Pin=XP?-2
+Added Pin To Net: NetName=+3V9 Pin=XP?-3
+Added Pin To Net: NetName=+3V9 Pin=XP?-4
+Added Pin To Net: NetName=PWRKEY Pin=XP?-5
+Added Pin To Net: NetName=GSM_RST Pin=XP?-6
+Added Pin To Net: NetName=GND Pin=XP?-7
+Added Pin To Net: NetName=GND Pin=XP?-8
+Added Pin To Net: NetName=MODEM_STATUS Pin=XP?-11
+Added Pin To Net: NetName=GND Pin=XP?-12
+Added Pin To Net: NetName=+3V9 Pin=XP?-13
+Added Pin To Net: NetName=+3V9 Pin=XP?-14
+Added Pin To Net: NetName=GND Pin=XP?-15
+Added Pin To Net: NetName=GND Pin=XP?-16
+Added Pin To Net: NetName=NETLIGHT_ANODE Pin=XP?-9
+Added Net: Name=NETLIGHT_ANODE
+Added Pin To Net: NetName=NETLIGHT_CATHODE Pin=XP?-10
+Added Net: Name=NETLIGHT_CATHODE
+Added Member To Class: ClassName=[8]-MODEM_MAIN Member=Component XP? PBD-16
