@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [RF_Shield_hv2.PrjPcb]
+   Generated File[Bill of Materials-RF_Shield_hv2.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:32:58 On 31.08.2016

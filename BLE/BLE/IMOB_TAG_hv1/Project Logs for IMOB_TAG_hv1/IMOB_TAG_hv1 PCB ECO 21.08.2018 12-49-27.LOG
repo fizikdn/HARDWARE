@@ -1,0 +1,18 @@
+Change Component Comment : Designator=C10 Old Comment=15pF New Comment=22pF
+Change Component Comment : Designator=C11 Old Comment=15pF New Comment=22pF
+Change Component Comment : Designator=VD2 Old Comment=PMEG2010 New Comment=PMEG1020EJ
+Change component parameters: Designator = "C10"; Footprint = "CC0603"; UniqueID = "\TFXVWUBX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11"; Footprint = "CC0603"; UniqueID = "\NYWPRMSJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD2"; Footprint = "SOD323"; UniqueID = "\WWWLJSLK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "PMEG1020EJ"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetDD1_13 New Net Name=TMS
+Change Net Name : Old Net Name=NetDD1_14 New Net Name=TCK
+Change Net Name : Old Net Name=NetDD1_15 New Net Name=TDO
+Change Net Name : Old Net Name=NetDD1_16 New Net Name=TDI
+PCB-ECO: Change Pad Pin/Pkg Length: Old=0mm New=2mm
+PCB-ECO: Change Pad Pin/Pkg Length: Old=0mm New=2mm

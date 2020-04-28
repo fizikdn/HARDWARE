@@ -1,0 +1,58 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\BLE\IMOB_TAG_hv1\Project Outputs for IMOB_TAG_hv1\Pick Place\Pick Place for IMOB_TAG_hv1.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       13.08.18
+Time:       10:22
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"S1","IT-1147","TopLayer","IT-1147","124,1750","60,7500","90","Switch, Single Pole, Single Throw, Normally Open"
+"L7","BLM18HE152SN1","TopLayer","L0603","121,0000","58,7997","90","L0603"
+"TP9","TESTPOINT1","TopLayer","TESTPOINT1","106,9750","60,9250","90","TESTPOINT1"
+"TP8","TESTPOINT1","TopLayer","TESTPOINT1","109,5250","60,9250","90","TESTPOINT1"
+"TP7","TESTPOINT1","TopLayer","TESTPOINT1","112,0750","60,9250","90","TESTPOINT1"
+"TP6","TESTPOINT1","TopLayer","TESTPOINT1","104,4250","50,7250","90","TESTPOINT1"
+"TP5","TESTPOINT1","TopLayer","TESTPOINT1","104,4250","53,2750","90","TESTPOINT1"
+"TP4","TESTPOINT1","TopLayer","TESTPOINT1","104,4250","55,8250","90","TESTPOINT1"
+"TP3","TESTPOINT1","TopLayer","TESTPOINT1","104,4250","58,3750","90","TESTPOINT1"
+"TP2","TESTPOINT1","TopLayer","TESTPOINT1","104,4250","60,9250","90","TESTPOINT1"
+"TP1","TESTPOINT1","TopLayer","TESTPOINT1","104,4250","48,1500","0","TESTPOINT1"
+"BAT1","3034TR","BottomLayer","3034-TR","115,0000","54,8000","180","CR2032 holder smd"
+"A1","Antenna Wi-Fi","TopLayer","Antenna_WiFi","105,2500","64,4375","360","2.43GHz"
+"VD2","PMEG2010","TopLayer","SOD323","125,8000","50,3500","270",""
+"VD1","LED_0805","TopLayer","LED0805","120,3750","67,2000","270",""
+"R2","100k","TopLayer","RC0603","110,8997","47,3250","360","RC0603"
+"R1","1k","TopLayer","RC0603","120,0747","45,6250","360","RC0603"
+"QR2","SJK-6L-24.0","TopLayer","AC5032_2","121,5000","53,9000","270","AC5032/2"
+"QR1","MS3V-T1R","TopLayer","MS3V-T1R","111,4250","57,9000","180","CRYSTAL_32768 Hz"
+"L6","2.4nH","TopLayer","L0402","115,9250","63,0750","90","L0402"
+"L5","2nH","TopLayer","L0402","112,1500","63,4750","180","L0402"
+"L4","2nH","TopLayer","L0402","114,2250","63,4750","180","L0402"
+"L3","2.4nH","TopLayer","L0402","119,0750","59,8000","270","L0402"
+"L2","10uH","TopLayer","RC0805","111,0900","49,1100","180","L0805"
+"L1","BLM18HE152SN1","TopLayer","L0603","123,1503","48,2000","180","L0603"
+"DD1","CC2650","TopLayer","QFN32_TI","115,0000","53,2500","270","CC2650RHBT"
+"C19","0.1uF","TopLayer","CC0603","123,3500","46,6000","360","CC0603"
+"C18","1pF","TopLayer","CC0603","115,4000","60,2500","270","CC0603"
+"C17","1pF","TopLayer","CC0603","113,8000","60,9750","270","CC0603"
+"C16","12pF","TopLayer","CC0603","109,2750","63,5000","180","CC0603"
+"C15","6.8pF","TopLayer","CC0603","119,1250","62,6000","270","CC0603"
+"C14","1pF","TopLayer","CC0603","117,5750","60,2000","90","CC0603"
+"C13","22pF","TopLayer","CC0603","123,9750","51,6000","90","CC0603"
+"C12","22pF","TopLayer","CC0603","123,9750","55,3750","270","CC0603"
+"C11","15pF","TopLayer","CC0603","110,0000","56,3250","180","CC0603"
+"C10","15pF","TopLayer","CC0603","111,2000","59,4250","180","CC0603"
+"C9","0.1uF","TopLayer","CC0603","107,6500","47,3250","360","CC0603"
+"C8","0.1uF","TopLayer","CC0603","114,8000","47,7000","90","CC0603"
+"C7","10uF","TopLayer","CC0805","116,6000","47,7000","90","CC0805"
+"C6","10uF","TopLayer","CC0805","107,5150","49,1000","360","CC0805"
+"C5","1uF","TopLayer","CC0603","109,2550","52,7847","180","CC0603"
+"C4","0.1uF","TopLayer","CC0603","109,2550","54,3500","0","CC0603"
+"C3","0.1uF","TopLayer","CC0603","118,7000","48,7347","90","CC0603"
+"C2","0.1uF","TopLayer","CC0603","120,4000","48,7000","270","CC0603"
+"C1","0.1uF","TopLayer","CC0603","118,9000","56,6000","90","CC0603"

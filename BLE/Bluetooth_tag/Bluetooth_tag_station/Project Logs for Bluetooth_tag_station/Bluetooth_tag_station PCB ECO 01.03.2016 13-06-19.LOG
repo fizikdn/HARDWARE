@@ -1,0 +1,10 @@
+Added Component: Designator=XP1(DG306-5.0 3PIN)
+Added Component: Designator=XP2(DG306-5.0 3PIN)
+Added Pin To Net: NetName=GND Pin=XP1-1
+Added Pin To Net: NetName=VIN Pin=XP1-2
+Added Pin To Net: NetName=NetFU1_2 Pin=XP1-3
+Added Pin To Net: NetName=NetFU2_2 Pin=XP2-1
+Added Pin To Net: NetName=NetFU3_2 Pin=XP2-2
+Added Pin To Net: NetName=NetFU4_2 Pin=XP2-3
+Added Member To Class: ClassName=Interface Member=Component XP1 DG306-5.0 2PIN
+Added Member To Class: ClassName=Interface Member=Component XP2 DG306-5.0 2PIN

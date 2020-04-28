@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=+VBAT Pin=X1-1
+Removed Pin From Net: NetName=EX_T Pin=X2-1
+Removed Pin From Net: NetName=NetVT3_3 Pin=X3-1
+Removed Member From Class: ClassName=[7]-CONNECTORS Member=X1
+Removed Member From Class: ClassName=[7]-CONNECTORS Member=X2
+Removed Member From Class: ClassName=[7]-CONNECTORS Member=X3
+Added Component: Designator=XP?(PLS2-03)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VBAT Pin=XP?-1
+Added Pin To Net: NetName=EX_T Pin=XP?-2
+Added Pin To Net: NetName=NetVT3_3 Pin=XP?-3
+Added Member To Class: ClassName=[7]-CONNECTORS Member=Component XP? PLS2-03

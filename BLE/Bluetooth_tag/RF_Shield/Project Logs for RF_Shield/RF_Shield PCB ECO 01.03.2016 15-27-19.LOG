@@ -1,0 +1,12 @@
+Added Component: Designator=XP2(BH-10)
+Added Pin To Net: NetName=VBAT Pin=XP2-1
+Added Pin To Net: NetName=JTAG_TMS Pin=XP2-2
+Added Pin To Net: NetName=JTAG_TCK Pin=XP2-3
+Added Pin To Net: NetName=JTAG_TDO Pin=XP2-4
+Added Pin To Net: NetName=JTAG_TDI Pin=XP2-5
+Added Pin To Net: NetName=GND Pin=XP2-6
+Added Pin To Net: NetName=RESET Pin=XP2-7
+Added Pin To Net: NetName=RF_TXD Pin=XP2-8
+Added Pin To Net: NetName=RF_RXD Pin=XP2-9
+Added Pin To Net: NetName=GND Pin=XP2-10
+Added Member To Class: ClassName=Main Member=Component XP2 BH-10

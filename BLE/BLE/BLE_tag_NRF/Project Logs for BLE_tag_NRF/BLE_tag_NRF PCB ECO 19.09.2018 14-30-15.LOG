@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetDD1_31 Pin=L2-1
+Removed Pin From Net: NetName=NetC1_1 Pin=L2-2
+Added Component: Designator=L4(L0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "15nH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetDD1_31 Pin=L2-2
+Added Pin To Net: NetName=NetC1_1 Pin=L4-2
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=NetL2_1 Pin=L4-1
+Added Net: Name=NetL2_1
+Added Member To Class: ClassName=[3]-MCU Member=Component L4 L0603

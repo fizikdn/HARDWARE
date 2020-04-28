@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<project name="ReedSwitch" version="1.1.0.38192">
+    <desc><![CDATA[]]></desc>
+    <pattr name="Board">SmartRF06EB + CC2650EM-7ID</pattr>
+    <pattr name="Chip name">CC2650</pattr>
+    <pattr name="Chip package">QFN48 7x7 RGZ</pattr>
+    <pattr name="Chip revision">-</pattr>
+    <pattr name="Code prefix"></pattr>
+    <pattr name="Operating system">TI-RTOS</pattr>
+    <pattr name="Output directory">./source</pattr>
+    <task name="ReedSwitch">
+        <desc><![CDATA[]]></desc>
+        <tattr name="LUT" type="dec" content="const" scope="task" min="0" max="65535">8</tattr>
+        <tattr name="output.counter" desc="Incremented each time the driver is alerted" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="output.downCounter" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="output.effCounter" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="output.upCounter" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="sensor1Index" type="dec" content="const" scope="task" min="0" max="65535">7</tattr>
+        <tattr name="sensor2Index" type="dec" content="const" scope="task" min="0" max="65535">14</tattr>
+        <tattr name="state.counter" desc="Incremented once per task execution" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="state.downCounter" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="state.effCounter" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="state.errorLUT" size="LUT" type="dec" content="struct_array" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="state.minusOneLUT" size="LUT" type="dec" content="struct_array" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="state.nxtEdgeTrigger" size="LUT" type="dec" content="struct_array" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="state.nxtTrigger" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="state.plusOneLUT" size="LUT" type="dec" content="struct_array" scope="task" min="0" max="65535">0</tattr>
+        <tattr name="state.upCounter" type="dec" content="struct" scope="task" min="0" max="65535">0</tattr>
+        <resource_ref name="ADC" enabled="0"/>
+        <resource_ref name="Analog Open-Drain Pins" enabled="0"/>
+        <resource_ref name="Analog Open-Source Pins" enabled="0"/>
+        <resource_ref name="Analog Pins" enabled="0"/>
+        <resource_ref name="COMPA" enabled="0"/>
+        <resource_ref name="Delay Insertion" enabled="0"/>
+        <resource_ref name="Differential Output Pins" enabled="0"/>
+        <resource_ref name="Digital Input Pins" enabled="1">
+            <io_usage name="DigitalInput" label="Digital Input">
+                <uattr name="Configuration on initialization">-1</uattr>
+                <uattr name="Configuration on uninitialization">-1</uattr>
+                <uattr name="Pin count">2</uattr>
+                <uattr name="Pin/0000">DIO1</uattr>
+                <uattr name="Pin/0001">DIO23</uattr>
+                <uattr name="Pin/0002"></uattr>
+                <uattr name="Pin/0003"></uattr>
+                <uattr name="Pin/0004"></uattr>
+                <uattr name="Pin/0005"></uattr>
+                <uattr name="Pin/0006"></uattr>
+                <uattr name="Pin/0007"></uattr>
+                <uattr name="Pin/0008"></uattr>
+                <uattr name="Pin/0009"></uattr>
+                <uattr name="Pin/0010"></uattr>
+                <uattr name="Pin/0011"></uattr>
+                <uattr name="Pin/0012"></uattr>
+                <uattr name="Pin/0013"></uattr>
+                <uattr name="Pin/0014"></uattr>
+                <uattr name="Pin/0015"></uattr>
+            </io_usage>
+        </resource_ref>
+        <resource_ref name="Digital Open-Drain Pins" enabled="0"/>
+        <resource_ref name="Digital Open-Source Pins" enabled="0"/>
+        <resource_ref name="Digital Output Pins" enabled="0">
+            <io_usage name="LED_CTRL" label="LED control pin">
+                <uattr name="Configuration on uninitialization">-1</uattr>
+                <uattr name="Output value on initialization">0</uattr>
+                <uattr name="Pin count">4</uattr>
+                <uattr name="Pin/0000">DIO6</uattr>
+                <uattr name="Pin/0001">DIO7</uattr>
+                <uattr name="Pin/0002">DIO24</uattr>
+                <uattr name="Pin/0003">DIO26</uattr>
+                <uattr name="Pin/0004"></uattr>
+                <uattr name="Pin/0005"></uattr>
+                <uattr name="Pin/0006"></uattr>
+                <uattr name="Pin/0007"></uattr>
+                <uattr name="Pin/0008"></uattr>
+                <uattr name="Pin/0009"></uattr>
+                <uattr name="Pin/0010"></uattr>
+                <uattr name="Pin/0011"></uattr>
+                <uattr name="Pin/0012"></uattr>
+                <uattr name="Pin/0013"></uattr>
+                <uattr name="Pin/0014"></uattr>
+                <uattr name="Pin/0015"></uattr>
+            </io_usage>
+        </resource_ref>
+        <resource_ref name="GPIO Event Trigger" enabled="1"/>
+        <resource_ref name="I2C Master" enabled="0">
+            <rattr name="SCL frequency">400</rattr>
+            <rattr name="SCL stretch timeout">1</rattr>
+            <io_usage>
+                <uattr name="SCL pin/0000"></uattr>
+                <uattr name="SDA pin/0000"></uattr>
+            </io_usage>
+        </resource_ref>
+        <resource_ref name="ISRC" enabled="0"/>
+        <resource_ref name="Math and Logic" enabled="0"/>
+        <resource_ref name="Multi-Buffered Output Data Exchange" enabled="0">
+            <rattr name="Buffer count">2</rattr>
+        </resource_ref>
+        <resource_ref name="Peripheral Sharing" enabled="0"/>
+        <resource_ref name="RTC Multi-Event Capture" enabled="0"/>
+        <resource_ref name="RTC-Based Execution Scheduling" enabled="1"/>
+        <resource_ref name="SPI Chip Select" enabled="0"/>
+        <resource_ref name="SPI Data Transfer" enabled="0">
+            <rattr name="MISO configuration when inactive">-1</rattr>
+            <rattr name="MOSI configuration on initialization">0</rattr>
+            <rattr name="MOSI configuration on uninitialization">0</rattr>
+            <rattr name="SCLK configuration on initialization">0</rattr>
+            <rattr name="SCLK configuration on uninitialization">0</rattr>
+            <io_usage>
+                <uattr name="MISO pin/0000"></uattr>
+                <uattr name="MOSI pin/0000"></uattr>
+                <uattr name="SCLK pin/0000"></uattr>
+            </io_usage>
+        </resource_ref>
+        <resource_ref name="System CPU Alert" enabled="0"/>
+        <resource_ref name="TDC" enabled="0"/>
+        <resource_ref name="Timer Event Trigger" enabled="0"/>
+        <resource_ref name="UART Emulator" enabled="0">
+            <rattr name="RX buffer size">64</rattr>
+            <rattr name="Required idle period before enabling RX">11</rattr>
+            <rattr name="TX buffer size">64</rattr>
+            <io_usage>
+                <uattr name="RX pin/0000"></uattr>
+                <uattr name="TX pin/0000"></uattr>
+            </io_usage>
+        </resource_ref>
+        <sccode name="event0"><![CDATA[// Record the number of edge trigger
+state.counter += 1;
+
+// "n" is here the address of element in the Tables
+//  n is contructed by [ nxtTrigger; Sensor-1; Sensor-2]
+U16 n = state.nxtTrigger << 2;
+U16 dummyState;
+
+// Get the value from Sensor-1
+gpioGetInputValue(sensor1Index ; dummyState)  ;
+dummyState <<= 1;
+n |= dummyState;
+
+// Get the value from Sensor-2
+gpioGetInputValue(sensor2Index ; dummyState)  ;
+n |= dummyState;
+
+// Add up for the new value of upCounter, downCounter and effCounter
+state.upCounter += state.plusOneLUT[n];
+state.downCounter += state.minusOneLUT[n];
+ifnot (state.upCounter < state.downCounter) {
+    state.effCounter = state.upCounter - state.downCounter;
+}
+
+// The output values are updated. These output values are fetched periodically to send to the receiver
+output.counter = state.counter;
+output.effCounter = state.effCounter ;
+output.upCounter = state.upCounter ;
+output.downCounter = state.downCounter ;
+
+// The setting for the next edge trigger
+state.nxtTrigger = state.nxtEdgeTrigger[n];
+if (state.nxtTrigger == 0){
+    evhSetupGpioTrigger(0, sensor2Index, 0, EVH_GPIO_TRIG_ON_EDGE) ;
+} else {
+    evhSetupGpioTrigger(0, sensor2Index, 1, EVH_GPIO_TRIG_ON_EDGE) ;
+}]]></sccode>
+        <sccode name="execute"><![CDATA[// There does not have code for this part]]></sccode>
+        <sccode name="initialize"><![CDATA[// Initialize the Tables
+// All values in the Tables are zero, except the ones below with setting of "1"
+U16 n;
+
+// Setting for plusOneLUT, which provides the value to be added into upCounter
+n = 2;
+state.plusOneLUT[n] = 1;
+n = 5;
+state.plusOneLUT[n] = 1;
+
+// Setting for minusOneLUT, which provides the value to be added into downCounter
+n = 0;
+state.minusOneLUT[n] = 1;
+n = 7;
+state.minusOneLUT[n] = 1;
+
+// Setting for errorLUT, which indicate that error transition happen
+// This Table is not used in this code
+n = 1;
+state.errorLUT[n] = 1;
+n = 3;
+state.errorLUT[n] = 1;
+n = 4;
+state.errorLUT[n] = 1;
+n = 6;
+state.errorLUT[n] = 1;
+
+// Setting for nxtEdgeTrigger, which indicate the polarity of edge trigger for the next comming signal
+// "0" means the next trigger is from falling edge
+// "1" means the next trigger is from rising edge
+n = 0;
+state.nxtEdgeTrigger[n] = 1;
+n = 2;
+state.nxtEdgeTrigger[n] = 1;
+n = 4;
+state.nxtEdgeTrigger[n] = 1;
+n = 6;
+state.nxtEdgeTrigger[n] = 1;
+
+// set Edge Interrupt from Sensor 2
+evhSetupGpioTrigger(0, sensor2Index, 0, EVH_GPIO_TRIG_ON_EDGE) ;]]></sccode>
+        <sccode name="terminate"><![CDATA[/// There does not have code in this part]]></sccode>
+        <tt_iter>run_event0,run_execute</tt_iter>
+        <tt_struct>output.downCounter,output.effCounter,output.upCounter</tt_struct>
+    </task>
+</project>

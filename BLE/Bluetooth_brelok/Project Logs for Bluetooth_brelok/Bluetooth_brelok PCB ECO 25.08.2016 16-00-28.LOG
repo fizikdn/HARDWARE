@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NetBAT1_+ Pin=XP1-1
+Change Net Name : Old Net Name=NetBAT1_+ New Net Name=VBAT
+Added Member To Class: ClassName=Main Member=Component C8 10uFx6.3V
+Added Member To Class: ClassName=Main Member=Component C9 1uFx6.3V
+Added Member To Class: ClassName=Main Member=Component C10 10uFx6.3V

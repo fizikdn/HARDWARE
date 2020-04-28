@@ -1,0 +1,37 @@
+Added Component: Designator=U1(DGQ10-1675X1445TP_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-187-BA-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ24092&fileType=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SLUS968C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Acid"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Li-Ion"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Li-Polymer"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NiCd"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NiMH"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Over Voltage Protection"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "10-Pin PowerPAD Plastic Small Outline 0.5 mm Pitch, Exposed Pad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DGQ10-1675X1445TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revF, Nov-2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BQ24092DGQR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubFamily"; Value = "Battery Charge Management"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "BQ24092DGQR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "79R7874"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "595-BQ24092DGQR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vin(Min)(V)"; Value = "4.5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VBUS Pin=U1-1
+Added Pin To Net: NetName=NetR5_2 Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=NetR7_2 Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=BAT_STAT Pin=U1-8
+Added Pin To Net: NetName=NetR8_2 Pin=U1-9
+Added Pin To Net: NetName=+VBAT Pin=U1-10
+Added Pin To Net: NetName=GND Pin=U1-11
+Added Member To Class: ClassName=[6]-CHARGER Member=Component U1 BQ24092DGQR

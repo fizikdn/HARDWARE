@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=VBAT Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C12-2
+Removed Pin From Net: NetName=SS1 Pin=DD2-1
+Removed Pin From Net: NetName=MISO Pin=DD2-2
+Removed Pin From Net: NetName=VBAT Pin=DD2-3
+Removed Pin From Net: NetName=GND Pin=DD2-4
+Removed Pin From Net: NetName=MOSI Pin=DD2-5
+Removed Pin From Net: NetName=SCK Pin=DD2-6
+Removed Pin From Net: NetName=VBAT Pin=DD2-7
+Removed Pin From Net: NetName=VBAT Pin=DD2-8
+Removed Member From Class: ClassName=MCU Member=C12
+Removed Member From Class: ClassName=MCU Member=DD2
+Added Member To Class: ClassName=RF Member=Component X1 PIN_1mm
+Added Member To Class: ClassName=MCU Member=Component XP2 BH-10

@@ -1,0 +1,47 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_tag_NRF\Project Outputs for BLE_tag_NRF\Pick Place\Pick Place for BLE_tag_NRF.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       21.09.18
+Time:       15:11
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R2","n.p","TopLayer","RC0603","35,1750","30,1503","270","RC0603"
+"J1","PLS-02","TopLayer","PLS-02","32,8000","30,2050","270","PLS-02"
+"L4","L0603","TopLayer","L0603","25,2247","33,8750","0","L0603"
+"XP4","PLS-05","TopLayer","PLS-05","44,8000","35,6900","90","PLS-05"
+"XP3","BHC-CR123A","TopLayer","CR123_HOLDER","24,0000","12,5000","180","Holder for CR123 battery"
+"XP2","PLS03","TopLayer","PLS-03","38,8500","44,2500","180","PLS03"
+"VD1","PMEG1020EJ","TopLayer","SOD323","36,0750","33,2000","360",""
+"ANT1","ANTENNA_IFA_245_1MM","TopLayer","IFA245_1mm","15,4180","50,5640","360","Antenna 2.45GHz"
+"R1","100k","TopLayer","RC0603","41,0253","35,0000","180","RC0603"
+"QR1","MS3V-T1R","TopLayer","MS3V-T1R","33,1000","40,3750","360","CRYSTAL_32768 Hz"
+"Q1","SJK-7U","TopLayer","QUARTZ_3225_4","19,3250","36,7500","90","3.2x2.5mm 4 pin SMD quartz crystal"
+"L3","3.9nH","TopLayer","L0402","17,1750","45,4000","90","L0402"
+"L2","10uH","TopLayer","RC0805","25,4250","35,6250","360","L0805"
+"L1","BLM18HE152SN1","TopLayer","L0603","38,1497","31,3750","360","L0603"
+"DD1","nRF52810QCAA","TopLayer","QFN-32","25,3500","41,3750","180","BLE 5 controller"
+"C16","0.1uF","TopLayer","CC0603","37,7750","28,5500","90","CC0603"
+"C15","12pF","TopLayer","CC0603","16,3750","37,0500","270","CC0603"
+"C14","12pF","TopLayer","CC0603","19,4250","33,4000","180","CC0603"
+"C13","0.1uF","TopLayer","CC0603","29,2750","45,1750","180","CC0603"
+"C12","n.p","TopLayer","CC0603","19,0500","41,3250","360","CC0603"
+"C11","12pF","TopLayer","CC0603","33,5000","37,5000","270","CC0603"
+"C10","12pF","TopLayer","CC0603","31,9500","37,5250","270","CC0603"
+"C9","200pF","TopLayer","CC0603","41,8000","32,3250","90","CC0603"
+"C8","100pF","TopLayer","CC0603","19,0500","39,8000","360","CC0603"
+"C7","0.1uF","TopLayer","CC0603","30,2250","36,4250","90","CC0603"
+"C6","4.7uF","TopLayer","CC0805","28,3250","35,4500","90","CC0805"
+"C5","0.1uF","TopLayer","CC0603","22,7500","36,1750","270","CC0603"
+"C4","0.9pF","TopLayer","CC0603","19,6250","44,5250","270","CC0603"
+"C3","12pF","TopLayer","CC0603","17,1860","48,0250","90","CC0603"
+"C2","1uF","TopLayer","CC0603","27,8250","31,4250","270","CC0603"
+"C1","n.p","TopLayer","CC0805","26,0000","31,3750","270","CC0805"
+"XP1","MW03D","TopLayer","MW03D","30,4500","2,1000","180","MW03D"
+"REPER2","REPER1.2","TopLayer","REPER1.2","4,6250","21,0750","90","REPER1.2"
+"REPER1","REPER1.2","TopLayer","REPER1.2","45,3250","47,8500","90","REPER1.2"

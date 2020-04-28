@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [IMOB_TAG_hv2.PcbDoc]
+   Generated File[IMOB_TAG_hv2-Plated.TXT]
+   Generated File[IMOB_TAG_hv2-NonPlated.TXT]
+   Generated File[IMOB_TAG_hv2.LDP]
+   Generated File[IMOB_TAG_hv2.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:44:32 On 08.05.2019

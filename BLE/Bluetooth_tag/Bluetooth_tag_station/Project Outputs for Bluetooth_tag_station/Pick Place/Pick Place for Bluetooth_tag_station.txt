@@ -1,0 +1,80 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+REPER2     REPER1.2              132.2mm      70.475mm       132.2mm      70.475mm       132.2mm      70.475mm  T         90.00 REPER1.2       
+REPER1     REPER1.2               68.1mm     112.375mm        68.1mm     112.375mm        68.1mm     112.375mm  T         90.00 REPER1.2       
+C1         CC0603               126.75mm      107.45mm      126.75mm      107.45mm       127.6mm      107.45mm  T        180.00 0.1uF          
+C2         CC0603               91.675mm     108.925mm      91.675mm     108.925mm      92.525mm     108.925mm  T        180.00 0.1uF          
+C3         CC0603               93.175mm       79.95mm      93.175mm       79.95mm      93.175mm        80.8mm  T        270.00 22pF           
+C4         CC0603               93.175mm        83.7mm      93.175mm        83.7mm      93.175mm       82.85mm  T         90.00 22pF           
+C5         CC0603               84.775mm      74.125mm      84.775mm      74.125mm      84.775mm      73.275mm  T         90.00 200pF          
+C6         CC0603               93.875mm       74.65mm      93.875mm       74.65mm      93.875mm        75.5mm  T        270.00 200pF          
+C7         CC0603                79.35mm      103.55mm       79.35mm      103.55mm       79.35mm       104.4mm  T        270.00 0.1uF          
+C8         CC0603                 71.2mm      93.875mm        71.2mm      93.875mm       70.35mm      93.875mm  T          0.00 0.1uF          
+C9         CC0603                92.65mm      93.875mm       92.65mm      93.875mm        93.5mm      93.875mm  T        180.00 0.1uF          
+C10        CC0603                92.65mm      87.375mm       92.65mm      87.375mm        93.5mm      87.375mm  T        180.00 0.1uF          
+C11        CC0603                82.25mm       81.65mm       82.25mm       81.65mm       82.25mm        80.8mm  T         90.00 0.1uF          
+C12        CC0603                 71.2mm      88.875mm        71.2mm      88.875mm       70.35mm      88.875mm  T          0.00 0.1uF          
+C13        CC0603               80.525mm       81.65mm      80.525mm       81.65mm      80.525mm        80.8mm  T         90.00 0.1uF          
+C14        CC0603                 87.2mm       101.8mm        87.2mm       101.8mm       88.05mm       101.8mm  T        180.00 0.1uF          
+C15        CC0603                 78.2mm       118.4mm        78.2mm       118.4mm       79.05mm       118.4mm  T        180.00 0.1uF          
+C16        CC1206               133.15mm     100.525mm      133.15mm     100.525mm      133.15mm     101.975mm  T        270.00 0.1uFx250V     
+C17        CC0603              112.275mm        70.2mm     112.275mm        70.2mm     112.275mm       71.05mm  T        270.00 0.1 uF         
+C18        CC0603              118.875mm       84.45mm     118.875mm       84.45mm     118.025mm       84.45mm  T          0.00 0.1 uF         
+C19        CC8X3.5                 118mm      86.825mm      116.25mm      86.825mm      116.25mm      86.825mm  B          0.00 1000uFx6.3V    
+C20        CC16X10_CAP0.5(1)(Primary)       122.5mm      71.565mm       122.5mm      69.025mm       122.5mm      74.105mm  B         90.00 470uFx35V      
+C21        CC0603               113.95mm       65.95mm      113.95mm       65.95mm       114.8mm       65.95mm  T        180.00 0.1 uF         
+C22        CC0603               119.85mm      68.375mm      119.85mm      68.375mm      119.85mm      67.525mm  T         90.00 10 nF          
+C23        CC0603               118.15mm       72.15mm      118.15mm       72.15mm      118.15mm          73mm  T        270.00 330pF          
+C24        CC0603               119.85mm       72.15mm      119.85mm       72.15mm      119.85mm          73mm  T        270.00 560pF          
+DA1        S-PDSO-G10            115.3mm        70.2mm       114.3mm          68mm       114.3mm          68mm  T         90.00 TPS54260DGQ    
+DD1        SO-8                120.706mm      106.78mm       123.5mm     104.875mm       123.5mm     104.875mm  T         90.00 SN65HVD232D    
+DD2        TQFP-80_0.5            82.1mm      92.125mm        82.1mm      92.125mm       77.35mm      85.425mm  T         90.00 LPC1754FBD80   
+DD3        EIAJ_SO8            78.1965mm      114.27mm       74.45mm     116.175mm       74.45mm     116.175mm  T          0.00 M25PE16        
+FU1        RC1210                113.8mm       102.7mm       113.8mm       102.7mm       113.8mm       104.3mm  T        270.00 MICROSMD010F-2 
+FU2        RC1210              108.775mm       102.7mm     108.775mm       102.7mm     108.775mm       104.3mm  T        270.00 MICROSMD010F-2 
+FU3        RC1210                103.8mm       102.7mm       103.8mm       102.7mm       103.8mm       104.3mm  T        270.00 MICROSMD010F-2 
+FU4        RC1210                 98.8mm       102.7mm        98.8mm       102.7mm        98.8mm       104.3mm  T        270.00 MICROSMD010F-2 
+FU5        RXE-110              130.45mm      94.165mm      130.45mm      91.625mm      130.45mm      91.625mm  B         90.00 RXE-110        
+J1         PLS-02               87.425mm      74.145mm      87.425mm      72.875mm      87.425mm      72.875mm  B         90.00 PLS-02         
+J2         PLS-02               96.375mm      74.205mm      96.375mm      75.475mm      96.375mm      75.475mm  B        270.00 PLS-02         
+L1         SDR0805             113.125mm      79.325mm     113.125mm      79.325mm     113.125mm      76.658mm  T         90.00 15uH           
+QR1        AC5032_2              90.45mm       81.75mm       90.45mm       81.75mm       90.45mm       79.75mm  T         90.00 NX5032GA-12.000MHz LN-CD-1
+R1         RC0603                 76.1mm     77.6503mm        76.1mm       77.65mm        76.1mm      78.425mm  T        270.00 100E           
+R2         RC0603              90.5997mm        75.4mm        90.6mm        75.4mm      89.825mm        75.4mm  T          0.00 10k            
+R3         RC0603              99.5747mm       75.45mm      99.575mm       75.45mm        98.8mm       75.45mm  T          0.00 10k            
+R4         RC0603             109.2497mm      89.775mm      109.25mm      89.775mm     108.475mm      89.775mm  T          0.00 560E           
+R5         RC0603             103.6497mm      89.775mm      103.65mm      89.775mm     102.875mm      89.775mm  T          0.00 560E           
+R6         RC0603              97.9247mm      89.775mm      97.925mm      89.775mm       97.15mm      89.775mm  T          0.00 560E           
+R7         RC0603              68.5497mm     107.275mm       68.55mm     107.275mm      67.775mm     107.275mm  T          0.00 560E           
+R8         RC1206                136.4mm      88.975mm       136.4mm      88.975mm       136.4mm      87.525mm  T         90.00 220k           
+R9         RC1206              133.325mm       86.05mm     133.325mm       86.05mm     133.325mm        84.6mm  T         90.00 220k           
+R10        RC1206               131.65mm        81.8mm      131.65mm        81.8mm       133.1mm        81.8mm  T        180.00 220k           
+R11        RC0603             118.8003mm       82.75mm       118.8mm       82.75mm     119.575mm       82.75mm  T        180.00 31k6 1%        
+R12        RC0603             118.9253mm      74.925mm     118.925mm      74.925mm       119.7mm      74.925mm  T        180.00 12k            
+R13        RC0603               118.05mm     68.4503mm      118.05mm       68.45mm      118.05mm      69.225mm  T        270.00 240k           
+R14        RC0603             120.3503mm          81mm      120.35mm          81mm     121.125mm          81mm  T        180.00 10k 1%         
+U1         SO-8                 91.769mm      105.07mm      88.975mm     106.975mm      88.975mm     106.975mm  T        270.00 ST3485EBDR     
+VD1        SOT-23(123)         111.191mm    108.0434mm     110.175mm     106.875mm     110.175mm    106.8877mm  T        270.00 PESD2CAN       
+VD2        SOT-23(GSD)         103.784mm    108.4816mm       104.8mm      109.65mm       104.8mm    109.6373mm  T        180.00 BAV99          
+VD3        SMB                   93.15mm     112.325mm       93.15mm     112.325mm       95.45mm     112.325mm  T          0.00 SMBJ5.0A       
+VD4        SMB                   108.9mm     112.325mm       108.9mm     112.325mm       111.2mm     112.325mm  T          0.00 SMBJ5.0A       
+VD5        SOT-23(GSD)          98.809mm    108.4816mm      99.825mm      109.65mm      99.825mm    109.6373mm  T        180.00 BAV99          
+VD10       SMA                  123.65mm       92.15mm      123.65mm       92.15mm       121.6mm       92.15mm  T          0.00 GS1M           
+VD11       SOT-23(123)         130.141mm     85.1434mm     129.125mm      83.975mm     129.125mm     83.9877mm  T        270.00 BZX84C15       
+VD12       DO-201                136.4mm      99.725mm       136.4mm     102.725mm       136.4mm     102.725mm  B        270.00 1.5KE150A      
+VD13       SOT-23(123)         136.391mm     84.4684mm     135.375mm        83.3mm     135.375mm     83.3127mm  T        270.00 BZX84C36       
+VD14       SMA                  121.45mm      77.575mm      121.45mm      77.575mm       123.5mm      77.575mm  T        180.00 SK34SMA        
+VT1        D-PAK(TO-252AA)      131.85mm      76.675mm       133.1mm      76.675mm       128.6mm      78.955mm  T          0.00 IRFR9220       
+VT2        SOT-23(123)        126.6184mm      82.434mm      125.45mm       83.45mm    125.4627mm       83.45mm  T        180.00 BC807-40LT3G   
+XP1        DG306-5.0             121.3mm      96.725mm       123.8mm      96.725mm       123.8mm      96.725mm  B        180.00 DG306-5.0 2PIN 
+XP2        DG306-5.0             111.3mm      96.725mm       113.8mm      96.725mm       113.8mm      96.725mm  B        180.00 DG306-5.0 2PIN 
+XP5        DG306-5.0             101.3mm      96.725mm       103.8mm      96.725mm       103.8mm      96.725mm  B        180.00 DG306-5.0 2PIN 
+XP3        PIN6                  73.56mm       72.57mm        76.1mm        71.3mm        76.1mm        71.3mm  B        180.00 PLD-06         
+XP4        BH-10                 64.87mm       92.88mm        63.6mm        87.8mm        63.6mm        87.8mm  B         90.00 BH-10          
+VD6        LED3                109.755mm       87.35mm     111.025mm       87.35mm     111.025mm       87.35mm  B        180.00 LED_3          
+VD7        LED3                104.155mm       87.35mm     105.425mm       87.35mm     105.425mm       87.35mm  B        180.00 LED_3          
+VD8        LED3                 98.405mm       87.35mm      99.675mm       87.35mm      99.675mm       87.35mm  B        180.00 LED_3          
+VD9        LED3                 64.695mm       107.3mm      63.425mm       107.3mm      63.425mm       107.3mm  B          0.00 LED_3          
+J2         PLS-02             136.2697mm       106.7mm    134.9997mm       106.7mm    134.9997mm       106.7mm  B          0.00 PLS-02         
+R15        RC0805               131.65mm      108.75mm      131.65mm      108.75mm       132.6mm      108.75mm  T        180.00 120E           
+

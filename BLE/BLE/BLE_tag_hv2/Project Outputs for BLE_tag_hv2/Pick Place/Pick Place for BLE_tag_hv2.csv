@@ -1,0 +1,46 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_tag_hv2\Project Outputs for BLE_tag_hv2\Pick Place\Pick Place for BLE_tag_hv2.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       20.08.18
+Time:       10:16
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"IFA 2.45GHz","ANTENNA_IFA_245_1MM","TopLayer","IFA245_1mm","15,6570","50,5640","360","Antenna 2.45GHz"
+"C14","1.2pF","TopLayer","CC0603","21,1220","40,7900","360","CC0603"
+"XP4","MW03D","TopLayer","MW03D","31,3250","1,8250","180","MW03D"
+"XP2","PLD2-10","TopLayer","PLD2-10","13,2250","38,3750","180",""
+"DD1","CC2650","TopLayer","QFN32_TI","32,8500","35,9250","360","CC2650RHBT"
+"C8","0.1uF","TopLayer","CC0603","38,4000","35,0000","180","CC0603"
+"XP3","BH-10","TopLayer","BH-10","4,9700","38,4600","90","BH-10"
+"XP1","BHC-CR123A","TopLayer","CR123_HOLDER","23,8000","12,7000","180","Holder for CR123 battery"
+"VD1","PMEG1020EJ","TopLayer","SOD323","43,5933","28,8751","90",""
+"REPER2","REPER1.2","TopLayer","REPER1.2","4,6250","21,0750","90","REPER1.2"
+"REPER1","REPER1.2","TopLayer","REPER1.2","45,3250","47,8500","90","REPER1.2"
+"R1","100k","TopLayer","RC0603","43,5996","35,8003","270","RC0603"
+"QR2","SJK-6L-24.0","TopLayer","AC5032_2","34,1000","42,7150","360","AC5032/2"
+"QR1","MS3V-T1R","TopLayer","MS3V-T1R","27,3500","30,9250","270","CRYSTAL_32768 Hz"
+"L5","2nH","TopLayer","L0402","21,9970","42,8500","90","L0402"
+"L3","L0603","TopLayer","L0603","24,3500","40,0253","270","L0603"
+"L2","10uH","TopLayer","RC0805","36,9000","31,5000","270","L0805"
+"L1","BLM18HE152SN1","TopLayer","L0603","43,5996","32,8247","90","L0603"
+"C19","0.1uF","TopLayer","CC0603","45,4250","29,0500","90","CC0603"
+"C16","12pF","TopLayer","CC0603","22,0250","47,5750","90","CC0603"
+"C15","1.2pF","TopLayer","CC0603","21,1720","44,8250","360","CC0603"
+"C13","22pF","TopLayer","CC0603","36,0000","45,3000","180","CC0603"
+"C12","22pF","TopLayer","CC0603","32,4000","45,2977","360","CC0603"
+"C11","15pF","TopLayer","CC0603","29,2000","31,2000","270","CC0603"
+"C10","15pF","TopLayer","CC0603","25,5000","31,2000","270","CC0603"
+"C9","0.1uF","TopLayer","CC0603","43,5996","39,1343","270","CC0603"
+"C7","10uF","TopLayer","CC0805","38,4000","36,8000","180","CC0805"
+"C6","10uF","TopLayer","CC0805","38,9500","29,6500","90","CC0805"
+"C5","1uF","TopLayer","CC0603","32,4000","30,2500","270","CC0603"
+"C4","0.1uF","TopLayer","CC0603","30,8000","31,0500","90","CC0603"
+"C3","0.1uF","TopLayer","CC0603","37,8000","38,6000","180","CC0603"
+"C2","0.1uF","TopLayer","CC0603","35,5000","40,2000","360","CC0603"
+"C1","0.1uF","TopLayer","CC0603","30,1000","40,9500","90","CC0603"

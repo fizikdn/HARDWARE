@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BLE_CAMERA_hv2.PcbDoc   09.08.2018  11:22:51
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : BLE_CAMERA_hv2-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : BLE_CAMERA_hv2-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : BLE_CAMERA_hv2-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             235       PTH        0.00inch (0.00mm)
+T2      20mil (0.5mm)                                             Slot              2         PTH        0.00inch (0.00mm)
+T3      28mil (0.701mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T4      35mil (0.899mm)                                           Round             17        PTH        0.00inch (0.00mm)
+T5      39mil (1.001mm)                                           Round             3         PTH        0.00inch (0.00mm)
+T6      47mil (1.199mm)                                           Round             3         PTH        0.00inch (0.00mm)
+T7      91mil (2.301mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T8      118mil (3mm)                                              Round             1         PTH        0.00inch (0.00mm)
+T9      79mil (1.999mm)                                           Round             2         NPTH       0.00inch (0.00mm)
+T10     118mil (3mm)                                              Round             3         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              272
+
+Total Processing Time (hh:mm:ss) : 00:00:00

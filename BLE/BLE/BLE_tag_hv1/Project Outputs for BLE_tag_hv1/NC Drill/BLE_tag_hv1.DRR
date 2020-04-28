@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BLE_tag_hv1.PcbDoc   07.10.2019  17:21:50
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : BLE_tag_hv1-Plated.TXT
+ASCII Non-Plated RoundHoles File : BLE_tag_hv1-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             264       PTH        0.00inch (0.00mm)
+T2      35mil (0.899mm)                                           Round             10        PTH        0.00inch (0.00mm)
+T3      38mil (0.965mm)                                           Round             10        PTH        0.00inch (0.00mm)
+T4      47mil (1.199mm)                                           Round             5         PTH        0.00inch (0.00mm)
+T5      63mil (1.6mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T6      126mil (3.2mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T7      71mil (1.801mm)                                           Round             1         NPTH       0.00inch (0.00mm)
+T8      126mil (3.2mm)                                            Round             2         NPTH       0.00inch (0.00mm)
+T9      138mil (3.5mm)                                            Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              300
+
+Total Processing Time (hh:mm:ss) : 00:00:00

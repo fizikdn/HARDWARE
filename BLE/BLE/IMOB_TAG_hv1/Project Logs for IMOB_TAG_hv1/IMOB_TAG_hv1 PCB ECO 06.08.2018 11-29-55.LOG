@@ -1,0 +1,16 @@
+Added Component: Designator=L7(L0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "BLM18HE152SN1"; VariantName = "[No Variations]"
+Added Component: Designator=S1(IT-1147)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "{Value}"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V_F Pin=L7-2
+Added Pin To Net: NetName=+3V Pin=S1-1
+Added Pin To Net: NetName=+3V Pin=S1-2
+Added Pin To Net: NetName=NetDD1_9 Pin=DD1-9
+Added Pin To Net: NetName=NetDD1_9 Pin=L7-1
+Added Pin To Net: NetName=NetDD1_9 Pin=S1-3
+Added Pin To Net: NetName=NetDD1_9 Pin=S1-4
+Added Net: Name=NetDD1_9
+Added Member To Class: ClassName=[3]-MCU Member=Component L7 BLM18HE152SN1
+Added Member To Class: ClassName=[3]-MCU Member=Component S1 IT-1147

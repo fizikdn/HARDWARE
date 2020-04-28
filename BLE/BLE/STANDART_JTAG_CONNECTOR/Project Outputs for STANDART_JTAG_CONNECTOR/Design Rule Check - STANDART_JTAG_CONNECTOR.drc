@@ -1,0 +1,57 @@
+Protel Design System Design Rule Check
+PCB File : E:\Projects_Files\Projects\Altium_Projects\BLE\STANDART_JTAG_CONNECTOR\STANDART_JTAG_CONNECTOR.PcbDoc
+Date     : 25.06.2018
+Time     : 17:30:03
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Pad XP1-1(96.2mm,57.26mm) on Multi-Layer And Pad XP5-1(106.44mm,57.26mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net RESET Between Pad XP1-10(93.66mm,67.42mm) on Multi-Layer And Pad XP5-10(103.9mm,67.42mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net JTAG_TMS Between Pad XP1-2(93.66mm,57.26mm) on Multi-Layer And Pad XP5-2(103.9mm,57.26mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net JTAG_TCK Between Pad XP1-4(93.66mm,59.8mm) on Multi-Layer And Pad XP5-4(103.9mm,59.8mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net JTAG_TDO Between Pad XP1-6(93.66mm,62.34mm) on Multi-Layer And Pad XP5-6(103.9mm,62.34mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net BT_RX Between Pad XP1-7(96.2mm,64.88mm) on Multi-Layer And Pad XP5-7(106.44mm,64.88mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net JTAG_TDI Between Pad XP1-8(93.66mm,64.88mm) on Multi-Layer And Pad XP5-8(103.9mm,64.88mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net BT_TX Between Pad XP1-9(96.2mm,67.42mm) on Multi-Layer And Pad XP5-9(106.44mm,67.42mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (97.5mm,55mm) from Top Layer to Bottom Layer And Via (102.5mm,55mm) from Top Layer to Bottom Layer 
+Rule Violations :9
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=3mm) (Preferred=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 9
+Waived Violations : 0
+Time Elapsed        : 00:00:00

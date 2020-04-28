@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=X32K_Q1 Pin=C10-1
+Removed Pin From Net: NetName=GND Pin=C10-2
+Removed Pin From Net: NetName=X32K_Q2 Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C11-2
+Removed Pin From Net: NetName=X32K_Q2 Pin=QR1-1
+Removed Pin From Net: NetName=X32K_Q1 Pin=QR1-2
+Removed Pin From Net: NetName=GND Pin=QR1-3
+Removed Member From Class: ClassName=[3]-MCU Member=C10
+Removed Member From Class: ClassName=[3]-MCU Member=C11
+Removed Member From Class: ClassName=[3]-MCU Member=QR1

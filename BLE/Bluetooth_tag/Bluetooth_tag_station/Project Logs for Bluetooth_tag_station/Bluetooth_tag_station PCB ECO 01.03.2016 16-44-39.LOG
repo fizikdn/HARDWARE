@@ -1,0 +1,16 @@
+Added Component: Designator=VD6(LED3)
+Added Component: Designator=VD7(LED3)
+Added Component: Designator=VD8(LED3)
+Added Component: Designator=VD9(LED3)
+Added Pin To Net: NetName=GND Pin=VD6-1
+Added Pin To Net: NetName=NetR4_1 Pin=VD6-2
+Added Pin To Net: NetName=GND Pin=VD7-1
+Added Pin To Net: NetName=NetR5_1 Pin=VD7-2
+Added Pin To Net: NetName=GND Pin=VD8-1
+Added Pin To Net: NetName=NetR6_1 Pin=VD8-2
+Added Pin To Net: NetName=GND Pin=VD9-1
+Added Pin To Net: NetName=NetR7_1 Pin=VD9-2
+Added Member To Class: ClassName=Main Member=Component VD6 LED_3
+Added Member To Class: ClassName=Main Member=Component VD7 LED_3
+Added Member To Class: ClassName=Main Member=Component VD8 LED_3
+Added Member To Class: ClassName=Main Member=Component VD9 LED_3

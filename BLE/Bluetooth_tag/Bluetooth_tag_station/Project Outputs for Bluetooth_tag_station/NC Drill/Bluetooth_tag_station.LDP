@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\Bluetooth_tag_station\Bluetooth_tag_station.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=bluetooth_tag_station-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=bluetooth_tag_station-nonplated.txt|DrillLayers=gtl,gbl

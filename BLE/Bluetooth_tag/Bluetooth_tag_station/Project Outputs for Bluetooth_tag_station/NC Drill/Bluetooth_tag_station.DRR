@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Bluetooth_tag_station.PcbDoc   09.03.2016  12:32:15
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Bluetooth_tag_station-Plated.TXT
+ASCII Non-Plated RoundHoles File : Bluetooth_tag_station-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             4         PTH        0.12inch (3.05mm)
+T2      16mil (0.399mm)                                           Round             10        PTH        5.01inch (127.25mm)
+T3      20mil (0.5mm)                                             Round             194       PTH        39.67inch (1007.57mm)
+T4      38mil (0.965mm)                                           Round             14        PTH        5.79inch (147.18mm)
+T5      39mil (0.991mm)                                           Round             8         PTH        2.10inch (53.44mm)
+T6      39mil (1.001mm)                                           Round             14        PTH        5.06inch (128.44mm)
+T7      55mil (1.4mm)                                             Round             8         PTH        1.72inch (43.60mm)
+T8      126mil (3.2mm)                                            Round             5         NPTH       9.44inch (239.79mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              257
+
+Total Processing Time (hh:mm:ss) : 00:00:00

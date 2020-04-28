@@ -1,0 +1,26 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~RF_Shield_hv2.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\RF_Shield_hv2\RF_Shield_hv2.PrjPcb|ReportField=Title~Bill of Materials For Project [RF_Shield_hv2.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~40|ReportField=ReportTime~15:33:59|ReportField=ReportDate~31.08.2016|ReportField=ReportDateTime~31.08.2016 15:33:59|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~31.08.2016|ReportField=CurrentTime~15:28:42|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\RF_Shield_hv2\Axel.SchDoc|ReportField=DocumentName~Axel.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~29.08.2016|ReportField=Organization~|ReportField=ProjectName~RF_Shield_hv2.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~RF_Shield_hv2.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\RF_Shield_hv2\RF_Shield_hv2.PrjPcb
+1|1pF|CC0603|C1, C6, C9|3
+2|0.1uF|CC0603|C2, C4, C7, C8, C10, C13, C20, C22|8
+3|10uF 6.3V|CC0805|C3|1
+4|6.8pF|CC0603|C5|1
+5|12pF|CC0603|C11, C12|2
+6|10uF|CC0805|C15, C19|2
+7|22pF|CC0603|C16, C17|2
+8|1uF|CC0603|C18|1
+9|470uFx6.3V|TAJ-D|C21|1
+10|KX022-1020||DA1|1
+11|CC2650|CC2650RHBT|DD1|1
+12|W25X20CLSNIG|S25FL016A0LMFI01|DD2|1
+13|2.4nH|L0603|L1, L5|2
+14|2nH|L0603|L2, L3|2
+15|10uH|L0805|L6|1
+16|BLM18HE152SN1|L0603|L7|1
+17|MS3V-T1R|CRYSTAL_32768 Hz|QR1|1
+18|SJK-6L-24.0|AC5032/2|QR2|1
+19|100k|RC0603|R1|1
+20|10k|RC0603|R2|1
+21|REPER1.2|REPER1.2|REPER1, REPER2|2
+22|MDSM-10R 20-25AT|Switch, Single Pole, Single Throw, Normally Open|S1|1
+23|PIN_1mm||X1|1
+24|MW03D|MW03D|XP1|1
+25|BH-10|BH-10|XP2|1

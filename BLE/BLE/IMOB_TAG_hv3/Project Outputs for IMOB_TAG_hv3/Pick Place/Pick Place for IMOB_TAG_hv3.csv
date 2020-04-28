@@ -1,0 +1,46 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\BLE\IMOB_TAG_hv3\Project Outputs for IMOB_TAG_hv3\Pick Place\Pick Place for IMOB_TAG_hv3.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       12.08.19
+Time:       10:31
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"BAT1","3034TR","BottomLayer","3034-TR","178,6000","55,3750","90","CR2032 holder smd"
+"X1","Keystone 2991","BottomLayer","Keystone_2991","178,6250","55,5750","180","Keystone minus pin for CR2032"
+"L1","BLM18HE152SN1","TopLayer","L0603","186,6000","43,7997","90","L0603"
+"XP3","n.p","BottomLayer","PLS-03","182,9100","69,7750","180","PLS03"
+"XP2","n.p","BottomLayer","PLS-03","180,4650","38,9750","360","PLS03"
+"XP1","n.p","BottomLayer","PLS-03","172,8400","38,9750","360","PLS03"
+"ANT1","IFA_TI_2.4G_Reference","TopLayer","ANT_IFA_2.4G_BEST","172,3000","52,4735","90",""
+"VD2","PMEG1020EJ","TopLayer","SOD323","183,6090","44,1250","360",""
+"R2","100k","TopLayer","RC0603","176,0503","43,9750","180","RC0603"
+"QR2","SJK-6L-24.0","TopLayer","AC5032_2","184,6750","62,8000","360","AC5032/2"
+"L6","2.4nH","TopLayer","L0402","176,6000","57,8250","90","L0402"
+"L5","2nH","TopLayer","L0402","174,3970","57,9500","270","L0402"
+"L4","2nH","TopLayer","L0402","174,8250","59,9750","180","L0402"
+"L3","2.4nH","TopLayer","L0402","178,5000","61,8500","270","L0402"
+"L2","10uH","TopLayer","RC0805","185,8650","50,8900","270","L0805"
+"DD1","CC2650","TopLayer","QFN32_TI","181,5250","55,6000","360","CC2650RHBT"
+"C19","0.1uF","TopLayer","CC0603","183,7750","42,5500","360","CC0603"
+"C18","1pF","TopLayer","CC0603","176,6000","54,9500","270","CC0603"
+"C17","1pF","TopLayer","CC0603","174,3750","62,4500","90","CC0603"
+"C16","12pF","TopLayer","CC0603","174,4000","55,0000","270","CC0603"
+"C15","6.8pF","TopLayer","CC0603","177,6500","63,6750","360","CC0603"
+"C14","1pF","TopLayer","CC0603","177,6422","59,9500","180","CC0603"
+"C13","22pF","TopLayer","CC0603","186,1250","65,4250","180","CC0603"
+"C12","22pF","TopLayer","CC0603","182,5250","65,4227","360","CC0603"
+"C9","0.1uF","TopLayer","CC0603","179,3000","43,9750","180","CC0603"
+"C8","0.1uF","TopLayer","CC0603","186,7000","53,8250","180","CC0603"
+"C7","10uF","TopLayer","CC0805","187,0500","55,7250","180","CC0805"
+"C6","10uF","TopLayer","CC0805","185,8750","47,3150","90","CC0805"
+"C5","1uF","TopLayer","CC0603","181,0000","50,6000","270","CC0603"
+"C4","0.1uF","TopLayer","CC0603","178,4000","50,8750","360","CC0603"
+"C3","0.1uF","TopLayer","CC0603","186,7750","58,6250","180","CC0603"
+"C2","0.1uF","TopLayer","CC0603","185,7000","60,2500","360","CC0603"
+"C1","0.1uF","TopLayer","CC0603","180,5250","61,5000","90","CC0603"

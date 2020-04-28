@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=XP4-10
+Change Component Comment : Designator=VD8 Old Comment=LED_3 New Comment=BL-B31V1F
+Change Component Comment : Designator=VD6 Old Comment=LED_3 New Comment=BL-B45V1F
+Change Component Comment : Designator=VD7 Old Comment=LED_3 New Comment=GNL-3014GD
+Added Pin To Net: NetName=MRDO Pin=DD2-62
+Added Pin To Net: NetName=MRDO Pin=XP4-9
+Added Net: Name=MRDO
+Added Pin To Net: NetName=NetDD2_65 Pin=DD2-65
+Added Pin To Net: NetName=NetDD2_65 Pin=XP4-8
+Added Net: Name=NetDD2_65
+Added Pin To Net: NetName=NetDD2_68 Pin=DD2-68
+Added Pin To Net: NetName=NetDD2_68 Pin=XP4-7
+Added Net: Name=NetDD2_68
+Added Pin To Net: NetName=RESET_RF Pin=DD2-52
+Added Net: Name=RESET_RF
+Added Pin To Net: NetName=SRDI Pin=DD2-61
+Added Pin To Net: NetName=SRDI Pin=XP4-10
+Added Net: Name=SRDI

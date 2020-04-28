@@ -1,0 +1,5 @@
+Added Component: Designator=A1(Antenna_WiFi)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetA1_1 Pin=A1-1
+Added Pin To Net: NetName=GND Pin=A1-2
+Added Member To Class: ClassName=[4]-RF Member=Component A1 Antenna Wi-Fi

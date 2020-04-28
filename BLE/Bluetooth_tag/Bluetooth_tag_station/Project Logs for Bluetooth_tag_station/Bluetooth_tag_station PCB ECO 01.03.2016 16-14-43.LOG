@@ -1,0 +1,8 @@
+Added Component: Designator=XP4(BH-10)
+Added Pin To Net: NetName=+3V3 Pin=XP4-1
+Added Pin To Net: NetName=GND Pin=XP4-6
+Added Pin To Net: NetName=RESET Pin=XP4-7
+Added Pin To Net: NetName=RF_RX Pin=XP4-8
+Added Pin To Net: NetName=RF_TX Pin=XP4-9
+Added Pin To Net: NetName=GND Pin=XP4-10
+Added Member To Class: ClassName=Interface Member=Component XP4 BH-10

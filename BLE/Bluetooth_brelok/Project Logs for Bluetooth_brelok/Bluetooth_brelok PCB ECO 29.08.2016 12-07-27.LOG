@@ -1,0 +1,6 @@
+Added Component: Designator=R3(RC0402)
+Added Pin To Net: NetName=VBAT_F Pin=R3-2
+Added Pin To Net: NetName=NetDD1_19 Pin=DD1-19
+Added Pin To Net: NetName=NetDD1_19 Pin=R3-1
+Added Net: Name=NetDD1_19
+Added Member To Class: ClassName=Main Member=Component R3 RC0402

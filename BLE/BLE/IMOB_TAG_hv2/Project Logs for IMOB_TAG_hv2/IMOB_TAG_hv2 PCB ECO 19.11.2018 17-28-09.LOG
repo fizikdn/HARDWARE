@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=A1-2
+Removed Member From Class: ClassName=[4]-RF Member=A1
+Added Component: Designator=ANT1(ANT_IFA_2.4G_BEST)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "IFA_TI_2.4G_Reference"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=NetANT1_1 Pin=ANT1-1
+Added Pin To Net: NetName=NetANT1_1 Pin=C16-2
+Added Net: Name=NetANT1_1
+Added Member To Class: ClassName=[4]-RF Member=Component ANT1 IFA_TI_2.4G_Reference

@@ -1,0 +1,7 @@
+Added Component: Designator=XP7(PLS-03)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BT_TX Pin=XP7-1
+Added Pin To Net: NetName=GND Pin=XP7-2
+Added Pin To Net: NetName=BT_RX Pin=XP7-3
+Added Member To Class: ClassName=[4]-INTERFACE_BOARD Member=Component XP7 PLS03

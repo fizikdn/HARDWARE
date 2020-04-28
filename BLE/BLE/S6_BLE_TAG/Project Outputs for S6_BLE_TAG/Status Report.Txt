@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [S6_BLE_TAG.PcbDoc]
+   Generated File[S6_BLE_TAG-Plated.TXT]
+   Generated File[S6_BLE_TAG.LDP]
+   Generated File[S6_BLE_TAG.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:10:27 On 28.05.2019

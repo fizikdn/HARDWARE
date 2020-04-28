@@ -1,0 +1,17 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~STANDART_JTAG_CONNECTOR.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\BLE\STANDART_JTAG_CONNECTOR\STANDART_JTAG_CONNECTOR.PrjPcb|ReportField=Title~Bill of Materials For Project [STANDART_JTAG_CONNECTOR.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~12:55:50|ReportField=ReportDate~09.07.2018|ReportField=ReportDateTime~09.07.2018 12:55:50|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~19|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~09.07.2018|ReportField=CurrentTime~12:45:58|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\BLE\STANDART_JTAG_CONNECTOR\[1]-COVER_PAGE.SchDoc|ReportField=DocumentName~[1]-COVER_PAGE.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~25.06.2018|ReportField=Organization~|ReportField=ProjectName~STANDART_JTAG_CONNECTOR.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~STANDART_JTAG_CONNECTOR.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\BLE\STANDART_JTAG_CONNECTOR\STANDART_JTAG_CONNECTOR.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|CAP0.35|CAP0.35|C1, C4|2
+2|0.1uF|CC0603|C2, C3|2
+3|NCP1117DT33RKG|Linear Regulator 3.3V|DA1|1
+4|DCJ25|DCJ25|J1|1
+5|PLS-02|PLS-02|J2|1
+6|1k|RC0603|R1|1
+7|100E|RC0603|R2|1
+8|SWT-2/5|Switch, Single Pole, Single Throw, Normally Open|S1|1
+9|BAT54C|BAT54C|VD1|1
+10|LED_0805||VD2|1
+11|BH-10|BH-10|XP1, XP5|2
+12|PBD2-10||XP2|1
+13|BH-20||XP3|1
+14|KLS1-238||XP4|1
+15|PLD-06|PLD06|XP6|1
+16|PLS03|PLS03|XP7|1

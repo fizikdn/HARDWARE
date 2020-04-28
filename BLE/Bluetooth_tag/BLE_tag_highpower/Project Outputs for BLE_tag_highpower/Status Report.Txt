@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:15:00 On 04.08.2017
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [BLE_tag_highpower.PrjPcb]
+   Generated File[Bill of Materials-BLE_tag_highpower.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:15:02 On 04.08.2017

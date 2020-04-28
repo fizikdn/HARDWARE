@@ -1,0 +1,32 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\BLE\STANDART_JTAG_CONNECTOR\Project Outputs for STANDART_JTAG_CONNECTOR\Pick Place\Pick Place for STANDART_JTAG_CONNECTOR.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       13.08.18
+Time:       13:54
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"XP7","PLS03","TopLayer","PLS-03","114,9000","46,8000","180","PLS03"
+"XP6","PLD-06","TopLayer","PIN6","125,7400","47,9700","180","PLD06"
+"XP5","BH-10","TopLayer","BH-10","105,1700","62,3400","90","BH-10"
+"XP4","KLS1-238","TopLayer","KLS1-238","127,3000","76,2625","90",""
+"XP3","BH-20","TopLayer","BH-20","151,4200","62,3650","270",""
+"XP2","PBD2-10","BottomLayer","PLD2-10","88,1000","62,3000","180",""
+"XP1","BH-10","TopLayer","BH-10","94,9300","62,3400","90","BH-10"
+"VD2","LED_0805","TopLayer","LED0805","135,5500","77,6250","180",""
+"VD1","BAT54C","TopLayer","SOT-23(123)","125,2660","69,5934","270","BAT54C"
+"S1","SWT-2/5","TopLayer","7906H-1","135,4615","48,1860","180","Switch, Single Pole, Single Throw, Normally Open"
+"R2","100E","TopLayer","RC0603","118,1997","49,2000","0","RC0603"
+"R1","1k","TopLayer","RC0603","133,0000","76,8503","270","RC0603"
+"J2","PLS-02","TopLayer","PLS-02","127,1300","55,5704","180","PLS-02"
+"J1","DCJ25","TopLayer","DCJ25","115,9250","69,1750","270","DCJ25"
+"DA1","NCP1117DT33RKG","TopLayer","D-PAK(TO-252AA)","130,3250","60,8250","180","Linear Regulator 3.3V"
+"C4","CAP0.35","TopLayer","CC8X3.5","117,7750","57,4750","180","CAP0.35"
+"C3","0.1uF","TopLayer","CC0603","134,3500","56,5500","180","CC0603"
+"C2","0.1uF","TopLayer","CC0603","136,8750","63,0750","180","CC0603"
+"C1","CAP0.35","TopLayer","CC8X3.5","135,3500","68,8500","360","CAP0.35"

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=BAT1-2
+Added Component: Designator=X1(Keystone_2991)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Keystone 2991"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=X1-1
+Added Pin To Net: NetName=GND Pin=X1-1
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component X1 Keystone 2991

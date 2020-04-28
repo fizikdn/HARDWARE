@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=+3V Pin=XP1-1
+Removed Pin From Net: NetName=GND Pin=XP1-3
+Removed Pin From Net: NetName=GND Pin=XP1-5
+Removed Pin From Net: NetName=BT_RX Pin=XP1-7
+Removed Pin From Net: NetName=BT_TX Pin=XP1-9
+Removed Pin From Net: NetName=RESET Pin=XP1-10
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=XP1
+Change Net Name : Old Net Name=RESET New Net Name=NetC9_2
+Added Pin To Net: NetName=NetDD1_13 Pin=DD1-13
+Added Pin To Net: NetName=NetDD1_13 Pin=TP2-1
+Added Net: Name=NetDD1_13
+Added Pin To Net: NetName=NetDD1_14 Pin=DD1-14
+Added Pin To Net: NetName=NetDD1_14 Pin=TP3-1
+Added Net: Name=NetDD1_14
+Added Pin To Net: NetName=NetDD1_15 Pin=DD1-15
+Added Pin To Net: NetName=NetDD1_15 Pin=TP4-1
+Added Net: Name=NetDD1_15
+Added Pin To Net: NetName=NetDD1_16 Pin=DD1-16
+Added Pin To Net: NetName=NetDD1_16 Pin=TP5-1
+Added Net: Name=NetDD1_16

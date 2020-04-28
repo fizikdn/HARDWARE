@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=BT_TX Pin=XP3-7
+Added Pin To Net: NetName=BT_RX Pin=XP3-8
+Added Pin To Net: NetName=BT_MRDO Pin=XP3-9
+Added Member To Class: ClassName=[4]-RF Member=Component ANT1 IFA_TI_2.4G_Reference

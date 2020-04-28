@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [STANDART_JTAG_CONNECTOR.PcbDoc]
+   Generated File[STANDART_JTAG_CONNECTOR-RoundHoles-Plated.TXT]
+   Generated File[STANDART_JTAG_CONNECTOR-RoundHoles-NonPlated.TXT]
+   Generated File[STANDART_JTAG_CONNECTOR-SlotHoles-Plated.TXT]
+   Generated File[STANDART_JTAG_CONNECTOR.LDP]
+   Generated File[STANDART_JTAG_CONNECTOR.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 13:59:48 On 13.08.2018

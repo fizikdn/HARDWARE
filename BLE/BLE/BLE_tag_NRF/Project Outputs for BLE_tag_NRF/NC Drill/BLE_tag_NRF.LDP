@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_tag_NRF\BLE_tag_NRF.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=ble_tag_nrf-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=ble_tag_nrf-nonplated.txt|DrillLayers=gtl,gbl

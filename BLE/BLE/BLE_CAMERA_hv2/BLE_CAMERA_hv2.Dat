@@ -1,0 +1,37 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~BLE_CAMERA_hv2.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_CAMERA_hv2\BLE_CAMERA_hv2.PrjPcb|ReportField=Title~Bill of Materials For Project [BLE_CAMERA_hv2.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~11:32:46|ReportField=ReportDate~13.08.2018|ReportField=ReportDateTime~13.08.2018 11:32:46|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~82|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~13.08.2018|ReportField=CurrentTime~11:27:44|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_CAMERA_hv2\[1]-COVER_PAGE.SchDoc|ReportField=DocumentName~[1]-COVER_PAGE.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~08.08.2018|ReportField=Organization~|ReportField=ProjectName~BLE_CAMERA_hv2.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~BLE_CAMERA_hv2.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_CAMERA_hv2\BLE_CAMERA_hv2.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|Antenna Wi-Fi|2.43GHz|A1|1
+2|0.1uF|CC0603|C1, C2, C3, C4, C8, C9, C27, C29|8
+3|1uF|CC0603|C5, C19, C20, C22, C23, C25|6
+4|10uF|CC0805|C6, C7, C21, C24, C26, C28|6
+5|22pF|CC0603|C10, C11, C12, C13|4
+6|1pF|CC0603|C14, C17, C18|3
+7|6.8pF|CC0603|C15|1
+8|12pF|CC0603|C16|1
+9|AP2139-3.3||DA1|1
+10|CC2650|CC2650RHBT|DD1|1
+11|BLM18HE152SN1|L0603|L1|1
+12|10uH|L0805|L2|1
+13|2.4nH|L0402|L3, L6|2
+14|2nH|L0402|L4, L5|2
+15|MS3V-T1R|CRYSTAL_32768 Hz|QR1|1
+16|SJK-6L-24.0|AC5032/2|QR2|1
+17|100k|RC0603|R1, R15, R17|3
+18|470k|RC0603|R2, R10, R11|3
+19|1k|RC0603|R5, R9|2
+20|2k|RC0603|R7|1
+21|10k|RC0603|R8, R14|2
+22|10E|RC0603|R12, R16, R18, R19, R20|5
+23|47k|RC0603|R13|1
+24|REPER1.2|REPER1.2|REPER1, REPER2|2
+25|BQ24092DGQR|1 A, Single-Input, Single-Cell Li-Ion Battery Charger with Operation Over JEITA and 10 k ohm NTC, 4.5 V, -40 to 150 degC, 10-pin MSOP-PowerPAD (DGQ), Green (RoHS & no Sb/Br)|U1|1
+26|AP2138-3.3||VD1|1
+27|LED_0805||VD2|1
+28|SFH4211-Z||VD3, VD4, VD5, VD6, VD7, VD8, VD9, VD10, VD11, VD12|10
+29|BC817-40|NPN 500ma transistor|VT3, VT5, VT6|3
+30|IRLML6402|HEXFET Power MOSFET|VT4|1
+31|KLS1-238||XP1|1
+32|PLD2-10||XP2|1
+33|MW03R|MW03R|XP3|1
+34|n.p|PLS2-04|XP4|1
+35|n.p|PLS03|XP5|1
+36|n.p|PLS2-03|XP6|1

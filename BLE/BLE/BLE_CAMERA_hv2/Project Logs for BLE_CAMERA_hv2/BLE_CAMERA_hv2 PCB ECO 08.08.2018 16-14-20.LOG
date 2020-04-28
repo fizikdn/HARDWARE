@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=R6-2
+Removed Member From Class: ClassName=[6]-CHARGER Member=R6
+Added Pin To Net: NetName=GND Pin=XP1-6
+Added Pin To Net: NetName=GND Pin=XP1-6
+Added Pin To Net: NetName=GND Pin=XP1-6
+Added Pin To Net: NetName=GND Pin=XP1-6
+Added Pin To Net: NetName=GND Pin=XP1-6
+Added Pin To Net: NetName=GND Pin=XP1-6

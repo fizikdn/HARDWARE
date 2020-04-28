@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=+3V Pin=TP1-1
+Removed Pin From Net: NetName=TMS Pin=TP2-1
+Removed Pin From Net: NetName=TCK Pin=TP3-1
+Removed Pin From Net: NetName=TDO Pin=TP4-1
+Removed Pin From Net: NetName=TDI Pin=TP5-1
+Removed Pin From Net: NetName=NetC9_2 Pin=TP6-1
+Removed Pin From Net: NetName=GND Pin=TP7-1
+Removed Pin From Net: NetName=BT_RX Pin=TP8-1
+Removed Pin From Net: NetName=BT_TX Pin=TP9-1
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP1
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP2
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP3
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP4
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP5
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP6
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP7
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP8
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=TP9
+Added Component: Designator=XP1(PLS-03)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP2(PLS-03)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XP3(PLS-03)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V Pin=XP1-1
+Added Pin To Net: NetName=NetC9_2 Pin=XP1-2
+Added Pin To Net: NetName=TDI Pin=XP1-3
+Added Pin To Net: NetName=TDO Pin=XP2-1
+Added Pin To Net: NetName=TCK Pin=XP2-2
+Added Pin To Net: NetName=TMS Pin=XP2-3
+Added Pin To Net: NetName=BT_RX Pin=XP3-1
+Added Pin To Net: NetName=GND Pin=XP3-2
+Added Pin To Net: NetName=BT_TX Pin=XP3-3
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component XP1 PLS03
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component XP2 PLS03
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component XP3 PLS03

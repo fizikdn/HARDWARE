@@ -1,0 +1,8 @@
+Change Component DesignItemId : Designator=L1 Old DesignItemId=L0603 New DesignItemId=L0402
+Change Component DesignItemId : Designator=L2 Old DesignItemId=L0603 New DesignItemId=L0402
+Change Component DesignItemId : Designator=L3 Old DesignItemId=L0603 New DesignItemId=L0402
+Change Component DesignItemId : Designator=L5 Old DesignItemId=L0603 New DesignItemId=L0402
+Change Component Footprint: Designator=L1 Old Footprint=L0603 New Footprint=L0402
+Change Component Footprint: Designator=L2 Old Footprint=L0603 New Footprint=L0402
+Change Component Footprint: Designator=L3 Old Footprint=L0603 New Footprint=L0402
+Change Component Footprint: Designator=L5 Old Footprint=L0603 New Footprint=L0402

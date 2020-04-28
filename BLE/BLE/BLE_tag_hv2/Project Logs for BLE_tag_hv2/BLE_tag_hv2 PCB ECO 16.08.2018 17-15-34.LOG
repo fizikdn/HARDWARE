@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=ANT1-2
+Removed Pin From Net: NetName=GND Pin=ANT1-2
+Removed Member From Class: ClassName=[4]-RF Member=ANT1
+Added Component: Designator=IFA 2.45GHz(IFA245_1mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "IFA 2.45GHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=IFA 2.45GHz-2
+Added Pin To Net: NetName=GND Pin=IFA 2.45GHz-2
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=IFA 2.45GHz-1
+Added Net: Name=NetC16_2
+Added Member To Class: ClassName=[4]-RF Member=Component C14 1.2pF
+Added Member To Class: ClassName=[4]-RF Member=Component IFA 2.45GHz (=Value) ANTENNA_IFA_245_1MM

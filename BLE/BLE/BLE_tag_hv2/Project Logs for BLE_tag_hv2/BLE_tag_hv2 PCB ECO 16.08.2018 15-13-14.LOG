@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=RF_P Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C17-2
+Removed Pin From Net: NetName=RF_N Pin=C18-1
+Removed Pin From Net: NetName=GND Pin=C18-2
+Removed Pin From Net: NetName=NetC15_2 Pin=L3-1
+Removed Pin From Net: NetName=RF_P Pin=L3-2
+Removed Pin From Net: NetName=RF_N Pin=L6-1
+Removed Member From Class: ClassName=[4]-RF Member=C17
+Removed Member From Class: ClassName=[4]-RF Member=C18
+Removed Member From Class: ClassName=[4]-RF Member=L4
+Removed Member From Class: ClassName=[4]-RF Member=L6
+Change Component Footprint: Designator=L3 Old Footprint=L0402 New Footprint=L0603
+Change Component Comment : Designator=C14 Old Comment=1pF New Comment=1.2pF
+Change Component Comment : Designator=L3 Old Comment=2.4nH New Comment=L0603
+Change Component Comment : Designator=C15 Old Comment=6.8pF New Comment=1.2pF
+Change Component Comment : Designator=VD1 Old Comment=PMEG2010 New Comment=PMEG1020EJ
+Change component parameters: Designator = "C14"; Footprint = "CC0603"; UniqueID = "\HCVCLEGT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1.2pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15"; Footprint = "CC0603"; UniqueID = "\XMUDJFTN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1.2pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3"; Footprint = "L0603"; UniqueID = "\DJRXEIYX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "15nH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD1"; Footprint = "SOD323"; UniqueID = "\DXIYLEXC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "PMEG1020EJ"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=RF_P Pin=C14-2
+Added Pin To Net: NetName=NetC15_2 Pin=C16-1
+Added Pin To Net: NetName=RF_P Pin=L3-1
+Added Pin To Net: NetName=RF_N Pin=L3-2
+Added Pin To Net: NetName=RF_P Pin=L5-1
+Added Pin To Net: NetName=NetC15_2 Pin=L5-2
+Added Room: Name=[3]-MCU
+Added Room: Name=[4]-RF
+Added Room: Name=[5]-CONNECTORS

@@ -1,0 +1,4 @@
+Change Component Comment : Designator=L6 Old Comment=2nH New Comment=n.p
+Change component parameters: Designator = "L6"; Footprint = "L0402"; UniqueID = "\KXQEAUTT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"

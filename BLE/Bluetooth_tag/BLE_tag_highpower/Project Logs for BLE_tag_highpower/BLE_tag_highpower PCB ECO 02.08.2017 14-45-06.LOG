@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=TXEN Pin=DD1-20
+Added Pin To Net: NetName=NetDA1_6 Pin=DD1-20
+Change Net Name : Old Net Name=NetDA1_6 New Net Name=TXEN
+Change Net Name : Old Net Name=TXEN New Net Name=NetDA1_14

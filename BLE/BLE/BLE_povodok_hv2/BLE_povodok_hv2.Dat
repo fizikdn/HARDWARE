@@ -1,0 +1,24 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~BLE_povodok_hv2.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_povodok_hv2\BLE_povodok_hv2.PrjPcb|ReportField=Title~Bill of Materials For Project [BLE_povodok_hv2.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~11:16:19|ReportField=ReportDate~22.06.2018|ReportField=ReportDateTime~22.06.2018 11:16:19|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~37|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~22.06.2018|ReportField=CurrentTime~10:54:40|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_povodok_hv2\[1]-COVER_PAGE.SchDoc|ReportField=DocumentName~[1]-COVER_PAGE.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~18.06.2018|ReportField=Organization~|ReportField=ProjectName~BLE_povodok_hv2.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~BLE_povodok_hv2.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_povodok_hv2\BLE_povodok_hv2.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|IFA_TI_2.4G_Reference||ANT1|1
+2|0.1uF|CC0603|C1, C2, C3, C4, C5, C9, C10|7
+3|1uF|CC0603|C6|1
+4|10uF|CC0805|C7, C8|2
+5|15pF|CC0603|C11, C12|2
+6|22pF|CC0603|C13, C14|2
+7|1pF|CC0603|C15, C18, C19|3
+8|6.8pF|CC0603|C16|1
+9|12pF|CC0603|C17|1
+10|CC2650|CC2650RHBT|DD1|1
+11|IS25LP016D-JBLE|S25FL016A0LMFI01|DD2|1
+12|BLM18HE152SN1|L0603|L1|1
+13|10uH|L0805|L2|1
+14|2.4nH|L0402|L3, L6|2
+15|2nH|L0402|L4, L5|2
+16|MS3V-T1R|CRYSTAL_32768 Hz|QR1|1
+17|SJK-6L-24.0|AC5032/2|QR2|1
+18|100k|RC0603|R1|1
+19|REPER1.2|REPER1.2|REPER1, REPER2|2
+20|PLD2-10||XP1|1
+21|PBS2-04|PLS2-04|XP2|1
+22|PBS2-03|PBS2-03|XP3|1
+23|PBS2-02|PBS2-02|XP4|1

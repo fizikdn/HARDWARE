@@ -1,0 +1,43 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+REPER2     REPER1.2               67.5mm       103.6mm        67.5mm       103.6mm        67.5mm       103.6mm  T         90.00 REPER1.2       
+REPER1     REPER1.2            105.125mm       82.55mm     105.125mm       82.55mm     105.125mm       82.55mm  T         90.00 REPER1.2       
+C22        CC0603                 75.3mm      79.475mm        75.3mm      79.475mm       74.45mm      79.475mm  T          0.00 0.1uF          
+C21        TAJ-D-1M             73.175mm        83.1mm      73.175mm        83.1mm     76.1722mm        83.1mm  T        180.00 470uFx6.3V     
+DD2        EIAJ_SO8              73.03mm     92.5465mm      71.125mm        88.8mm      71.125mm        88.8mm  T         90.00 W25X20CLSNIG   
+C20        CC0603               68.825mm       92.75mm      68.825mm       92.75mm      68.825mm        93.6mm  T        270.00 0.1uF          
+C1         CC0603                   86mm      94.975mm          86mm      94.975mm       85.15mm      94.975mm  T          0.00 1pF            
+C2         CC0603               71.925mm     101.775mm      71.925mm     101.775mm      72.775mm     101.775mm  T        180.00 0.1uF          
+C3         CC0805               71.875mm     103.675mm      71.875mm     103.675mm      70.975mm     103.675mm  T          0.00 10uF 6.3V      
+C4         CC0603               71.925mm     100.075mm      71.925mm     100.075mm      72.775mm     100.075mm  T        180.00 0.1uF          
+C5         CC0603                89.25mm      98.375mm       89.25mm      98.375mm        90.1mm      98.375mm  T        180.00 6.8pF          
+C6         CC0603               83.375mm      86.225mm      83.375mm      86.225mm      83.375mm      87.075mm  T        270.00 1pF            
+C7         CC0603                   92mm       97.55mm          92mm       97.55mm          92mm        96.7mm  T         90.00 0.1uF          
+C8         CC0603               100.55mm       97.35mm      100.55mm       97.35mm      100.55mm        96.5mm  T         90.00 0.1uF          
+C9         CC0603                87.55mm        91.6mm       87.55mm        91.6mm        86.7mm        91.6mm  T          0.00 1pF            
+C10        CC0603              102.225mm       97.35mm     102.225mm       97.35mm     102.225mm        98.2mm  T        270.00 0.1uF          
+C11        CC0603               88.325mm        84.3mm      88.325mm        84.3mm      88.325mm       85.15mm  T        270.00 12pF           
+C12        CC0603                91.95mm        84.3mm       91.95mm        84.3mm       91.95mm       85.15mm  T        270.00 12pF           
+C13        CC0603               94.425mm        84.3mm      94.425mm        84.3mm      94.425mm       83.45mm  T         90.00 0.1uF          
+C15        CC0805                100.1mm        81.8mm       100.1mm        81.8mm       100.1mm        80.9mm  T         90.00 10uF           
+C16        CC0603               94.375mm     100.275mm      94.375mm     100.275mm      93.525mm     100.275mm  T          0.00 22pF           
+C17        CC0603                98.15mm     100.275mm       98.15mm     100.275mm          99mm     100.275mm  T        180.00 22pF           
+C18        CC0603                 96.1mm       83.55mm        96.1mm       83.55mm        96.1mm        84.4mm  T        270.00 1uF            
+C19        CC0805              101.425mm      88.375mm     101.425mm      88.375mm     102.325mm      88.375mm  T        180.00 10uF           
+DA1        LGA-12                76.05mm      102.05mm       76.05mm      102.05mm        76.8mm      102.85mm  T        270.00 KX022-1020     
+DD1        QFN32_TI             95.275mm      90.775mm        92.8mm      92.525mm        92.8mm      92.525mm  T          0.00 CC2650         
+L1         L0603               87.6253mm      96.675mm        88.4mm      96.675mm        88.4mm      96.675mm  T        180.00 2.4nH          
+L2         L0603                83.375mm     91.1753mm      83.375mm       91.95mm      83.375mm       91.95mm  T        270.00 2nH            
+L3         L0603               84.1497mm        88.8mm      83.375mm        88.8mm      83.375mm        88.8mm  T          0.00 2nH            
+L5         L0603               85.9253mm       93.35mm        86.7mm       93.35mm        86.7mm       93.35mm  T        180.00 2.4nH          
+L6         RC0805                100.1mm        85.5mm       100.1mm        85.5mm       100.1mm       86.45mm  T        270.00 10uH           
+L7         L0603               83.3247mm      81.725mm       82.55mm      81.725mm       82.55mm      81.725mm  T          0.00 BLM18HE152SN1  
+QR1        MS3V-T1R             90.125mm      86.225mm      90.575mm          89mm      90.575mm          89mm  T        270.00 MS3V-T1R       
+QR2        AC5032_2               96.3mm        97.3mm        96.3mm        97.3mm        94.3mm        97.3mm  T          0.00 SJK-6L-24.0    
+R1         RC0603             101.7003mm        90.7mm       101.7mm        90.7mm     102.475mm        90.7mm  T        180.00 100k           
+X1         PIN_1mm                86.6mm        88.8mm        86.6mm        88.8mm        86.6mm        88.8mm  T          0.00 PIN_1mm        
+XP1        MW03D                 76.15mm       76.05mm       73.65mm       76.05mm       73.65mm       76.05mm  T          0.00 MW03D          
+XP2        BH-10                91.805mm      75.295mm      86.725mm      74.025mm      86.725mm      74.025mm  T          0.00 BH-10          
+R2         RC0603              99.6497mm       105.5mm       99.65mm       105.5mm      98.875mm       105.5mm  T          0.00 10k            
+S1         MDSM-10R              87.15mm      106.05mm        94.2mm      106.05mm        94.2mm      106.05mm  T        180.00 MDSM-10R 20-25AT
+

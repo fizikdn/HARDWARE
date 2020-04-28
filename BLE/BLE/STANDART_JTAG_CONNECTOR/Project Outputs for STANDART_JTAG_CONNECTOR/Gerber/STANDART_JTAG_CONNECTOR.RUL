@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: E:\Projects_Files\Projects\Altium_Projects\BLE\STANDART_JTAG_CONNECTOR\STANDART_JTAG_CONNECTOR.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

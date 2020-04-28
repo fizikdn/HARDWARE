@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+VBAT Pin=XP5-1
+Removed Pin From Net: NetName=NetVT3_3 Pin=XP5-2
+Removed Pin From Net: NetName=EX_T Pin=XP5-3
+Removed Member From Class: ClassName=[7]-CONNECTORS Member=XP5
+Added Component: Designator=X1(PIN_2x5mm_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=X2(PIN_2x5mm_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=X3(PIN_2x5mm_SMD)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+VBAT Pin=X1-1
+Added Pin To Net: NetName=EX_T Pin=X2-1
+Added Pin To Net: NetName=NetVT3_3 Pin=X3-1
+Added Member To Class: ClassName=[7]-CONNECTORS Member=Component X1 PIN_2x5mm_SMD
+Added Member To Class: ClassName=[7]-CONNECTORS Member=Component X2 PIN_2x5mm_SMD
+Added Member To Class: ClassName=[7]-CONNECTORS Member=Component X3 PIN_2x5mm_SMD

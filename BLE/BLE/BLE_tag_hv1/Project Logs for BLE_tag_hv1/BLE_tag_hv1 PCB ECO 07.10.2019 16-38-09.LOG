@@ -1,0 +1,12 @@
+Change Component Comment : Designator=VD1 Old Comment=PMEG2010 New Comment=PMEG1020EJ
+Change component parameters: Designator = "VD1"; Footprint = "SOD323"; UniqueID = "\DXIYLEXC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "PMEG1020EJ"; VariantName = "[No Variations]"
+Added Component: Designator=X1(PIN_3x3mm_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=X2(PIN_3x3mm_SMD)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetVD1_1 Pin=X1-1
+Added Pin To Net: NetName=GND Pin=X2-1
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component X1 PIN_3x3mm_SMD
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component X2 PIN_3x3mm_SMD

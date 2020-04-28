@@ -1,0 +1,81 @@
+Removed Pin From Net: NetName=VBAT Pin=C2-1
+Removed Pin From Net: NetName=VBAT Pin=C3-2
+Removed Pin From Net: NetName=VBAT Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C14-2
+Removed Pin From Net: NetName=VBAT Pin=C20-1
+Removed Pin From Net: NetName=SCK Pin=DA1-1
+Removed Pin From Net: NetName=SS0 Pin=DA1-2
+Removed Pin From Net: NetName=MISO Pin=DA1-3
+Removed Pin From Net: NetName=MOSI Pin=DA1-4
+Removed Pin From Net: NetName=GND Pin=DA1-5
+Removed Pin From Net: NetName=GND Pin=DA1-6
+Removed Pin From Net: NetName=GND Pin=DA1-7
+Removed Pin From Net: NetName=VBAT Pin=DA1-9
+Removed Pin From Net: NetName=VBAT Pin=DA1-10
+Removed Pin From Net: NetName=VBAT Pin=DD2-7
+Removed Pin From Net: NetName=VBAT Pin=DD2-8
+Removed Pin From Net: NetName=RF_N Pin=L4-1
+Removed Pin From Net: NetName=RF_P Pin=L4-2
+Removed Pin From Net: NetName=VBAT_F Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=XP2-10
+Removed Member From Class: ClassName=Main Member=C1
+Removed Member From Class: ClassName=Main Member=C2
+Removed Member From Class: ClassName=Main Member=C3
+Removed Member From Class: ClassName=Main Member=C4
+Removed Member From Class: ClassName=Main Member=C5
+Removed Member From Class: ClassName=Main Member=C6
+Removed Member From Class: ClassName=Main Member=C9
+Removed Member From Class: ClassName=Main Member=C14
+Removed Member From Class: ClassName=Main Member=DA1
+Removed Member From Class: ClassName=Main Member=L1
+Removed Member From Class: ClassName=Main Member=L2
+Removed Member From Class: ClassName=Main Member=L3
+Removed Member From Class: ClassName=Main Member=L4
+Removed Member From Class: ClassName=Main Member=L5
+Removed Member From Class: ClassName=Main Member=REPER1
+Removed Member From Class: ClassName=Main Member=REPER2
+Removed Member From Class: ClassName=Main Member=X1
+Change Component DesignItemId : Designator=DA1 Old DesignItemId=LIS2DH12 New DesignItemId=KX022-1020
+Change Component Footprint: Designator=R2 Old Footprint=RC0603-3M New Footprint=RC0603
+Change Component Comment : Designator=L5 Old Comment=2.7nH New Comment=2.4nH
+Change Component Comment : Designator=L2 Old Comment=122nH New Comment=2nH
+Change Component Comment : Designator=L7 Old Comment=L0603 New Comment=BLM18HE152SN1
+Change Component Comment : Designator=DA1 Old Comment=LIS2DH12 New Comment=KX022-1020
+Change Component Comment : Designator=DD2 Old Comment=M25PE16 New Comment=W25X20CLSNIG
+Change Component Description : Designator=DA1 Old Description=LIS2DH12 New Description=
+Added Pin To Net: NetName=VBAT_F Pin=C2-1
+Added Pin To Net: NetName=VBAT_F Pin=C3-2
+Added Pin To Net: NetName=VBAT_F Pin=C4-1
+Added Pin To Net: NetName=MISO Pin=DA1-1
+Added Pin To Net: NetName=MOSI Pin=DA1-2
+Added Pin To Net: NetName=VBAT_F Pin=DA1-3
+Added Pin To Net: NetName=GND Pin=DA1-4
+Added Pin To Net: NetName=VBAT_F Pin=DA1-7
+Added Pin To Net: NetName=GND Pin=DA1-9
+Added Pin To Net: NetName=SS0 Pin=DA1-10
+Added Pin To Net: NetName=SCK Pin=DA1-12
+Added Pin To Net: NetName=VBAT_F Pin=R1-1
+Added Pin To Net: NetName=MRDO Pin=DD1-8
+Added Pin To Net: NetName=MRDO Pin=XP2-9
+Added Net: Name=MRDO
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=L1-1
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Pin To Net: NetName=NetC20_1 Pin=DD2-7
+Added Pin To Net: NetName=NetC20_1 Pin=DD2-8
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=NetDD1_19 Pin=DD1-19
+Added Pin To Net: NetName=NetDD1_19 Pin=R1-2
+Added Net: Name=NetDD1_19
+Added Pin To Net: NetName=RXD Pin=DD1-7
+Added Pin To Net: NetName=RXD Pin=XP2-8
+Added Net: Name=RXD
+Added Pin To Net: NetName=SRDI Pin=DD1-9
+Added Pin To Net: NetName=SRDI Pin=XP2-10
+Added Net: Name=SRDI
+Added Pin To Net: NetName=TXD Pin=DD1-6
+Added Pin To Net: NetName=TXD Pin=XP2-7
+Added Net: Name=TXD
+Added Class: Name=Axel
+Added Class: Name=RF

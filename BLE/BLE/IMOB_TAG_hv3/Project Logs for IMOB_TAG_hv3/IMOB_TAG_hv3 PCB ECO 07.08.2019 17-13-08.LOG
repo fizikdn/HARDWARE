@@ -1,0 +1,6 @@
+Added Component: Designator=BAT1(3034-TR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "3034TR"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBAT1_1 Pin=BAT1-1
+Added Pin To Net: NetName=NetBAT1_1 Pin=BAT1-1
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component BAT1 3034TR

@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=X1 Old Footprint=PIN_3x3mm_SMD New Footprint=PIN_1.2mm
+Change Component Footprint: Designator=X2 Old Footprint=PIN_3x3mm_SMD New Footprint=PIN_1.2mm
+Change Component Comment : Designator=X1 Old Comment=PIN_3x3mm_SMD New Comment=PIN_1.2mm
+Change Component Comment : Designator=X2 Old Comment=PIN_3x3mm_SMD New Comment=PIN_1.2mm

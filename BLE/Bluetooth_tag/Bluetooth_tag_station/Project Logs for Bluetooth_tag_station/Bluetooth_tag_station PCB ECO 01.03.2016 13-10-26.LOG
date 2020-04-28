@@ -1,0 +1,20 @@
+Added Component: Designator=XP1(DG306-5.0)
+Added Component: Designator=XP2(DG306-5.0)
+Added Component: Designator=XP5(DG306-5.0)
+Added Pin To Net: NetName=GND Pin=XP1-1
+Added Pin To Net: NetName=VIN Pin=XP1-2
+Added Pin To Net: NetName=CAN_H Pin=FU1-2
+Added Pin To Net: NetName=CAN_H Pin=XP2-1
+Added Net: Name=CAN_H
+Added Pin To Net: NetName=CAN_L Pin=FU2-2
+Added Pin To Net: NetName=CAN_L Pin=XP2-2
+Added Net: Name=CAN_L
+Added Pin To Net: NetName=RS485_A Pin=FU3-2
+Added Pin To Net: NetName=RS485_A Pin=XP5-1
+Added Net: Name=RS485_A
+Added Pin To Net: NetName=RS485_B Pin=FU4-2
+Added Pin To Net: NetName=RS485_B Pin=XP5-2
+Added Net: Name=RS485_B
+Added Member To Class: ClassName=Interface Member=Component XP1 DG306-5.0 2PIN
+Added Member To Class: ClassName=Interface Member=Component XP2 DG306-5.0 2PIN
+Added Member To Class: ClassName=Interface Member=Component XP5 DG306-5.0 2PIN

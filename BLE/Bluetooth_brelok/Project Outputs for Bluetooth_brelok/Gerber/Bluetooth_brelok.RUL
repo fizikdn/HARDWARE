@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: D:\Projects_Files\Projects\Altium_Projects\Bluetooth_brelok\Bluetooth_brelok.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00

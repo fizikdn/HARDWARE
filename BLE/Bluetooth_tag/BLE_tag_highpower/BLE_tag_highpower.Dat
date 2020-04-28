@@ -1,0 +1,25 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~BLE_tag_highpower.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\BLE_tag_highpower\BLE_tag_highpower.PrjPcb|ReportField=Title~Bill of Materials For Project [BLE_tag_highpower.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~43|ReportField=ReportTime~10:15:01|ReportField=ReportDate~04.08.2017|ReportField=ReportDateTime~04.08.2017 10:15:01|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~04.08.2017|ReportField=CurrentTime~10:14:37|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\BLE_tag_highpower\MCU.SchDoc|ReportField=DocumentName~MCU.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~01.08.2017|ReportField=Organization~|ReportField=ProjectName~BLE_tag_highpower.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~BLE_tag_highpower.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\BLE_tag_highpower\BLE_tag_highpower.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|10uF|CC0805|C1, C9, C11, C19|4
+2|0.1uF|CC0603|C2, C3, C4, C5, C8, C20|6
+3|12pF|CC0603|C6, C7|2
+4|1uF|CC0603|C10|1
+5|22pF|CC0603|C13, C14|2
+6|1pF|CC0603|C15, C17, C18|3
+7|6.8pF|CC0603|C16|1
+8|RFX8422S||DA1|1
+9|CC2650|CC2650RHBT|DD1|1
+10|BLM18HE152SN1|L0603|L1|1
+11|10uH|L0805|L2|1
+12|2.4nH|L0402|L3, L7|2
+13|2nH|L0402|L4, L5|2
+14|n.p|L0402|L6|1
+15|MS3V-T1R|CRYSTAL_32768 Hz|QR1|1
+16|SJK-6L-24.0|AC5032/2|QR2|1
+17|100k|RC0603|R1|1
+18|n.p|RC0603|R2|1
+19|10k|RC0603|R3, R4, R5, R6, R7|5
+20|REPER1.2|REPER1.2|REPER1, REPER2|2
+21|PIN_1mm||X1|1
+22|MW03D|MW03D|XP1|1
+23|BH-10|BH-10|XP2|1
+24|PLD06_SMD||XP3|1

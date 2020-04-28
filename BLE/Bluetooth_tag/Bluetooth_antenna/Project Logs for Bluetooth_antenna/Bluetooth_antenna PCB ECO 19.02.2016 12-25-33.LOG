@@ -1,0 +1,4 @@
+Added Component: Designator=X?(PIN_1mm)
+Added Pin To Net: NetName=FEED Pin=X?-1
+Added Net: Name=FEED
+Added Member To Class: ClassName=Main Member=Component X? PIN_1mm

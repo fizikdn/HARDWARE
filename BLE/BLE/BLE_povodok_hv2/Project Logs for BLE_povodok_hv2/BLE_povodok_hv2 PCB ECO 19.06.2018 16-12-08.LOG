@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=DD2 Old Footprint=SO-8 New Footprint=EIAJ_SO8
+Change Component Comment : Designator=C11 Old Comment=12pF New Comment=15pF
+Change Component Comment : Designator=C12 Old Comment=12pF New Comment=15pF
+Change Component Comment : Designator=DD2 Old Comment=FM25CL64-G New Comment=S25FL016A0LMFI01
+Change component parameters: Designator = "C11"; Footprint = "CC0603"; UniqueID = "\MRYSIRIE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "15pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12"; Footprint = "CC0603"; UniqueID = "\DWGFTFBH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "15pF"; VariantName = "[No Variations]"

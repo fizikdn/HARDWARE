@@ -1,0 +1,16 @@
+Added Component: Designator=XP1(PLD06_SMD)
+Added Component: Designator=XP2(PLD06_SMD)
+Added Pin To Net: NetName=GND Pin=XP1-1
+Added Pin To Net: NetName=GND Pin=XP1-2
+Added Pin To Net: NetName=GND Pin=XP1-3
+Added Pin To Net: NetName=GND Pin=XP1-4
+Added Pin To Net: NetName=GND Pin=XP1-5
+Added Pin To Net: NetName=GND Pin=XP1-6
+Added Pin To Net: NetName=GND Pin=XP2-1
+Added Pin To Net: NetName=GND Pin=XP2-2
+Added Pin To Net: NetName=GND Pin=XP2-3
+Added Pin To Net: NetName=GND Pin=XP2-4
+Added Pin To Net: NetName=GND Pin=XP2-5
+Added Pin To Net: NetName=GND Pin=XP2-6
+Added Net: Name=GND
+Added Class: Name=Main

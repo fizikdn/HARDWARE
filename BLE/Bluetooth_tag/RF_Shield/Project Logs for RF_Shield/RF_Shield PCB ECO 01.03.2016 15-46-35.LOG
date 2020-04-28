@@ -1,0 +1,11 @@
+Added Component: Designator=R2(RC0603-3M)
+Added Component: Designator=S1(MDSM-10R)
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=START Pin=DD1-20
+Added Pin To Net: NetName=START Pin=R2-1
+Added Pin To Net: NetName=START Pin=S1-1
+Added Net: Name=START
+Added Pin To Net: NetName=VCPU Pin=R2-2
+Added Net: Name=VCPU
+Added Member To Class: ClassName=Main Member=Component R2 10k
+Added Member To Class: ClassName=Main Member=Component S1 MDSM-10R 20-25AT

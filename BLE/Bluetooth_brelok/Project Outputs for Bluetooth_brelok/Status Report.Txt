@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Bluetooth_brelok.PrjPcb]
+   Generated File[Bill of Materials-Bluetooth_brelok.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:40:44 On 05.09.2016

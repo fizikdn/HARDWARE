@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=NetC10_2 New Net Name=RESET
+Change Net Name : Old Net Name=NetDD1_13 New Net Name=JTAG_TMS
+Change Net Name : Old Net Name=NetDD1_14 New Net Name=JTAG_TCK
+Change Net Name : Old Net Name=NetDD1_15 New Net Name=JTAG_TDO
+Change Net Name : Old Net Name=NetDD1_16 New Net Name=JTAG_TDI
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component XP3 PBS2-03

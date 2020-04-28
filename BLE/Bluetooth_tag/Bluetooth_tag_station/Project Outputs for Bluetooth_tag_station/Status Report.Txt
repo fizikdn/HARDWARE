@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Bluetooth_tag_station.PcbDoc]
+   Generated File[Bluetooth_tag_station-Plated.TXT]
+   Generated File[Bluetooth_tag_station-NonPlated.TXT]
+   Generated File[Bluetooth_tag_station.LDP]
+   Generated File[Bluetooth_tag_station.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:32:16 On 09.03.2016

@@ -1,0 +1,12 @@
+Change Component Comment : Designator=DD2 Old Comment=S25FL016A0LMFI01 New Comment=IS25LP016D-JBLE
+Change component parameters: Designator = "DD2"; Footprint = "EIAJ_SO8"; UniqueID = "\FRDYJOMY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "IS25LP016D-JBLE"; VariantName = "[No Variations]"
+Added Component: Designator=REPER3(REPER1.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=REPER4(REPER1.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=[4]-RF Member=Component REPER3 REPER1.2
+Added Member To Class: ClassName=[4]-RF Member=Component REPER4 REPER1.2

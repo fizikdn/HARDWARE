@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BLE_povodok_hv2.PcbDoc]
+   Generated File[BLE_povodok_hv2-Plated.TXT]
+   Generated File[BLE_povodok_hv2.LDP]
+   Generated File[BLE_povodok_hv2.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:52:51 On 22.06.2018

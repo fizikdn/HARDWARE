@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [BLE_tag_NRF.PcbDoc]
+   Generated File[Pick Place for BLE_tag_NRF.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:11:48 On 21.09.2018

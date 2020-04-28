@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=ANT1-2
+Removed Pin From Net: NetName=GND Pin=ANT1-2
+Removed Member From Class: ClassName=[4]-RF Member=ANT1
+Added Component: Designator=A1(Antenna_WiFi)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=A1-2
+Added Pin To Net: NetName=NetA1_1 Pin=A1-1
+Added Pin To Net: NetName=NetA1_1 Pin=C16-2
+Added Net: Name=NetA1_1
+Added Member To Class: ClassName=[4]-RF Member=Component A1 Antenna Wi-Fi

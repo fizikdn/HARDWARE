@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BLE_tag_hv1.PcbDoc]
+   Generated File[BLE_tag_hv1-Plated.TXT]
+   Generated File[BLE_tag_hv1-NonPlated.TXT]
+   Generated File[BLE_tag_hv1.LDP]
+   Generated File[BLE_tag_hv1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 17:21:50 On 07.10.2019

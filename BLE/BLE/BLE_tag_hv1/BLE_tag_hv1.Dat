@@ -1,0 +1,23 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~BLE_tag_hv1.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_tag_hv1\BLE_tag_hv1.PrjPcb|ReportField=Title~Bill of Materials For Project [BLE_tag_hv1.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~12:08:22|ReportField=ReportDate~19.07.2018|ReportField=ReportDateTime~19.07.2018 12:08:22|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~36|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~19.07.2018|ReportField=CurrentTime~12:06:57|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_tag_hv1\[1]-COVER_PAGE.SchDoc|ReportField=DocumentName~[1]-COVER_PAGE.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~16.07.2018|ReportField=Organization~|ReportField=ProjectName~BLE_tag_hv1.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~BLE_tag_hv1.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\BLE\BLE_tag_hv1\BLE_tag_hv1.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|IFA_TI_2.4G_Reference||ANT1|1
+2|0.1uF|CC0603|C1, C2, C3, C4, C8, C9, C19|7
+3|1uF|CC0603|C5|1
+4|10uF|CC0805|C6, C7|2
+5|15pF|CC0603|C10, C11|2
+6|22pF|CC0603|C12, C13|2
+7|1pF|CC0603|C14, C17, C18|3
+8|6.8pF|CC0603|C15|1
+9|12pF|CC0603|C16|1
+10|CC2650|CC2650RHBT|DD1|1
+11|BLM18HE152SN1|L0603|L1|1
+12|10uH|L0805|L2|1
+13|2.4nH|L0402|L3, L6|2
+14|2nH|L0402|L4, L5|2
+15|MS3V-T1R|CRYSTAL_32768 Hz|QR1|1
+16|SJK-6L-24.0|AC5032/2|QR2|1
+17|100k|RC0603|R1|1
+18|REPER1.2|REPER1.2|REPER1, REPER2|2
+19|PMEG2010||VD1|1
+20|BHC-CR123A|Holder for CR123 battery|XP1|1
+21|PLD2-10||XP2|1
+22|BH-10|BH-10|XP3|1

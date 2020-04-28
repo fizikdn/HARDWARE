@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectSpec>
+    <project
+        title="Reed_Switch"
+        name="Reed_Switch"
+        device="CC2650F128"
+        toolChain="TI"
+        linkerCommandFile="cc26x0f128.cmd"
+        compilerBuildOptions=" -mv7M3 --code_state=16 --abi=eabi -me -g --gcc --gen_func_subsections=on  --display_error_number --diag_warning=255 --diag_wrap=off -DCC26XXWARE -IC:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600"
+        linkerBuildOptions=" -lC:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/bin/ccs/driverlib.lib -x"
+        description="Reed_Switch (no operating system)"
+        launchWizard="false">
+
+        <property name="target" value="ti.targets.arm.elf.M3"/>
+        <property name="platform" value="ti.platforms.simplelink:CC2650F128"/>
+        <property name="buildProfile" value="release"/>
+        <property name="isHybrid" value="true"/>
+        <property name="configuroOptions" value="--compileOptions &quot;${COMPILER_FLAGS} &quot; "/>
+
+        <pathVariable name="CC26XXWARE" path="C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600" scope="project"></pathVariable>
+        <pathVariable name="IMPORT_PATH" path="." scope="project"></pathVariable>
+
+        <file path="CC26XXWARE/linker_files/cc26x0f128.cmd" openOnCreation="false" excludeFromBuild="false" action="link" >
+        </file>
+        <file path="CC26XXWARE/startup_files/ccfg.c" openOnCreation="false" excludeFromBuild="false" action="link" targetDirectory="./Setup" createVirtualFolders="true">
+        </file>
+        <file path="CC26XXWARE/startup_files/startup_ccs.c" openOnCreation="false" excludeFromBuild="false" action="link" targetDirectory="./Setup" createVirtualFolders="true">
+        </file>
+
+        <file path="IMPORT_PATH/../../source/scif.c" openOnCreation="false" excludeFromBuild="false" action="link" targetDirectory=".">
+        </file>
+        <file path="IMPORT_PATH/../../source/scif_framework.c" openOnCreation="false" excludeFromBuild="false" action="link" targetDirectory=".">
+        </file>
+        <file path="IMPORT_PATH/../../source/main.c" openOnCreation="false" excludeFromBuild="false" action="link" targetDirectory=".">
+        </file>
+
+    </project>
+</projectSpec>
+

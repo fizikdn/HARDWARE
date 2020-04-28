@@ -1,0 +1,7 @@
+Added Component: Designator=XP4(MW03D)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=XP4-1
+Added Pin To Net: NetName=NetVD1_1 Pin=XP4-2
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component XP2 PLD2-10
+Added Member To Class: ClassName=[5]-CONNECTORS Member=Component XP4 MW03D

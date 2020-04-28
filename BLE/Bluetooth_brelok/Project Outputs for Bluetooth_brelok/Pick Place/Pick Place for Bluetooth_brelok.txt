@@ -1,0 +1,38 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+C8         CC0603              147.675mm      65.375mm     147.675mm      65.375mm     147.675mm      66.225mm  T        270.00 10uFx6.3V      
+C9         CC0603              147.725mm        55.1mm     147.725mm        55.1mm     146.875mm        55.1mm  T          0.00 1uFx6.3V       
+C10        CC0603              156.825mm        58.1mm     156.825mm        58.1mm     157.675mm        58.1mm  T        180.00 10uFx6.3V      
+XP1        PLD2-10             132.325mm      76.275mm     136.325mm       77.25mm     136.325mm      77.275mm  T        270.00 PLD2-10        
+VD1        LED3                164.677mm      67.927mm     165.575mm      68.825mm     165.575mm      68.825mm  T        225.00 BL-B45V1-L     
+S1         DTSM-61N             141.65mm       67.95mm      137.55mm        70.2mm      137.55mm        70.2mm  T        360.00 DTSM-61N       
+REPER2     REPER1.2            165.425mm       55.95mm     165.425mm       55.95mm     165.425mm       55.95mm  T         90.00 REPER1.2       
+REPER1     REPER1.2            127.625mm      80.375mm     127.625mm      80.375mm     127.625mm      80.375mm  T         90.00 REPER1.2       
+R2         RC0402               137.55mm      72.125mm      137.55mm      72.125mm      137.55mm        71.7mm  T         90.00 10k            
+R1         RC0402               162.65mm       63.25mm      162.65mm       63.25mm      162.65mm      63.675mm  T        270.00 1k             
+QR2        AC5032_2            157.225mm      62.225mm     157.225mm      62.225mm     159.225mm      62.225mm  T        180.00 SJK-6L-24.0    
+QR1        MS3V-T1R             143.95mm      58.425mm       144.4mm        61.2mm       144.4mm        61.2mm  T        270.00 MS3V-T1R       
+L6         L0402               137.125mm       61.45mm     137.125mm       61.45mm     137.125mm      61.875mm  T        270.00 2.4nH          
+L5         L0402               135.525mm        57.4mm     135.525mm        57.4mm      135.95mm        57.4mm  T        180.00 2nH            
+L4         L0402                135.95mm      59.175mm      135.95mm      59.175mm      135.95mm        59.6mm  T        270.00 2nH            
+L3         L0402                134.85mm       63.65mm      134.85mm       63.65mm      134.85mm      64.075mm  T        270.00 2.4nH          
+L2         L0603               141.475mm     73.3503mm     141.475mm      74.125mm     141.475mm      74.125mm  T        270.00 BLM18HE152SN1  
+L1         L0603              154.4503mm      56.375mm     155.225mm      56.375mm     155.225mm      56.375mm  T        180.00 10uH           
+DD1        QFN32_TI            150.525mm      60.425mm      148.05mm      62.175mm      148.05mm      62.175mm  T        360.00 CC2650         
+C18        CC0402              138.475mm       61.45mm     138.475mm       61.45mm     138.475mm      61.025mm  T         90.00 1pF            
+C17        CC0402               135.95mm       55.65mm      135.95mm       55.65mm      135.95mm      55.225mm  T         90.00 1pF            
+C16        CC0402               134.85mm       65.85mm      134.85mm       65.85mm      134.85mm      66.275mm  T        270.00 6.8pF          
+C15        CC0402              133.375mm        57.4mm     133.375mm        57.4mm       133.8mm        57.4mm  T        180.00 12pF           
+C14        CC0402               134.85mm       61.45mm      134.85mm       61.45mm      134.85mm      61.025mm  T         90.00 1pF            
+C13        CC0603               143.95mm        78.2mm      143.95mm        78.2mm      143.95mm       79.05mm  T        270.00 10uFx6.3V      
+C12        CC0402               155.65mm      59.675mm      155.65mm      59.675mm     156.075mm      59.675mm  T        180.00 22pF           
+C11        CC0402                158.8mm      59.675mm       158.8mm      59.675mm     158.375mm      59.675mm  T        360.00 22pF           
+C6         CC0603               139.25mm      73.425mm      139.25mm      73.425mm      139.25mm      74.275mm  T        270.00 0.1uF          
+C5         CC0402              145.575mm      60.775mm     145.575mm      60.775mm     145.575mm       60.35mm  T         90.00 12pF           
+C4         CC0402              141.875mm        61.2mm     141.875mm        61.2mm      141.45mm        61.2mm  T        360.00 12pF           
+C3         CC0402                147.3mm       56.65mm       147.3mm       56.65mm     146.875mm       56.65mm  T          0.00 0.1uFx6.3V     
+C2         CC0402                149.2mm        66.4mm       149.2mm        66.4mm       149.2mm      65.975mm  T         90.00 0.1uFx6.3V     
+C1         CC0402                154.1mm       54.95mm       154.1mm       54.95mm     153.675mm       54.95mm  T          0.00 0.1uFx6.3V     
+BAT1       BAT_1632             155.86mm      73.825mm      145.85mm        73.8mm      165.87mm       73.85mm  T        360.00 Keystone 3012TR
+A1         Antenna_WiFi       132.0375mm       56.35mm     132.025mm        57.4mm     132.025mm        57.4mm  T         90.00 Antenna Wi-Fi  
+

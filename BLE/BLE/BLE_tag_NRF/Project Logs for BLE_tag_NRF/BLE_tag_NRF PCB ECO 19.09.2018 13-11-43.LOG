@@ -1,0 +1,217 @@
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=+3V_F Pin=C3-2
+Removed Pin From Net: NetName=+3V_F Pin=C4-2
+Removed Pin From Net: NetName=NetC1_1 Pin=C6-2
+Removed Pin From Net: NetName=+3V_F Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C12-2
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C19-1
+Removed Pin From Net: NetName=+3V Pin=C19-2
+Removed Pin From Net: NetName=+3V_F Pin=DD1-11
+Removed Pin From Net: NetName=+3V_F Pin=DD1-18
+Removed Pin From Net: NetName=+3V_F Pin=DD1-28
+Removed Pin From Net: NetName=NetC1_1 Pin=DD1-29
+Removed Pin From Net: NetName=NetC1_1 Pin=DD1-32
+Removed Pin From Net: NetName=GND Pin=DD1-33
+Removed Pin From Net: NetName=GND Pin=IFA 2.45GHz-2
+Removed Pin From Net: NetName=GND Pin=IFA 2.45GHz-2
+Removed Pin From Net: NetName=NetDD1_17 Pin=L2-1
+Removed Pin From Net: NetName=NetVD1_1 Pin=XP1-1
+Removed Pin From Net: NetName=GND Pin=XP1-2
+Removed Pin From Net: NetName=+3V Pin=XP2-1
+Removed Pin From Net: NetName=GND Pin=XP2-3
+Removed Pin From Net: NetName=GND Pin=XP2-5
+Removed Pin From Net: NetName=+3V Pin=XP3-1
+Removed Pin From Net: NetName=GND Pin=XP3-6
+Removed Pin From Net: NetName=GND Pin=XP4-1
+Removed Pin From Net: NetName=NetVD1_1 Pin=XP4-2
+Removed Member From Class: ClassName=[5]-CONNECTORS Member=C19
+Removed Member From Class: ClassName=[3]-MCU Member=QR2
+Change Component Footprint: Designator=XP3 Old Footprint=BH-10 New Footprint=CR123_HOLDER
+Change Component Footprint: Designator=C1 Old Footprint=CC0603 New Footprint=CC0805
+Change Component Footprint: Designator=C7 Old Footprint=CC0805 New Footprint=CC0603
+Change Component Footprint: Designator=XP1 Old Footprint=CR123_HOLDER New Footprint=MW03D
+Change Component Footprint: Designator=L3 Old Footprint=L0603 New Footprint=L0402
+Change Component Footprint: Designator=XP4 Old Footprint=MW03D New Footprint=PLS-05
+Change Component Footprint: Designator=XP2 Old Footprint=PLD2-10 New Footprint=PLS-03
+Change Component Footprint: Designator=DD1 Old Footprint=QFN32_TI New Footprint=QFN-32
+Change Component Comment : Designator=C4 Old Comment=0.1uF New Comment=0.9pF
+Change Component Comment : Designator=C2 Old Comment=0.1uF New Comment=1uF
+Change Component Comment : Designator=C3 Old Comment=0.1uF New Comment=12pF
+Change Component Comment : Designator=C8 Old Comment=0.1uF New Comment=100pF
+Change Component Comment : Designator=C1 Old Comment=0.1uF New Comment=n.p
+Change Component Comment : Designator=C14 Old Comment=1.2pF New Comment=12pF
+Change Component Comment : Designator=C15 Old Comment=1.2pF New Comment=12pF
+Change Component Comment : Designator=C5 Old Comment=1uF New Comment=0.1uF
+Change Component Comment : Designator=C7 Old Comment=10uF New Comment=0.1uF
+Change Component Comment : Designator=C6 Old Comment=10uF New Comment=4.7uF
+Change Component Comment : Designator=C16 Old Comment=12pF New Comment=0.1uF
+Change Component Comment : Designator=C10 Old Comment=15pF New Comment=12pF
+Change Component Comment : Designator=C11 Old Comment=15pF New Comment=12pF
+Change Component Comment : Designator=C13 Old Comment=22pF New Comment=0.1uF
+Change Component Comment : Designator=C12 Old Comment=22pF New Comment=n.p
+Change Component Comment : Designator=XP3 Old Comment=BH-10 New Comment=BHC-CR123A
+Change Component Comment : Designator=XP1 Old Comment=BHC-CR123A New Comment=MW03D
+Change Component Comment : Designator=DD1 Old Comment=CC2650 New Comment=nRF52810QCAA
+Change Component Comment : Designator=L3 Old Comment=L0603 New Comment=3.9nH
+Change Component Comment : Designator=XP4 Old Comment=MW03D New Comment=PLS-05
+Change Component Comment : Designator=XP2 Old Comment=PLD2-10 New Comment=PLS03
+Change component parameters: Designator = "C1"; Footprint = "CC0805"; UniqueID = "\IBNJNCHS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2"; Footprint = "CC0603"; UniqueID = "\NKSXFXAS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3"; Footprint = "CC0603"; UniqueID = "\VPIRJGNS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4"; Footprint = "CC0603"; UniqueID = "\AXWWPKWK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.9pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5"; Footprint = "CC0603"; UniqueID = "\WGWFXQJW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6"; Footprint = "CC0805"; UniqueID = "\MEWQOHJN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7"; Footprint = "CC0603"; UniqueID = "\OKLWFVMU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8"; Footprint = "CC0603"; UniqueID = "\AKDQLNCS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10"; Footprint = "CC0603"; UniqueID = "\KQOYOUNP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11"; Footprint = "CC0603"; UniqueID = "\YOARVXIE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12"; Footprint = "CC0603"; UniqueID = "\HAAYRDBI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13"; Footprint = "CC0603"; UniqueID = "\USKHEYTI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14"; Footprint = "CC0603"; UniqueID = "\KXUEDGDB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15"; Footprint = "CC0603"; UniqueID = "\LUPAAMDU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "12pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C16"; Footprint = "CC0603"; UniqueID = "\TGNCBYMO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "DD1"; Footprint = "QFN-32"; UniqueID = "\IHARXWCV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "nRF52810QCAA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3"; Footprint = "L0402"; UniqueID = "\ACUOONRQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "3.9nH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP1"; Footprint = "MW03D"; UniqueID = "\JWUXNGTR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP2"; Footprint = "PLS-03"; UniqueID = "\NSGXFKTO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP3"; Footprint = "CR123_HOLDER"; UniqueID = "\ECQVGAXJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "BHC-CR123A"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(QUARTZ_3225_4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SJK-7U"; VariantName = "[No Variations]"
+Added Component: Designator=Value1(IFA245_1mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "IFA 2.45GHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V_F Pin=C5-1
+Added Pin To Net: NetName=+3V_F Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=+3V_F Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=+3V Pin=C16-2
+Added Pin To Net: NetName=+3V_F Pin=DD1-1
+Added Pin To Net: NetName=+3V_F Pin=DD1-9
+Added Pin To Net: NetName=GND Pin=DD1-20
+Added Pin To Net: NetName=+3V_F Pin=DD1-25
+Added Pin To Net: NetName=NetC1_1 Pin=DD1-30
+Added Pin To Net: NetName=+3V_F Pin=DD1-32
+Added Pin To Net: NetName=GND Pin=Value1-2
+Added Pin To Net: NetName=GND Pin=Value1-2
+Added Pin To Net: NetName=GND Pin=XP1-1
+Added Pin To Net: NetName=NetVD1_1 Pin=XP1-2
+Added Pin To Net: NetName=GND Pin=XP2-2
+Added Pin To Net: NetName=NetVD1_1 Pin=XP3-1
+Added Pin To Net: NetName=GND Pin=XP3-2
+Added Pin To Net: NetName=GND Pin=XP4-5
+Added Pin To Net: NetName=+3V3 Pin=XP4-1
+Added Net: Name=+3V3
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=C2-2
+Added Pin To Net: NetName=NetC1_2 Pin=DD1-29
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=L3-2
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=Value1-1
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=DD1-19
+Added Pin To Net: NetName=NetC4_2 Pin=L3-1
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=DD1-22
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetC9_2 Pin=DD1-16
+Added Pin To Net: NetName=NetC9_2 Pin=R1-1
+Added Pin To Net: NetName=NetC9_2 Pin=XP4-2
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=NetC10_1 Pin=DD1-2
+Added Pin To Net: NetName=NetC10_1 Pin=QR1-2
+Added Net: Name=NetC10_1
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=DD1-3
+Added Pin To Net: NetName=NetC11_1 Pin=QR1-1
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetC12_2 Pin=C12-2
+Added Pin To Net: NetName=NetC12_2 Pin=DD1-21
+Added Net: Name=NetC12_2
+Added Pin To Net: NetName=NetC14_1 Pin=C14-1
+Added Pin To Net: NetName=NetC14_1 Pin=DD1-23
+Added Pin To Net: NetName=NetC14_1 Pin=Q1-1
+Added Net: Name=NetC14_1
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_1 Pin=DD1-24
+Added Pin To Net: NetName=NetC15_1 Pin=Q1-3
+Added Net: Name=NetC15_1
+Added Pin To Net: NetName=NetDD1_14 Pin=DD1-14
+Added Pin To Net: NetName=NetDD1_14 Pin=XP2-3
+Added Net: Name=NetDD1_14
+Added Pin To Net: NetName=NetDD1_15 Pin=DD1-15
+Added Pin To Net: NetName=NetDD1_15 Pin=XP2-1
+Added Net: Name=NetDD1_15
+Added Pin To Net: NetName=NetDD1_18 Pin=DD1-18
+Added Pin To Net: NetName=NetDD1_18 Pin=XP4-3
+Added Net: Name=NetDD1_18
+Added Pin To Net: NetName=NetDD1_31 Pin=DD1-31
+Added Pin To Net: NetName=NetDD1_31 Pin=L2-1
+Added Net: Name=NetDD1_31
+Added Pin To Net: NetName=NetXP4_4 Pin=XP4-4
+Added Net: Name=NetXP4_4
+Change Class Name : Old Net Name=[5]-CONNECTORS New Net Name=[4]-CONNECTORS
+Added Member To Class: ClassName=[3]-MCU Member=Component C14 12pF
+Added Member To Class: ClassName=[3]-MCU Member=Component C15 12pF
+Added Member To Class: ClassName=[4]-CONNECTORS Member=Component C16 0.1uF
+Added Member To Class: ClassName=[3]-MCU Member=Component L3 3.9nH
+Added Member To Class: ClassName=[3]-MCU Member=Component Q1 SJK-7U
+Added Member To Class: ClassName=[3]-MCU Member=Component REPER1 REPER1.2
+Added Member To Class: ClassName=[3]-MCU Member=Component REPER2 REPER1.2
+Added Member To Class: ClassName=[3]-MCU Member=Component Value1 (=Value1) ANTENNA_IFA_245_1MM

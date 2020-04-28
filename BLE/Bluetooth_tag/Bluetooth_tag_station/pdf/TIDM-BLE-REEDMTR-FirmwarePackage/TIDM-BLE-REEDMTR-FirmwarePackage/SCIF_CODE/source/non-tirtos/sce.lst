@@ -1,0 +1,732 @@
+               .deffile adi_defs.asm
+               .deffile ddi_defs.asm
+               .deffile reg_defs.asm
+               .deffile sce_defs.asm
+               
+               ; Number of supported tasks
+               .define TASK_COUNT      1
+               
+               ; Resource-specified definitions, if any
+               ; (None)
+               
+               
+               .segment begin "Framework"
+               
+               
+               VectorTable:
+0000 ---- 1408                         jsr         PowerUp
+0001 ---- 040c                         jmp         TaskCtrlReqVector
+0002 ---- 1408                         jsr         PowerUp
+0003 ---- 042c                         jmp         AonRtcCh2Vector
+0004 ---- 1408                         jsr         PowerUp
+0005 ---- 0447                         jmp         Event0Vector
+0006 ---- 1408                         jsr         PowerUp
+0007 ---- 044d                         jmp         TaskAlertAckVector
+               
+               
+               
+               
+               PowerUp:
+                                       ; Deassert the power-down request
+0008 ---- 4436                         iobclr      #0, [#IOP_WUC_PWRDWNREQ]
+               
+                                       ; Wait for it to take effect
+0009 ---- 2437 /waitForPdAck:          iobtst      #0, [#IOP_WUC_PWRDWNACK]
+000a ---- aefe                         biob1       /waitForPdAck
+               
+               FwEmptyFunc:            ; Done
+000b ---- adb7                         rts
+               
+               
+               
+               
+               TaskCtrlReqVector:
+                                       ; Clear the vector flag
+000c ---- 6442                         iobset      #0, [#IOP_EVCTL_VECFLAGSCLR]
+               
+                                       ; For each task ...
+000d ---- 7000                         ld          R7, #0
+               /loop:
+                                           ; Save the task ID
+000e ---- 7c6b                             st          R7, [#fwCtrlInt/taskId]
+               
+                                           ; Handle initialize request, if any
+000f ---- 6870                             ld          R6, [#fwCtrlExt/bvTaskInitializeReq]
+0010 ---- 0068                             ld          R0, #pFwTaskInitializeFuncTable
+0011 ---- 1425                             jsr         /handleReq
+               
+                                           ; Handle execute request, if any
+0012 ---- 6871                             ld          R6, [#fwCtrlExt/bvTaskExecuteReq]
+0013 ---- 0069                             ld          R0, #pFwTaskExecuteFuncTable
+0014 ---- 1425                             jsr         /handleReq
+               
+                                           ; Handle terminate request, if any
+0015 ---- 6872                             ld          R6, [#fwCtrlExt/bvTaskTerminateReq]
+0016 ---- 006a                             ld          R0, #pFwTaskTerminateFuncTable
+0017 ---- 1425                             jsr         /handleReq
+               
+                                           ; Move on to the next task
+0018 ---- 786b                             ld          R7, [#fwCtrlInt/taskId]
+0019 ---- f801                             add         R7, #1
+               
+001a ---- fa01                         cmp         R7, #TASK_COUNT
+001b ---- bef2                         bneq        /loop
+               
+                                       ; Update which tasks are ...
+001c ---- 786e                         ld          R7, [#fwCtrlExt/bvActiveTasks]
+                                       ; ... currently active ...
+001d ---- 6870                         ld          R6, [#fwCtrlExt/bvTaskInitializeReq]
+001e ---- fd0e                         or          R7, R6
+                                       ; ... and inactive ...
+001f ---- 6872                         ld          R6, [#fwCtrlExt/bvTaskTerminateReq]
+0020 ---- ed92                         inv         R6
+0021 ---- fd06                         and         R7, R6
+0022 ---- 7c6e                         st          R7, [#fwCtrlExt/bvActiveTasks]
+               
+                                       ; We're READY for another request
+0023 ---- 642d                         iobset      #IOB_EVCTL_SWEV_READY, [#IOP_EVCTL_SWEVSET]
+               
+                                       ; Generate an ALERT interrupt if needed before powering back down
+0024 ---- 0451                         jmp         GenAlertInterrupt;
+               
+               /handleReq:
+                                       ; Restore the task ID, and load the function pointer (here to avoid pipeline hazard)
+0025 ---- 786b                         ld          R7, [#fwCtrlInt/taskId]
+0026 ---- 8f1f                         ld          R0, [R7+R0]
+               
+                                       ; Skip this request?
+0027 ---- ed8f                         lsr         R6, R7
+0028 ---- ec01                         tst         R6, #0x0001
+0029 ---- be01                         bnz         /noSkip
+002a ---- adb7                             rts
+               /noSkip:
+                                       ; Make the call by jump, with return (rts) in the "called" function
+002b ---- 8db7                         jmp         R0
+               
+               
+               
+               
+               AonRtcCh2Vector:
+                                       ; Start clearing the RTC event
+002c ---- 6630                         iobset      #IOB_WUC_WUEV_RTC, [#IOP_WUC_WUEVCLR]
+               
+                                       ; Clear the vector flag
+002d ---- 6542                         iobset      #1, [#IOP_EVCTL_VECFLAGSCLR]
+               
+                                       ; For each task (R0 is the current task ID) ...
+002e ---- 0000                         ld          R0, #0
+               /loop:
+                                           ; ... that is active ...
+002f ---- 186e                             ld          R1, [#fwCtrlExt/bvActiveTasks]
+0030 ---- 9d88                             lsr         R1, R0
+0031 ---- 9c01                             tst         R1, #0x0001
+0032 ---- b60d                             bz          /skip
+               
+                                               ; Fetch number of RTC intervals until next execution
+0033 ---- 1067                                 ld          R1, #pFwTaskExecuteScheduleTable
+0034 ---- af19                                 ld          R2, [R1+R0]
+               
+                                               ; If not already 0, decrement and store. If then 0 ...
+0035 ---- aa00                                 cmp         R2, #0
+0036 ---- b609                                 beq         /skip
+0037 ---- a8ff                                 add         R2, #-1
+0038 ---- af39                                 st          R2, [R1+R0]
+0039 ---- be06                                 bnz         /skip
+               
+                                                   ; ... execute the task
+003a ---- 0c6b                                     st          R0, [#fwCtrlInt/taskId]
+003b ---- 8869                                     add         R0, #pFwTaskExecuteFuncTable
+003c ---- 8f08                                     ld          R0, [R0]
+                                                   ; Insert NOP to avoid pipeline hazard
+003d ---- fd47                                     nop
+003e ---- 9db7                                     jsr         R0
+003f ---- 086b                                     ld          R0, [#fwCtrlInt/taskId]
+               /skip:
+                                           ; Move on to the next task
+0040 ---- 8801                             add         R0, #1
+               
+0041 ---- 8a01                         cmp         R0, #TASK_COUNT
+0042 ---- beec                         bneq        /loop
+               
+                                       ; Wait for the ACK event to be cleared
+0043 ---- 262f /waitOnRtcClearing:     iobtst      #IOB_WUC_WUEV_RTC, [#IOP_WUC_WUEVFLAGS]
+0044 ---- aefe                         biob1       /waitOnRtcClearing
+0045 ---- 4630                         iobclr      #IOB_WUC_WUEV_RTC, [#IOP_WUC_WUEVCLR]
+               
+                                       ; Generate an ALERT interrupt if needed
+0046 ---- 0451                         jmp         GenAlertInterrupt;
+               
+               
+               
+               
+               Event0Vector:
+                                       ; Disable and clear the vector flag
+0047 ---- 5527                         iobclr      #IOB_EVCTL_VECCFG1_VEC2_EN, [#IOP_EVCTL_VECCFG1]
+0048 ---- 6642                         iobset      #2, [#IOP_EVCTL_VECFLAGSCLR]
+               
+                                       ; Set the task ID
+0049 ---- 0000                         ld          R0, #0
+004a ---- 0c6b                         st          R0, [#fwCtrlInt/taskId]
+               
+                                       ; Jump to the event task code
+004b ---- 14db                         jsr         reedSwitch/event0
+               
+                                       ; Generate an ALERT interrupt if needed
+004c ---- 0451                         jmp         GenAlertInterrupt;
+               
+               
+               
+               
+               TaskAlertAckVector:
+                                       ; Clear the vector flag
+004d ---- 6742                         iobset      #3, [#IOP_EVCTL_VECFLAGSCLR]
+               
+                                       ; Re-enable generation of ALERT interrupts
+004e 86ff 03ff                         ld          R0, #0xFFFF
+0050 ---- 0c6d                         st          R0, [#fwCtrlInt/alertGenMask]
+               
+                                       ; Fall through to GenAlertInterrupt to generate another ALERT interrupt if needed
+               
+               
+               
+               
+               GenAlertInterrupt:
+                                       ; Do we have any ALERT-generating flags pending?
+0051 ---- 786c                         ld          R7, [#fwCtrlInt/bvTaskIoAlert]
+0052 ---- cd47                         ld          R4, R7
+               
+                                       ; Skip if the last I/O ALERT interrupt has not been acknowledged
+0053 ---- 686d                         ld          R6, [#fwCtrlInt/alertGenMask]
+0054 ---- cd06                         and         R4, R6
+0055 ---- b605                         bz          /skip
+               
+                                           ; Transfer I/O flags from internal to external
+0056 ---- 0000                             ld          R0, #0
+0057 ---- 0c6c                             st          R0, [#fwCtrlInt/bvTaskIoAlert]
+0058 ---- 7c6f                             st          R7, [#fwCtrlExt/bvTaskIoAlert]
+               
+                                           ; Generate the ALERT interrupt, and clear the generation mask
+0059 ---- 652d                             iobset      #IOB_EVCTL_SWEV_ALERT, [#IOP_EVCTL_SWEVSET]
+005a ---- 0c6d                             st          R0, [#fwCtrlInt/alertGenMask]
+               /skip:
+                                       ; Fall through to PowerDown ...
+               
+               
+               
+               
+               PowerDown:
+                                       ; If there are no unacknowledged ALERTs and no vectors pending ...
+005b ---- 786d                         ld          R7, [#fwCtrlInt/alertGenMask]
+005c ---- f801                         add         R7, #1 ; 0xFFFF -> 0x0000
+005d ---- e92b                         in          R6, [#IOP_EVCTL_VECFLAGS]
+005e ---- fd0e                         or          R7, R6
+005f ---- be01                         bnz         /noPowerDown
+               
+                                           ; Assert the power-down request. We'll make sure that it has taken effect
+                                           ; or been completely ignored when waking up again
+0060 ---- 6436                             iobset      #0, [#IOP_WUC_PWRDWNREQ]
+               /noPowerDown:
+                                       ; Sleep until the next event
+0061 ---- bdb7 sleepInstr:             sleep
+               
+               
+               
+               
+0062 ---- 241a AdiDdiAcquire:          iobtst      #0, [#IOP_SMPH_SMPH0]
+0063 ---- a6fe                         biob0       AdiDdiAcquire
+0064 ---- adb7                         rts
+               
+0065 ---- 641a AdiDdiRelease:          iobset      #0, [#IOP_SMPH_SMPH0]
+0066 ---- adb7                         rts
+               
+               
+               
+               
+               pFwTaskExecuteScheduleTable:
+0067 ---- 0000                         dw          #0
+               pFwTaskInitializeFuncTable:
+0068 ---- 00a4                         dw          #reedSwitch/initialize
+               pFwTaskExecuteFuncTable:
+0069 ---- 00da                         dw          #reedSwitch/execute
+               pFwTaskTerminateFuncTable:
+006a ---- 012a                         dw          #reedSwitch/terminate
+               
+               
+               ; Internal control data
+               fwCtrlInt:
+006b ---- 0000 /taskId:                dw          #0      ; ID of the currently running task
+006c ---- 0000 /bvTaskIoAlert:         dw          #0x0000 ; LSB = Normal data exchange, MSB = Overflow or underflow
+006d ---- ffff /alertGenMask:          dw          #0xFFFF ; ALERT interrupt generation mask (0xFFFF = can, 0x0000 = cannot)
+               
+               ; External control data, shared with the driver
+               fwCtrlExt:
+006e ---- 0000 /bvActiveTasks:         dw          #0x0000 ; Indicates which tasks are currently active
+006f ---- 0000 /bvTaskIoAlert:         dw          #0x0000 ; LSB = Normal data exchange, MSB = Overflow or underflow
+0070 ---- 0000 /bvTaskInitializeReq:   dw          #0x0000 ; Requests tasks to start
+0071 ---- 0000 /bvTaskExecuteReq:      dw          #0x0000 ; Requests tasks to execute once immediately
+0072 ---- 0000 /bvTaskTerminateReq:    dw          #0x0000 ; Requests tasks to stop
+               
+               
+               .segment end "Framework"
+               
+               
+               fwTaskDataStructures:
+               .segment begin "Task: ReedSwitch"
+               reedSwitch/cfg:
+               reedSwitch/cfg/pAuxioIDigitalInput:
+0073 ---- 000e                         dw          #14
+0074 ---- 0007                         dw          #7
+               reedSwitch/cfg/pAuxioOLedCtrl:
+0075 ---- 0009                         dw          #9
+0076 ---- 0008                         dw          #8
+               reedSwitch/input:
+               reedSwitch/outputSceBufferCtrl:
+0077 ---- 00f4                         dw          #((reedSwitch/output << 1) | 0x0000)
+               reedSwitch/outputDrvBufferCtrl:
+0078 ---- 00f5                         dw          #((reedSwitch/output << 1) | 0x0001)
+               reedSwitch/outputScePtr:
+0079 ---- 007a                         dw          #reedSwitch/output
+               reedSwitch/output:
+               reedSwitch/output/counter:
+007a ---- 0000                         dw          #0
+               reedSwitch/output/downCounter:
+007b ---- 0000                         dw          #0
+               reedSwitch/output/effCounter:
+007c ---- 0000                         dw          #0
+               reedSwitch/output/upCounter:
+007d ---- 0000                         dw          #0
+               reedSwitch/output/counter1:
+007e ---- 0000                         dw          #0
+               reedSwitch/output/downCounter1:
+007f ---- 0000                         dw          #0
+               reedSwitch/output/effCounter1:
+0080 ---- 0000                         dw          #0
+               reedSwitch/output/upCounter1:
+0081 ---- 0000                         dw          #0
+               reedSwitch/state:
+               reedSwitch/state/counter:
+0082 ---- 0000                         dw          #0
+               reedSwitch/state/errorLUT:
+0083 ---- 0000                         dw          #0
+0084 ---- 0000                         dw          #0
+0085 ---- 0000                         dw          #0
+0086 ---- 0000                         dw          #0
+0087 ---- 0000                         dw          #0
+0088 ---- 0000                         dw          #0
+0089 ---- 0000                         dw          #0
+008a ---- 0000                         dw          #0
+               reedSwitch/state/minusOneLUT:
+008b ---- 0000                         dw          #0
+008c ---- 0000                         dw          #0
+008d ---- 0000                         dw          #0
+008e ---- 0000                         dw          #0
+008f ---- 0000                         dw          #0
+0090 ---- 0000                         dw          #0
+0091 ---- 0000                         dw          #0
+0092 ---- 0000                         dw          #0
+               reedSwitch/state/nxtEdgeTrigger:
+0093 ---- 0000                         dw          #0
+0094 ---- 0000                         dw          #0
+0095 ---- 0000                         dw          #0
+0096 ---- 0000                         dw          #0
+0097 ---- 0000                         dw          #0
+0098 ---- 0000                         dw          #0
+0099 ---- 0000                         dw          #0
+009a ---- 0000                         dw          #0
+               reedSwitch/state/nxtTrigger:
+009b ---- 0000                         dw          #0
+               reedSwitch/state/plusOneLUT:
+009c ---- 0000                         dw          #0
+009d ---- 0000                         dw          #0
+009e ---- 0000                         dw          #0
+009f ---- 0000                         dw          #0
+00a0 ---- 0000                         dw          #0
+00a1 ---- 0000                         dw          #0
+00a2 ---- 0000                         dw          #0
+00a3 ---- 0000                         dw          #0
+               .segment end "Task: ReedSwitch"
+               
+               
+               .segment begin "Task: ReedSwitch"
+               reedSwitch/initialize:
+               ;? // Set Table
+               ;? U16 n;
+               ;? n = 2; 
+00a4 ---- 0002                         ld          R0, #2
+               ;? state.plusOneLUT[n] = 1;
+00a5 ---- 1001                         ld          R1, #1
+00a6 ---- 209c                         ld          R2, #reedSwitch/state/plusOneLUT
+00a7 ---- 9f3a                         st          R1, [R2+R0]
+               ;? n = 5; 
+00a8 ---- 0005                         ld          R0, #5
+               ;? state.plusOneLUT[n] = 1;
+00a9 ---- 1001                         ld          R1, #1
+00aa ---- 209c                         ld          R2, #reedSwitch/state/plusOneLUT
+00ab ---- 9f3a                         st          R1, [R2+R0]
+               ;? 
+               ;? n = 0; 
+00ac ---- 0000                         ld          R0, #0
+               ;? state.minusOneLUT[n] = 1;
+00ad ---- 1001                         ld          R1, #1
+00ae ---- 208b                         ld          R2, #reedSwitch/state/minusOneLUT
+00af ---- 9f3a                         st          R1, [R2+R0]
+               ;? n = 7; 
+00b0 ---- 0007                         ld          R0, #7
+               ;? state.minusOneLUT[n] = 1;
+00b1 ---- 1001                         ld          R1, #1
+00b2 ---- 208b                         ld          R2, #reedSwitch/state/minusOneLUT
+00b3 ---- 9f3a                         st          R1, [R2+R0]
+               ;? 
+               ;? n = 1; 
+00b4 ---- 0001                         ld          R0, #1
+               ;? state.errorLUT[n] = 1;
+00b5 ---- 1001                         ld          R1, #1
+00b6 ---- 2083                         ld          R2, #reedSwitch/state/errorLUT
+00b7 ---- 9f3a                         st          R1, [R2+R0]
+               ;? n = 3; 
+00b8 ---- 0003                         ld          R0, #3
+               ;? state.errorLUT[n] = 1;
+00b9 ---- 1001                         ld          R1, #1
+00ba ---- 2083                         ld          R2, #reedSwitch/state/errorLUT
+00bb ---- 9f3a                         st          R1, [R2+R0]
+               ;? n = 4; 
+00bc ---- 0004                         ld          R0, #4
+               ;? state.errorLUT[n] = 1;
+00bd ---- 1001                         ld          R1, #1
+00be ---- 2083                         ld          R2, #reedSwitch/state/errorLUT
+00bf ---- 9f3a                         st          R1, [R2+R0]
+               ;? n = 6; 
+00c0 ---- 0006                         ld          R0, #6
+               ;? state.errorLUT[n] = 1;
+00c1 ---- 1001                         ld          R1, #1
+00c2 ---- 2083                         ld          R2, #reedSwitch/state/errorLUT
+00c3 ---- 9f3a                         st          R1, [R2+R0]
+               ;? 
+               ;? n = 0; 
+00c4 ---- 0000                         ld          R0, #0
+               ;? state.nxtEdgeTrigger[n] = 1;
+00c5 ---- 1001                         ld          R1, #1
+00c6 ---- 2093                         ld          R2, #reedSwitch/state/nxtEdgeTrigger
+00c7 ---- 9f3a                         st          R1, [R2+R0]
+               ;? n = 2; 
+00c8 ---- 0002                         ld          R0, #2
+               ;? state.nxtEdgeTrigger[n] = 1;
+00c9 ---- 1001                         ld          R1, #1
+00ca ---- 2093                         ld          R2, #reedSwitch/state/nxtEdgeTrigger
+00cb ---- 9f3a                         st          R1, [R2+R0]
+               ;? n = 4; 
+00cc ---- 0004                         ld          R0, #4
+               ;? state.nxtEdgeTrigger[n] = 1;
+00cd ---- 1001                         ld          R1, #1
+00ce ---- 2093                         ld          R2, #reedSwitch/state/nxtEdgeTrigger
+00cf ---- 9f3a                         st          R1, [R2+R0]
+               ;? n = 6; 
+00d0 ---- 0006                         ld          R0, #6
+               ;? state.nxtEdgeTrigger[n] = 1;
+00d1 ---- 1001                         ld          R1, #1
+00d2 ---- 2093                         ld          R2, #reedSwitch/state/nxtEdgeTrigger
+00d3 ---- 9f3a                         st          R1, [R2+R0]
+               ;? 
+               ;? evhSetupGpioTrigger(0, sensor2Index, 0, EVH_GPIO_TRIG_ON_EDGE) ;
+00d4 ---- 707b                         ld          R7, #((BV_EVCTL_VECCFG1_VEC2_EN | ((EVCTL_VECEVSEL_AUXIO0 + 14) << IOB_EVCTL_VECCFG1_VEC2_EV)) | ((0 == 0) << IOB_EVCTL_VECCFG1_VEC2_POL))
+00d5 ---- 152d                         jsr         EvhSetupTrigger
+00d6 ---- 6642                         iobset      #2, [#IOP_EVCTL_VECFLAGSCLR]
+               ;? 
+               ;? // Schedule the first execution
+               ;? fwScheduleTask(1);
+00d7 ---- 7001                         ld          R7, #1
+00d8 ---- 1533                         jsr         FwScheduleTask
+               reedSwitch/initializeDone:
+00d9 ---- adb7                         rts         
+               
+               
+               
+               
+               reedSwitch/execute:
+               reedSwitch/executeDone:
+00da ---- adb7                         rts         
+               
+               
+               
+               
+               reedSwitch/event0:
+               ;? gpioSetOutput(9);
+00db ---- 7009                         ld          R7, #9
+00dc ---- 1537                         jsr         gpioSetOutput
+               ;? state.counter += 1;
+00dd ---- 0882                         ld          R0, [#reedSwitch/state/counter]
+00de ---- 8801                         add         R0, #1
+00df ---- 0c82                         st          R0, [#reedSwitch/state/counter]
+               ;? 
+               ;? U16  dummyState;
+               ;? 
+               ;? U16 n = state.nxtTrigger << 2;
+00e0 ---- 089b                         ld          R0, [#reedSwitch/state/nxtTrigger]
+00e1 ---- 8da2                         lsl         R0, #2
+               ;? 
+               ;? gpioGetInputValue(sensor1Index ; dummyState)  ;
+00e2 ---- 5007                         ld          R5, #7
+00e3 ---- 153f                         jsr         gpioGetInputValue
+               ;? dummyState <<= 1;
+00e4 ---- fda1                         lsl         R7, #1
+               ;? n |= dummyState;
+00e5 ---- 8d0f                         or          R0, R7
+               ;? 
+               ;? gpioGetInputValue(sensor2Index ; dummyState)  ;
+00e6 ---- 500e                         ld          R5, #14
+00e7 ---- 153f                         jsr         gpioGetInputValue
+               ;? n |= dummyState;
+00e8 ---- 8d0f                         or          R0, R7
+               ;? 
+               ;? output.counter = n;
+00e9 ---- 4879                         ld          R4, [#reedSwitch/outputScePtr]
+00ea ---- 8f2c                         st          R0, [R4]
+               ;? 
+               ;? output.upCounter += state.plusOneLUT[n];
+00eb ---- 409c                         ld          R4, #reedSwitch/state/plusOneLUT
+00ec ---- df1c                         ld          R5, [R4+R0]
+00ed ---- 4879                         ld          R4, [#reedSwitch/outputScePtr]
+00ee ---- c803                         add         R4, #3
+00ef ---- cf0c                         ld          R4, [R4]
+00f0 ---- cd25                         add         R4, R5
+00f1 ---- 5879                         ld          R5, [#reedSwitch/outputScePtr]
+00f2 ---- d803                         add         R5, #3
+00f3 ---- cf2d                         st          R4, [R5]
+               ;? output.downCounter += state.minusOneLUT[n];
+00f4 ---- 408b                         ld          R4, #reedSwitch/state/minusOneLUT
+00f5 ---- df1c                         ld          R5, [R4+R0]
+00f6 ---- 4879                         ld          R4, [#reedSwitch/outputScePtr]
+00f7 ---- c801                         add         R4, #1
+00f8 ---- cf0c                         ld          R4, [R4]
+00f9 ---- cd25                         add         R4, R5
+00fa ---- 5879                         ld          R5, [#reedSwitch/outputScePtr]
+00fb ---- d801                         add         R5, #1
+00fc ---- cf2d                         st          R4, [R5]
+               ;? 
+               ;? ifnot (output.upCounter < output.downCounter) {
+00fd ---- 4879                         ld          R4, [#reedSwitch/outputScePtr]
+00fe ---- c803                         add         R4, #3
+00ff ---- cf0c                         ld          R4, [R4]
+0100 ---- 5879                         ld          R5, [#reedSwitch/outputScePtr]
+0101 ---- d801                         add         R5, #1
+0102 ---- df0d                         ld          R5, [R5]
+0103 ---- cd2d                         cmp         R4, R5
+0104 ---- ae0a                         bltu        /id0203
+               ;? output.effCounter = output.upCounter - output.downCounter;
+0105 ---- 4879                             ld          R4, [#reedSwitch/outputScePtr]
+0106 ---- c803                             add         R4, #3
+0107 ---- cf0c                             ld          R4, [R4]
+0108 ---- 5879                             ld          R5, [#reedSwitch/outputScePtr]
+0109 ---- d801                             add         R5, #1
+010a ---- df0d                             ld          R5, [R5]
+010b ---- cd1d                             sub         R4, R5
+010c ---- 5879                             ld          R5, [#reedSwitch/outputScePtr]
+010d ---- d802                             add         R5, #2
+010e ---- cf2d                             st          R4, [R5]
+               ;? }
+               /id0203:
+               ;? 
+               ;? // Notify the MCU periodically
+               ;? ifnot (state.counter & 0x000F) {
+010f ---- 4882                         ld          R4, [#reedSwitch/state/counter]
+0110 ---- cc0f                         tst         R4, #15
+0111 ---- be08                         bnz         /id0213
+               ;?     output.counter = state.counter >> 4;
+0112 ---- 4882                             ld          R4, [#reedSwitch/state/counter]
+0113 ---- cdac                             lsr         R4, #4
+0114 ---- 5879                             ld          R5, [#reedSwitch/outputScePtr]
+0115 ---- cf2d                             st          R4, [R5]
+               ;?     fwSwitchOutputBuffer();
+0116 ---- 7077                             ld          R7, #reedSwitch/outputSceBufferCtrl
+0117 ---- 6008                             ld          R6, #8
+0118 ---- 5010                             ld          R5, #16
+0119 ---- 1546                             jsr         FwSwitchIoBuffer
+               ;? }
+               /id0213:
+               ;? 
+               ;? state.nxtTrigger = state.nxtEdgeTrigger[n]; 
+011a ---- 4093                         ld          R4, #reedSwitch/state/nxtEdgeTrigger
+011b ---- 8f1c                         ld          R0, [R4+R0]
+011c ---- 0c9b                         st          R0, [#reedSwitch/state/nxtTrigger]
+               ;? if (state.nxtTrigger == 0){         
+011d ---- 089b                         ld          R0, [#reedSwitch/state/nxtTrigger]
+011e ---- 8a00                         cmp         R0, #0
+011f ---- be04                         bneq        /id0223
+               ;? evhSetupGpioTrigger(0, sensor2Index, 0, EVH_GPIO_TRIG_ON_EDGE) ;
+0120 ---- 707b                             ld          R7, #((BV_EVCTL_VECCFG1_VEC2_EN | ((EVCTL_VECEVSEL_AUXIO0 + 14) << IOB_EVCTL_VECCFG1_VEC2_EV)) | ((0 == 0) << IOB_EVCTL_VECCFG1_VEC2_POL))
+0121 ---- 152d                             jsr         EvhSetupTrigger
+0122 ---- 6642                             iobset      #2, [#IOP_EVCTL_VECFLAGSCLR]
+               ;? } else {
+0123 ---- 0527                         jmp         /id0225
+               /id0223:
+               ;? evhSetupGpioTrigger(0, sensor2Index, 1, EVH_GPIO_TRIG_ON_EDGE) ; 
+0124 ---- 703b                             ld          R7, #((BV_EVCTL_VECCFG1_VEC2_EN | ((EVCTL_VECEVSEL_AUXIO0 + 14) << IOB_EVCTL_VECCFG1_VEC2_EV)) | ((1 == 0) << IOB_EVCTL_VECCFG1_VEC2_POL))
+0125 ---- 152d                             jsr         EvhSetupTrigger
+0126 ---- 6642                             iobset      #2, [#IOP_EVCTL_VECFLAGSCLR]
+               ;? }   
+               /id0225:
+               ;?     
+               ;? gpioClearOutput(9);
+0127 ---- 7009                         ld          R7, #9
+0128 ---- 155f                         jsr         gpioClearOutput
+               reedSwitch/event0Done:
+0129 ---- adb7                         rts         
+               
+               
+               
+               
+               reedSwitch/terminate:
+               ;? evhCancelTrigger(0);
+012a ---- 5527                         iobclr      #IOB_EVCTL_VECCFG1_VEC2_EN, [#IOP_EVCTL_VECCFG1]
+012b ---- 6642                         iobset      #2, [#IOP_EVCTL_VECFLAGSCLR]
+               reedSwitch/terminateDone:
+012c ---- adb7                         rts         
+               .segment end "Task: ReedSwitch"
+               
+               
+               .segment begin "Procedure Libary"
+               EvhSetupTrigger:
+                                       ; Disable and clear the vector flag
+012d ---- 5527                         iobclr      #IOB_EVCTL_VECCFG1_VEC2_EN, [#IOP_EVCTL_VECCFG1]
+012e ---- 6642                         iobset      #2, [#IOP_EVCTL_VECFLAGSCLR]
+               
+                                       ; Configure and enable the vector flag (+ fixed configuration for channel 3)
+012f 862b f200                         or          R7, #(BV_EVCTL_VECCFG1_VEC3_EN | (EVCTL_VECEVSEL_AON_SW << IOB_EVCTL_VECCFG1_VEC3_EV))
+0131 ---- fb27                         out         R7, [#IOP_EVCTL_VECCFG1]
+0132 ---- adb7                         rts
+               
+               
+               
+               
+               ; PARAMETERS:
+               ;     R7 = Number of ticks until next execution
+               ;
+               ; CLOBBERS:
+               ;     R6
+               FwScheduleTask:
+                                       ; Set the scheduling counter for the task
+0133 ---- 686b                         ld          R6, [#fwCtrlInt/taskId]
+0134 ---- e867                         add         R6, #pFwTaskExecuteScheduleTable
+0135 ---- ff2e                         st          R7, [R6]
+0136 ---- adb7                         rts
+               
+               
+               
+               
+               ; PARAMETERS:
+               ;     R7 = AUX I/O index
+               ;
+               ; CLOBBERS:
+               ;     R5, R6, R7
+               gpioSetOutput:
+                                       ; Calculate the I/O register address
+0137 ---- ed47                         ld          R6, R7
+0138 ---- edab                         lsr         R6, #3
+0139 ---- e814                         add         R6, #IOP_AIODIO0_GPIODOUTSET
+               
+                                       ; Create the bit-vector to be used for manipulation
+013a ---- f007                         and         R7, #0x0007
+013b ---- 5001                         ld          R5, #1
+013c ---- dd87                         lsl         R5, R7
+               
+                                       ; Set the GPIO
+013d ---- df26                         out         R5, [R6]
+013e ---- adb7                         rts
+               
+               
+               
+               
+               ; PARAMETERS:
+               ;     R5 = AUX I/O index
+               ;
+               ; CLOBBERS:
+               ;     R6, R7
+               gpioGetInputValue:
+                                       ; Get GPIOs 15:8
+013f ---- e913                         in          R6, [#IOP_AIODIO1_GPIODIN]
+0140 ---- eda0                         lsl         R6, #8
+               
+                                       ; Get GPIOs 7:0 and combine
+0141 ---- f912                         in          R7, [#IOP_AIODIO0_GPIODIN]
+0142 ---- fd0e                         or          R7, R6
+               
+                                       ; Move the desired GPIO pin value into bit 0 and mask
+0143 ---- fd8d                         lsr         R7, R5
+0144 ---- f001                         and         R7, #0x0001
+0145 ---- adb7                         rts
+               
+               
+               
+               
+               ; PARAMETERS:
+               ;     R7 = Address of the first pointer
+               ;     R6 = Size (in number of bytes) of a single buffer
+               ;     R5 = Total size (in number of bytes) of all buffers
+               ;
+               ; RETURNS:
+               ;     Single bit or'ed into fwCtrlInt/bvTaskIoAlert
+               ;         - Bits 0-7: The task has produced an output buffer or consumed an input buffer
+               ;         - Bits 8-15: The task has experienced an output buffer overflow or an input buffer underflow
+               ;
+               ; CLOBBERS
+               ;     R4, R5, R6, R7
+               FwSwitchIoBuffer:
+                                       ; Load the current struct byte pointer, and move it one buffer ahead
+0146 ---- cf0f                         ld          R4, [R7]
+0147 ---- cd26                         add         R4, R6
+                                       ; Generate the pointer to the end of the last buffer
+0148 ---- ed47                         ld          R6, R7
+0149 ---- e803                         add         R6, #3
+014a ---- eda1                         lsl         R6, #1
+014b ---- ed25                         add         R6, R5
+                                       ; Wrap after the last buffer
+014c ---- cd2e                         cmp         R4, R6
+014d ---- ae02                         bltu        /noWrap
+014e ---- cd1d                             sub         R4, R5
+014f ---- c401                             xor         R4, #0x0001
+               /noWrap:
+0150 ---- cf37                         st          R4, [R7++]; Store the SCE struct byte pointer
+0151 ---- ef17                         ld          R6, [R7++]; Load the driver struct byte pointer
+0152 ---- dd44                         ld          R5, R4
+0153 ---- dda9                         lsr         R5, #1
+0154 ---- df2f                         st          R5, [R7]; Store the SCE struct word pointer
+               
+                                       ; Create a task ID vector ...
+0155 ---- 786b                         ld          R7, [#fwCtrlInt/taskId]
+0156 ---- 5001                         ld          R5, #1
+0157 ---- dd87                         lsl         R5, R7
+               
+                                       ; ... which we shift by 8 bits if there is an over- or underflow error
+0158 ---- cd2e                         cmp         R4, R6
+0159 ---- be01                         bneq        /noError
+015a ---- dda0                             lsl         R5, #8
+               /noError:
+                                       ; Modify the event vector
+015b ---- 786c                         ld          R7, [#fwCtrlInt/bvTaskIoAlert]
+015c ---- fd0d                         or          R7, R5
+015d ---- 7c6c                         st          R7, [#fwCtrlInt/bvTaskIoAlert]
+015e ---- adb7                         rts
+               
+               
+               
+               
+               ; PARAMETERS:
+               ;     R7 = AUX I/O index
+               ;
+               ; CLOBBERS:
+               ;     R5, R6, R7
+               gpioClearOutput:
+                                       ; Calculate the I/O register address
+015f ---- ed47                         ld          R6, R7
+0160 ---- edab                         lsr         R6, #3
+0161 ---- e816                         add         R6, #IOP_AIODIO0_GPIODOUTCLR
+               
+                                       ; Create the bit-vector to be used for manipulation
+0162 ---- f007                         and         R7, #0x0007
+0163 ---- 5001                         ld          R5, #1
+0164 ---- dd87                         lsl         R5, R7
+               
+                                       ; Set the GPIO
+0165 ---- df26                         out         R5, [R6]
+0166 ---- adb7                         rts
+               .segment end "Procedure Libary"

@@ -1,0 +1,45 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Bluetooth_tag_station.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\Bluetooth_tag_station\Bluetooth_tag_station.PrjPcb|ReportField=Title~Bill of Materials For Project [Bluetooth_tag_station.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~77|ReportField=ReportTime~12:01:20|ReportField=ReportDate~09.03.2016|ReportField=ReportDateTime~09.03.2016 12:01:20|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~09.03.2016|ReportField=CurrentTime~11:52:20|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\Bluetooth_tag_station\Interface.SchDoc|ReportField=DocumentName~Interface.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~02.03.2016|ReportField=Organization~|ReportField=ProjectName~Bluetooth_tag_station.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Bluetooth_tag_station.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Bluetooth_tag\Bluetooth_tag_station\Bluetooth_tag_station.PrjPcb
+1|0.1uF|CC0603|C1, C2, C7, C8, C9, C10, C11, C12, C13, C14, C15|11
+2|22pF|CC0603|C3, C4|2
+3|200pF|CC0603|C5, C6|2
+4|0.1uFx250V|CC1206|C16|1
+5|0.1 uF|CC0603|C17, C18, C21|3
+6|1000uFx6.3V|CAP0.35|C19|1
+7|470uFx35V|CAP0.5(1)|C20|1
+8|10 nF|CC0603|C22|1
+9|330pF|CC0603|C23|1
+10|560pF|CC0603|C24|1
+11|TPS54260DGQ||DA1|1
+12|SN65HVD232D|CAN Transceiver|DD1|1
+13|LPC1754FBD80|Cortex -M3 32-Bit Microcontroller, 128KB Flash, 64KB RAM, 800-Lead LQFP|DD2|1
+14|M25PE16|S25FL016A0LMFI01|DD3|1
+15|MICROSMD010F-2|MICROSMD|FU1, FU2, FU3, FU4|4
+16|RXE-110|RXE-110|FU5|1
+17|PLS-02|PLS-02|J1, J2, J2|3
+18|15uH|SDR0805|L1|1
+19|NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+20|100E|RC0603|R1|1
+21|10k|RC0603|R2, R3|2
+22|560E|RC0603|R4, R5, R6, R7|4
+23|220k|RC1206|R8, R9, R10|3
+24|31k6 1%|RC0603|R11|1
+25|12k|RC0603|R12|1
+26|240k|RC0603|R13|1
+27|10k 1%|RC0603|R14|1
+28|120E|RC0805|R15|1
+29|REPER1.2|REPER1.2|REPER1, REPER2|2
+30|ST3485EBDR||U1|1
+31|PESD2CAN|TVS for CAN|VD1|1
+32|BAV99|1.0 Ampere General Purpose Rectifier|VD2, VD5|2
+33|SMBJ5.0A|SMBJ|VD3, VD4|2
+34|LED_3|LED_3|VD6, VD7, VD8, VD9|4
+35|GS1M|GS1M|VD10|1
+36|BZX84C15|Zener Voltage Regulator Diode|VD11|1
+37|1.5KE150A|1.5KE|VD12|1
+38|BZX84C36|Zener Voltage Regulator Diode|VD13|1
+39|SK34SMA|Schottky Rectifier|VD14|1
+40|IRFR9220|HEXFET Power MOSFET|VT1|1
+41|BC807-40LT3G|BC856B|VT2|1
+42|DG306-5.0 2PIN||XP1, XP2, XP5|3
+43|PLD-06|PLD06|XP3|1
+44|BH-10|BH-10|XP4|1
