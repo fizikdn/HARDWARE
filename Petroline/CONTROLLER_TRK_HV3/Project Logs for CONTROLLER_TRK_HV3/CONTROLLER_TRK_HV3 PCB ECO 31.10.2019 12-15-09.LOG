@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=+5V Pin=FU7-2
+Removed Member From Class: ClassName=[15]-MAIN_CONNECTORS Member=FU7
+Added Pin To Net: NetName=+5V Pin=XP13-3

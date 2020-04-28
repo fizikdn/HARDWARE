@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Street_light_driver_hv2.PcbDoc]
+   Generated File[Street_light_driver_hv2.TXT]
+   Generated File[Street_light_driver_hv2.LDP]
+   Generated File[Street_light_driver_hv2.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 13:52:03 On 25.05.2016

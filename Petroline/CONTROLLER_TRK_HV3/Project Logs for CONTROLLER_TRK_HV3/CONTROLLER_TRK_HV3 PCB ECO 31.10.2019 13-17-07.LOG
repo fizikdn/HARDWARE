@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetC26_1 Pin=R52-1
+Removed Pin From Net: NetName=+5V Pin=R52-2
+Removed Pin From Net: NetName=NetC26_1 Pin=VD25-1
+Removed Pin From Net: NetName=+5V Pin=VD25-2
+Removed Member From Class: ClassName=[11]-POWER_BACKUP Member=R52
+Removed Member From Class: ClassName=[11]-POWER_BACKUP Member=VD25
+Change Component Comment : Designator=R50 Old Comment=39E New Comment=20E
+Change Component Comment : Designator=R51 Old Comment=39E New Comment=20E
+Change component parameters: Designator = "R50"; Footprint = "R2512"; UniqueID = "\NCCZUMDU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "20E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R51"; Footprint = "R2512"; UniqueID = "\SXHQEKCQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "20E"; VariantName = "[No Variations]"
+Added Component: Designator=VD16(SMA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "{Value}"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC26_1 Pin=VD16-1
+Added Pin To Net: NetName=+5V Pin=VD16-2
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component VD16 SK34SMA

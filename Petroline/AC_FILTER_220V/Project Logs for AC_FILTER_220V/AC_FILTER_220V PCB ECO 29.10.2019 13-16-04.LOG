@@ -1,0 +1,45 @@
+Added Component: Designator=C1(CAP_HV_13x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP_HV_13x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAP_HV_13x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES_10x4_THD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "39E"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES_10x4_THD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "39E"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES_10x4_THD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "39E"; VariantName = "[No Variations]"
+Added Component: Designator=XP1(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Component: Designator=XP2(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=C2-1
+Added Pin To Net: NetName=NetC1_1 Pin=C3-1
+Added Pin To Net: NetName=NetC1_1 Pin=R1-2
+Added Pin To Net: NetName=NetC1_1 Pin=R2-2
+Added Pin To Net: NetName=NetC1_1 Pin=R3-2
+Added Pin To Net: NetName=NetC1_1 Pin=XP1-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R1-1
+Added Pin To Net: NetName=NetC1_2 Pin=XP1-2
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=R2-1
+Added Pin To Net: NetName=NetC2_2 Pin=XP2-1
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=R3-1
+Added Pin To Net: NetName=NetC3_2 Pin=XP2-2
+Added Net: Name=NetC3_2
+Added Class: Name=Filter

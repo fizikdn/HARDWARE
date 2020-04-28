@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=DD1-7
+Added Pin To Net: NetName=VIN Pin=DD1-14
+Added Pin To Net: NetName=GND Pin=DD2-7
+Added Pin To Net: NetName=VIN Pin=DD2-14

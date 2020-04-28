@@ -1,0 +1,12 @@
+Added Component: Designator=L1(IND_CDRH129)
+Added Component: Designator=L2(IND_CDRH129)
+Added Component: Designator=L3(IND_CDRH129)
+Added Component: Designator=L4(IND_CDRH129)
+Added Component: Designator=L5(IND_CDRH129)
+Added Component: Designator=L6(IND_CDRH129)
+Added Member To Class: ClassName=ICS Member=Component L1 CDRH129
+Added Member To Class: ClassName=ICS Member=Component L2 CDRH129
+Added Member To Class: ClassName=ICS Member=Component L3 CDRH129
+Added Member To Class: ClassName=Main Member=Component L4 CDRH129
+Added Member To Class: ClassName=Main Member=Component L5 CDRH129
+Added Member To Class: ClassName=Main Member=Component L6 CDRH129

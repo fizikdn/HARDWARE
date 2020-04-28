@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=EARTH Pin=XP6-1
+Removed Pin From Net: NetName=N Pin=XP6-2
+Removed Pin From Net: NetName=PUMP_L Pin=XP6-3
+Removed Pin From Net: NetName=N Pin=XP7-3
+Change Component Footprint: Designator=XP6 Old Footprint=DG330-3PIN New Footprint=DG330-2PIN
+Change Component Footprint: Designator=XP7 Old Footprint=DG330-3PIN New Footprint=DG330-2PIN
+Change Component Comment : Designator=XP6 Old Comment=DG330-3PIN New Comment=DG330-2PIN
+Change Component Comment : Designator=XP7 Old Comment=DG330-3PIN New Comment=DG330-2PIN
+Change component parameters: Designator = "XP6"; Footprint = "DG330-2PIN"; UniqueID = "\XNMSJVIB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-2PIN"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP7"; Footprint = "DG330-2PIN"; UniqueID = "\UKDJQYBF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-2PIN"; VariantName = "[No Variations]"
+Added Component: Designator=XP18(DG330-2PIN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2PIN"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=N Pin=XP6-1
+Added Pin To Net: NetName=PUMP_L Pin=XP6-2
+Added Pin To Net: NetName=N Pin=XP18-1
+Added Pin To Net: NetName=EARTH Pin=XP18-2
+Added Member To Class: ClassName=Connections Member=Component XP18 DG330-2PIN

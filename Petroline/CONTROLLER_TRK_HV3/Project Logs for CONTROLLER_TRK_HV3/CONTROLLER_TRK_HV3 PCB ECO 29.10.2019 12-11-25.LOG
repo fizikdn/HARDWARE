@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=GND Pin=REL1-2
+Removed Pin From Net: NetName=GND Pin=REL2-2
+Removed Pin From Net: NetName=GND Pin=REL3-2
+Removed Pin From Net: NetName=GND Pin=VD10-1
+Removed Pin From Net: NetName=GND Pin=VD11-1
+Removed Pin From Net: NetName=GND Pin=VD12-2
+Removed Pin From Net: NetName=GND Pin=VD13-2
+Removed Pin From Net: NetName=GND Pin=VD17-1
+Removed Pin From Net: NetName=GND Pin=VD18-2
+Added Component: Designator=R68(RC0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0E"; VariantName = "[No Variations]"
+Added Component: Designator=R69(RC0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0E"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R68-2
+Added Pin To Net: NetName=GND Pin=R69-2
+Added Pin To Net: NetName=GND_RELAYS Pin=R68-1
+Added Pin To Net: NetName=GND_RELAYS Pin=R69-1
+Added Pin To Net: NetName=GND_RELAYS Pin=REL1-2
+Added Pin To Net: NetName=GND_RELAYS Pin=REL2-2
+Added Pin To Net: NetName=GND_RELAYS Pin=REL3-2
+Added Pin To Net: NetName=GND_RELAYS Pin=VD10-1
+Added Pin To Net: NetName=GND_RELAYS Pin=VD11-1
+Added Pin To Net: NetName=GND_RELAYS Pin=VD12-2
+Added Pin To Net: NetName=GND_RELAYS Pin=VD13-2
+Added Pin To Net: NetName=GND_RELAYS Pin=VD17-1
+Added Pin To Net: NetName=GND_RELAYS Pin=VD18-2
+Added Net: Name=GND_RELAYS
+Added Member To Class: ClassName=[9]-RELAYS Member=Component R68 0E
+Added Member To Class: ClassName=[9]-RELAYS Member=Component R69 0E

@@ -1,0 +1,769 @@
+Added Component: Designator=C1(CC0805)
+Added Component: Designator=C2(CC0603)
+Added Component: Designator=C3(CC0805)
+Added Component: Designator=C4(CC0603)
+Added Component: Designator=C5(CC0603)
+Added Component: Designator=C6(CC0603)
+Added Component: Designator=C7(CC0805)
+Added Component: Designator=C8(CC0603)
+Added Component: Designator=C9(CC0603)
+Added Component: Designator=C10(CC0603)
+Added Component: Designator=C11(CC0603)
+Added Component: Designator=C12(CC0603)
+Added Component: Designator=C13(CC0603)
+Added Component: Designator=C14(CC0603)
+Added Component: Designator=C15(CC0603)
+Added Component: Designator=C16(CC0603)
+Added Component: Designator=C17(CC0603)
+Added Component: Designator=C18(CC0603)
+Added Component: Designator=C19(CC0603)
+Added Component: Designator=C20(CC1206)
+Added Component: Designator=C21(CC0603)
+Added Component: Designator=C22(CC0603)
+Added Component: Designator=C23(CC8X3.5)
+Added Component: Designator=C24(CC16X10_CAP0.5(1)(Primary))
+Added Component: Designator=C25(CC0603)
+Added Component: Designator=C26(CC0603)
+Added Component: Designator=C27(CC0603)
+Added Component: Designator=C28(CC0603)
+Added Component: Designator=C29(CC0603)
+Added Component: Designator=C30(CC0805)
+Added Component: Designator=C31(CC0805)
+Added Component: Designator=C32(CC0603)
+Added Component: Designator=C33(CC0603)
+Added Component: Designator=C34(CC0603)
+Added Component: Designator=C35(CC8X3.5)
+Added Component: Designator=C36(CC16X10_CAP0.5(1)(Primary))
+Added Component: Designator=C37(CC0603)
+Added Component: Designator=C38(CC0603)
+Added Component: Designator=C39(CC0603)
+Added Component: Designator=C40(CC0603)
+Added Component: Designator=DA1(D-PAK(TO-252AA))
+Added Component: Designator=DA2(P-PQFP-N20)
+Added Component: Designator=DA3(S-PDSO-G10)
+Added Component: Designator=DA4(SOT23-5)
+Added Component: Designator=DA5(S-PDSO-G10)
+Added Component: Designator=DD1(LQFP-48)
+Added Component: Designator=DD2(EIAJ_SO8)
+Added Component: Designator=F1(Fuse_5x20)
+Added Component: Designator=F2(Fuse_5x20)
+Added Component: Designator=F3(Fuse_5x20)
+Added Component: Designator=FU1(RXE-110)
+Added Component: Designator=FU2(RC1210)
+Added Component: Designator=FU3(RC1210)
+Added Component: Designator=FU4(RXE-110)
+Added Component: Designator=J1(PLS-02)
+Added Component: Designator=J2(PLS-02)
+Added Component: Designator=K1(RY21_RY21(Primary))
+Added Component: Designator=K2(RY21_RY21(Primary))
+Added Component: Designator=K3(RY21_RY21(Primary))
+Added Component: Designator=L1(SDR0805)
+Added Component: Designator=L2(SDR0805)
+Added Component: Designator=QR1(AC5032_2)
+Added Component: Designator=R1(RC1206)
+Added Component: Designator=R2(RC1206)
+Added Component: Designator=R3(RC1206)
+Added Component: Designator=R4(RC0603)
+Added Component: Designator=R5(RC0603)
+Added Component: Designator=R6(RC0603)
+Added Component: Designator=R7(RC0603)
+Added Component: Designator=R8(RC0603)
+Added Component: Designator=R9(RC0603)
+Added Component: Designator=R10(RC0603)
+Added Component: Designator=R11(RC0603)
+Added Component: Designator=R12(RC0603)
+Added Component: Designator=R13(RC0603)
+Added Component: Designator=R14(RC0603)
+Added Component: Designator=R15(RC0603)
+Added Component: Designator=R16(RC0603)
+Added Component: Designator=R17(RC0603)
+Added Component: Designator=R18(RC0603)
+Added Component: Designator=R19(RC0603)
+Added Component: Designator=R20(RC0603)
+Added Component: Designator=R21(RC0603)
+Added Component: Designator=R22(RC0603)
+Added Component: Designator=R23(RC0603)
+Added Component: Designator=R24(RC0603)
+Added Component: Designator=R25(RC0603)
+Added Component: Designator=R26(RC0603)
+Added Component: Designator=R27(RC0603)
+Added Component: Designator=R28(RC0603)
+Added Component: Designator=R29(RC0603)
+Added Component: Designator=R30(RC0603)
+Added Component: Designator=R31(RC0603)
+Added Component: Designator=R32(RC0603)
+Added Component: Designator=R33(RC0603)
+Added Component: Designator=R34(RC0603)
+Added Component: Designator=R35(RC0603)
+Added Component: Designator=R36(RC0603)
+Added Component: Designator=R37(RC0805)
+Added Component: Designator=R38(RC0603)
+Added Component: Designator=R39(RC0603)
+Added Component: Designator=R40(RC0603)
+Added Component: Designator=R41(RC0603)
+Added Component: Designator=R42(RC0603)
+Added Component: Designator=R43(RC0603)
+Added Component: Designator=R44(RC0603)
+Added Component: Designator=R45(RC0603)
+Added Component: Designator=R46(RC0603)
+Added Component: Designator=R47(RC0603)
+Added Component: Designator=R48(RC0603)
+Added Component: Designator=R49(RC0603)
+Added Component: Designator=R50(RC0603)
+Added Component: Designator=R51(RC0603)
+Added Component: Designator=R52(RC0603)
+Added Component: Designator=R53(RC0603)
+Added Component: Designator=R54(RC0603)
+Added Component: Designator=U1(PC817)
+Added Component: Designator=U2(PC817)
+Added Component: Designator=U3(PC817)
+Added Component: Designator=VD1(SMB)
+Added Component: Designator=VD2(SMB)
+Added Component: Designator=VD3(SMB)
+Added Component: Designator=VD4(SOT-23(123))
+Added Component: Designator=VD5(SMB)
+Added Component: Designator=VD6(SMB)
+Added Component: Designator=VD7(LED0805)
+Added Component: Designator=VD8(LED0805)
+Added Component: Designator=VD9(SOT-23(GSD))
+Added Component: Designator=VD10(SOT-23(GSD))
+Added Component: Designator=VD11(SMA)
+Added Component: Designator=VD12(SMA)
+Added Component: Designator=VD13(SOD-80)
+Added Component: Designator=VD14(DO-201)
+Added Component: Designator=VD15(SOD-80)
+Added Component: Designator=VD16(SMA)
+Added Component: Designator=VD17(SMA)
+Added Component: Designator=VD18(SOD-80)
+Added Component: Designator=VD19(SOD-80)
+Added Component: Designator=VD20(SOD-80)
+Added Component: Designator=VT1(D-PAK(TO-252AA))
+Added Component: Designator=VT2(SOT-23(123))
+Added Component: Designator=VT3(SOT-23(123))
+Added Component: Designator=VT4(SOT-23(123))
+Added Component: Designator=VT5(SOT-23(123))
+Added Component: Designator=VT6(SOT-23(123))
+Added Component: Designator=VT7(SOT-23(123))
+Added Component: Designator=VT8(SOT-23(123))
+Added Component: Designator=XP1(MW03D)
+Added Component: Designator=XP2(PLS-03)
+Added Component: Designator=XP3(DG330-2PIN)
+Added Component: Designator=XP4(DG330-3PIN)
+Added Component: Designator=XP5(DG330-2PIN)
+Added Component: Designator=XP6(PLS-03)
+Added Component: Designator=XP7(DG330-2PIN)
+Added Component: Designator=XP8(DG330-2PIN)
+Added Component: Designator=XP9(DG330-2PIN)
+Added Component: Designator=XP10(DG330-2PIN)
+Added Component: Designator=XP11(DG330-2PIN)
+Added Component: Designator=XP12(DG330-2PIN)
+Added Component: Designator=XP13(DG330-2PIN)
+Added Component: Designator=XP14(DG330-3PIN)
+Added Component: Designator=XP15(DG330-2PIN)
+Added Component: Designator=XP16(PIN6)
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC1_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+5V_F Pin=C3-2
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=+4V3 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=VBAT Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=+3V3 Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=+3V3 Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=+5V Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=+3V3 Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=V_SYS Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=+3V3 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=RESET Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=XTAL2 Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=XTAL1 Pin=C17-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=NetC18_2 Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=PISTOL_MCU Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=NetC21_1 Pin=C21-1
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=+4V3 Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C22-2
+Added Pin To Net: NetName=+4V3 Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=GND Pin=C24-1
+Added Pin To Net: NetName=VIN_F Pin=C24-2
+Added Pin To Net: NetName=VIN_F Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=NetC26_1 Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=NetC27_1 Pin=C27-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=NetC28_1 Pin=C28-1
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=+3V3 Pin=C29-1
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Pin To Net: NetName=GND Pin=C30-1
+Added Pin To Net: NetName=+3V3 Pin=C30-2
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=VBAT Pin=C31-2
+Added Pin To Net: NetName=VBAT Pin=C32-1
+Added Pin To Net: NetName=GND Pin=C32-2
+Added Pin To Net: NetName=NetC33_1 Pin=C33-1
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=+5V_RELAY Pin=C34-1
+Added Pin To Net: NetName=GND Pin=C34-2
+Added Pin To Net: NetName=+5V_RELAY Pin=C35-1
+Added Pin To Net: NetName=GND Pin=C35-2
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=VIN_F Pin=C36-2
+Added Pin To Net: NetName=VIN_F Pin=C37-1
+Added Pin To Net: NetName=GND Pin=C37-2
+Added Pin To Net: NetName=NetC38_1 Pin=C38-1
+Added Pin To Net: NetName=GND Pin=C38-2
+Added Pin To Net: NetName=NetC39_1 Pin=C39-1
+Added Pin To Net: NetName=GND Pin=C39-2
+Added Pin To Net: NetName=NetC40_1 Pin=C40-1
+Added Pin To Net: NetName=GND Pin=C40-2
+Added Pin To Net: NetName=+5V_F Pin=DA1-1
+Added Pin To Net: NetName=NetDA1_2 Pin=DA1-2
+Added Pin To Net: NetName=NetC1_1 Pin=DA1-3
+Added Pin To Net: NetName=NetC4_1 Pin=DA2-1
+Added Pin To Net: NetName=+4V3 Pin=DA2-4
+Added Pin To Net: NetName=NetC7_2 Pin=DA2-5
+Added Pin To Net: NetName=NetC7_2 Pin=DA2-6
+Added Pin To Net: NetName=NetDA2_7 Pin=DA2-7
+Added Pin To Net: NetName=NetDA2_8 Pin=DA2-8
+Added Pin To Net: NetName=NetDA2_9 Pin=DA2-9
+Added Pin To Net: NetName=NetDA2_10 Pin=DA2-10
+Added Pin To Net: NetName=GND Pin=DA2-11
+Added Pin To Net: NetName=NetDA2_12 Pin=DA2-12
+Added Pin To Net: NetName=NetC8_1 Pin=DA2-13
+Added Pin To Net: NetName=NetDA2_14 Pin=DA2-14
+Added Pin To Net: NetName=VBAT Pin=DA2-15
+Added Pin To Net: NetName=VBAT Pin=DA2-16
+Added Pin To Net: NetName=VBAT Pin=DA2-17
+Added Pin To Net: NetName=GND Pin=DA2-19
+Added Pin To Net: NetName=GND Pin=DA2-20
+Added Pin To Net: NetName=GND Pin=DA2-21
+Added Pin To Net: NetName=NetC21_2 Pin=DA3-1
+Added Pin To Net: NetName=VIN_F Pin=DA3-2
+Added Pin To Net: NetName=NetC26_1 Pin=DA3-4
+Added Pin To Net: NetName=NetDA3_5 Pin=DA3-5
+Added Pin To Net: NetName=NetDA3_7 Pin=DA3-7
+Added Pin To Net: NetName=NetC27_1 Pin=DA3-8
+Added Pin To Net: NetName=GND Pin=DA3-9
+Added Pin To Net: NetName=NetC21_1 Pin=DA3-10
+Added Pin To Net: NetName=GND Pin=DA3-11
+Added Pin To Net: NetName=VBAT Pin=DA4-1
+Added Pin To Net: NetName=GND Pin=DA4-2
+Added Pin To Net: NetName=VBAT Pin=DA4-3
+Added Pin To Net: NetName=NetDA4_4 Pin=DA4-4
+Added Pin To Net: NetName=+3V3 Pin=DA4-5
+Added Pin To Net: NetName=NetC33_2 Pin=DA5-1
+Added Pin To Net: NetName=VIN_F Pin=DA5-2
+Added Pin To Net: NetName=NetC38_1 Pin=DA5-4
+Added Pin To Net: NetName=NetDA5_5 Pin=DA5-5
+Added Pin To Net: NetName=NetDA5_7 Pin=DA5-7
+Added Pin To Net: NetName=NetC39_1 Pin=DA5-8
+Added Pin To Net: NetName=GND Pin=DA5-9
+Added Pin To Net: NetName=NetC33_1 Pin=DA5-10
+Added Pin To Net: NetName=GND Pin=DA5-11
+Added Pin To Net: NetName=PUMP_RELAY Pin=DD1-1
+Added Pin To Net: NetName=SS Pin=DD1-2
+Added Pin To Net: NetName=RESET Pin=DD1-3
+Added Pin To Net: NetName=ISP_START Pin=DD1-4
+Added Pin To Net: NetName=GND Pin=DD1-5
+Added Pin To Net: NetName=XTAL1 Pin=DD1-6
+Added Pin To Net: NetName=XTAL2 Pin=DD1-7
+Added Pin To Net: NetName=+3V3 Pin=DD1-8
+Added Pin To Net: NetName=LED_STATE Pin=DD1-9
+Added Pin To Net: NetName=LED_ERROR Pin=DD1-10
+Added Pin To Net: NetName=M_VALVE_RELAY Pin=DD1-11
+Added Pin To Net: NetName=L_FLOW_VALVE_RELAY Pin=DD1-12
+Added Pin To Net: NetName=SCK Pin=DD1-13
+Added Pin To Net: NetName=SCL Pin=DD1-15
+Added Pin To Net: NetName=SDA Pin=DD1-16
+Added Pin To Net: NetName=+3V3 Pin=DD1-17
+Added Pin To Net: NetName=CANL Pin=DD1-18
+Added Pin To Net: NetName=CANH Pin=DD1-19
+Added Pin To Net: NetName=+5V Pin=DD1-20
+Added Pin To Net: NetName=GND Pin=DD1-21
+Added Pin To Net: NetName=PISTOL_MCU Pin=DD1-24
+Added Pin To Net: NetName=MISO Pin=DD1-26
+Added Pin To Net: NetName=COUNTER_2 Pin=DD1-33
+Added Pin To Net: NetName=V_SYS Pin=DD1-34
+Added Pin To Net: NetName=V_IN Pin=DD1-35
+Added Pin To Net: NetName=MOSI Pin=DD1-38
+Added Pin To Net: NetName=GND Pin=DD1-41
+Added Pin To Net: NetName=+3V3 Pin=DD1-44
+Added Pin To Net: NetName=COUNTER_1 Pin=DD1-45
+Added Pin To Net: NetName=RXD Pin=DD1-46
+Added Pin To Net: NetName=TXD Pin=DD1-47
+Added Pin To Net: NetName=SS Pin=DD2-1
+Added Pin To Net: NetName=MISO Pin=DD2-2
+Added Pin To Net: NetName=+3V3 Pin=DD2-3
+Added Pin To Net: NetName=GND Pin=DD2-4
+Added Pin To Net: NetName=MOSI Pin=DD2-5
+Added Pin To Net: NetName=SCK Pin=DD2-6
+Added Pin To Net: NetName=+3V3 Pin=DD2-7
+Added Pin To Net: NetName=+3V3 Pin=DD2-8
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_2 Pin=F1-2
+Added Pin To Net: NetName=NetF1_2 Pin=F1-2
+Added Pin To Net: NetName=NetF2_1 Pin=F2-1
+Added Pin To Net: NetName=NetF2_1 Pin=F2-1
+Added Pin To Net: NetName=NetF2_2 Pin=F2-2
+Added Pin To Net: NetName=NetF2_2 Pin=F2-2
+Added Pin To Net: NetName=NetF3_1 Pin=F3-1
+Added Pin To Net: NetName=NetF3_1 Pin=F3-1
+Added Pin To Net: NetName=NetF3_2 Pin=F3-2
+Added Pin To Net: NetName=NetF3_2 Pin=F3-2
+Added Pin To Net: NetName=NetC1_1 Pin=FU1-1
+Added Pin To Net: NetName=+5V Pin=FU1-2
+Added Pin To Net: NetName=CANH Pin=FU2-1
+Added Pin To Net: NetName=CANH_F Pin=FU2-2
+Added Pin To Net: NetName=CANL Pin=FU3-1
+Added Pin To Net: NetName=CANL_F Pin=FU3-2
+Added Pin To Net: NetName=VIN Pin=FU4-1
+Added Pin To Net: NetName=NetFU4_2 Pin=FU4-2
+Added Pin To Net: NetName=RESET Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=ISP_START Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=+5V_RELAY Pin=K1-1
+Added Pin To Net: NetName=NetK1_2 Pin=K1-2
+Added Pin To Net: NetName=NetK1_11 Pin=K1-11
+Added Pin To Net: NetName=NetF1_2 Pin=K1-14
+Added Pin To Net: NetName=+5V_RELAY Pin=K2-1
+Added Pin To Net: NetName=NetK2_2 Pin=K2-2
+Added Pin To Net: NetName=NetK2_11 Pin=K2-11
+Added Pin To Net: NetName=NetF2_2 Pin=K2-14
+Added Pin To Net: NetName=+5V_RELAY Pin=K3-1
+Added Pin To Net: NetName=NetK3_2 Pin=K3-2
+Added Pin To Net: NetName=NetK3_11 Pin=K3-11
+Added Pin To Net: NetName=NetF3_2 Pin=K3-14
+Added Pin To Net: NetName=NetC21_1 Pin=L1-1
+Added Pin To Net: NetName=+4V3 Pin=L1-2
+Added Pin To Net: NetName=NetC33_1 Pin=L2-1
+Added Pin To Net: NetName=+5V_RELAY Pin=L2-2
+Added Pin To Net: NetName=XTAL1 Pin=QR1-1
+Added Pin To Net: NetName=XTAL2 Pin=QR1-2
+Added Pin To Net: NetName=NetDA1_2 Pin=R1-1
+Added Pin To Net: NetName=+5V_F Pin=R1-2
+Added Pin To Net: NetName=NetDA1_2 Pin=R2-1
+Added Pin To Net: NetName=+5V_F Pin=R2-2
+Added Pin To Net: NetName=NetC1_1 Pin=R3-1
+Added Pin To Net: NetName=+5V_F Pin=R3-2
+Added Pin To Net: NetName=NetDA2_14 Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=NetDA2_7 Pin=R5-1
+Added Pin To Net: NetName=+4V3 Pin=R5-2
+Added Pin To Net: NetName=NetDA2_9 Pin=R6-1
+Added Pin To Net: NetName=+4V3 Pin=R6-2
+Added Pin To Net: NetName=NetDA2_12 Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=NetDA2_8 Pin=R8-1
+Added Pin To Net: NetName=+4V3 Pin=R8-2
+Added Pin To Net: NetName=NetDA2_10 Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R9-2
+Added Pin To Net: NetName=NetC8_1 Pin=R10-1
+Added Pin To Net: NetName=GND Pin=R10-2
+Added Pin To Net: NetName=VIN_F Pin=R11-1
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=+4V3 Pin=R12-1
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=VIN_F Pin=R13-1
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=+4V3 Pin=R14-1
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=VIN_F Pin=R15-2
+Added Pin To Net: NetName=NetR16_1 Pin=R16-1
+Added Pin To Net: NetName=LED_ERROR Pin=R16-2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=LED_STATE Pin=R17-2
+Added Pin To Net: NetName=TXD Pin=R18-1
+Added Pin To Net: NetName=NetR18_2 Pin=R18-2
+Added Pin To Net: NetName=V_IN Pin=R19-1
+Added Pin To Net: NetName=VIN_F Pin=R19-2
+Added Pin To Net: NetName=V_SYS Pin=R20-1
+Added Pin To Net: NetName=VBAT Pin=R20-2
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=V_IN Pin=R21-2
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=V_SYS Pin=R22-2
+Added Pin To Net: NetName=+3V3 Pin=R23-1
+Added Pin To Net: NetName=RESET Pin=R23-2
+Added Pin To Net: NetName=+3V3 Pin=R24-1
+Added Pin To Net: NetName=ISP_START Pin=R24-2
+Added Pin To Net: NetName=NetR25_1 Pin=R25-1
+Added Pin To Net: NetName=NetC18_2 Pin=R25-2
+Added Pin To Net: NetName=GND Pin=R26-1
+Added Pin To Net: NetName=NetC18_2 Pin=R26-2
+Added Pin To Net: NetName=NetR15_1 Pin=R27-1
+Added Pin To Net: NetName=PISTOL_MCU Pin=R27-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=PISTOL_MCU Pin=R28-2
+Added Pin To Net: NetName=NetR29_1 Pin=R29-1
+Added Pin To Net: NetName=NetC20_2 Pin=R29-2
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR29_1 Pin=R30-2
+Added Pin To Net: NetName=GND Pin=R31-1
+Added Pin To Net: NetName=NetR31_2 Pin=R31-2
+Added Pin To Net: NetName=NetDA3_7 Pin=R32-1
+Added Pin To Net: NetName=+4V3 Pin=R32-2
+Added Pin To Net: NetName=NetC28_1 Pin=R33-1
+Added Pin To Net: NetName=NetC27_1 Pin=R33-2
+Added Pin To Net: NetName=GND Pin=R34-1
+Added Pin To Net: NetName=NetDA3_5 Pin=R34-2
+Added Pin To Net: NetName=GND Pin=R35-1
+Added Pin To Net: NetName=NetDA3_7 Pin=R35-2
+Added Pin To Net: NetName=NetDA4_4 Pin=R36-1
+Added Pin To Net: NetName=+3V3 Pin=R36-2
+Added Pin To Net: NetName=+4V3 Pin=R37-1
+Added Pin To Net: NetName=VBAT Pin=R37-2
+Added Pin To Net: NetName=GND Pin=R38-1
+Added Pin To Net: NetName=NetDA4_4 Pin=R38-2
+Added Pin To Net: NetName=NetDA5_7 Pin=R39-1
+Added Pin To Net: NetName=+5V_RELAY Pin=R39-2
+Added Pin To Net: NetName=NetC40_1 Pin=R40-1
+Added Pin To Net: NetName=NetC39_1 Pin=R40-2
+Added Pin To Net: NetName=GND Pin=R41-1
+Added Pin To Net: NetName=NetDA5_5 Pin=R41-2
+Added Pin To Net: NetName=GND Pin=R42-1
+Added Pin To Net: NetName=NetDA5_7 Pin=R42-2
+Added Pin To Net: NetName=NetR43_1 Pin=R43-1
+Added Pin To Net: NetName=+5V_RELAY Pin=R43-2
+Added Pin To Net: NetName=NetR44_1 Pin=R44-1
+Added Pin To Net: NetName=+5V_RELAY Pin=R44-2
+Added Pin To Net: NetName=NetR45_1 Pin=R45-1
+Added Pin To Net: NetName=L_FLOW_VALVE_RELAY Pin=R45-2
+Added Pin To Net: NetName=GND Pin=R46-1
+Added Pin To Net: NetName=L_FLOW_VALVE_RELAY Pin=R46-2
+Added Pin To Net: NetName=NetR47_1 Pin=R47-1
+Added Pin To Net: NetName=+5V_RELAY Pin=R47-2
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Pin To Net: NetName=+5V_RELAY Pin=R48-2
+Added Pin To Net: NetName=M_VALVE_RELAY Pin=R49-2
+Added Pin To Net: NetName=GND Pin=R50-1
+Added Pin To Net: NetName=M_VALVE_RELAY Pin=R50-2
+Added Pin To Net: NetName=NetR51_1 Pin=R51-1
+Added Pin To Net: NetName=+5V_RELAY Pin=R51-2
+Added Pin To Net: NetName=NetR52_1 Pin=R52-1
+Added Pin To Net: NetName=+5V_RELAY Pin=R52-2
+Added Pin To Net: NetName=NetR53_1 Pin=R53-1
+Added Pin To Net: NetName=PUMP_RELAY Pin=R53-2
+Added Pin To Net: NetName=GND Pin=R54-1
+Added Pin To Net: NetName=PUMP_RELAY Pin=R54-2
+Added Pin To Net: NetName=NetR44_1 Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=NetR43_1 Pin=U1-4
+Added Pin To Net: NetName=NetR48_1 Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=NetR47_1 Pin=U2-4
+Added Pin To Net: NetName=NetR52_1 Pin=U3-1
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=GND Pin=U3-3
+Added Pin To Net: NetName=NetR51_1 Pin=U3-4
+Added Pin To Net: NetName=GND Pin=VD1-1
+Added Pin To Net: NetName=+5V_F Pin=VD1-2
+Added Pin To Net: NetName=GND Pin=VD2-1
+Added Pin To Net: NetName=NetVD2_2 Pin=VD2-2
+Added Pin To Net: NetName=GND Pin=VD3-1
+Added Pin To Net: NetName=NetVD3_2 Pin=VD3-2
+Added Pin To Net: NetName=CANL Pin=VD4-1
+Added Pin To Net: NetName=CANH Pin=VD4-2
+Added Pin To Net: NetName=GND Pin=VD4-3
+Added Pin To Net: NetName=GND Pin=VD5-1
+Added Pin To Net: NetName=SDA Pin=VD5-2
+Added Pin To Net: NetName=GND Pin=VD6-1
+Added Pin To Net: NetName=SCL Pin=VD6-2
+Added Pin To Net: NetName=NetR16_1 Pin=VD7-1
+Added Pin To Net: NetName=GND Pin=VD7-2
+Added Pin To Net: NetName=NetR17_1 Pin=VD8-1
+Added Pin To Net: NetName=GND Pin=VD8-2
+Added Pin To Net: NetName=GND Pin=VD9-1
+Added Pin To Net: NetName=+3V3 Pin=VD9-2
+Added Pin To Net: NetName=NetC18_2 Pin=VD9-3
+Added Pin To Net: NetName=GND Pin=VD10-1
+Added Pin To Net: NetName=+3V3 Pin=VD10-2
+Added Pin To Net: NetName=PISTOL_MCU Pin=VD10-3
+Added Pin To Net: NetName=NetFU4_2 Pin=VD11-1
+Added Pin To Net: NetName=NetC20_2 Pin=VD11-2
+Added Pin To Net: NetName=NetFU4_2 Pin=VD12-1
+Added Pin To Net: NetName=NetC20_2 Pin=VD12-2
+Added Pin To Net: NetName=NetR31_2 Pin=VD13-1
+Added Pin To Net: NetName=NetC20_2 Pin=VD13-2
+Added Pin To Net: NetName=GND Pin=VD14-1
+Added Pin To Net: NetName=NetC20_2 Pin=VD14-2
+Added Pin To Net: NetName=GND Pin=VD15-1
+Added Pin To Net: NetName=NetR29_1 Pin=VD15-2
+Added Pin To Net: NetName=GND Pin=VD16-1
+Added Pin To Net: NetName=NetC21_1 Pin=VD16-2
+Added Pin To Net: NetName=GND Pin=VD17-1
+Added Pin To Net: NetName=NetC33_1 Pin=VD17-2
+Added Pin To Net: NetName=NetK1_2 Pin=VD18-1
+Added Pin To Net: NetName=+5V_RELAY Pin=VD18-2
+Added Pin To Net: NetName=NetK2_2 Pin=VD19-1
+Added Pin To Net: NetName=+5V_RELAY Pin=VD19-2
+Added Pin To Net: NetName=NetK3_2 Pin=VD20-1
+Added Pin To Net: NetName=+5V_RELAY Pin=VD20-2
+Added Pin To Net: NetName=NetR31_2 Pin=VT1-1
+Added Pin To Net: NetName=VIN_F Pin=VT1-2
+Added Pin To Net: NetName=NetC20_2 Pin=VT1-3
+Added Pin To Net: NetName=NetR30_1 Pin=VT2-1
+Added Pin To Net: NetName=NetC20_2 Pin=VT2-2
+Added Pin To Net: NetName=NetR31_2 Pin=VT2-3
+Added Pin To Net: NetName=NetR43_1 Pin=VT3-1
+Added Pin To Net: NetName=GND Pin=VT3-2
+Added Pin To Net: NetName=NetK1_2 Pin=VT3-3
+Added Pin To Net: NetName=NetR45_1 Pin=VT4-1
+Added Pin To Net: NetName=GND Pin=VT4-2
+Added Pin To Net: NetName=NetR44_1 Pin=VT4-3
+Added Pin To Net: NetName=NetR47_1 Pin=VT5-1
+Added Pin To Net: NetName=GND Pin=VT5-2
+Added Pin To Net: NetName=NetK2_2 Pin=VT5-3
+Added Pin To Net: NetName=GND Pin=VT6-2
+Added Pin To Net: NetName=NetR48_1 Pin=VT6-3
+Added Pin To Net: NetName=NetR51_1 Pin=VT7-1
+Added Pin To Net: NetName=GND Pin=VT7-2
+Added Pin To Net: NetName=NetK3_2 Pin=VT7-3
+Added Pin To Net: NetName=NetR53_1 Pin=VT8-1
+Added Pin To Net: NetName=GND Pin=VT8-2
+Added Pin To Net: NetName=NetR52_1 Pin=VT8-3
+Added Pin To Net: NetName=GND Pin=XP1-1
+Added Pin To Net: NetName=NetC7_2 Pin=XP1-2
+Added Pin To Net: NetName=NetR11_2 Pin=XP2-1
+Added Pin To Net: NetName=NetVD2_2 Pin=XP2-2
+Added Pin To Net: NetName=NetR12_2 Pin=XP2-3
+Added Pin To Net: NetName=VIN Pin=XP3-1
+Added Pin To Net: NetName=GND Pin=XP3-2
+Added Pin To Net: NetName=NetVD2_2 Pin=XP4-1
+Added Pin To Net: NetName=GND Pin=XP4-2
+Added Pin To Net: NetName=NetVD3_2 Pin=XP4-3
+Added Pin To Net: NetName=CANH_F Pin=XP5-1
+Added Pin To Net: NetName=CANL_F Pin=XP5-2
+Added Pin To Net: NetName=NetR13_2 Pin=XP6-1
+Added Pin To Net: NetName=NetVD3_2 Pin=XP6-2
+Added Pin To Net: NetName=NetR14_2 Pin=XP6-3
+Added Pin To Net: NetName=NetF1_1 Pin=XP7-1
+Added Pin To Net: NetName=NetK1_11 Pin=XP8-1
+Added Pin To Net: NetName=NetF2_1 Pin=XP9-1
+Added Pin To Net: NetName=NetK2_11 Pin=XP10-1
+Added Pin To Net: NetName=NetF3_1 Pin=XP11-1
+Added Pin To Net: NetName=NetR15_1 Pin=XP12-1
+Added Pin To Net: NetName=GND Pin=XP12-2
+Added Pin To Net: NetName=NetK3_11 Pin=XP13-1
+Added Pin To Net: NetName=SDA Pin=XP14-1
+Added Pin To Net: NetName=GND Pin=XP14-2
+Added Pin To Net: NetName=SCL Pin=XP14-3
+Added Pin To Net: NetName=+5V_F Pin=XP15-1
+Added Pin To Net: NetName=GND Pin=XP15-2
+Added Pin To Net: NetName=NetR18_2 Pin=XP16-2
+Added Pin To Net: NetName=RXD Pin=XP16-3
+Added Pin To Net: NetName=GND Pin=XP16-5
+Added Pin To Net: NetName=NetR49_1 Pin=R49-1
+Added Pin To Net: NetName=NetR49_1 Pin=VT6-1
+Added Net: Name=NetR49_1
+Added Pin To Net: NetName=NetXP7_2 Pin=XP7-2
+Added Pin To Net: NetName=NetXP7_2 Pin=XP8-2
+Added Net: Name=NetXP7_2
+Added Pin To Net: NetName=NetXP9_2 Pin=XP9-2
+Added Pin To Net: NetName=NetXP9_2 Pin=XP10-2
+Added Net: Name=NetXP9_2
+Added Pin To Net: NetName=NetXP11_2 Pin=XP11-2
+Added Pin To Net: NetName=NetXP11_2 Pin=XP13-2
+Added Net: Name=NetXP11_2
+Added Member To Class: ClassName=5V_Source Member=Component C1 10uF
+Added Member To Class: ClassName=5V_Source Member=Component C2 0.1uF
+Added Member To Class: ClassName=5V_Source Member=Component C3 10uF
+Added Member To Class: ClassName=Battery Member=Component C4 0.1uF
+Added Member To Class: ClassName=Battery Member=Component C5 1uF
+Added Member To Class: ClassName=Battery Member=Component C6 1uF
+Added Member To Class: ClassName=Battery Member=Component C7 10uFx6.3V
+Added Member To Class: ClassName=Battery Member=Component C8 10nF
+Added Member To Class: ClassName=CPU Member=Component C9 0.1uF
+Added Member To Class: ClassName=CPU Member=Component C10 0.1uF
+Added Member To Class: ClassName=CPU Member=Component C11 0.1uF
+Added Member To Class: ClassName=CPU Member=Component C12 0.1uF
+Added Member To Class: ClassName=CPU Member=Component C13 0.1uF
+Added Member To Class: ClassName=CPU Member=Component C14 CC0603
+Added Member To Class: ClassName=CPU Member=Component C15 220pF
+Added Member To Class: ClassName=CPU Member=Component C16 22pF
+Added Member To Class: ClassName=CPU Member=Component C17 22pF
+Added Member To Class: ClassName=Input Member=Component C18 0.1uF
+Added Member To Class: ClassName=Input Member=Component C19 0.1uF
+Added Member To Class: ClassName=Power Member=Component C20 0.1uFx250V
+Added Member To Class: ClassName=Power Member=Component C21 0.1 uF
+Added Member To Class: ClassName=Power Member=Component C22 0.1 uF
+Added Member To Class: ClassName=Power Member=Component C23 1000uFx6.3V
+Added Member To Class: ClassName=Power Member=Component C24 470uFx35V
+Added Member To Class: ClassName=Power Member=Component C25 0.1 uF
+Added Member To Class: ClassName=Power Member=Component C26 10 nF
+Added Member To Class: ClassName=Power Member=Component C27 330pF
+Added Member To Class: ClassName=Power Member=Component C28 560pF
+Added Member To Class: ClassName=Power Member=Component C29 0.1uF
+Added Member To Class: ClassName=Power Member=Component C30 10uFx6.3V
+Added Member To Class: ClassName=Power Member=Component C31 10uF 6.3V
+Added Member To Class: ClassName=Power Member=Component C32 0.1uF
+Added Member To Class: ClassName=Power_1 Member=Component C33 0.1 uF
+Added Member To Class: ClassName=Power_1 Member=Component C34 0.1 uF
+Added Member To Class: ClassName=Power_1 Member=Component C35 1000uFx6.3V
+Added Member To Class: ClassName=Power_1 Member=Component C36 470uFx35V
+Added Member To Class: ClassName=Power_1 Member=Component C37 0.1 uF
+Added Member To Class: ClassName=Power_1 Member=Component C38 10 nF
+Added Member To Class: ClassName=Power_1 Member=Component C39 330pF
+Added Member To Class: ClassName=Power_1 Member=Component C40 560pF
+Added Member To Class: ClassName=5V_Source Member=Component DA1 LM317MDTG
+Added Member To Class: ClassName=Battery Member=Component DA2 BQ24070
+Added Member To Class: ClassName=Power Member=Component DA3 TPS54260DGQ
+Added Member To Class: ClassName=Power Member=Component DA4 AP2210K-ADJTRG1
+Added Member To Class: ClassName=Power_1 Member=Component DA5 TPS54260DGQ
+Added Member To Class: ClassName=CPU Member=Component DD1 LPC11C24FBD48
+Added Member To Class: ClassName=CPU Member=Component DD2 M25PE16-VMW
+Added Member To Class: ClassName=Relay Member=Component F1 KLS5-266(5x20) 2pcs
+Added Member To Class: ClassName=Relay Member=Component F2 KLS5-266(5x20) 2pcs
+Added Member To Class: ClassName=Relay Member=Component F3 KLS5-266(5x20) 2pcs
+Added Member To Class: ClassName=5V_Source Member=Component FU1 RXE-030
+Added Member To Class: ClassName=Connections Member=Component FU2 MICROSMD010F-2
+Added Member To Class: ClassName=Connections Member=Component FU3 MICROSMD010F-2
+Added Member To Class: ClassName=Power Member=Component FU4 RXE-110
+Added Member To Class: ClassName=CPU Member=Component J1 PLS-02
+Added Member To Class: ClassName=CPU Member=Component J2 PLS-02
+Added Member To Class: ClassName=Relay_2 Member=Component K1 RY21
+Added Member To Class: ClassName=Relay_2 Member=Component K2 RY21
+Added Member To Class: ClassName=Relay_3 Member=Component K3 RY21
+Added Member To Class: ClassName=Power Member=Component L1 15uH
+Added Member To Class: ClassName=Power_1 Member=Component L2 15uH
+Added Member To Class: ClassName=CPU Member=Component QR1 NX5032GA-12.000MHz LN-CD-1
+Added Member To Class: ClassName=5V_Source Member=Component R1 20E
+Added Member To Class: ClassName=5V_Source Member=Component R2 20E
+Added Member To Class: ClassName=5V_Source Member=Component R3 n.p
+Added Member To Class: ClassName=Battery Member=Component R4 51k
+Added Member To Class: ClassName=Battery Member=Component R5 100k
+Added Member To Class: ClassName=Battery Member=Component R6 100k
+Added Member To Class: ClassName=Battery Member=Component R7 10k
+Added Member To Class: ClassName=Battery Member=Component R8 100k
+Added Member To Class: ClassName=Battery Member=Component R9 2k
+Added Member To Class: ClassName=Battery Member=Component R10 36k
+Added Member To Class: ClassName=Connections Member=Component R11 10k
+Added Member To Class: ClassName=Connections Member=Component R12 10k
+Added Member To Class: ClassName=Connections Member=Component R13 10k
+Added Member To Class: ClassName=Connections Member=Component R14 10k
+Added Member To Class: ClassName=Connections Member=Component R15 10k
+Added Member To Class: ClassName=CPU Member=Component R16 1k
+Added Member To Class: ClassName=CPU Member=Component R17 1k
+Added Member To Class: ClassName=CPU Member=Component R18 100E
+Added Member To Class: ClassName=CPU Member=Component R19 100k
+Added Member To Class: ClassName=CPU Member=Component R20 10k
+Added Member To Class: ClassName=CPU Member=Component R21 10k
+Added Member To Class: ClassName=CPU Member=Component R22 10k
+Added Member To Class: ClassName=CPU Member=Component R23 10k
+Added Member To Class: ClassName=CPU Member=Component R24 10k
+Added Member To Class: ClassName=Input Member=Component R25 100k
+Added Member To Class: ClassName=Input Member=Component R26 33k
+Added Member To Class: ClassName=Input Member=Component R27 100k
+Added Member To Class: ClassName=Input Member=Component R28 33k
+Added Member To Class: ClassName=Power Member=Component R29 220k
+Added Member To Class: ClassName=Power Member=Component R30 220k
+Added Member To Class: ClassName=Power Member=Component R31 220k
+Added Member To Class: ClassName=Power Member=Component R32 48k7 1%
+Added Member To Class: ClassName=Power Member=Component R33 12k
+Added Member To Class: ClassName=Power Member=Component R34 240k
+Added Member To Class: ClassName=Power Member=Component R35 11k 1%
+Added Member To Class: ClassName=Power Member=Component R36 11k 1%
+Added Member To Class: ClassName=Power Member=Component R37 n.p
+Added Member To Class: ClassName=Power Member=Component R38 18k 1%
+Added Member To Class: ClassName=Power_1 Member=Component R39 68k1 1%
+Added Member To Class: ClassName=Power_1 Member=Component R40 12k
+Added Member To Class: ClassName=Power_1 Member=Component R41 240k
+Added Member To Class: ClassName=Power_1 Member=Component R42 13k 1%
+Added Member To Class: ClassName=Relay_2 Member=Component R43 4k7
+Added Member To Class: ClassName=Relay_2 Member=Component R44 220E
+Added Member To Class: ClassName=Relay_2 Member=Component R45 10k
+Added Member To Class: ClassName=Relay_2 Member=Component R46 100k
+Added Member To Class: ClassName=Relay_2 Member=Component R47 4k7
+Added Member To Class: ClassName=Relay_2 Member=Component R48 220E
+Added Member To Class: ClassName=Relay_2 Member=Component R49 10k
+Added Member To Class: ClassName=Relay_2 Member=Component R50 100k
+Added Member To Class: ClassName=Relay_3 Member=Component R51 4k7
+Added Member To Class: ClassName=Relay_3 Member=Component R52 220E
+Added Member To Class: ClassName=Relay_3 Member=Component R53 10k
+Added Member To Class: ClassName=Relay_3 Member=Component R54 100k
+Added Member To Class: ClassName=Relay_2 Member=Component U1 K10102C
+Added Member To Class: ClassName=Relay_2 Member=Component U2 K10102C
+Added Member To Class: ClassName=Relay_3 Member=Component U3 K10102C
+Added Member To Class: ClassName=5V_Source Member=Component VD1 SMBJ5.0C
+Added Member To Class: ClassName=Connections Member=Component VD2 SMBJ15CA
+Added Member To Class: ClassName=Connections Member=Component VD3 SMBJ
+Added Member To Class: ClassName=Connections Member=Component VD4 PESD2CAN
+Added Member To Class: ClassName=Connections Member=Component VD5 SMBJ15CA
+Added Member To Class: ClassName=Connections Member=Component VD6 SMBJ
+Added Member To Class: ClassName=CPU Member=Component VD7 LED_0805
+Added Member To Class: ClassName=CPU Member=Component VD8 LED_0805
+Added Member To Class: ClassName=Input Member=Component VD9 BAT54S
+Added Member To Class: ClassName=Input Member=Component VD10 BAT54S
+Added Member To Class: ClassName=Power Member=Component VD11 GS1M
+Added Member To Class: ClassName=Power Member=Component VD12 n.p
+Added Member To Class: ClassName=Power Member=Component VD13 BZV55C15
+Added Member To Class: ClassName=Power Member=Component VD14 1.5KE150A
+Added Member To Class: ClassName=Power Member=Component VD15 BZV55C39
+Added Member To Class: ClassName=Power Member=Component VD16 SK34SMA
+Added Member To Class: ClassName=Power_1 Member=Component VD17 SK34SMA
+Added Member To Class: ClassName=Relay_2 Member=Component VD18 LL4148
+Added Member To Class: ClassName=Relay_2 Member=Component VD19 LL4148
+Added Member To Class: ClassName=Relay_3 Member=Component VD20 LL4148
+Added Member To Class: ClassName=Power Member=Component VT1 IRFR9220
+Added Member To Class: ClassName=Power Member=Component VT2 BC857
+Added Member To Class: ClassName=Relay_2 Member=Component VT3 BC817-40
+Added Member To Class: ClassName=Relay_2 Member=Component VT4 BC817-40
+Added Member To Class: ClassName=Relay_2 Member=Component VT5 BC817-40
+Added Member To Class: ClassName=Relay_2 Member=Component VT6 BC817-40
+Added Member To Class: ClassName=Relay_3 Member=Component VT7 BC817-40
+Added Member To Class: ClassName=Relay_3 Member=Component VT8 BC817-40
+Added Member To Class: ClassName=Battery Member=Component XP1 MW03D
+Added Member To Class: ClassName=Connections Member=Component XP2 PLS03
+Added Member To Class: ClassName=Connections Member=Component XP3 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP4 DG330-3PIN
+Added Member To Class: ClassName=Connections Member=Component XP5 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP6 PLS03
+Added Member To Class: ClassName=Connections Member=Component XP7 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP8 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP9 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP10 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP11 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP12 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP13 DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP14 DG330-3PIN
+Added Member To Class: ClassName=Connections Member=Component XP15 DG330-2PIN
+Added Member To Class: ClassName=CPU Member=Component XP16 PLD-06
+Added Room: Name=5V_Source
+Added Room: Name=Battery
+Added Room: Name=Connections
+Added Room: Name=CPU
+Added Room: Name=Input
+Added Room: Name=Power
+Added Room: Name=Power_1
+Added Room: Name=Relay
+Added Room: Name=Relay_2
+Added Room: Name=Relay_3

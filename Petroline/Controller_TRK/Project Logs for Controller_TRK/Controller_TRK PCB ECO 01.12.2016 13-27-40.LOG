@@ -1,0 +1,15 @@
+Added Pin To Net: NetName=NetVD3_2 Pin=VD2-2
+Added Pin To Net: NetName=NetVD3_2 Pin=XP2-2
+Added Pin To Net: NetName=NetVD3_2 Pin=XP4-1
+Change Net Name : Old Net Name=NetF1_1 New Net Name=PUMP_L_IN
+Change Net Name : Old Net Name=NetF2_1 New Net Name=VALVE_MAIN_L_IN
+Change Net Name : Old Net Name=NetF3_1 New Net Name=VALVE_LFL_L_IN
+Change Net Name : Old Net Name=NetK1_11 New Net Name=PUMP_L_OUT
+Change Net Name : Old Net Name=NetK2_11 New Net Name=VALVE_MAIN_L_OUT
+Change Net Name : Old Net Name=NetK3_11 New Net Name=VALVE_LFL_L_OUT
+Change Net Name : Old Net Name=NetR15_1 New Net Name=PISTOL
+Change Net Name : Old Net Name=NetVD3_2 New Net Name=C1
+Change Net Name : Old Net Name=NetXP7_2 New Net Name=PUMP_N_IN
+Change Net Name : Old Net Name=NetXP9_2 New Net Name=VALVE_MAIN_N_IN
+Change Net Name : Old Net Name=NetXP11_2 New Net Name=VALVE_LFL_N_IN
+Added Member To Class: ClassName=Connections Member=Component XP12 DG330-2PIN

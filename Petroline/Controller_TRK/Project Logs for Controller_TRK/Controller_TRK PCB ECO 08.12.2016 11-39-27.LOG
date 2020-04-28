@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=EARTH Pin=XP10-1
+Removed Pin From Net: NetName=EARTH Pin=XP13-1
+Removed Pin From Net: NetName=EARTH Pin=XP13-2
+Change Net Name : Old Net Name=EARTH New Net Name=L_IN
+Added Pin To Net: NetName=EARTH Pin=XP10-1
+Added Pin To Net: NetName=EARTH Pin=XP13-1
+Added Pin To Net: NetName=EARTH Pin=XP13-2
+Added Net: Name=EARTH

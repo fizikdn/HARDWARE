@@ -1,0 +1,8 @@
+Added Component: Designator=VD2(LP-502-W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LP-502-W"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR13_2 Pin=VD2-1
+Added Pin To Net: NetName=GND Pin=VD2-2
+Added Pin To Net: NetName=GND Pin=VD2-3
+Added Pin To Net: NetName=NetR14_1 Pin=VD2-4
+Added Member To Class: ClassName=LCD Member=Component VD2 LP-502-W

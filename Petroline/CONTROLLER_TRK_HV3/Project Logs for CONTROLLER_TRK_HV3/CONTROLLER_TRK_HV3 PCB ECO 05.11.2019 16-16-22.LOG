@@ -1,0 +1,36 @@
+Added Component: Designator=J7(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J8(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J9(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R65(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J7-1
+Added Pin To Net: NetName=SETTINGS_DEF Pin=J7-2
+Added Pin To Net: NetName=GND Pin=J8-1
+Added Pin To Net: NetName=SETTINGS_BLOCK Pin=J8-2
+Added Pin To Net: NetName=M/S Pin=J9-1
+Added Pin To Net: NetName=GND Pin=J9-2
+Added Pin To Net: NetName=+3V3_F Pin=R52-1
+Added Pin To Net: NetName=SETTINGS_DEF Pin=R52-2
+Added Pin To Net: NetName=SETTINGS_BLOCK Pin=R65-1
+Added Pin To Net: NetName=+3V3_F Pin=R65-2
+Added Pin To Net: NetName=+3V3_F Pin=R70-1
+Added Pin To Net: NetName=M/S Pin=R70-2
+Added Member To Class: ClassName=[6]-MCU_CONNECTORS Member=Component J7 PLS-02
+Added Member To Class: ClassName=[6]-MCU_CONNECTORS Member=Component J8 PLS-02
+Added Member To Class: ClassName=[6]-MCU_CONNECTORS Member=Component J9 PLS-02
+Added Member To Class: ClassName=[6]-MCU_CONNECTORS Member=Component R52 10k
+Added Member To Class: ClassName=[6]-MCU_CONNECTORS Member=Component R65 10k
+Added Member To Class: ClassName=[6]-MCU_CONNECTORS Member=Component R70 10k

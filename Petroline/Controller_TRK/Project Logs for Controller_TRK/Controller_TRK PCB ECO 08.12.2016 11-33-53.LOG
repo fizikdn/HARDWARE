@@ -1,0 +1,6 @@
+Added Component: Designator=XP10(DG330-3PIN)
+Added Pin To Net: NetName=L_IN Pin=XP10-1
+Added Pin To Net: NetName=N_IN Pin=XP10-2
+Added Pin To Net: NetName=EARTH Pin=XP10-3
+Added Member To Class: ClassName=Connections Member=Component XP9 BH-10
+Added Member To Class: ClassName=Connections Member=Component XP10 DG330-3PIN

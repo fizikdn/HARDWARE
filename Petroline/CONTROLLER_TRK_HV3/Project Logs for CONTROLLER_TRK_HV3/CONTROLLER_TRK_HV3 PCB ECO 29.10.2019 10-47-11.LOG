@@ -1,0 +1,158 @@
+Removed Pin From Net: NetName=GND_MCU Pin=C29-2
+Removed Pin From Net: NetName=+5V_RELAY Pin=R36-2
+Removed Pin From Net: NetName=L_FL_VLV_RELAY Pin=R38-1
+Removed Pin From Net: NetName=PUMP_RELAY Pin=R39-1
+Removed Pin From Net: NetName=+5V_RELAY Pin=R40-2
+Removed Pin From Net: NetName=M_VLV_RELAY Pin=R41-1
+Removed Pin From Net: NetName=+5V_RELAY Pin=REL1-1
+Removed Pin From Net: NetName=+5V_RELAY Pin=REL3-1
+Removed Pin From Net: NetName=+5V_RELAY Pin=VD9-2
+Removed Pin From Net: NetName=+5V_RELAY Pin=VD10-2
+Removed Pin From Net: NetName=+5V_RELAY Pin=VD17-2
+Removed Pin From Net: NetName=+3V3_F Pin=VD31-1
+Removed Pin From Net: NetName=NetC28_2 Pin=VD31-3
+Removed Pin From Net: NetName=NetC28_2 Pin=VD32-3
+Removed Pin From Net: NetName=GND_MCU Pin=VD33-1
+Removed Pin From Net: NetName=GND Pin=VT7-2
+Removed Pin From Net: NetName=GND Pin=VT8-2
+Removed Pin From Net: NetName=NetR41_2 Pin=VT9-1
+Removed Pin From Net: NetName=GND Pin=VT9-2
+Removed Member From Class: ClassName=[14]-RTC Member=R60
+Removed Member From Class: ClassName=[14]-RTC Member=R61
+Removed Member From Class: ClassName=[14]-RTC Member=VD31
+Removed Member From Class: ClassName=[14]-RTC Member=VD32
+Removed Member From Class: ClassName=[14]-RTC Member=VD33
+Change Component Footprint: Designator=C29 Old Footprint=CC8X11.5_L New Footprint=CC0603
+Change Component Footprint: Designator=R60 Old Footprint=RC0805 New Footprint=RC0603
+Change Component Footprint: Designator=R61 Old Footprint=RC0805 New Footprint=RC0603
+Change Component Comment : Designator=C29 Old Comment=1Fx2.7V New Comment=0.1uF
+Change Component Comment : Designator=R41 Old Comment=10k New Comment=330E
+Change Component Comment : Designator=R61 Old Comment=120E New Comment=10k
+Change Component Comment : Designator=R60 Old Comment=120E New Comment=330E
+Change Component Comment : Designator=VT7 Old Comment=BC817-40 New Comment=IRLML6402
+Change Component Comment : Designator=VT8 Old Comment=BC817-40 New Comment=IRLML6402
+Change Component Comment : Designator=VT9 Old Comment=BC817-40 New Comment=IRLML6402
+Change component parameters: Designator = "C29"; Footprint = "CC0603"; UniqueID = "\RGZFBRNW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R41"; Footprint = "RC0603"; UniqueID = "\QJKZZBJV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "330E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R60"; Footprint = "RC0603"; UniqueID = "\AEHWBTFV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "330E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R61"; Footprint = "RC0603"; UniqueID = "\GSMTRBJE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT7"; Footprint = "SOT-23(123)"; UniqueID = "\KBEVQQTO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentField7"; Value = "Published 8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OriginalName"; Value = "IRLML5103"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "{Value}"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT8"; Footprint = "SOT-23(123)"; UniqueID = "\OMNSYNNH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentField7"; Value = "Published 8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OriginalName"; Value = "IRLML5103"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "{Value}"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VT9"; Footprint = "SOT-23(123)"; UniqueID = "\LPTZVVGE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentField7"; Value = "Published 8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OriginalName"; Value = "IRLML5103"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "{Value}"; VariantName = "[No Variations]"
+Added Component: Designator=BAT1(CR2032_ONBOARD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "CR2032-VBY4"; VariantName = "[No Variations]"
+Added Component: Designator=R67(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330E"; VariantName = "[No Variations]"
+Added Component: Designator=U4(PC817)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U5(PC817)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U6(PC817)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD14(SOD-80)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD15(SOT-23(123))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BAT1-1
+Added Pin To Net: NetName=GND Pin=C29-1
+Added Pin To Net: NetName=L_FL_VLV_RELAY Pin=R41-1
+Added Pin To Net: NetName=PUMP_RELAY Pin=R60-1
+Added Pin To Net: NetName=M_VLV_RELAY Pin=R67-1
+Added Pin To Net: NetName=GND Pin=REL1-2
+Added Pin To Net: NetName=GND Pin=REL2-2
+Added Pin To Net: NetName=GND Pin=REL3-2
+Added Pin To Net: NetName=NetR41_2 Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=GND Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U6-2
+Added Pin To Net: NetName=GND Pin=U6-3
+Added Pin To Net: NetName=GND Pin=VD10-1
+Added Pin To Net: NetName=GND Pin=VD11-1
+Added Pin To Net: NetName=GND Pin=VD12-2
+Added Pin To Net: NetName=GND Pin=VD13-2
+Added Pin To Net: NetName=NetFU3_2 Pin=VD14-1
+Added Pin To Net: NetName=+VIN_F Pin=VD14-2
+Added Pin To Net: NetName=+3V3_F Pin=VD15-1
+Added Pin To Net: NetName=NetC28_2 Pin=VD15-3
+Added Pin To Net: NetName=GND Pin=VD17-1
+Added Pin To Net: NetName=GND Pin=VD18-2
+Added Pin To Net: NetName=+5V_RELAY Pin=VT8-3
+Change Net Name : Old Net Name=+5V_RELAY New Net Name=NetR37_2
+Added Pin To Net: NetName=+5V_RELAY Pin=R38-2
+Added Pin To Net: NetName=+5V_RELAY Pin=R39-2
+Added Pin To Net: NetName=+5V_RELAY Pin=R61-2
+Added Pin To Net: NetName=+5V_RELAY Pin=VD9-2
+Added Pin To Net: NetName=+5V_RELAY Pin=VT7-2
+Added Pin To Net: NetName=+5V_RELAY Pin=VT8-2
+Added Pin To Net: NetName=+5V_RELAY Pin=VT9-2
+Added Net: Name=+5V_RELAY
+Added Pin To Net: NetName=NetBAT1_2 Pin=BAT1-2
+Added Pin To Net: NetName=NetBAT1_2 Pin=C29-2
+Added Pin To Net: NetName=NetBAT1_2 Pin=VD15-2
+Added Net: Name=NetBAT1_2
+Added Pin To Net: NetName=NetR36_2 Pin=R36-2
+Added Pin To Net: NetName=NetR36_2 Pin=REL1-1
+Added Pin To Net: NetName=NetR36_2 Pin=VD10-2
+Added Pin To Net: NetName=NetR36_2 Pin=VT7-3
+Added Net: Name=NetR36_2
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=NetR38_1 Pin=U4-4
+Added Pin To Net: NetName=NetR38_1 Pin=VT7-1
+Added Net: Name=NetR38_1
+Added Pin To Net: NetName=NetR39_1 Pin=R39-1
+Added Pin To Net: NetName=NetR39_1 Pin=U5-4
+Added Pin To Net: NetName=NetR39_1 Pin=VT8-1
+Added Net: Name=NetR39_1
+Added Pin To Net: NetName=NetR40_2 Pin=R40-2
+Added Pin To Net: NetName=NetR40_2 Pin=REL3-1
+Added Pin To Net: NetName=NetR40_2 Pin=VD17-2
+Added Pin To Net: NetName=NetR40_2 Pin=VT9-3
+Added Net: Name=NetR40_2
+Added Pin To Net: NetName=NetR60_2 Pin=R60-2
+Added Pin To Net: NetName=NetR60_2 Pin=U5-1
+Added Net: Name=NetR60_2
+Added Pin To Net: NetName=NetR61_1 Pin=R61-1
+Added Pin To Net: NetName=NetR61_1 Pin=U6-4
+Added Pin To Net: NetName=NetR61_1 Pin=VT9-1
+Added Net: Name=NetR61_1
+Added Pin To Net: NetName=NetR67_2 Pin=R67-2
+Added Pin To Net: NetName=NetR67_2 Pin=U6-1
+Added Net: Name=NetR67_2
+Added Member To Class: ClassName=[14]-RTC Member=Component BAT1 CR2032-VBY4
+Added Member To Class: ClassName=[9]-RELAYS Member=Component R60 330E
+Added Member To Class: ClassName=[9]-RELAYS Member=Component R61 10k
+Added Member To Class: ClassName=[9]-RELAYS Member=Component R67 330E
+Added Member To Class: ClassName=[9]-RELAYS Member=Component U4 K2010C
+Added Member To Class: ClassName=[9]-RELAYS Member=Component U5 K2010C
+Added Member To Class: ClassName=[9]-RELAYS Member=Component U6 K2010C
+Added Member To Class: ClassName=[8]-OUTPUTS Member=Component VD14 LL4148
+Added Member To Class: ClassName=[14]-RTC Member=Component VD15 BAT54C

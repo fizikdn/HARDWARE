@@ -1,0 +1,396 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD18\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">27.08.2018</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">13:35:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc" class="file"><acronym title="E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc">E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">20</td></tr>
+</table>
+</td>
+</table><a name="IDIPTHUFDH42JQLSC1XGRYWYMY4PLEHG5OAZHKFSNX1BDCVDJF5UOE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTEFURJPWYYJQHQKZBLNGHLD3JIRDFZY2M0YHWKG24W1GSH5XZFWN">Clearance Constraint (Gap=0.4mm) (InPolygon),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKTKRTAG2BF2EFBXSB5TATMZLFEOQADIF0CJP3UMOI0H1X4BJC3RP">Clearance Constraint (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOGOYE3DQFCCXKXFTUAQ4BPOSGKFWP2JPQCCTP1F0G4EFOO2TJ1EF">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSJAH2SHK24YND0GBJESDGL1QLJUUTOCZIGQKAICWBEWU55MR21MJ">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNDVMPQEXN2ZCVTCDXT0N5E3AME1Q4CBWQ2P3CHRS2DJDCHPOVSI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIV3XWD3KIW4AH4VT44RDQTPOYICNJVC4A0BQXIJXRLQKUBF0IH4O">Width Constraint (Min=0.2mm) (Max=3mm) (Preferred=0.5mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1FTZOSE1FOZWM14O2DBQIHS3DLCI01IYY2ZHJ3MPC214JVSUYYRJ">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOIGUDNCKWPX4OODQ3DDXDTDDEKMYSCOEXGMR20H4RELHK5IAUGR">Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUR2B0KXGLKJTNOXFDOL1CSEYBO0LL5ECS5O4EKKDNUGFYU10DU3O">Hole To Hole Clearance (Gap=0.05mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDARAJ3U3JY3QPI1PFGZXCOAYMHGAV3ZUTH0HHLFTGE545OEC5FHD">Minimum Solder Mask Sliver (Gap=0.04mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSHRNZLKSHGYSG3GSVTKL1LO5YLJNEO5KGKK3JJGXFIJGXZ4G3DOB">Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)</a></td>
+<td class="column2">17</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQUACUWWAVWW1IRBNCVW543ZUVGYZYOD1U4O45DGBBPU4HJ5YFUO">Silk to Silk (Clearance=0.05mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDG3VRGKUAUNTXVEXDOEMCWPODMRVQS1511FPQUDHHBNCJWSHRSZF">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDM0ZG3LMGQ4HIENLOHBTUTCUKWNS00VY4GWNSFIKOHZI2STLHJUXN">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">20</td>
+</tr>
+</table><br><a name="IDSHRNZLKSHGYSG3GSVTKL1LO5YLJNEO5KGKK3JJGXFIJGXZ4G3DOB"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11041.698mil|Location2.X=11044.916mil|Location1.Y=10789.238mil|Location2.Y=10792.456mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11041.698mil|Location2.X=11044.916mil|Location1.Y=10789.238mil|Location2.Y=10792.456mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.025mm &lt; 0.05mm) Between Area Fill (0.2mm,83.35mm) (10.9mm,84.275mm) on Top Overlay And Pad XP7-1(8.4mm,85.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.025mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10893.253mil|Location2.X=10896.471mil|Location1.Y=10789.708mil|Location2.Y=10792.927mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10893.253mil|Location2.X=10896.471mil|Location1.Y=10789.708mil|Location2.Y=10792.927mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.049mm &lt; 0.05mm) Between Area Fill (0.2mm,83.35mm) (10.9mm,84.275mm) on Top Overlay And Pad XP7-2(3.4mm,85.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.049mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10821.226mil|Location2.X=10824.444mil|Location1.Y=7889.631mil|Location2.Y=7892.849mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10821.226mil|Location2.X=10824.444mil|Location1.Y=7889.631mil|Location2.Y=7892.849mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.025mm &lt; 0.05mm) Between Area Fill (0.3mm,10.65mm) (11mm,11.575mm) on Top Overlay And Pad XP10-1(2.8mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.025mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11070.009mil|Location2.X=11073.228mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11070.009mil|Location2.X=11073.228mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.035mm &lt; 0.05mm) Between Area Fill (0.3mm,10.65mm) (11mm,11.575mm) on Top Overlay And Pad XP10-2(7.8mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.035mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11435.399mil|Location2.X=11438.617mil|Location1.Y=10789.238mil|Location2.Y=10792.456mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11435.399mil|Location2.X=11438.617mil|Location1.Y=10789.238mil|Location2.Y=10792.456mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.025mm &lt; 0.05mm) Between Area Fill (10.2mm,83.35mm) (20.9mm,84.275mm) on Top Overlay And Pad XP2-1(18.4mm,85.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.025mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11286.954mil|Location2.X=11290.172mil|Location1.Y=10789.708mil|Location2.Y=10792.927mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11286.954mil|Location2.X=11290.172mil|Location1.Y=10789.708mil|Location2.Y=10792.927mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.049mm &lt; 0.05mm) Between Area Fill (10.2mm,83.35mm) (20.9mm,84.275mm) on Top Overlay And Pad XP2-2(13.4mm,85.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.049mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11214.926mil|Location2.X=11218.145mil|Location1.Y=7889.631mil|Location2.Y=7892.849mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11214.926mil|Location2.X=11218.145mil|Location1.Y=7889.631mil|Location2.Y=7892.849mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.025mm &lt; 0.05mm) Between Area Fill (10.3mm,10.65mm) (21mm,11.575mm) on Top Overlay And Pad XP4-1(12.8mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.025mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11463.71mil|Location2.X=11466.929mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11463.71mil|Location2.X=11466.929mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.035mm &lt; 0.05mm) Between Area Fill (10.3mm,10.65mm) (21mm,11.575mm) on Top Overlay And Pad XP4-2(17.8mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.035mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12144.06mil|Location2.X=12147.279mil|Location1.Y=7889.631mil|Location2.Y=7892.849mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12144.06mil|Location2.X=12147.279mil|Location1.Y=7889.631mil|Location2.Y=7892.849mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.025mm &lt; 0.05mm) Between Area Fill (33.9mm,10.65mm) (48.975mm,11.6mm) on Top Overlay And Pad XP3-1(36.4mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.025mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12392.844mil|Location2.X=12396.062mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12392.844mil|Location2.X=12396.062mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.035mm &lt; 0.05mm) Between Area Fill (33.9mm,10.65mm) (48.975mm,11.6mm) on Top Overlay And Pad XP3-2(41.4mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.035mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12589.694mil|Location2.X=12592.913mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12589.694mil|Location2.X=12592.913mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.035mm &lt; 0.05mm) Between Area Fill (33.9mm,10.65mm) (48.975mm,11.6mm) on Top Overlay And Pad XP3-3(46.4mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.035mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13128.312mil|Location2.X=13131.531mil|Location1.Y=10789.237mil|Location2.Y=10792.456mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13128.312mil|Location2.X=13131.531mil|Location1.Y=10789.237mil|Location2.Y=10792.456mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.025mm &lt; 0.05mm) Between Area Fill (48.825mm,83.325mm) (63.9mm,84.275mm) on Top Overlay And Pad XP6-1(61.4mm,85.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.025mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12979.867mil|Location2.X=12983.085mil|Location1.Y=10789.708mil|Location2.Y=10792.926mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12979.867mil|Location2.X=12983.085mil|Location1.Y=10789.708mil|Location2.Y=10792.926mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.049mm &lt; 0.05mm) Between Area Fill (48.825mm,83.325mm) (63.9mm,84.275mm) on Top Overlay And Pad XP6-2(56.4mm,85.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.049mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12783.017mil|Location2.X=12786.235mil|Location1.Y=10789.708mil|Location2.Y=10792.926mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12783.017mil|Location2.X=12786.235mil|Location1.Y=10789.708mil|Location2.Y=10792.926mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.049mm &lt; 0.05mm) Between Area Fill (48.825mm,83.325mm) (63.9mm,84.275mm) on Top Overlay And Pad XP6-3(51.4mm,85.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.049mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12734.611mil|Location2.X=12737.83mil|Location1.Y=7889.631mil|Location2.Y=7892.849mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12734.611mil|Location2.X=12737.83mil|Location1.Y=7889.631mil|Location2.Y=7892.849mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.025mm &lt; 0.05mm) Between Area Fill (48.9mm,10.65mm) (63.975mm,11.6mm) on Top Overlay And Pad XP5-1(51.4mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.025mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12983.395mil|Location2.X=12986.614mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12983.395mil|Location2.X=12986.614mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.035mm &lt; 0.05mm) Between Area Fill (48.9mm,10.65mm) (63.975mm,11.6mm) on Top Overlay And Pad XP5-2(56.4mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.035mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13180.246mil|Location2.X=13183.464mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13180.246mil|Location2.X=13183.464mil|Location1.Y=7889.429mil|Location2.Y=7892.648mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.035mm &lt; 0.05mm) Between Area Fill (48.9mm,10.65mm) (63.975mm,11.6mm) on Top Overlay And Pad XP5-3(61.4mm,9.125mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.035mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDQUACUWWAVWW1IRBNCVW543ZUVGYZYOD1U4O45DGBBPU4HJ5YFUO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.05mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11591.669mil|Location2.X=11594.888mil|Location1.Y=9464.61mil|Location2.Y=9467.829mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11591.669mil|Location2.X=11594.888mil|Location1.Y=9464.61mil|Location2.Y=9467.829mil|Absolute=True">Silk To Silk Clearance Constraint: (0.041mm &lt; 0.05mm) Between Arc (22.639mm,50.4mm) on Top Overlay And Text "C38" (20.75mm,50.525mm) on Top Overlay Silk Text to Silk Clearance [0.041mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11974.895mil|Location2.X=11978.113mil|Location1.Y=8521.884mil|Location2.Y=8525.102mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11974.895mil|Location2.X=11978.113mil|Location1.Y=8521.884mil|Location2.Y=8525.102mil|Absolute=True">Silk To Silk Clearance Constraint: (0.041mm &lt; 0.05mm) Between Arc (32.389mm,26.65mm) on Top Overlay And Text "C24" (28.35mm,26.3mm) on Top Overlay Silk Text to Silk Clearance [0.041mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11066.757mil|Location2.X=11069.069mil|Location1.Y=10273.45mil|Location2.Y=10275.762mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11066.757mil|Location2.X=11069.069mil|Location1.Y=10273.45mil|Location2.Y=10275.762mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.05mm) Between Text "FU9" (7.575mm,71.175mm) on Top Overlay And Track (7.525mm,68.15mm)(7.525mm,73.75mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

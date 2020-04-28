@@ -1,0 +1,41 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Project Outputs for Keyboard_IDC_I2C\Pick Place\Pick Place for Keyboard_IDC_I2C.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       18.01.18
+Time:       11:06
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"XP2","BH-10","TopLayer","BH-10","110.6450","62.4550","180","BH-10"
+"XP3","MIF2X03PRP","TopLayer","MIF2X03PRP","89.6000","65.9500","270","MIF2X03PRP"
+"XP1","n.p","TopLayer","PLS-10","103.7300","90.1000","360","PLS-10"
+"VD5","LL4148","TopLayer","SOD-80","92.6750","78.5500","360","LL4148"
+"VD4","LL4148","TopLayer","SOD-80","105.0000","84.8250","90","LL4148"
+"VD3","LL4148","TopLayer","SOD-80","99.9000","84.8250","90","LL4148"
+"VD2","LL4148","TopLayer","SOD-80","97.3750","84.8250","90","LL4148"
+"VD1","LL4148","TopLayer","SOD-80","94.8250","84.8250","90","LL4148"
+"U1","PCF8574ADWR","TopLayer","DW16_N","108.3250","74.9500","270","Remote 8-Bit I/O Expander for I2C-Bus, 2.5 to 6.0 V, -40 to 85 degC, 16-pin SOIC (DW), Green (RoHS & no Sb/Br)"
+"R15","10k","TopLayer","RC0603","89.1000","84.2753","270","RC0603"
+"R13","10k","TopLayer","RC0603","87.5000","84.2753","270","RC0603"
+"R12","10k","TopLayer","RC0603","85.8750","84.2753","270","RC0603"
+"R11","10k","TopLayer","RC0603","90.7000","84.2753","270","RC0603"
+"R10","100E","TopLayer","RC1206","113.2000","84.5000","360","RC1206"
+"R9","0E","TopLayer","RC0603","115.7747","79.5000","360","RC0603"
+"R8","0E","TopLayer","RC0603","115.7753","77.6750","360","RC0603"
+"R7","10k","TopLayer","RC0603","115.7753","76.1000","180","RC0603"
+"R6","10k","TopLayer","RC0603","100.4003","80.2500","180","RC0603"
+"R5","10k","TopLayer","RC0603","100.7750","72.5497","90","RC0603"
+"R4","10k","TopLayer","RC0603","99.2250","72.5247","90","RC0603"
+"R3","10k","TopLayer","RC0603","114.9003","82.2750","180","RC0603"
+"R2","n.p","TopLayer","RC0603","87.9750","79.1747","90","RC0603"
+"R1","n.p","TopLayer","RC0603","85.8250","79.1747","90","RC0603"
+"FU3","MICROSMD010F-2","TopLayer","RC1210","85.0500","73.7750","90","MICROSMD"
+"FU2","MICROSMD010F-2","TopLayer","RC1210","94.3250","74.1750","90","MICROSMD"
+"FU1","MICROSMD010F-2","TopLayer","RC1210","88.3000","73.7750","90","MICROSMD"
+"C2","0.1uF","TopLayer","CC0603","115.2000","73.3250","270","CC0603"
+"C1","10uFx10V","TopLayer","CC0805","116.1000","70.4000","180","CC0805"

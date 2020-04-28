@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [LCD20x4_I2C.PcbDoc]
+   Generated File[LCD20x4_I2C-Plated.TXT]
+   Generated File[LCD20x4_I2C-NonPlated.TXT]
+   Generated File[LCD20x4_I2C.LDP]
+   Generated File[LCD20x4_I2C.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 16:54:51 On 04.11.2016

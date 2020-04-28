@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=NetC35_1 Pin=C35-1
+Removed Pin From Net: NetName=NetC35_2 Pin=C35-2
+Removed Pin From Net: NetName=NetC35_2 Pin=C35-3
+Removed Pin From Net: NetName=NetC35_2 Pin=C35-4
+Removed Pin From Net: NetName=NetC35_1 Pin=C36-1
+Removed Pin From Net: NetName=NetC36_2 Pin=C36-2
+Removed Pin From Net: NetName=NetC36_2 Pin=C36-3
+Removed Pin From Net: NetName=NetC36_2 Pin=C36-4
+Removed Pin From Net: NetName=NetC37_1 Pin=C37-1
+Removed Pin From Net: NetName=NetC35_1 Pin=C37-2
+Removed Pin From Net: NetName=NetC35_1 Pin=C37-3
+Removed Pin From Net: NetName=NetC35_1 Pin=C37-4
+Change Component Footprint: Designator=C35 Old Footprint=FILM_CAP_5-10 New Footprint=CAP_HV_13x5
+Change Component Footprint: Designator=C36 Old Footprint=FILM_CAP_5-10 New Footprint=CAP_HV_13x5
+Change Component Footprint: Designator=C37 Old Footprint=FILM_CAP_5-10 New Footprint=CAP_HV_13x5
+Change Component Comment : Designator=C35 Old Comment=10nF New Comment=MKS4O121003F00KSSD
+Change Component Comment : Designator=C36 Old Comment=10nF New Comment=MKS4O121003F00KSSD
+Change Component Comment : Designator=C37 Old Comment=10nF New Comment=MKS4O121003F00KSSD
+Change component parameters: Designator = "C35"; Footprint = "CAP_HV_13x5"; UniqueID = "\BQWFLJIF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C36"; Footprint = "CAP_HV_13x5"; UniqueID = "\OSEAKWVG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C37"; Footprint = "CAP_HV_13x5"; UniqueID = "\LSBELRQX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC35_2 Pin=C35-1
+Added Pin To Net: NetName=NetC35_1 Pin=C35-2
+Added Pin To Net: NetName=NetC36_2 Pin=C36-1
+Added Pin To Net: NetName=NetC35_1 Pin=C36-2
+Added Pin To Net: NetName=NetC35_1 Pin=C37-1
+Added Pin To Net: NetName=NetC37_1 Pin=C37-2
+Change Net Name : Old Net Name=NetC35_1 New Net Name=NetC35_2
+Change Net Name : Old Net Name=NetC35_2 New Net Name=NetC35_1
+Change Net Name : Old Net Name=NetC36_2 New Net Name=NetC36_1
+Change Net Name : Old Net Name=NetC37_1 New Net Name=NetC37_2

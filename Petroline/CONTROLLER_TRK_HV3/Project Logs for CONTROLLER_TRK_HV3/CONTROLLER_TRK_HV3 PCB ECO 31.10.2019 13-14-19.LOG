@@ -1,0 +1,6 @@
+Added Component: Designator=R51(R2512)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "39E"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC26_1 Pin=R51-1
+Added Pin To Net: NetName=+5V Pin=R51-2
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component R51 39E

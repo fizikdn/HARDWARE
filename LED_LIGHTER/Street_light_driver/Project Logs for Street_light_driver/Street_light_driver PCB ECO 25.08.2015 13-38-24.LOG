@@ -1,0 +1,4 @@
+Added Component: Designator=RU1(Varistor_7mm)
+Added Pin To Net: NetName=NetBR1_1 Pin=RU1-1
+Added Pin To Net: NetName=NetBR1_2 Pin=RU1-2
+Added Member To Class: ClassName=Main Member=Component RU1 KLS6-07D

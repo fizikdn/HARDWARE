@@ -1,0 +1,6 @@
+Change Component Comment : Designator=R21 Old Comment=10k New Comment=18k
+Change Component Comment : Designator=R23 Old Comment=12k New Comment=10k
+Added Component: Designator=C23(CC0805)
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=+5V Pin=C23-2
+Added Member To Class: ClassName=Power Member=Component C23 10uF

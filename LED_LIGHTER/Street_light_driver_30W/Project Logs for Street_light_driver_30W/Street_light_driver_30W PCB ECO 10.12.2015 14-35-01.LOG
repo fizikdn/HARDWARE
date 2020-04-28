@@ -1,0 +1,3 @@
+Added Component: Designator=X3(PIN_7x3mm_SMD)
+Added Pin To Net: NetName=GND Pin=X3-1
+Added Member To Class: ClassName=ICS Member=Component X3 PIN_7x3mm_SMD

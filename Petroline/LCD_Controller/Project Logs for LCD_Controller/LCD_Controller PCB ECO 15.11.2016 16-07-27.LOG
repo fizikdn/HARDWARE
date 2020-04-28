@@ -1,0 +1,19 @@
+Added Component: Designator=R18(RC0805)
+Added Component: Designator=VD53(3528LED)
+Added Component: Designator=VD54(3528LED)
+Added Component: Designator=VD55(3528LED)
+Added Pin To Net: NetName=BL Pin=R18-2
+Added Pin To Net: NetName=GND Pin=VD55-2
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Pin To Net: NetName=NetR18_1 Pin=VD53-1
+Added Net: Name=NetR18_1
+Added Pin To Net: NetName=NetVD53_2 Pin=VD53-2
+Added Pin To Net: NetName=NetVD53_2 Pin=VD54-1
+Added Net: Name=NetVD53_2
+Added Pin To Net: NetName=NetVD54_2 Pin=VD54-2
+Added Pin To Net: NetName=NetVD54_2 Pin=VD55-1
+Added Net: Name=NetVD54_2
+Added Member To Class: ClassName=LED_backlight Member=Component R18 82E
+Added Member To Class: ClassName=LED_backlight Member=Component VD53 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD54 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD55 LED_3528

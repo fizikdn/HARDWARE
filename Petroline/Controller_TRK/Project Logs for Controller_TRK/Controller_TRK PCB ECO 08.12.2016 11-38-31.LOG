@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=L_IN Pin=XP10-3
+Added Pin To Net: NetName=L_IN Pin=XP13-1
+Added Pin To Net: NetName=L_IN Pin=XP13-2
+Change Net Name : Old Net Name=L_IN New Net Name=EARTH

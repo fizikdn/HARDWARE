@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: D:\projects\GPS_GPRS\DISM\S6\S6_Main\S6_Main_hv3\S6_Main_hv3.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.99
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_via|Scope=Board|Minimum=-393.70
+RuleKind=Clearance|RuleName=Clearance_Poly|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_keepout|Scope=Board|Minimum=15.75

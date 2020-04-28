@@ -1,0 +1,23 @@
+﻿Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Street_light_driver.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Street_Light\Street_light_driver\Street_light_driver.PrjPcb|ReportField=Title~Bill of Materials For Project [Street_light_driver.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~33|ReportField=ReportTime~16:20:07|ReportField=ReportDate~12.08.2015|ReportField=ReportDateTime~12.08.2015 16:20:07|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~12.08.2015|ReportField=CurrentTime~16:20:07|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Street_Light\Street_light_driver\Main.SchDoc|ReportField=DocumentName~Main.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~12.08.2015|ReportField=Organization~|ReportField=ProjectName~Street_light_driver.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Street_light_driver.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Street_Light\Street_light_driver\Street_light_driver.PrjPcb
+MB6S||BR1||MB6S|1
+10uF|CC0603|C1|CC0603-3M|CC0603|1
+1uFx16V|CC0603|C2|CC0603-3M|CC0603|1
+10uFx16V|CC0603|C3|CC0603-3M|CC0603|1
+100nFx630V||C4, C7|CAP_630V_100NF|Cap_HV|2
+100uFx100V|CAP0.5|C5, C6, C8, C9|CAP_ELEC_10x21|CAP0.5|4
+LNK460KG||DA1|eSOP-12|LNK460KG|1
+CDRH129HF-102MC||L1, L2, L4|IND CDRH129|IND CDRH129HF|3
+CDRH129HF-331MC||L3|IND CDRH129|IND CDRH129HF|1
+3k3|RC1206|R1, R2|RC1206-2M|RC1206|2
+*20E|RC0805|R3|RC0805_IPC_NOM|RC0805|1
+*2E|RC0805|R4|RC0805_IPC_NOM|RC0805|1
+3k3|RC0603|R5|RC0603-3M|RC0603|1
+*36k|RC0603|R6|RC0603-3M|RC0603|1
+3k6|RC1206|R7|RC1206-2M|RC1206|1
+100k|RC0805|R8|RC0805_IPC_NOM|RC0805|1
+KLS6-07D||RU1||Varistor_KLS6-07D431K|1
+*SMBJ18A|SMBJ|VD2|SMB|SMBJ|1
+*SMBJ90A|SMBJ|VD3|SMB|SMBJ|1
+*BAV99|1.0 Ampere General Purpose Rectifier|VD4|SOT-23(GSD)|BAV99|1
+ES1J|Schottky Rectifier|VD5, VD?|SMA|SS14|2
+PIN_7x3mm_SMD||X1, X2, X3, X4|PIN_7x3mm_SMD|PIN_7x3mm_SMD|4

@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Controller_TRK.PrjPcb]
+   Generated File[Bill of Materials-Controller_TRK.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:42:21 On 15.12.2016

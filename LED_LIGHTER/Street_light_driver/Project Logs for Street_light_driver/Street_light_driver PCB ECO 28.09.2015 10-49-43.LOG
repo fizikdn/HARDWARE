@@ -1,0 +1,9 @@
+Added Component: Designator=BR?(TO-269AA)
+Added Pin To Net: NetName=NetBR1_2 Pin=BR?-1
+Added Pin To Net: NetName=NetBR1_1 Pin=BR?-2
+Added Pin To Net: NetName=NetBR1_3 Pin=BR?-3
+Added Pin To Net: NetName=GND Pin=BR?-4
+Change Net Name : Old Net Name=NetBR1_1 New Net Name=NetBR?_2
+Change Net Name : Old Net Name=NetBR1_2 New Net Name=NetBR?_1
+Change Net Name : Old Net Name=NetBR1_3 New Net Name=NetBR?_3
+Added Member To Class: ClassName=Main Member=Component BR? MB6S

@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=FU2 Old DesignItemId=FSMD2920 New DesignItemId=MICROSMD
+Change Component Footprint: Designator=FU2 Old Footprint=FSMD2920 New Footprint=RC1210
+Change Component Comment : Designator=FU2 Old Comment=SL110-33 New Comment=MICROSMD010F-2

@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LCD_KB_Controller.PcbDoc   12.12.2016  10:49:13
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : LCD_KB_Controller-Plated.TXT
+ASCII Non-Plated RoundHoles File : LCD_KB_Controller-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             313       PTH        47.31inch (1201.60mm)
+T2      20mil (0.5mm)                                             Round             25        PTH        8.55inch (217.21mm)
+T3      38mil (0.965mm)                                           Round             24        PTH        6.37inch (161.78mm)
+T4      39mil (0.991mm)                                           Round             4         PTH        3.76inch (95.58mm)
+T5      39mil (1.001mm)                                           Round             10        PTH        1.29inch (32.68mm)
+T6      47mil (1.199mm)                                           Round             3         PTH        0.20inch (5.00mm)
+T7      59mil (1.501mm)                                           Round             17        PTH        6.70inch (170.30mm)
+T8      118mil (3mm)                                              Round             2         NPTH       2.95inch (75.00mm)
+T9      158mil (4.001mm)                                          Round             2         NPTH       1.34inch (34.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              400
+
+Total Processing Time (hh:mm:ss) : 00:00:00

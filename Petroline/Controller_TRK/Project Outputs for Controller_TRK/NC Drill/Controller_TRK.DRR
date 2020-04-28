@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Controller_TRK.PcbDoc   15.12.2016  12:42:15
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Controller_TRK-Plated.TXT
+ASCII Non-Plated RoundHoles File : Controller_TRK-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             357       PTH        51.92inch (1318.66mm)
+T2      16mil (0.399mm)                                           Round             2         PTH        0.35inch (8.93mm)
+T3      20mil (0.5mm)                                             Round             5         PTH        3.15inch (79.97mm)
+T4      38mil (0.965mm)                                           Round             16        PTH        4.43inch (112.44mm)
+T5      39mil (1.001mm)                                           Round             23        PTH        6.56inch (166.64mm)
+T6      47mil (1.199mm)                                           Round             3         PTH        0.20inch (5.00mm)
+T7      51mil (1.3mm)                                             Round             27        PTH        7.66inch (194.64mm)
+T8      55mil (1.4mm)                                             Round             2         PTH        0.24inch (6.00mm)
+T9      59mil (1.501mm)                                           Round             23        PTH        10.28inch (261.06mm)
+T10     118mil (3mm)                                              Round             2         NPTH       2.95inch (75.00mm)
+T11     158mil (4.001mm)                                          Round             2         NPTH       1.34inch (34.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              462
+
+Total Processing Time (hh:mm:ss) : 00:00:00

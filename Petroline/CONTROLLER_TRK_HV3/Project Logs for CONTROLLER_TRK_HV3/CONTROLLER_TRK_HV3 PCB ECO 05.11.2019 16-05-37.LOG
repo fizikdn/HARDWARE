@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+5V Pin=C3-2
+Removed Pin From Net: NetName=+5V Pin=DD1-20
+Added Pin To Net: NetName=+5V_STEPUP Pin=C3-2
+Added Pin To Net: NetName=+5V_STEPUP Pin=DD1-20

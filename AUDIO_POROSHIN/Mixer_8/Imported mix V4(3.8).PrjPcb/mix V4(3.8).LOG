@@ -1,0 +1,135 @@
+PCAD Importer Log
+Project : mix V4(3.8).PrjPcb
+
+Section : D:\Projects_Files\Projects\Altium_Projects\Mixer_8\mix V4(3.8).PCB
+    Section : Load Messages
+        Warning - 1 : Skipping Token defaultPinDes On Line 33539
+        Warning - 1 : Skipping Token defaultPinDes On Line 33622
+        Warning - 1 : Skipping Token defaultPinDes On Line 33623
+        Warning - 1 : Skipping Token defaultPinDes On Line 33624
+        Warning - 1 : Skipping Token defaultPinDes On Line 33625
+        Warning - 1 : Skipping Token defaultPinDes On Line 33647
+        Warning - 1 : Skipping Token defaultPinDes On Line 33648
+        Warning - 1 : Skipping Token defaultPinDes On Line 33649
+        Warning - 1 : Skipping Token defaultPinDes On Line 33650
+        Warning - 1 : Skipping Token defaultPinDes On Line 33651
+        Warning - 1 : Skipping Token defaultPinDes On Line 33652
+        Warning - 1 : Skipping Token defaultPinDes On Line 33653
+        Warning - 1 : Skipping Token defaultPinDes On Line 33654
+        Warning - 1 : Skipping Token defaultPinDes On Line 33655
+        Warning - 1 : Skipping Token defaultPinDes On Line 33656
+        Warning - 1 : Skipping Token defaultPinDes On Line 33657
+        Warning - 1 : Skipping Token defaultPinDes On Line 33658
+        Warning - 1 : Skipping Token defaultPinDes On Line 33659
+        Warning - 1 : Skipping Token defaultPinDes On Line 33660
+        Warning - 1 : Skipping Token defaultPinDes On Line 33661
+        Warning - 1 : Skipping Token defaultPinDes On Line 33662
+        Warning - 1 : Skipping Token defaultPinDes On Line 33663
+        Warning - 1 : Skipping Token defaultPinDes On Line 33664
+        Warning - 1 : Skipping Token defaultPinDes On Line 33665
+        Warning - 1 : Skipping Token defaultPinDes On Line 33666
+        Warning - 1 : Skipping Token defaultPinDes On Line 33667
+        Warning - 1 : Skipping Token defaultPinDes On Line 33668
+        Warning - 1 : Skipping Token defaultPinDes On Line 33669
+        Warning - 1 : Skipping Token defaultPinDes On Line 33670
+        Warning - 1 : Skipping Token defaultPinDes On Line 33671
+        Warning - 1 : Skipping Token defaultPinDes On Line 33672
+        Warning - 1 : Skipping Token defaultPinDes On Line 33673
+        Warning - 1 : Skipping Token defaultPinDes On Line 33777
+        Warning - 1 : Skipping Token defaultPinDes On Line 33778
+        Warning - 1 : Skipping Token defaultPinDes On Line 33779
+        Warning - 1 : Skipping Token defaultPinDes On Line 33780
+        Warning - 1 : Skipping Token defaultPinDes On Line 33781
+        Warning - 1 : Skipping Token defaultPinDes On Line 33782
+        Warning - 1 : Skipping Token defaultPinDes On Line 33783
+        Warning - 1 : Skipping Token defaultPinDes On Line 33784
+        Warning - 1 : Skipping Token attachedSymbol On Line 33816
+        Warning - 1 : Skipping Token attachedSymbol On Line 33836
+        Warning - 1 : Skipping Token attachedSymbol On Line 33856
+        Warning - 1 : Skipping Token attachedSymbol On Line 33884
+        Warning - 1 : Skipping Token attachedSymbol On Line 33885
+        Warning - 1 : Skipping Token attachedSymbol On Line 33913
+        Warning - 1 : Skipping Token attachedSymbol On Line 33935
+        Warning - 1 : Skipping Token attachedSymbol On Line 33955
+        Warning - 1 : Skipping Token attachedSymbol On Line 33976
+        Warning - 1 : Skipping Token attachedSymbol On Line 33997
+        Warning - 1 : Skipping Token attachedSymbol On Line 34017
+        Warning - 1 : Skipping Token attachedSymbol On Line 34062
+        Warning - 1 : Skipping Token refPointSize On Line 34533
+        Warning - 1 : Skipping Token infoPointSize On Line 34534
+        Warning - 1 : Skipping Token gluePointSize On Line 34535
+        Warning - 1 : Skipping Token pickPointSize On Line 34536
+        Warning - 1 : Skipping Token testPointSize On Line 34537
+        Warning - 1 : Skipping Token refPointSizePrint On Line 34538
+        Warning - 1 : Skipping Token infoPointSizePrint On Line 34539
+        Warning - 1 : Skipping Token gluePointSizePrint On Line 34540
+        Warning - 1 : Skipping Token pickPointSizePrint On Line 34541
+        Warning - 1 : Skipping Token testPointSizePrint On Line 34542
+        Warning - 1 : Skipping Token solderFlowDirection On Line 34543
+        Warning - 1 : Skipping Token autoPlowCopperPours On Line 34544
+        Warning - 1 : Skipping Token globalCopperPourCutoutBackoffFlag On Line 34545
+        Warning - 1 : Skipping Token defaultPinDes On Line 34683
+        Warning - 1 : Skipping Token defaultPinDes On Line 34735
+        Warning - 1 : Skipping Token defaultPinDes On Line 34866
+        Warning - 1 : Skipping Token defaultPinDes On Line 34894
+        Warning - 1 : Skipping Token netNameRef On Line 35295
+        Warning - 1 : Skipping Token island On Line 35297
+        Warning - 1 : Skipping Token netNameRef On Line 35330
+        Warning - 1 : Skipping Token island On Line 35332
+        Warning - 1 : Skipping Token island On Line 35398
+        Warning - 1 : Skipping Token island On Line 35420
+        Warning - 1 : Skipping Token island On Line 35444
+        Warning - 1 : Skipping Token island On Line 35461
+        Warning - 1 : Skipping Token island On Line 35518
+        Warning - 1 : Skipping Token netNameRef On Line 36419
+        Warning - 1 : Skipping Token island On Line 36421
+        Warning - 1 : Skipping Token island On Line 36508
+        Warning - 1 : Skipping Token dimensionOffsets On Line 37228
+        Warning - 1 : Skipping Token dimensionOffsets On Line 37288
+        Warning - 1 : Skipping Token printDrawOrder On Line 37332
+        Warning - 1 : Skipping Token printDrawOrder On Line 37687
+        Warning - 1 : Skipping Token drillSymSettings On Line 38027
+        Warning - 1 : Skipping Token gerberSettings On Line 38029
+        Warning - 1 : Skipping Token ncDrillSettings On Line 38043
+        Warning - 1 : Skipping Token programState On Line 38052
+        Warning - 1 : Skipping Token displayDrawOrder On Line 38093
+        Warning - 1 : Skipping Token reportSettings On Line 38316
+        Warning - 1 : Skipping Token odbSettings On Line 39233
+    EndSection
+
+    Section : Import Messages
+        Warning : No Connect Pad Converted To Rounded Pad
+        Warning : Ellipse solder shape converted to solid region
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning : No Connect Pad Converted To Rounded Pad
+        Warning : Ellipse solder shape converted to solid region
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning - 0 : PCAD Pattern Graphics [RC0805_2][RESC2012X70N] associated with PCAD Component [R0805] has been renamed to PCB FootPrint [RC0805_2_R0805(RESC2012X70N)].
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+    EndSection
+EndSection

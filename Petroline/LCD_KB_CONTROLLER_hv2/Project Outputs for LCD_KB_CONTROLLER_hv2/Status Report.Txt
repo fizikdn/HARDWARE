@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:50:28 On 27.08.2018
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [LCD_KB_CONTROLLER_hv2.PrjPcb]
+   Generated File[Bill of Materials-LCD_KB_CONTROLLER_hv2.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:50:34 On 27.08.2018

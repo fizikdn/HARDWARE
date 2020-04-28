@@ -1,0 +1,12 @@
+Added Component: Designator=R62(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2k2"; VariantName = "[No Variations]"
+Added Component: Designator=R63(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2k2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SCL Pin=R62-1
+Added Pin To Net: NetName=+3V3 Pin=R62-2
+Added Pin To Net: NetName=SDA Pin=R63-1
+Added Pin To Net: NetName=+3V3 Pin=R63-2
+Added Member To Class: ClassName=Connections Member=Component R62 2k2
+Added Member To Class: ClassName=Connections Member=Component R63 2k2

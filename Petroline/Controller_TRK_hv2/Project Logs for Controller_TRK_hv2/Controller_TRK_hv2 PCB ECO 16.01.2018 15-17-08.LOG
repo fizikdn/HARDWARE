@@ -1,0 +1,15 @@
+Added Component: Designator=J3(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R57(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=+3V3 Pin=R57-1
+Added Pin To Net: NetName=M/S Pin=DD1-48
+Added Pin To Net: NetName=M/S Pin=J3-2
+Added Pin To Net: NetName=M/S Pin=R57-2
+Added Net: Name=M/S
+Added Member To Class: ClassName=CPU Member=Component J3 PLS-02
+Added Member To Class: ClassName=CPU Member=Component R57 10k
+Added Member To Class: ClassName=Connections Member=Component XP9 DG330-2PIN

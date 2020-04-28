@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=VCC Pin=C15-+
+Removed Pin From Net: NetName=VCC Pin=C16-2
+Removed Pin From Net: NetName=VCC Pin=R12-2
+Change Component Designator: OldDesignator=X2 NewDesignator=X3
+Change Component Designator: OldDesignator=X3 NewDesignator=X6
+Change Component Designator: OldDesignator=X4 NewDesignator=X7
+Change Component Designator: OldDesignator=X5 NewDesignator=X2
+Change Component Designator: OldDesignator=X6 NewDesignator=X4
+Change Component Designator: OldDesignator=X7 NewDesignator=X5
+Change Component Designator: OldDesignator=X9 NewDesignator=X15
+Change Component Designator: OldDesignator=X10 NewDesignator=X16
+Change Component Designator: OldDesignator=X11 NewDesignator=X12
+Change Component Designator: OldDesignator=X12 NewDesignator=X9
+Change Component Designator: OldDesignator=X13 NewDesignator=X11
+Change Component Designator: OldDesignator=X15 NewDesignator=X13
+Change Component Designator: OldDesignator=X16 NewDesignator=X10
+Added Pin To Net: NetName=VCC Pin=C11-1
+Added Pin To Net: NetName=VCC Pin=C12-2
+Added Pin To Net: NetName=VCC Pin=DA1-2
+Added Pin To Net: NetName=VCC Pin=R12-1
+Added Pin To Net: NetName=NetC15_+ Pin=C15-+
+Added Pin To Net: NetName=NetC15_+ Pin=C16-2
+Added Pin To Net: NetName=NetC15_+ Pin=R12-2
+Added Net: Name=NetC15_+
+Added Member To Class: ClassName=Mix_8ch Member=Component X19 PIN_1mm

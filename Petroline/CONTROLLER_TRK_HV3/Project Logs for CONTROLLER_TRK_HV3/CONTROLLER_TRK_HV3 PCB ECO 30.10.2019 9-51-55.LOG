@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=NetC35_2 Pin=C35-2
+Removed Pin From Net: NetName=NetC35_2 Pin=C36-2
+Removed Pin From Net: NetName=NetC35_2 Pin=C37-1
+Removed Pin From Net: NetName=NetC35_2 Pin=R64-1
+Removed Pin From Net: NetName=NetC35_2 Pin=R65-1
+Removed Pin From Net: NetName=NetC37_2 Pin=R66-1
+Removed Member From Class: ClassName=[9]-RELAYS Member=C35
+Removed Member From Class: ClassName=[9]-RELAYS Member=C36
+Removed Member From Class: ClassName=[9]-RELAYS Member=R65
+Change Component Comment : Designator=R64 Old Comment=39E New Comment=ÑFR 1/2W-S (3 x 9)  27E
+Change Component Comment : Designator=R66 Old Comment=39E New Comment=ÑFR 1/2W-S (3 x 9)  27E
+Change Component Comment : Designator=C37 Old Comment=MKS4O121003F00KSSD New Comment=TS08S02S104KBB0D0R
+Change component parameters: Designator = "C37"; Footprint = "CAP_HV_13x5"; UniqueID = "\LSBELRQX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "TS08S02S104KBB0D0R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R64"; Footprint = "RES_10x4_THD"; UniqueID = "\HEMVMKWV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "ÑFR 1/2W-S (3 x 9)  27E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R66"; Footprint = "RES_10x4_THD"; UniqueID = "\BTSAOJYD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "ÑFR 1/2W-S (3 x 9)  27E"; VariantName = "[No Variations]"
+Added Component: Designator=C31(CAP_HV_13x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "TS08S02S104KBB0D0R"; VariantName = "[No Variations]"
+Added Component: Designator=C33(CAP_HV_13x5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "TS08S02S104KBB0D0R"; VariantName = "[No Variations]"
+Added Component: Designator=R53(RES_10x4_THD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "ÑFR 1/2W-S (3 x 9)  27E"; VariantName = "[No Variations]"
+Added Component: Designator=RV1(Varistor_14MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "KLS6-14D431K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC35_2 Pin=R53-2
+Added Pin To Net: NetName=NetC35_2 Pin=R64-2
+Added Pin To Net: NetName=NetF2_1 Pin=RV1-1
+Added Pin To Net: NetName=NetF1_1 Pin=RV1-2
+Change Net Name : Old Net Name=NetC35_2 New Net Name=NetF1_2
+Added Pin To Net: NetName=NetC31_1 Pin=C31-1
+Added Pin To Net: NetName=NetC31_1 Pin=R53-1
+Added Net: Name=NetC31_1
+Added Pin To Net: NetName=NetC31_2 Pin=C31-2
+Added Pin To Net: NetName=NetC31_2 Pin=REL2-5
+Added Pin To Net: NetName=NetC31_2 Pin=XP4-1
+Added Net: Name=NetC31_2
+Added Pin To Net: NetName=NetC33_1 Pin=C33-1
+Added Pin To Net: NetName=NetC33_1 Pin=R64-1
+Added Net: Name=NetC33_1
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=NetC33_2 Pin=REL1-5
+Added Pin To Net: NetName=NetC33_2 Pin=XP6-1
+Added Net: Name=NetC33_2
+Added Pin To Net: NetName=NetC37_1 Pin=C37-1
+Added Pin To Net: NetName=NetC37_1 Pin=R66-1
+Added Net: Name=NetC37_1
+Added Member To Class: ClassName=[9]-RELAYS Member=Component C31 TS08S02S104KBB0D0R
+Added Member To Class: ClassName=[9]-RELAYS Member=Component C33 TS08S02S104KBB0D0R
+Added Member To Class: ClassName=[9]-RELAYS Member=Component R53 ÑFR 1/2W-S (3 x 9)  27E
+Added Member To Class: ClassName=[9]-RELAYS Member=Component RV1 KLS6-14D431K

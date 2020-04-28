@@ -1,0 +1,27 @@
+Added Component: Designator=R55(RC0603)
+Added Component: Designator=R56(RC0603)
+Added Component: Designator=R57(RC0603)
+Added Component: Designator=VD21(LED0805)
+Added Component: Designator=VD22(LED0805)
+Added Component: Designator=VD23(LED0805)
+Added Pin To Net: NetName=L_FLOW_VALVE_RELAY Pin=R55-1
+Added Pin To Net: NetName=M_VALVE_RELAY Pin=R56-1
+Added Pin To Net: NetName=PUMP_RELAY Pin=R57-1
+Added Pin To Net: NetName=GND Pin=VD21-2
+Added Pin To Net: NetName=GND Pin=VD22-2
+Added Pin To Net: NetName=GND Pin=VD23-2
+Added Pin To Net: NetName=NetR55_2 Pin=R55-2
+Added Pin To Net: NetName=NetR55_2 Pin=VD21-1
+Added Net: Name=NetR55_2
+Added Pin To Net: NetName=NetR56_2 Pin=R56-2
+Added Pin To Net: NetName=NetR56_2 Pin=VD22-1
+Added Net: Name=NetR56_2
+Added Pin To Net: NetName=NetR57_2 Pin=R57-2
+Added Pin To Net: NetName=NetR57_2 Pin=VD23-1
+Added Net: Name=NetR57_2
+Added Member To Class: ClassName=Relay_2 Member=Component R55 1k
+Added Member To Class: ClassName=Relay_2 Member=Component R56 1k
+Added Member To Class: ClassName=Relay_3 Member=Component R57 1k
+Added Member To Class: ClassName=Relay_2 Member=Component VD21 LED_0805
+Added Member To Class: ClassName=Relay_2 Member=Component VD22 LED_0805
+Added Member To Class: ClassName=Relay_3 Member=Component VD23 LED_0805

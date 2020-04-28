@@ -1,0 +1,16 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\Petroline\Plastic_keyboard_IDC10\Project Outputs for Free Documents\Pick Place\Pick Place for Plastic_keyboard_IDC10.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       31.05.19
+Time:       15:46
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment Layer       Footprint Center-X(mil) Center-Y(mil) Rotation Description 
+X1         WH-02   TopLayer    WH-02     3519.685      2235.039      0        WH-02       
+XP2        BH-10   TopLayer    BH-10     4066.929      2233.465      180      BH-10       
+XP1        PLS-08  BottomLayer PLS-08    3931.102      2496.063      180      PLS-08      

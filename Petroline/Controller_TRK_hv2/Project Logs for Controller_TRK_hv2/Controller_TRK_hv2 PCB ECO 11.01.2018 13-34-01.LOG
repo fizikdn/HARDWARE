@@ -1,0 +1,16 @@
+Change Component Comment : Designator=R36 Old Comment=10k New Comment=3k
+Change Component Comment : Designator=R37 Old Comment=10k New Comment=3k
+Change Component Comment : Designator=R38 Old Comment=10k New Comment=3k
+Change Component Comment : Designator=R39 Old Comment=10k New Comment=3k
+Change component parameters: Designator = "R36"; Footprint = "RC0603"; UniqueID = "\RBNDPPRN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "3k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R37"; Footprint = "RC0603"; UniqueID = "\VSJKJPUP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "3k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R38"; Footprint = "RC0603"; UniqueID = "\DOXJJWKG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "3k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R39"; Footprint = "RC0603"; UniqueID = "\FGOPPMEB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "3k"; VariantName = "[No Variations]"

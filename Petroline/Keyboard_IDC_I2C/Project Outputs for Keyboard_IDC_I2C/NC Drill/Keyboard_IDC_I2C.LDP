@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=keyboard_idc_i2c-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=keyboard_idc_i2c-nonplated.txt|DrillLayers=gtl,gbl

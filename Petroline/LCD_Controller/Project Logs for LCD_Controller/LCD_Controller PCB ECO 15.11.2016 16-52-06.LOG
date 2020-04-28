@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=BL Pin=R18-2
+Removed Pin From Net: NetName=GND Pin=VD55-2
+Removed Member From Class: ClassName=LED_backlight Member=R18
+Removed Member From Class: ClassName=LED_backlight Member=VD53
+Removed Member From Class: ClassName=LED_backlight Member=VD54
+Removed Member From Class: ClassName=LED_backlight Member=VD55

@@ -1,0 +1,3 @@
+Added Component: Designator=X10(PIN_7x3mm_SMD)
+Added Pin To Net: NetName=GND Pin=X10-1
+Added Member To Class: ClassName=LED1 Member=Component X10 PIN_7x3mm_SMD

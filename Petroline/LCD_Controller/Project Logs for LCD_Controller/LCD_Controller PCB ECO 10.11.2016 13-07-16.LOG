@@ -1,0 +1,95 @@
+Removed Pin From Net: NetName=GND Pin=DA1-5
+Removed Pin From Net: NetName=NetDA1_6 Pin=DA1-7
+Removed Pin From Net: NetName=NetDA1_1 Pin=R13-2
+Added Component: Designator=R30(RC0603)
+Added Component: Designator=R31(RC0603)
+Added Component: Designator=R32(RC0603)
+Added Component: Designator=R33(RC0603)
+Added Component: Designator=R34(RC0603)
+Added Component: Designator=R35(RC0603)
+Added Component: Designator=R36(RC0603)
+Added Component: Designator=R37(RC0603)
+Added Component: Designator=R38(RC0603)
+Added Component: Designator=VD15(3528LED)
+Added Component: Designator=VD16(3528LED)
+Added Component: Designator=VD17(3528LED)
+Added Component: Designator=VD18(3528LED)
+Added Component: Designator=VD19(3528LED)
+Added Component: Designator=VD20(3528LED)
+Added Component: Designator=VD21(3528LED)
+Added Component: Designator=VD22(3528LED)
+Added Component: Designator=VD23(3528LED)
+Added Pin To Net: NetName=NetDA1_1 Pin=DA1-2
+Added Pin To Net: NetName=GND Pin=DA1-3
+Added Pin To Net: NetName=NetDA1_6 Pin=R12-1
+Added Pin To Net: NetName=NetDA1_6 Pin=R15-2
+Added Pin To Net: NetName=NetR16_2 Pin=R30-2
+Added Pin To Net: NetName=NetR16_2 Pin=R31-2
+Added Pin To Net: NetName=NetR16_2 Pin=R32-2
+Added Pin To Net: NetName=NetR16_2 Pin=R33-2
+Added Pin To Net: NetName=NetR16_2 Pin=R34-2
+Added Pin To Net: NetName=NetR16_2 Pin=R35-2
+Added Pin To Net: NetName=NetR16_2 Pin=R36-2
+Added Pin To Net: NetName=NetR16_2 Pin=R37-2
+Added Pin To Net: NetName=NetR16_2 Pin=R38-2
+Added Pin To Net: NetName=GND Pin=VD15-2
+Added Pin To Net: NetName=GND Pin=VD16-2
+Added Pin To Net: NetName=GND Pin=VD17-2
+Added Pin To Net: NetName=GND Pin=VD18-2
+Added Pin To Net: NetName=GND Pin=VD19-2
+Added Pin To Net: NetName=GND Pin=VD20-2
+Added Pin To Net: NetName=GND Pin=VD21-2
+Added Pin To Net: NetName=GND Pin=VD22-2
+Added Pin To Net: NetName=GND Pin=VD23-2
+Added Pin To Net: NetName=NetDA1_5 Pin=DA1-5
+Added Pin To Net: NetName=NetDA1_5 Pin=R11-1
+Added Pin To Net: NetName=NetDA1_5 Pin=R14-2
+Added Net: Name=NetDA1_5
+Added Pin To Net: NetName=NetDA1_7 Pin=DA1-7
+Added Pin To Net: NetName=NetDA1_7 Pin=R13-2
+Added Net: Name=NetDA1_7
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR30_1 Pin=VD15-1
+Added Net: Name=NetR30_1
+Added Pin To Net: NetName=NetR31_1 Pin=R31-1
+Added Pin To Net: NetName=NetR31_1 Pin=VD16-1
+Added Net: Name=NetR31_1
+Added Pin To Net: NetName=NetR32_1 Pin=R32-1
+Added Pin To Net: NetName=NetR32_1 Pin=VD17-1
+Added Net: Name=NetR32_1
+Added Pin To Net: NetName=NetR33_1 Pin=R33-1
+Added Pin To Net: NetName=NetR33_1 Pin=VD18-1
+Added Net: Name=NetR33_1
+Added Pin To Net: NetName=NetR34_1 Pin=R34-1
+Added Pin To Net: NetName=NetR34_1 Pin=VD19-1
+Added Net: Name=NetR34_1
+Added Pin To Net: NetName=NetR35_1 Pin=R35-1
+Added Pin To Net: NetName=NetR35_1 Pin=VD20-1
+Added Net: Name=NetR35_1
+Added Pin To Net: NetName=NetR36_1 Pin=R36-1
+Added Pin To Net: NetName=NetR36_1 Pin=VD21-1
+Added Net: Name=NetR36_1
+Added Pin To Net: NetName=NetR37_1 Pin=R37-1
+Added Pin To Net: NetName=NetR37_1 Pin=VD22-1
+Added Net: Name=NetR37_1
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=NetR38_1 Pin=VD23-1
+Added Net: Name=NetR38_1
+Added Member To Class: ClassName=LED_backlight Member=Component R30 200E
+Added Member To Class: ClassName=LED_backlight Member=Component R31 200E
+Added Member To Class: ClassName=LED_backlight Member=Component R32 200E
+Added Member To Class: ClassName=LED_backlight Member=Component R33 200E
+Added Member To Class: ClassName=LED_backlight Member=Component R34 200E
+Added Member To Class: ClassName=LED_backlight Member=Component R35 200E
+Added Member To Class: ClassName=LED_backlight Member=Component R36 200E
+Added Member To Class: ClassName=LED_backlight Member=Component R37 200E
+Added Member To Class: ClassName=LED_backlight Member=Component R38 200E
+Added Member To Class: ClassName=LED_backlight Member=Component VD15 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD16 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD17 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD18 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD19 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD20 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD21 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD22 LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD23 LED_3528

@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [LCD20x4_I2C.PrjPcb]
+   Generated File[Bill of Materials-LCD20x4_I2C.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:19:48 On 18.01.2018

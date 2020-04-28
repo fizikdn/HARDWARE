@@ -1,0 +1,36 @@
+Added Component: Designator=XP2(BH-10)
+Added Component: Designator=XP3(BH-10)
+Added Component: Designator=XP4(MIF2X02PRP)
+Added Pin To Net: NetName=COL1 Pin=XP2-1
+Added Pin To Net: NetName=COL2 Pin=XP2-2
+Added Pin To Net: NetName=NetR16_2 Pin=XP2-9
+Added Pin To Net: NetName=GND Pin=XP2-10
+Added Pin To Net: NetName=COL1 Pin=XP3-1
+Added Pin To Net: NetName=COL2 Pin=XP3-2
+Added Pin To Net: NetName=NetR16_2 Pin=XP3-9
+Added Pin To Net: NetName=GND Pin=XP3-10
+Added Pin To Net: NetName=GND Pin=XP4-1
+Added Pin To Net: NetName=NetFU1_1 Pin=XP4-2
+Added Pin To Net: NetName=NetFU2_1 Pin=XP4-3
+Added Pin To Net: NetName=NetFU3_1 Pin=XP4-4
+Added Pin To Net: NetName=NetXP2_3 Pin=XP2-3
+Added Pin To Net: NetName=NetXP2_3 Pin=XP3-3
+Added Net: Name=NetXP2_3
+Added Pin To Net: NetName=NetXP2_4 Pin=XP2-4
+Added Pin To Net: NetName=NetXP2_4 Pin=XP3-4
+Added Net: Name=NetXP2_4
+Added Pin To Net: NetName=NetXP2_5 Pin=XP2-5
+Added Pin To Net: NetName=NetXP2_5 Pin=XP3-5
+Added Net: Name=NetXP2_5
+Added Pin To Net: NetName=NetXP2_6 Pin=XP2-6
+Added Pin To Net: NetName=NetXP2_6 Pin=XP3-6
+Added Net: Name=NetXP2_6
+Added Pin To Net: NetName=NetXP2_7 Pin=XP2-7
+Added Pin To Net: NetName=NetXP2_7 Pin=XP3-7
+Added Net: Name=NetXP2_7
+Added Pin To Net: NetName=NetXP2_8 Pin=XP2-8
+Added Pin To Net: NetName=NetXP2_8 Pin=XP3-8
+Added Net: Name=NetXP2_8
+Added Member To Class: ClassName=Main Member=Component XP2 n.p
+Added Member To Class: ClassName=Main Member=Component XP3 n.p
+Added Member To Class: ClassName=Main Member=Component XP4 n.p

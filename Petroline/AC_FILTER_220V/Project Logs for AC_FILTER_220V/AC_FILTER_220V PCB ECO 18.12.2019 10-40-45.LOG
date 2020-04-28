@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=XP3-1
+Removed Member From Class: ClassName=Filter Member=XP3
+Change Component Footprint: Designator=XP2 Old Footprint=DG330-2P New Footprint=DG330-3P
+Change Component Comment : Designator=XP2 Old Comment=DG330-2P New Comment=DG330-3PIN
+Change component parameters: Designator = "XP2"; Footprint = "DG330-3P"; UniqueID = "\NJZAGSSL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-3PIN"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_2 Pin=XP2-3

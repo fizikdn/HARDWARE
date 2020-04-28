@@ -1,0 +1,24 @@
+Change Component Comment : Designator=R15 Old Comment=2k2 New Comment=n.p
+Change Component Comment : Designator=R16 Old Comment=2k2 New Comment=n.p
+Change Component Comment : Designator=XP3 Old Comment=n.p New Comment=MIF2X02PRP
+Change Component Comment : Designator=RV1 Old Comment=PLS03 New Comment=3296W-10K
+Change Component Description : Designator=RV1 Old Description=PLS03 New Description=3296W-10K
+Change component parameters: Designator = "R15"; Footprint = "RC0603"; UniqueID = "\MLTHBIRG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16"; Footprint = "RC0603"; UniqueID = "\TFACRYFD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP3"; Footprint = "MIF2X02PRP"; UniqueID = "\FTPPAUAP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "MIF2X02PRP"; VariantName = "[No Variations]"
+Added Component: Designator=XP5(MIF2X03PRP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=XP5-1
+Added Pin To Net: NetName=NetFU1_1 Pin=XP5-2
+Added Pin To Net: NetName=VIN Pin=XP5-3
+Added Pin To Net: NetName=NetFU3_1 Pin=XP5-4
+Added Pin To Net: NetName=BL Pin=XP5-5
+Added Pin To Net: NetName=GND Pin=XP5-6
+Added Member To Class: ClassName=Connections Member=Component XP5 MIF2X03PRP

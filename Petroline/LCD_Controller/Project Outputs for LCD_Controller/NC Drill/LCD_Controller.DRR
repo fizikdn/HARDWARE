@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LCD_Controller.PcbDoc   16.11.2016  12:25:14
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : LCD_Controller-Plated.TXT
+ASCII Non-Plated RoundHoles File : LCD_Controller-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             378       PTH        91.89inch (2333.94mm)
+T2      20mil (0.5mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T3      38mil (0.965mm)                                           Round             20        PTH        3.63inch (92.12mm)
+T4      39mil (1.001mm)                                           Round             70        PTH        9.80inch (248.92mm)
+T5      43mil (1.1mm)                                             Round             10        PTH        5.53inch (140.40mm)
+T6      47mil (1.199mm)                                           Round             2         PTH        0.79inch (20.00mm)
+T7      118mil (3mm)                                              Round             2         NPTH       4.76inch (120.90mm)
+T8      236mil (5.999mm)                                          Round             4         NPTH       14.92inch (378.96mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              487
+
+Total Processing Time (hh:mm:ss) : 00:00:00

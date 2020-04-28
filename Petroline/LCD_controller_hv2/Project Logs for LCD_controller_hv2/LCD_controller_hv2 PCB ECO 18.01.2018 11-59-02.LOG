@@ -1,0 +1,8 @@
+Added Component: Designator=REP1(REPER1.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "REPER_POINT_1.2"; VariantName = "[No Variations]"
+Added Component: Designator=REP2(REPER1.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "REPER_POINT_1.2"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Main Member=Component REP1 REPER_POINT_1.2
+Added Member To Class: ClassName=Main Member=Component REP2 REPER_POINT_1.2

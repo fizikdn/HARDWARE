@@ -1,0 +1,7 @@
+Change Net Name : Old Net Name=CANH New Net Name=CAN_H
+Change Net Name : Old Net Name=CANL New Net Name=CAN_L
+Change Net Name : Old Net Name=NetFU8_2 New Net Name=TXD_232
+Change Net Name : Old Net Name=NetFU9_2 New Net Name=485_B
+Change Net Name : Old Net Name=NetFU10_2 New Net Name=485_A
+Change Net Name : Old Net Name=NetFU11_1 New Net Name=1WIRE_PWR
+Change Net Name : Old Net Name=NetR7_1 New Net Name=1WIRE_DQ

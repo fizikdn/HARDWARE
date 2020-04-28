@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_KB_CONTROLLER_hv2\LCD_KB_CONTROLLER_hv2.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=lcd_kb_controller_hv2-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=lcd_kb_controller_hv2-nonplated.txt|DrillLayers=gtl,gbl

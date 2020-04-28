@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=XP1-10
+Removed Pin From Net: NetName=NetR10_1 Pin=XP2-9
+Removed Pin From Net: NetName=GND Pin=XP2-10
+Removed Member From Class: ClassName=Main Member=R14
+Change Component Comment : Designator=R10 Old Comment=50E New Comment=100E
+Change component parameters: Designator = "R10"; Footprint = "RC1206"; UniqueID = "\GWJQVXKV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100E"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR10_1 Pin=XP1-9
+Change Net Name : Old Net Name=VIN New Net Name=VIN_F
+Added Pin To Net: NetName=NetXP1_10 Pin=XP1-10
+Added Pin To Net: NetName=NetXP1_10 Pin=XP2-10
+Added Pin To Net: NetName=NetXP1_10 Pin=XP3-5
+Added Net: Name=NetXP1_10
+Added Pin To Net: NetName=VIN Pin=FU2-1
+Added Pin To Net: NetName=VIN Pin=R10-2
+Added Pin To Net: NetName=VIN Pin=XP2-9
+Added Pin To Net: NetName=VIN Pin=XP3-3
+Added Net: Name=VIN
+Added Member To Class: ClassName=Main Member=Component XP2 BH-10

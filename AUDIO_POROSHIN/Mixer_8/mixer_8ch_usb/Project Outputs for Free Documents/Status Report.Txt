@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 16:02:26 On 01.09.2015
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Mixer_8_USB.PrjPcb]
+   Generated File[Bill of Materials-Mixer_8_USB.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 16:02:31 On 01.09.2015

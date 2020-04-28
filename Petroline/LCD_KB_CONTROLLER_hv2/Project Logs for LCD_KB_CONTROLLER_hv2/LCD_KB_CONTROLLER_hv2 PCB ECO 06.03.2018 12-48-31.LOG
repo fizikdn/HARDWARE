@@ -1,0 +1,31 @@
+Added Component: Designator=DD6(TQFP-80_0.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nxp.com/"; VariantName = "[No Variations]"
+Added Component: Designator=R38(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2k2"; VariantName = "[No Variations]"
+Added Component: Designator=VD19(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Component: Designator=XP12(PIN04S)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN Pin=R38-2
+Added Pin To Net: NetName=GND Pin=VD19-2
+Added Pin To Net: NetName=+3V3 Pin=XP12-1
+Added Pin To Net: NetName=GND Pin=XP12-4
+Added Pin To Net: NetName=NetDD6_3 Pin=DD6-3
+Added Pin To Net: NetName=NetDD6_3 Pin=XP12-2
+Added Net: Name=NetDD6_3
+Added Pin To Net: NetName=NetDD6_5 Pin=DD6-5
+Added Pin To Net: NetName=NetDD6_5 Pin=XP12-3
+Added Net: Name=NetDD6_5
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=NetR38_1 Pin=VD19-1
+Added Net: Name=NetR38_1
+Added Member To Class: ClassName=[9]-Power Member=Component C32 1000uFx6.3V
+Added Member To Class: ClassName=[1]-MCU Member=Component DD6 LPC1754FBD80
+Added Member To Class: ClassName=[9]-Power Member=Component R38 2k2
+Added Member To Class: ClassName=[9]-Power Member=Component VD19 LED_0805
+Added Member To Class: ClassName=[3]-Connection Member=Component XP12 PLS04

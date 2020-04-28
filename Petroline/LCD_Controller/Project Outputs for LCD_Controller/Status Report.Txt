@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:47:03 On 22.11.2016
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [LCD_Controller.PcbDoc]
+   Generated File[Pick Place for LCD_Controller.txt]
+   Generated File[Pick Place for LCD_Controller.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 11:47:04 On 22.11.2016

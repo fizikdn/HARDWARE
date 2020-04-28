@@ -1,0 +1,16 @@
+Added Component: Designator=R?(RC0805)
+Added Component: Designator=VD?(3528LED)
+Added Component: Designator=VD?(3528LED)
+Added Component: Designator=VD?(3528LED)
+Added Pin To Net: NetName=BL Pin=R?-2
+Added Pin To Net: NetName=GND Pin=VD?-2
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=VD?-1
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NetVD?_1 Pin=VD?-1
+Added Pin To Net: NetName=NetVD?_1 Pin=VD?-2
+Added Net: Name=NetVD?_1
+Added Member To Class: ClassName=LED_backlight Member=Component R? 82E
+Added Member To Class: ClassName=LED_backlight Member=Component VD? LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD? LED_3528
+Added Member To Class: ClassName=LED_backlight Member=Component VD? LED_3528

@@ -1,0 +1,21 @@
+Added Component: Designator=R3(RC0805_IPC_NOM)
+Added Component: Designator=R4(RC0805_IPC_NOM)
+Added Component: Designator=R5(RC0603)
+Added Component: Designator=R6(RC0603-3M)
+Added Component: Designator=R8(RC0805)
+Added Pin To Net: NetName=NetC1_1 Pin=R3-1
+Added Pin To Net: NetName=NetC1_2 Pin=R3-2
+Added Pin To Net: NetName=NetC1_1 Pin=R4-1
+Added Pin To Net: NetName=NetC1_2 Pin=R4-2
+Added Pin To Net: NetName=NetC3_2 Pin=R5-1
+Added Pin To Net: NetName=NetC1_1 Pin=R5-2
+Added Pin To Net: NetName=NetC2_2 Pin=R6-1
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=NetC5_1 Pin=R8-2
+Added Member To Class: ClassName=Main Member=Component R3 *20E
+Added Member To Class: ClassName=Main Member=Component R4 *2E
+Added Member To Class: ClassName=Main Member=Component R5 3k3
+Added Member To Class: ClassName=Main Member=Component R6 *36k
+Added Member To Class: ClassName=Main Member=Component R8 100k
+Added Room: Name=Main

@@ -1,0 +1,24 @@
+Change Component Footprint: Designator=VD1 Old Footprint=LED_SAMSUNG_NEW New Footprint=LED_SAMSUNG
+Change Component Footprint: Designator=VD3 Old Footprint=LED_SAMSUNG_NEW New Footprint=LED_SAMSUNG
+Change Component Footprint: Designator=VD5 Old Footprint=LED_SAMSUNG_NEW New Footprint=LED_SAMSUNG
+Added Component: Designator=VD2(LED_SAMSUNG)
+Added Component: Designator=VD4(LED_SAMSUNG)
+Added Component: Designator=VD6(LED_SAMSUNG)
+Added Pin To Net: NetName=V_IN Pin=VD2-1
+Added Pin To Net: NetName=V_IN Pin=VD2-1
+Added Pin To Net: NetName=NetVD1_2 Pin=VD2-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD2-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD2-2
+Added Pin To Net: NetName=V_IN Pin=VD4-1
+Added Pin To Net: NetName=V_IN Pin=VD4-1
+Added Pin To Net: NetName=NetVD1_2 Pin=VD4-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD4-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD4-2
+Added Pin To Net: NetName=V_IN Pin=VD6-1
+Added Pin To Net: NetName=V_IN Pin=VD6-1
+Added Pin To Net: NetName=NetVD1_2 Pin=VD6-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD6-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD6-2
+Added Member To Class: ClassName=LED0_7 Member=Component VD2 SPWHT541MD5WAT0SB
+Added Member To Class: ClassName=LED0_7 Member=Component VD4 SPWHT541MD5WAT0SB
+Added Member To Class: ClassName=LED0_7 Member=Component VD6 SPWHT541MD5WAT0SB

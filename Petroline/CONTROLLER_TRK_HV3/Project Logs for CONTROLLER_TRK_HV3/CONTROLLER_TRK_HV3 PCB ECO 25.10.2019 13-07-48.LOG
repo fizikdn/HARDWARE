@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=C26-2
+Removed Pin From Net: NetName=GND Pin=C27-1
+Change Component Footprint: Designator=C26 Old Footprint=CAP_13x26 New Footprint=CC8X11.5_L
+Change Component Footprint: Designator=C27 Old Footprint=CAP_13x26 New Footprint=CC8X11.5_L
+Change Component Comment : Designator=C26 Old Comment=DRE10/2.5 New Comment=1Fx2.7V
+Change Component Comment : Designator=C27 Old Comment=DRE10/2.5 New Comment=1Fx2.7V
+Change component parameters: Designator = "C26"; Footprint = "CC8X11.5_L"; UniqueID = "\PQPEQESH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1Fx2.7V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C27"; Footprint = "CC8X11.5_L"; UniqueID = "\RFLZMTOM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1Fx2.7V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=NetC26_2 Pin=C26-2
+Added Pin To Net: NetName=NetC26_2 Pin=C27-1
+Added Net: Name=NetC26_2

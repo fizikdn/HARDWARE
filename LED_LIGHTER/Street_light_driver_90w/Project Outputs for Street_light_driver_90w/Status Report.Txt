@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [Street_light_driver_90w.PcbDoc]
+   Generated File[Pick Place for Street_light_driver_90w.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:07:04 On 25.01.2017

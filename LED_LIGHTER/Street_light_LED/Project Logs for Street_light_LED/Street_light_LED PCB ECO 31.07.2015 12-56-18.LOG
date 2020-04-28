@@ -1,0 +1,6 @@
+Added Component: Designator=X1(PIN_7x3mm_SMD)
+Added Component: Designator=X2(PIN_7x3mm_SMD)
+Added Pin To Net: NetName=V_IN Pin=X1-1
+Added Pin To Net: NetName=GND Pin=X2-1
+Added Member To Class: ClassName=LED0_7 Member=Component X1 PIN_7x3mm_SMD
+Added Member To Class: ClassName=LED24_26 Member=Component X2 PIN_7x3mm_SMD

@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Mixer_8_USB_jack.PcbDoc   26.09.2016  12:54:06
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Mixer_8_USB_jack-Plated.TXT
+ASCII Non-Plated RoundHoles File : Mixer_8_USB_jack-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             91        PTH        22.40inch (569.04mm)
+T2      16mil (0.399mm)                                           Round             56        PTH        11.30inch (287.11mm)
+T3      38mil (0.965mm)                                           Round             6         PTH        0.72inch (18.35mm)
+T4      39mil (0.991mm)                                           Round             4         PTH        0.94inch (23.82mm)
+T5      39mil (1.001mm)                                           Round             24        PTH        5.93inch (150.59mm)
+T6      91mil (2.301mm)                                           Round             2         PTH        0.47inch (12.04mm)
+T7      122mil (3.099mm)                                          Round             2         PTH        2.54inch (64.60mm)
+T8      67mil (1.699mm)                                           Round             2         NPTH       0.28inch (7.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              187
+
+Total Processing Time (hh:mm:ss) : 00:00:01

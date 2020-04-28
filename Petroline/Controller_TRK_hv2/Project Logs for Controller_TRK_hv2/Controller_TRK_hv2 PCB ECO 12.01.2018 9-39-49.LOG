@@ -1,0 +1,6 @@
+Added Component: Designator=L2(L0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LQM18FN1R0M00D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=L2-1
+Added Pin To Net: NetName=+3V3_F Pin=L2-2
+Added Member To Class: ClassName=Power Member=Component L2 L0603

@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [LCD_KB_Controller.PrjPcb]
+   Generated File[Bill of Materials-LCD_KB_Controller.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:49:36 On 12.12.2016

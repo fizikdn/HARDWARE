@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VBAT Pin=R12-2
+Added Pin To Net: NetName=NetC4_2 Pin=R12-2
+Added Room: Name=Output
+Added Room: Name=Relay

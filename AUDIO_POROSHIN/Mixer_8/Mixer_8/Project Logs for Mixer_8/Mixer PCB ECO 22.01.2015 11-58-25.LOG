@@ -1,0 +1,8 @@
+Added Component: Designator=C15(Cap_5x8)
+Added Pin To Net: NetName=VCC Pin=C15-+
+Added Pin To Net: NetName=GND Pin=C15--
+Added Member To Class: ClassName=Mix_8ch Member=Component C4 0.1uFx50V
+Added Member To Class: ClassName=Mix_8ch Member=Component C11 220uFx16V
+Added Member To Class: ClassName=Mix_8ch Member=Component C15 10uFx16V
+Added Member To Class: ClassName=Mix_8ch Member=Component C17 0.1uFx50V
+Added Member To Class: ClassName=Mix_8ch Member=Component VD1 GS1M

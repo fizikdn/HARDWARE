@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetVD2_2 Pin=XP4-1
+Removed Pin From Net: NetName=GND Pin=XP4-2
+Removed Pin From Net: NetName=NetVD3_2 Pin=XP4-3
+Removed Pin From Net: NetName=NetR15_1 Pin=XP12-1
+Removed Pin From Net: NetName=GND Pin=XP12-2
+Removed Member From Class: ClassName=Connections Member=XP4
+Removed Member From Class: ClassName=Connections Member=XP12
+Added Component: Designator=XP?(DG330-2PIN)
+Added Component: Designator=XP?(DG330-2PIN)
+Added Pin To Net: NetName=NetVD2_2 Pin=XP?-1
+Added Pin To Net: NetName=NetVD3_2 Pin=XP?-1
+Added Pin To Net: NetName=GND Pin=XP?-2
+Added Pin To Net: NetName=NetR15_1 Pin=XP?-2
+Added Member To Class: ClassName=Connections Member=Component XP? DG330-2PIN
+Added Member To Class: ClassName=Connections Member=Component XP? DG330-2PIN

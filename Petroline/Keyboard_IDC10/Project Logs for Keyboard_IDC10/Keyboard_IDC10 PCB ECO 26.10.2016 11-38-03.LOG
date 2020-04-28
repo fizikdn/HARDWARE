@@ -1,0 +1,34 @@
+Added Component: Designator=XP1(PLS-08)
+Added Component: Designator=XP?(PIN10M)
+Added Component: Designator=XP?(PLS-03)
+Added Pin To Net: NetName=GND Pin=XP?-3
+Added Pin To Net: NetName=GND Pin=XP?-10
+Added Net: Name=GND
+Added Pin To Net: NetName=NetXP1_1 Pin=XP1-1
+Added Pin To Net: NetName=NetXP1_1 Pin=XP?-1
+Added Net: Name=NetXP1_1
+Added Pin To Net: NetName=NetXP1_2 Pin=XP1-2
+Added Pin To Net: NetName=NetXP1_2 Pin=XP?-2
+Added Net: Name=NetXP1_2
+Added Pin To Net: NetName=NetXP1_3 Pin=XP1-3
+Added Pin To Net: NetName=NetXP1_3 Pin=XP?-3
+Added Net: Name=NetXP1_3
+Added Pin To Net: NetName=NetXP1_4 Pin=XP1-4
+Added Pin To Net: NetName=NetXP1_4 Pin=XP?-4
+Added Net: Name=NetXP1_4
+Added Pin To Net: NetName=NetXP1_5 Pin=XP1-5
+Added Pin To Net: NetName=NetXP1_5 Pin=XP?-5
+Added Net: Name=NetXP1_5
+Added Pin To Net: NetName=NetXP1_6 Pin=XP1-6
+Added Pin To Net: NetName=NetXP1_6 Pin=XP?-6
+Added Net: Name=NetXP1_6
+Added Pin To Net: NetName=NetXP1_7 Pin=XP1-7
+Added Pin To Net: NetName=NetXP1_7 Pin=XP?-7
+Added Net: Name=NetXP1_7
+Added Pin To Net: NetName=NetXP1_8 Pin=XP1-8
+Added Pin To Net: NetName=NetXP1_8 Pin=XP?-8
+Added Net: Name=NetXP1_8
+Added Pin To Net: NetName=NetXP?_2 Pin=XP?-2
+Added Pin To Net: NetName=NetXP?_2 Pin=XP?-9
+Added Net: Name=NetXP?_2
+Added Class: Name=Main

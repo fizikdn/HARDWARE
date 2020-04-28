@@ -1,0 +1,6 @@
+Added Component: Designator=C27(CC16X10_CAP0.5(1)(Primary))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "220uFx35V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C27-1
+Added Pin To Net: NetName=VIN_F Pin=C27-2
+Added Member To Class: ClassName=Power Member=Component C27 220uFx35V

@@ -1,0 +1,6 @@
+Added Component: Designator=VD18(SMB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SMBJ36A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=VD18-1
+Added Pin To Net: NetName=VIN_F Pin=VD18-2
+Added Member To Class: ClassName=[9]-Power Member=Component VD18 SMBJ36A

@@ -1,0 +1,503 @@
+PCAD Importer Log
+Project : Mix_v3.PrjPcb
+
+Section : D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Ã» ÿ≈– USB\mix_v3.pcb
+    Section : Load Messages
+        Warning - 1 : Skipping Token shapeOutline On Line 53542
+        Warning - 1 : Skipping Token shapeOutline On Line 53558
+        Warning - 1 : Skipping Token shapeOutline On Line 53574
+        Warning - 1 : Skipping Token shapeOutline On Line 53590
+        Warning - 1 : Skipping Token shapeOutline On Line 53606
+        Warning - 1 : Skipping Token shapeOutline On Line 53622
+        Warning - 1 : Skipping Token shapeOutline On Line 53638
+        Warning - 1 : Skipping Token shapeOutline On Line 53654
+        Warning - 1 : Skipping Token shapeOutline On Line 53670
+        Warning - 1 : Skipping Token shapeOutline On Line 53716
+        Warning - 1 : Skipping Token shapeOutline On Line 53902
+        Warning - 1 : Skipping Token shapeOutline On Line 53918
+        Warning - 1 : Skipping Token shapeOutline On Line 54064
+        Warning - 1 : Skipping Token shapeOutline On Line 54081
+        Warning - 1 : Skipping Token shapeOutline On Line 54266
+        Warning - 1 : Skipping Token shapeOutline On Line 54292
+        Warning - 1 : Skipping Token shapeOutline On Line 54309
+        Warning - 1 : Skipping Token shapeOutline On Line 54325
+        Warning - 1 : Skipping Token shapeOutline On Line 54380
+        Warning - 1 : Skipping Token shapeOutline On Line 54404
+        Warning - 1 : Skipping Token shapeOutline On Line 54428
+        Warning - 1 : Skipping Token shapeOutline On Line 54459
+        Warning - 1 : Skipping Token shapeOutline On Line 54483
+        Warning - 1 : Skipping Token shapeOutline On Line 54507
+        Warning - 1 : Skipping Token shapeOutline On Line 54588
+        Warning - 1 : Skipping Token shapeOutline On Line 54714
+        Warning - 1 : Skipping Token shapeOutline On Line 54901
+        Warning - 1 : Skipping Token shapeOutline On Line 54926
+        Warning - 1 : Skipping Token shapeOutline On Line 54962
+        Warning - 1 : Skipping Token shapeOutline On Line 56847
+        Warning - 1 : Skipping Token shapeOutline On Line 56864
+        Warning - 1 : Skipping Token shapeOutline On Line 56881
+        Warning - 1 : Skipping Token shapeOutline On Line 56898
+        Warning - 1 : Skipping Token shapeOutline On Line 56915
+        Warning - 1 : Skipping Token shapeOutline On Line 56932
+        Warning - 1 : Skipping Token shapeOutline On Line 56949
+        Warning - 1 : Skipping Token shapeOutline On Line 56966
+        Warning - 1 : Skipping Token shapeOutline On Line 56983
+        Warning - 1 : Skipping Token shapeOutline On Line 57033
+        Warning - 1 : Skipping Token shapeOutline On Line 57237
+        Warning - 1 : Skipping Token shapeOutline On Line 57254
+        Warning - 1 : Skipping Token shapeOutline On Line 57271
+        Warning - 1 : Skipping Token shapeOutline On Line 57289
+        Warning - 1 : Skipping Token shapeOutline On Line 57437
+        Warning - 1 : Skipping Token shapeOutline On Line 57465
+        Warning - 1 : Skipping Token shapeOutline On Line 57483
+        Warning - 1 : Skipping Token shapeOutline On Line 57500
+        Warning - 1 : Skipping Token shapeOutline On Line 57527
+        Warning - 1 : Skipping Token shapeOutline On Line 57654
+        Warning - 1 : Skipping Token shapeOutline On Line 57749
+        Warning - 1 : Skipping Token shapeOutline On Line 57765
+        Warning - 1 : Skipping Token shapeOutline On Line 57782
+        Warning - 1 : Skipping Token shapeOutline On Line 58029
+        Warning - 1 : Skipping Token shapeOutline On Line 58045
+        Warning - 1 : Skipping Token shapeOutline On Line 58061
+        Warning - 1 : Skipping Token shapeOutline On Line 58077
+        Warning - 1 : Skipping Token shapeOutline On Line 58093
+        Warning - 1 : Skipping Token shapeOutline On Line 58109
+        Warning - 1 : Skipping Token shapeOutline On Line 58125
+        Warning - 1 : Skipping Token shapeOutline On Line 58141
+        Warning - 1 : Skipping Token shapeOutline On Line 58157
+        Warning - 1 : Skipping Token shapeOutline On Line 58203
+        Warning - 1 : Skipping Token shapeOutline On Line 58389
+        Warning - 1 : Skipping Token shapeOutline On Line 58405
+        Warning - 1 : Skipping Token shapeOutline On Line 58421
+        Warning - 1 : Skipping Token shapeOutline On Line 58438
+        Warning - 1 : Skipping Token shapeOutline On Line 58583
+        Warning - 1 : Skipping Token shapeOutline On Line 58609
+        Warning - 1 : Skipping Token shapeOutline On Line 58626
+        Warning - 1 : Skipping Token shapeOutline On Line 58642
+        Warning - 1 : Skipping Token shapeOutline On Line 58667
+        Warning - 1 : Skipping Token shapeOutline On Line 58783
+        Warning - 1 : Skipping Token shapeOutline On Line 58870
+        Warning - 1 : Skipping Token shapeOutline On Line 58885
+        Warning - 1 : Skipping Token shapeOutline On Line 58901
+        Warning - 1 : Skipping Token shapeOutline On Line 58973
+        Warning - 1 : Skipping Token shapeOutline On Line 58990
+        Warning - 1 : Skipping Token shapeOutline On Line 59007
+        Warning - 1 : Skipping Token shapeOutline On Line 59024
+        Warning - 1 : Skipping Token shapeOutline On Line 59041
+        Warning - 1 : Skipping Token shapeOutline On Line 59058
+        Warning - 1 : Skipping Token shapeOutline On Line 59075
+        Warning - 1 : Skipping Token shapeOutline On Line 59092
+        Warning - 1 : Skipping Token shapeOutline On Line 59109
+        Warning - 1 : Skipping Token shapeOutline On Line 59159
+        Warning - 1 : Skipping Token shapeOutline On Line 59363
+        Warning - 1 : Skipping Token shapeOutline On Line 59380
+        Warning - 1 : Skipping Token shapeOutline On Line 59397
+        Warning - 1 : Skipping Token shapeOutline On Line 59415
+        Warning - 1 : Skipping Token shapeOutline On Line 59574
+        Warning - 1 : Skipping Token shapeOutline On Line 59602
+        Warning - 1 : Skipping Token shapeOutline On Line 59620
+        Warning - 1 : Skipping Token shapeOutline On Line 59637
+        Warning - 1 : Skipping Token shapeOutline On Line 59664
+        Warning - 1 : Skipping Token shapeOutline On Line 59791
+        Warning - 1 : Skipping Token shapeOutline On Line 59886
+        Warning - 1 : Skipping Token shapeOutline On Line 59902
+        Warning - 1 : Skipping Token shapeOutline On Line 59919
+        Warning - 1 : Skipping Token shapeOutline On Line 60301
+        Warning - 1 : Skipping Token shapeOutline On Line 60317
+        Warning - 1 : Skipping Token shapeOutline On Line 60333
+        Warning - 1 : Skipping Token shapeOutline On Line 60349
+        Warning - 1 : Skipping Token shapeOutline On Line 60365
+        Warning - 1 : Skipping Token shapeOutline On Line 60381
+        Warning - 1 : Skipping Token shapeOutline On Line 60397
+        Warning - 1 : Skipping Token shapeOutline On Line 60413
+        Warning - 1 : Skipping Token shapeOutline On Line 60429
+        Warning - 1 : Skipping Token shapeOutline On Line 60475
+        Warning - 1 : Skipping Token shapeOutline On Line 60661
+        Warning - 1 : Skipping Token shapeOutline On Line 60677
+        Warning - 1 : Skipping Token shapeOutline On Line 60693
+        Warning - 1 : Skipping Token shapeOutline On Line 60710
+        Warning - 1 : Skipping Token shapeOutline On Line 60855
+        Warning - 1 : Skipping Token shapeOutline On Line 60881
+        Warning - 1 : Skipping Token shapeOutline On Line 60898
+        Warning - 1 : Skipping Token shapeOutline On Line 60914
+        Warning - 1 : Skipping Token shapeOutline On Line 60939
+        Warning - 1 : Skipping Token shapeOutline On Line 61055
+        Warning - 1 : Skipping Token shapeOutline On Line 61142
+        Warning - 1 : Skipping Token shapeOutline On Line 61157
+        Warning - 1 : Skipping Token shapeOutline On Line 61173
+        Warning - 1 : Skipping Token shapeOutline On Line 62745
+        Warning - 1 : Skipping Token shapeOutline On Line 62762
+        Warning - 1 : Skipping Token shapeOutline On Line 62779
+        Warning - 1 : Skipping Token shapeOutline On Line 62796
+        Warning - 1 : Skipping Token shapeOutline On Line 62813
+        Warning - 1 : Skipping Token shapeOutline On Line 62830
+        Warning - 1 : Skipping Token shapeOutline On Line 62847
+        Warning - 1 : Skipping Token shapeOutline On Line 62864
+        Warning - 1 : Skipping Token shapeOutline On Line 62881
+        Warning - 1 : Skipping Token shapeOutline On Line 62931
+        Warning - 1 : Skipping Token shapeOutline On Line 63135
+        Warning - 1 : Skipping Token shapeOutline On Line 63152
+        Warning - 1 : Skipping Token shapeOutline On Line 63169
+        Warning - 1 : Skipping Token shapeOutline On Line 63187
+        Warning - 1 : Skipping Token shapeOutline On Line 63346
+        Warning - 1 : Skipping Token shapeOutline On Line 63374
+        Warning - 1 : Skipping Token shapeOutline On Line 63392
+        Warning - 1 : Skipping Token shapeOutline On Line 63409
+        Warning - 1 : Skipping Token shapeOutline On Line 63436
+        Warning - 1 : Skipping Token shapeOutline On Line 63563
+        Warning - 1 : Skipping Token shapeOutline On Line 63658
+        Warning - 1 : Skipping Token shapeOutline On Line 63674
+        Warning - 1 : Skipping Token shapeOutline On Line 63691
+        Warning - 1 : Skipping Token shapeOutline On Line 63757
+        Warning - 1 : Skipping Token shapeOutline On Line 63773
+        Warning - 1 : Skipping Token shapeOutline On Line 63789
+        Warning - 1 : Skipping Token shapeOutline On Line 63805
+        Warning - 1 : Skipping Token shapeOutline On Line 63821
+        Warning - 1 : Skipping Token shapeOutline On Line 63837
+        Warning - 1 : Skipping Token shapeOutline On Line 63853
+        Warning - 1 : Skipping Token shapeOutline On Line 63869
+        Warning - 1 : Skipping Token shapeOutline On Line 63885
+        Warning - 1 : Skipping Token shapeOutline On Line 63931
+        Warning - 1 : Skipping Token shapeOutline On Line 64127
+        Warning - 1 : Skipping Token shapeOutline On Line 64143
+        Warning - 1 : Skipping Token shapeOutline On Line 64159
+        Warning - 1 : Skipping Token shapeOutline On Line 64176
+        Warning - 1 : Skipping Token shapeOutline On Line 64321
+        Warning - 1 : Skipping Token shapeOutline On Line 64347
+        Warning - 1 : Skipping Token shapeOutline On Line 64364
+        Warning - 1 : Skipping Token shapeOutline On Line 64380
+        Warning - 1 : Skipping Token shapeOutline On Line 64405
+        Warning - 1 : Skipping Token shapeOutline On Line 64521
+        Warning - 1 : Skipping Token shapeOutline On Line 64608
+        Warning - 1 : Skipping Token shapeOutline On Line 64623
+        Warning - 1 : Skipping Token shapeOutline On Line 64639
+        Warning - 1 : Skipping Token defaultPinDes On Line 86585
+        Warning - 1 : Skipping Token defaultPinDes On Line 86586
+        Warning - 1 : Skipping Token defaultPinDes On Line 86587
+        Warning - 1 : Skipping Token defaultPinDes On Line 86588
+        Warning - 1 : Skipping Token defaultPinDes On Line 86609
+        Warning - 1 : Skipping Token defaultPinDes On Line 86626
+        Warning - 1 : Skipping Token defaultPinDes On Line 86627
+        Warning - 1 : Skipping Token defaultPinDes On Line 86628
+        Warning - 1 : Skipping Token defaultPinDes On Line 86629
+        Warning - 1 : Skipping Token defaultPinDes On Line 86630
+        Warning - 1 : Skipping Token defaultPinDes On Line 86631
+        Warning - 1 : Skipping Token defaultPinDes On Line 86632
+        Warning - 1 : Skipping Token defaultPinDes On Line 86633
+        Warning - 1 : Skipping Token defaultPinDes On Line 86709
+        Warning - 1 : Skipping Token defaultPinDes On Line 86710
+        Warning - 1 : Skipping Token defaultPinDes On Line 86711
+        Warning - 1 : Skipping Token defaultPinDes On Line 86733
+        Warning - 1 : Skipping Token defaultPinDes On Line 86734
+        Warning - 1 : Skipping Token defaultPinDes On Line 86735
+        Warning - 1 : Skipping Token defaultPinDes On Line 86736
+        Warning - 1 : Skipping Token defaultPinDes On Line 86737
+        Warning - 1 : Skipping Token defaultPinDes On Line 86738
+        Warning - 1 : Skipping Token defaultPinDes On Line 86739
+        Warning - 1 : Skipping Token defaultPinDes On Line 86740
+        Warning - 1 : Skipping Token defaultPinDes On Line 86741
+        Warning - 1 : Skipping Token defaultPinDes On Line 86742
+        Warning - 1 : Skipping Token defaultPinDes On Line 86743
+        Warning - 1 : Skipping Token defaultPinDes On Line 86744
+        Warning - 1 : Skipping Token defaultPinDes On Line 86745
+        Warning - 1 : Skipping Token defaultPinDes On Line 86746
+        Warning - 1 : Skipping Token defaultPinDes On Line 86747
+        Warning - 1 : Skipping Token defaultPinDes On Line 86748
+        Warning - 1 : Skipping Token defaultPinDes On Line 86749
+        Warning - 1 : Skipping Token defaultPinDes On Line 86750
+        Warning - 1 : Skipping Token defaultPinDes On Line 86751
+        Warning - 1 : Skipping Token defaultPinDes On Line 86752
+        Warning - 1 : Skipping Token defaultPinDes On Line 86753
+        Warning - 1 : Skipping Token defaultPinDes On Line 86754
+        Warning - 1 : Skipping Token defaultPinDes On Line 86755
+        Warning - 1 : Skipping Token defaultPinDes On Line 86756
+        Warning - 1 : Skipping Token defaultPinDes On Line 86757
+        Warning - 1 : Skipping Token defaultPinDes On Line 86758
+        Warning - 1 : Skipping Token defaultPinDes On Line 86759
+        Warning - 1 : Skipping Token defaultPinDes On Line 86760
+        Warning - 1 : Skipping Token defaultPinDes On Line 86944
+        Warning - 1 : Skipping Token defaultPinDes On Line 86945
+        Warning - 1 : Skipping Token defaultPinDes On Line 86985
+        Warning - 1 : Skipping Token defaultPinDes On Line 86986
+        Warning - 1 : Skipping Token defaultPinDes On Line 86987
+        Warning - 1 : Skipping Token defaultPinDes On Line 86988
+        Warning - 1 : Skipping Token defaultPinDes On Line 86989
+        Warning - 1 : Skipping Token defaultPinDes On Line 86990
+        Warning - 1 : Skipping Token defaultPinDes On Line 87034
+        Warning - 1 : Skipping Token defaultPinDes On Line 87035
+        Warning - 1 : Skipping Token defaultPinDes On Line 87036
+        Warning - 1 : Skipping Token defaultPinDes On Line 87037
+        Warning - 1 : Skipping Token defaultPinDes On Line 87038
+        Warning - 1 : Skipping Token defaultPinDes On Line 87039
+        Warning - 1 : Skipping Token defaultPinDes On Line 87040
+        Warning - 1 : Skipping Token defaultPinDes On Line 87041
+        Warning - 1 : Skipping Token attachedSymbol On Line 87073
+        Warning - 1 : Skipping Token attachedSymbol On Line 87097
+        Warning - 1 : Skipping Token attachedSymbol On Line 87121
+        Warning - 1 : Skipping Token attachedSymbol On Line 87149
+        Warning - 1 : Skipping Token attachedSymbol On Line 87150
+        Warning - 1 : Skipping Token attachedSymbol On Line 87184
+        Warning - 1 : Skipping Token attachedSymbol On Line 87212
+        Warning - 1 : Skipping Token attachedSymbol On Line 87233
+        Warning - 1 : Skipping Token attachedSymbol On Line 87254
+        Warning - 1 : Skipping Token attachedSymbol On Line 87275
+        Warning - 1 : Skipping Token attachedSymbol On Line 87296
+        Warning - 1 : Skipping Token attachedSymbol On Line 87317
+        Warning - 1 : Skipping Token attachedSymbol On Line 87338
+        Warning - 1 : Skipping Token attachedSymbol On Line 87358
+        Warning - 1 : Skipping Token attachedSymbol On Line 87378
+        Warning - 1 : Skipping Token attachedSymbol On Line 87400
+        Warning - 1 : Skipping Token attachedSymbol On Line 87448
+        Warning - 1 : Skipping Token attachedSymbol On Line 87494
+        Warning - 1 : Skipping Token attachedSymbol On Line 87514
+        Warning - 1 : Skipping Token attachedSymbol On Line 87540
+        Warning - 1 : Skipping Token refPointSize On Line 88173
+        Warning - 1 : Skipping Token infoPointSize On Line 88174
+        Warning - 1 : Skipping Token gluePointSize On Line 88175
+        Warning - 1 : Skipping Token pickPointSize On Line 88176
+        Warning - 1 : Skipping Token testPointSize On Line 88177
+        Warning - 1 : Skipping Token refPointSizePrint On Line 88178
+        Warning - 1 : Skipping Token infoPointSizePrint On Line 88179
+        Warning - 1 : Skipping Token gluePointSizePrint On Line 88180
+        Warning - 1 : Skipping Token pickPointSizePrint On Line 88181
+        Warning - 1 : Skipping Token testPointSizePrint On Line 88182
+        Warning - 1 : Skipping Token solderFlowDirection On Line 88183
+        Warning - 1 : Skipping Token globalCopperPourCutoutBackoffFlag On Line 88184
+        Warning - 1 : Skipping Token useLegacyBackoffAlgorithm On Line 88185
+        Warning - 1 : Skipping Token useLegacyCupourIslandGenerationAlgorithm On Line 88186
+        Warning - 1 : Skipping Token netNameRef On Line 89241
+        Warning - 1 : Skipping Token island On Line 89243
+        Warning - 1 : Skipping Token island On Line 89267
+        Warning - 1 : Skipping Token island On Line 89297
+        Warning - 1 : Skipping Token island On Line 89322
+        Warning - 1 : Skipping Token island On Line 89381
+        Warning - 1 : Skipping Token island On Line 89403
+        Warning - 1 : Skipping Token island On Line 89475
+        Warning - 1 : Skipping Token island On Line 89632
+        Warning - 1 : Skipping Token island On Line 89653
+        Warning - 1 : Skipping Token island On Line 89681
+        Warning - 1 : Skipping Token island On Line 89705
+        Warning - 1 : Skipping Token island On Line 89734
+        Warning - 1 : Skipping Token island On Line 89794
+        Warning - 1 : Skipping Token netNameRef On Line 91759
+        Warning - 1 : Skipping Token island On Line 91761
+        Warning - 1 : Skipping Token drillSymSettings On Line 92945
+        Warning - 1 : Skipping Token gerberSettings On Line 92947
+        Warning - 1 : Skipping Token ncDrillSettings On Line 92961
+        Warning - 1 : Skipping Token programState On Line 92970
+        Warning - 1 : Skipping Token displayDrawOrder On Line 93011
+        Warning - 1 : Skipping Token reportSettings On Line 93234
+        Warning - 1 : Skipping Token odbSettings On Line 94150
+    EndSection
+
+    Section : Import Messages
+        Warning : No Connect Pad Converted To Rounded Pad
+        Warning : Ellipse solder shape converted to solid region
+        Warning : No Connect Pad Converted To Rounded Pad
+        Warning : Ellipse solder shape converted to solid region
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Rectangle solder shape converted to solid region
+        Warning : Rectangle solder shape converted to solid region
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : No Connect Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : No Connect Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : No Connect Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+        Warning : Mounting Hole Pad Converted To Rounded Pad
+    EndSection
+EndSection
+
+Section : D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Ã» ÿ≈– USB\Mix_v3.sch
+    Section : Parsing Messages
+        Warning - 1 : Skipping Token defaultPinDes On Line 5761
+        Warning - 1 : Skipping Token defaultPinDes On Line 5775
+        Warning - 1 : Skipping Token defaultPinDes On Line 5818
+        Warning - 1 : Skipping Token defaultPinDes On Line 5826
+        Warning - 1 : Skipping Token defaultPinDes On Line 5834
+        Warning - 1 : Skipping Token defaultPinDes On Line 5842
+        Warning - 1 : Skipping Token defaultPinDes On Line 5850
+        Warning - 1 : Skipping Token defaultPinDes On Line 5858
+        Warning - 1 : Skipping Token defaultPinDes On Line 5876
+        Warning - 1 : Skipping Token defaultPinDes On Line 5884
+        Warning - 1 : Skipping Token defaultPinDes On Line 5892
+        Warning - 1 : Skipping Token defaultPinDes On Line 5900
+        Warning - 1 : Skipping Token defaultPinDes On Line 5918
+        Warning - 1 : Skipping Token defaultPinDes On Line 5926
+        Warning - 1 : Skipping Token defaultPinDes On Line 5944
+        Warning - 1 : Skipping Token defaultPinDes On Line 5952
+        Warning - 1 : Skipping Token defaultPinDes On Line 5960
+        Warning - 1 : Skipping Token defaultPinDes On Line 5968
+        Warning - 1 : Skipping Token defaultPinDes On Line 5976
+        Warning - 1 : Skipping Token defaultPinDes On Line 5984
+        Warning - 1 : Skipping Token defaultPinDes On Line 6020
+        Warning - 1 : Skipping Token defaultPinDes On Line 6028
+        Warning - 1 : Skipping Token defaultPinDes On Line 6036
+        Warning - 1 : Skipping Token defaultPinDes On Line 6067
+        Warning - 1 : Skipping Token defaultPinDes On Line 6074
+        Warning - 1 : Skipping Token defaultPinDes On Line 6082
+        Warning - 1 : Skipping Token defaultPinDes On Line 6089
+        Warning - 1 : Skipping Token defaultPinDes On Line 6104
+        Warning - 1 : Skipping Token defaultPinDes On Line 6111
+        Warning - 1 : Skipping Token defaultPinDes On Line 6119
+        Warning - 1 : Skipping Token defaultPinDes On Line 6126
+        Warning - 1 : Skipping Token defaultPinDes On Line 6142
+        Warning - 1 : Skipping Token defaultPinDes On Line 6150
+        Warning - 1 : Skipping Token defaultPinDes On Line 6172
+        Warning - 1 : Skipping Token defaultPinDes On Line 6180
+        Warning - 1 : Skipping Token defaultPinDes On Line 6200
+        Warning - 1 : Skipping Token defaultPinDes On Line 6208
+        Warning - 1 : Skipping Token defaultPinDes On Line 6241
+        Warning - 1 : Skipping Token defaultPinDes On Line 6249
+        Warning - 1 : Skipping Token defaultPinDes On Line 6295
+        Warning - 1 : Skipping Token defaultPinDes On Line 6303
+        Warning - 1 : Skipping Token defaultPinDes On Line 6311
+        Warning - 1 : Skipping Token defaultPinDes On Line 6319
+        Warning - 1 : Skipping Token defaultPinDes On Line 6327
+        Warning - 1 : Skipping Token defaultPinDes On Line 6335
+        Warning - 1 : Skipping Token defaultPinDes On Line 6343
+        Warning - 1 : Skipping Token defaultPinDes On Line 6351
+        Warning - 1 : Skipping Token defaultPinDes On Line 6359
+        Warning - 1 : Skipping Token defaultPinDes On Line 6367
+        Warning - 1 : Skipping Token defaultPinDes On Line 6375
+        Warning - 1 : Skipping Token defaultPinDes On Line 6383
+        Warning - 1 : Skipping Token defaultPinDes On Line 6391
+        Warning - 1 : Skipping Token defaultPinDes On Line 6399
+        Warning - 1 : Skipping Token defaultPinDes On Line 6407
+        Warning - 1 : Skipping Token defaultPinDes On Line 6415
+        Warning - 1 : Skipping Token defaultPinDes On Line 6423
+        Warning - 1 : Skipping Token defaultPinDes On Line 6431
+        Warning - 1 : Skipping Token defaultPinDes On Line 6439
+        Warning - 1 : Skipping Token defaultPinDes On Line 6447
+        Warning - 1 : Skipping Token defaultPinDes On Line 6455
+        Warning - 1 : Skipping Token defaultPinDes On Line 6463
+        Warning - 1 : Skipping Token defaultPinDes On Line 6471
+        Warning - 1 : Skipping Token defaultPinDes On Line 6479
+        Warning - 1 : Skipping Token defaultPinDes On Line 6487
+        Warning - 1 : Skipping Token defaultPinDes On Line 6495
+        Warning - 1 : Skipping Token defaultPinDes On Line 6503
+        Warning - 1 : Skipping Token defaultPinDes On Line 6511
+        Warning - 1 : Skipping Token defaultPinDes On Line 6528
+        Warning - 1 : Skipping Token defaultPinDes On Line 6536
+        Warning - 1 : Skipping Token defaultPinDes On Line 6544
+        Warning - 1 : Skipping Token defaultPinDes On Line 6571
+        Warning - 1 : Skipping Token defaultPinDes On Line 6579
+        Warning - 1 : Skipping Token defaultPinDes On Line 6587
+        Warning - 1 : Skipping Token defaultPinDes On Line 6595
+        Warning - 1 : Skipping Token defaultPinDes On Line 6603
+        Warning - 1 : Skipping Token defaultPinDes On Line 6611
+        Warning - 1 : Skipping Token defaultPinDes On Line 6619
+        Warning - 1 : Skipping Token defaultPinDes On Line 6627
+        Warning - 1 : Skipping Token defaultPinDes On Line 6644
+        Warning - 1 : Skipping Token defaultPinDes On Line 6652
+        Warning - 1 : Skipping Token defaultPinDes On Line 6670
+        Warning - 1 : Skipping Token defaultPinDes On Line 6678
+        Warning - 1 : Skipping Token defaultPinDes On Line 6696
+        Warning - 1 : Skipping Token defaultPinDes On Line 6704
+        Warning - 1 : Skipping Token defaultPinDes On Line 6727
+        Warning - 1 : Skipping Token defaultPinDes On Line 6735
+        Warning - 1 : Skipping Token defaultPinDes On Line 6743
+        Warning - 1 : Skipping Token gridDfns On Line 8172
+        Warning - 1 : Skipping Token refPointSize On Line 8194
+        Warning - 1 : Skipping Token infoPointSize On Line 8195
+        Warning - 1 : Skipping Token junctionSize On Line 8196
+        Warning - 1 : Skipping Token refPointSizePrint On Line 8197
+        Warning - 1 : Skipping Token infoPointSizePrint On Line 8198
+        Warning - 1 : Skipping Token junctionSizePrint On Line 8199
+        Warning - 1 : Skipping Token PrintRegion On Line 9131
+        Warning - 1 : Skipping Token schematicPrintSettings On Line 9135
+        Warning - 1 : Skipping Token ecoState On Line 9150
+        Warning - 1 : Skipping Token currentTextStyle On Line 9151
+        Warning - 1 : Skipping Token reportSettings On Line 9154
+    EndSection
+
+    Section : Generating SCH Library - Mix_v3.SchLib
+        Warning : Create component variant [REPER1.2_VARIANT_1] for component with original name [REPER1.2]
+        Warning : Create component variant [CC8X11_VARIANT_1] for component with original name [CC8X11]
+        Warning : Create component variant [CC0805_VARIANT_1] for component with original name [CC0805]
+        Warning : Create component variant [GND_VARIANT_1] for component with original name [GND]
+    EndSection
+
+    Section : Generating SCH Sheet - Sheet1.SCHDOC
+        Warning : Add Power Object for Pin Name [GND] at location [16349.98mil : 9199.982mil]
+        Warning : Add Power Object for Pin Name [GND] at location [18149.976mil : 9199.982mil]
+        Warning : Add Power Object for Pin Name [GND] at location [22999.979mil : 13399.999mil]
+        Warning : Add Power Object for Pin Name [GND] at location [25600mil : 4099.992mil]
+        Warning : Add Power Object for Pin Name [GND] at location [28599.994mil : 5899.988mil]
+        Warning : Add Power Object for Pin Name [GND] at location [28599.994mil : 6699.987mil]
+        Warning : Add Power Object for Pin Name [GND] at location [19399.987mil : 4549.978mil]
+        Warning : Add Power Object for Pin Name [GND] at location [19599.986mil : 6599.987mil]
+        Warning : Add Power Object for Pin Name [GND] at location [19599.986mil : 7499.985mil]
+        Warning : Add Power Object for Pin Name [GND] at location [19899.986mil : 10499.979mil]
+        Warning : Add Power Object for Pin Name [GND] at location [20549.997mil : 10499.979mil]
+        Warning : Add Power Object for Pin Name [GND] at location [21749.995mil : 7949.997mil]
+        Warning : Add Power Object for Pin Name [GND] at location [22049.994mil : 5399.989mil]
+        Warning : Add Power Object for Pin Name [GND] at location [22699.98mil : 4799.99mil]
+        Warning : Add Power Object for Pin Name [GND] at location [28599.994mil : 5099.99mil]
+        Warning : Add Power Object for Pin Name [GND] at location [19099.987mil : 9749.993mil]
+        Warning : Add Power Object for Pin Name [GND] at location [14349.984mil : 10099.98mil]
+        Warning : Add Power Object for Pin Name [GND] at location [16799.992mil : 9199.982mil]
+        Warning : Add Power Object for Pin Name [GND] at location [18249.976mil : 4699.991mil]
+        Warning : Add Power Object for Pin Name [GND] at location [18599.988mil : 9199.982mil]
+        Warning : Add Power Object for Pin Name [GND] at location [20099.985mil : 6499.987mil]
+        Warning : Add Power Object for Pin Name [GND] at location [23949.99mil : 10399.979mil]
+        Warning : Add Power Object for Pin Name [GND] at location [30449.977mil : 5899.988mil]
+        Warning : Add Power Object for Pin Name [GND] at location [17149.978mil : 8199.984mil]
+        Warning : Add Power Object for Pin Name [GND] at location [18849.975mil : 4549.978mil]
+        Warning : Add Power Object for Pin Name [GND] at location [19749.999mil : 4549.978mil]
+        Warning : Add Power Object for Pin Name [GND] at location [20349.997mil : 4549.978mil]
+        Warning : Add Power Object for Pin Name [VCC] at location [19899.986mil : 11149.99mil]
+        Warning : Add Power Object for Pin Name [GND] at location [20699.984mil : 5399.989mil]
+        Warning : Add Power Object for Pin Name [GND] at location [21599.982mil : 10299.979mil]
+        Warning : Add Power Object for Pin Name [+5V] at location [22049.994mil : 5699.989mil]
+        Warning : Add Power Object for Pin Name [+5V] at location [22049.994mil : 11299.977mil]
+        Warning : Add Power Object for Pin Name [GND] at location [23749.991mil : 5399.989mil]
+        Warning : Add Power Object for Pin Name [GND] at location [24649.989mil : 5099.99mil]
+    EndSection
+
+    Section : Analyzing SCH Sheet - Sheet1.SCHDOC
+        Warning : P-CAD vertical port [+3.5V] at location [23749.991mil : 5699.989mil] will be replaced by a horizonal port at location [23605.414mil : 5799.988mil] with the width [289.103mil] and a wire
+        Warning : P-CAD Port [IN1] will be replaced by a net label at location [14749.983mil : 13099.999mil]
+        Warning : P-CAD Port [IN2] will be replaced by a net label at location [14749.983mil : 12249.988mil]
+        Warning : P-CAD Port [IN3] will be replaced by a net label at location [14749.983mil : 11399.977mil]
+        Warning : P-CAD Port [IN4] will be replaced by a net label at location [14749.983mil : 10549.992mil]
+        Warning : P-CAD vertical port [MIC_PW] at location [21599.982mil : 13599.998mil] will be replaced by a horizonal port at location [21455.405mil : 13699.998mil] with the width [289.103mil] and a wire
+        Warning : Output port [USB_D-] width was re-calculated to [289.103mil]
+        Warning : Output port [USB_D-] width was re-calculated to [289.103mil]
+        Warning : Output port [USB_D+] width was re-calculated to [289.103mil]
+        Warning : Output port [USB_D+] width was re-calculated to [289.103mil]
+        Warning : Output port [USB_VBUS] width was re-calculated to [289.103mil]
+        Warning : Output port [USB_VBUS] width was re-calculated to [289.103mil]
+        Warning : Output port [VINL] width was re-calculated to [289.103mil]
+        Warning : Output port [VINL] width was re-calculated to [289.103mil]
+        Warning : Output port [VINR] width was re-calculated to [289.103mil]
+        Warning : Output port [VINR] width was re-calculated to [289.103mil]
+    EndSection
+EndSection

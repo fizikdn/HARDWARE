@@ -1,0 +1,102 @@
+Removed Pin From Net: NetName=+5V Pin=C12-1
+Removed Pin From Net: NetName=+5V Pin=DA1-1
+Removed Pin From Net: NetName=+5V Pin=DA1-3
+Added Component: Designator=C35(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4.7nF"; VariantName = "[No Variations]"
+Added Component: Designator=C36(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10pF"; VariantName = "[No Variations]"
+Added Component: Designator=C38(CC0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2.2uF 6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=C39(CC8X3.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1000uFx6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=C40(CC8X3.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1000uFx6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=C41(CC0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uFx6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=DA5(R-PDSO-G16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=L3(SDR0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "6.8 uH"; VariantName = "[No Variations]"
+Added Component: Designator=R65(RC0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RC0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0E"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1E"; VariantName = "[No Variations]"
+Added Component: Designator=R72(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1M 1%"; VariantName = "[No Variations]"
+Added Component: Designator=R73(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "110k 1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C38-1
+Added Pin To Net: NetName=GND Pin=C39-2
+Added Pin To Net: NetName=+5V Pin=C40-1
+Added Pin To Net: NetName=GND Pin=C40-2
+Added Pin To Net: NetName=GND Pin=C41-1
+Added Pin To Net: NetName=+5V Pin=C41-2
+Added Pin To Net: NetName=GND Pin=DA5-3
+Added Pin To Net: NetName=GND Pin=DA5-4
+Added Pin To Net: NetName=GND Pin=DA5-5
+Added Pin To Net: NetName=+5V Pin=DA5-6
+Added Pin To Net: NetName=GND Pin=DA5-7
+Added Pin To Net: NetName=GND Pin=DA5-8
+Added Pin To Net: NetName=+5V Pin=DA5-9
+Added Pin To Net: NetName=GND Pin=DA5-11
+Added Pin To Net: NetName=GND Pin=DA5-17
+Added Pin To Net: NetName=GND Pin=DA5-17
+Added Pin To Net: NetName=+5V Pin=L3-1
+Added Pin To Net: NetName=+5V Pin=R70-1
+Added Pin To Net: NetName=GND Pin=R71-2
+Added Pin To Net: NetName=GND Pin=R73-1
+Added Pin To Net: NetName=+5V_STEPUP Pin=C36-2
+Added Pin To Net: NetName=+5V_STEPUP Pin=C38-2
+Added Pin To Net: NetName=+5V_STEPUP Pin=C39-1
+Added Pin To Net: NetName=+5V_STEPUP Pin=DA5-13
+Added Pin To Net: NetName=+5V_STEPUP Pin=DA5-14
+Added Pin To Net: NetName=+5V_STEPUP Pin=DA5-15
+Added Pin To Net: NetName=+5V_STEPUP Pin=R65-1
+Added Pin To Net: NetName=+5V_STEPUP Pin=R72-2
+Added Net: Name=+5V_STEPUP
+Added Pin To Net: NetName=NetC12_1 Pin=C12-1
+Added Pin To Net: NetName=NetC12_1 Pin=DA1-1
+Added Pin To Net: NetName=NetC12_1 Pin=DA1-3
+Added Pin To Net: NetName=NetC12_1 Pin=R65-2
+Added Pin To Net: NetName=NetC12_1 Pin=R70-2
+Added Net: Name=NetC12_1
+Added Pin To Net: NetName=NetC35_1 Pin=C35-1
+Added Pin To Net: NetName=NetC35_1 Pin=DA5-1
+Added Pin To Net: NetName=NetC35_1 Pin=DA5-2
+Added Pin To Net: NetName=NetC35_1 Pin=L3-2
+Added Net: Name=NetC35_1
+Added Pin To Net: NetName=NetC35_2 Pin=C35-2
+Added Pin To Net: NetName=NetC35_2 Pin=R71-1
+Added Net: Name=NetC35_2
+Added Pin To Net: NetName=NetC36_1 Pin=C36-1
+Added Pin To Net: NetName=NetC36_1 Pin=DA5-12
+Added Pin To Net: NetName=NetC36_1 Pin=R72-1
+Added Pin To Net: NetName=NetC36_1 Pin=R73-2
+Added Net: Name=NetC36_1
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component C35 4.7nF
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component C36 10pF
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component C38 2.2uF 6.3V
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component C39 CAP0.35
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component C40 CAP0.35
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component C41 10uFx6.3V
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component DA5 TPS61030PWP
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component L3 6.8 uH
+Added Member To Class: ClassName=[5]-MCU_POWER Member=Component R65 n.p
+Added Member To Class: ClassName=[5]-MCU_POWER Member=Component R70 0E
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component R71 1E
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component R72 1M 1%
+Added Member To Class: ClassName=[11]-POWER_BACKUP Member=Component R73 110k 1%

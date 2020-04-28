@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+5V Pin=VD5-2
+Removed Member From Class: ClassName=Main Member=VD5
+Change Component DesignItemId : Designator=FU2 Old DesignItemId=MINISMDC New DesignItemId=MICROSMD
+Change Component Footprint: Designator=FU2 Old Footprint=RC1812 New Footprint=RC1210
+Change Component Comment : Designator=FU2 Old Comment=MINISMDC020F-2 New Comment=MICROSMD010F-2
+Added Pin To Net: NetName=+5V Pin=FU2-2

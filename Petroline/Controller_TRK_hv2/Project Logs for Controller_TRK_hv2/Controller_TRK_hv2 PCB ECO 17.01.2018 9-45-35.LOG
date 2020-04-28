@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=N Pin=XP6-1
+Removed Pin From Net: NetName=N Pin=XP18-1
+Added Component: Designator=F2(Fuse_5x20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "KLS5-266(5x20) 2pcs"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=N Pin=F2-1
+Added Pin To Net: NetName=N Pin=F2-1
+Added Pin To Net: NetName=N_OUT Pin=F2-2
+Added Pin To Net: NetName=N_OUT Pin=F2-2
+Added Pin To Net: NetName=N_OUT Pin=XP6-1
+Added Pin To Net: NetName=N_OUT Pin=XP18-1
+Added Net: Name=N_OUT
+Added Member To Class: ClassName=Relay Member=Component F2 KLS5-266(5x20) 2pcs

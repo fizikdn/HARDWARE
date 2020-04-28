@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=XP1-10
+Removed Pin From Net: NetName=GND Pin=XP2-10
+Removed Member From Class: ClassName=Connections Member=XP1
+Removed Member From Class: ClassName=Connections Member=XP2

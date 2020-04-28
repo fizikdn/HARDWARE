@@ -1,0 +1,22 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Mic_Amplifier.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Mic_Amplifier\Mic_Amplifier.PrjPcb|ReportField=Title~Bill of Materials For Project [Mic_Amplifier.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~43|ReportField=ReportTime~14:38:10|ReportField=ReportDate~05.02.2016|ReportField=ReportDateTime~05.02.2016 14:38:10|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~05.02.2016|ReportField=CurrentTime~14:32:00|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Mic_Amplifier\Main.SchDoc|ReportField=DocumentName~Main.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~12.01.2016|ReportField=Organization~|ReportField=ProjectName~Mic_Amplifier.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Mic_Amplifier.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Mic_Amplifier\Mic_Amplifier.PrjPcb
+1|REPER1.2|REPER1.2|1, 2|2
+2|0.1uF|CC0805|C1, C2, C6, C7|4
+3|10uFx16V|CC0805|C3, C4, C8|3
+4|1nF|CC0805|C5, C9|2
+5|LM358D|LM358D|DA1|1
+6|74HC74D||DD1|1
+7|SN74HC14D|Hex Schmitt-Trigger INVERTERS|DD2|1
+8|16k|RC0805|R1|1
+9|1M|RC0805|R2|1
+10|12k|RC0805|R3, R5, R7|3
+11|100E|RC0805|R4|1
+12|1k2|RC0805|R6|1
+13|560E|RC0805|R8, R9|2
+14|10k|RC0805|R10, R11, R12, R13, R14, R16, R17, R18|8
+15|220k|RC0805|R15|1
+16|SWT-2/5|Switch, Single Pole, Single Throw, Normally Open|S1|1
+17|LED_3|LED_3|VD1|1
+18|LL4148|LL4148|VD2|1
+19|IRLML6302|HEXFET Power MOSFET|VT1|1
+20|BC817|BC846BLT1|VT2|1
+21|PIN_1mm||X1, X2, X3, X4, X5, X6|6

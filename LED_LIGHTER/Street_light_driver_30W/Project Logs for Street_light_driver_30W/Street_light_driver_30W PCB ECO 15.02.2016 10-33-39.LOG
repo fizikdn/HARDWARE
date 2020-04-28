@@ -1,0 +1,10 @@
+Change Component Comment : Designator=L2 Old Comment=CDRH129 New Comment=CDRH129HF-102MC
+Change Component Comment : Designator=L3 Old Comment=CDRH129 New Comment=CDRH129HF-102MC
+Change Component Comment : Designator=L4 Old Comment=CDRH129 New Comment=CDRH129HF-102MC
+Change Component Comment : Designator=L1 Old Comment=CDRH129 New Comment=CDRH129HF-331MC
+Added Component: Designator=BR1(SDIP)
+Added Pin To Net: NetName=NetBR1_1 Pin=BR1-1
+Added Pin To Net: NetName=NetBR1_2 Pin=BR1-2
+Added Pin To Net: NetName=NetBR1_3 Pin=BR1-3
+Added Pin To Net: NetName=GND Pin=BR1-4
+Added Member To Class: ClassName=Main Member=Component BR1 DF10S

@@ -1,0 +1,12 @@
+Added Component: Designator=C6(CC0603)
+Added Component: Designator=DA2(SO-8)
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=+5V Pin=C6-2
+Added Pin To Net: NetName=GND Pin=DA2-3
+Added Pin To Net: NetName=GND Pin=DA2-4
+Added Pin To Net: NetName=+5V Pin=DA2-8
+Added Pin To Net: NetName=NetDA2_1 Pin=DA2-1
+Added Pin To Net: NetName=NetDA2_1 Pin=DA2-2
+Added Net: Name=NetDA2_1
+Added Member To Class: ClassName=Heater Member=Component C6 0.1uF
+Added Member To Class: ClassName=Heater Member=Component DA2 LM358D

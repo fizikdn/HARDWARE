@@ -1,0 +1,20 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Street_light_driver_30W.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Street_Light\Street_light_driver_30W\Street_light_driver_30W.PrjPcb|ReportField=Title~Bill of Materials For Project [Street_light_driver_30W.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~27|ReportField=ReportTime~17:06:43|ReportField=ReportDate~10.12.2015|ReportField=ReportDateTime~10.12.2015 17:06:43|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~10.12.2015|ReportField=CurrentTime~17:06:42|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Street_Light\Street_light_driver_30W\ICS.SchDoc|ReportField=DocumentName~ICS.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~10.12.2015|ReportField=Organization~|ReportField=ProjectName~Street_light_driver_30W.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Street_light_driver_30W.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Street_Light\Street_light_driver_30W\Street_light_driver_30W.PrjPcb
+1|DF10S||BR1|1
+2|10uF|CC1206|C1, C4|2
+3|1uF|CC0805|C2|1
+4|470uFx100V||C3|1
+5|100nFx630V||C5, C6|2
+6|LNK460KG||DA1|1
+7|||F1|1
+8|CDRH129HF-331MC||L1|1
+9|CDRH129HF-102MC||L2, L3, L4|3
+10|3k3|RC0805|R1|1
+11|100k|RC0805|R2|1
+12|1E2|RC1206|R3|1
+13|3k3|RC1206|R4, R6|2
+14|3k6|RC1206|R5|1
+15|REPER1.2|REPER1.2|REPER1, REPER2|2
+16|KLS6-07D||RU1|1
+17|ES1J|Schottky Rectifier|VD1, VD2|2
+18|PIN_7x3mm_SMD||X1, X3|2
+19|||XP1|1

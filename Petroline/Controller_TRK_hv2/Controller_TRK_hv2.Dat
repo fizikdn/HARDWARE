@@ -1,0 +1,68 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Controller_TRK_hv2.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\Petroline\Controller_TRK_hv2\Controller_TRK_hv2.PrjPcb|ReportField=Title~Bill of Materials For Project [Controller_TRK_hv2.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~16:41:57|ReportField=ReportDate~18.01.2019|ReportField=ReportDateTime~18.01.2019 16:41:57|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~179|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~18.01.2019|ReportField=CurrentTime~16:41:33|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\Petroline\Controller_TRK_hv2\Battery.SchDoc|ReportField=DocumentName~Battery.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~12.01.2018|ReportField=Organization~|ReportField=ProjectName~Controller_TRK_hv2.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Controller_TRK_hv2.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\Petroline\Controller_TRK_hv2\Controller_TRK_hv2.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|0.1uF|CC0603|C1, C6, C7, C8, C9, C11, C23, C26, C29|9
+2|1uF|CC0603|C2, C3|2
+3|10uFx6.3V|CC0805|C4, C24|2
+4|10nF|CC0603|C5, C31, C32|3
+5|220pF|CC0603|C12|1
+6|22pF|CC0603|C13, C14|2
+7|0.1uFx250V|CC1206|C15|1
+8|0.1 uF|CC0603|C16, C17, C19|3
+9|1000uFx6.3V|CAP0.35|C18|1
+10|10 nF|CC0603|C20|1
+11|330pF|CC0603|C21|1
+12|560pF|CC0603|C22|1
+13|10uF 6.3V|CC0805|C25|1
+14|220uFx35V|CAP0.5(1)|C27|1
+15|200pF|CC0603|C28, C30|2
+16|BQ24070|BQ24070|DA1|1
+17|TPS54260DGQ||DA2|1
+18|AP2210K-ADJTRG1|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA3|1
+19|LPC11C24FBD48||DD1|1
+20|M25PE16-VMW|S25FL016A0LMFI01|DD2|1
+21|KLS5-266(5x20) 2pcs||F1, F2|2
+22|MICROSMD010F-2|MICROSMD|FU1, FU2, FU3, FU4, FU5, FU7|6
+23|MF-SMDF050|MF-SMDF|FU6|1
+24|RXE-110|RXE-110|FU8|1
+25|PLS-02|PLS-02|J1, J2, J3, J4|4
+26|RY21|RY21|K1, K2, K3|3
+27|15uH|SDR0805|L1|1
+28|L0603|L0603|L2|1
+29|NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+30|51k|RC0603|R1|1
+31|100k|RC0603|R2, R3, R5, R11, R23, R28, R34|7
+32|10k|RC0603|R4, R12, R13, R14, R15, R16, R17, R19, R20, R22, R25, R26, R29, R31, R32, R57|16
+33|2k|RC0603|R6|1
+34|36k|RC0603|R7|1
+35|1k|RC0603|R8, R9, R18, R24, R30, R52, R55, R56, R58, R59, R60|11
+36|100E|RC0603|R10|1
+37|33k|RC0603|R21, R27, R33|3
+38|4k7|RC0603|R35, R40, R41, R51, R53, R54|6
+39|3k|RC0603|R36, R37, R38, R39|4
+40|220k|RC0603|R42, R43, R44|3
+41|68k1 1%|RC0603|R45|1
+42|12k|RC0603|R46|1
+43|240k|RC0603|R47|1
+44|13k 1%|RC0603|R48|1
+45|11k 1%|RC0603|R49|1
+46|18k 1%|RC0603|R50|1
+47|2k2|RC0603|R61, R62, R63|3
+48|REPER_POINT_1.2|REPER1.2|REP1, REP2|2
+49|LED_0805||VD1, VD2, VD18, VD21, VD22, VD23, VD24, VD25, VD26|9
+50|SMBJ15A|SMBJ|VD3, VD4, VD5, VD14|4
+51|LL4148|LL4148|VD6, VD7, VD8, VD9, VD17, VD19, VD20|7
+52|PESD2CAN|TVS for CAN|VD10|1
+53|GS1M|GS1M|VD11|1
+54|SMBJ150A|SMBJ|VD12|1
+55|BZV55C15|Zener Voltage Regulator Diode|VD13|1
+56|BZV55C39|Zener Voltage Regulator Diode|VD15|1
+57|SK34SMA|Schottky Rectifier|VD16|1
+58|BC817-40|NPN 500ma transistor|VT1, VT2, VT3, VT4, VT5, VT6, VT7, VT8, VT9, VT12, VT13, VT14|12
+59|IRFR9220|HEXFET Power MOSFET|VT10|1
+60|BC857|PNP 100ma transistor|VT11|1
+61|MW03D|MW03D|XP1|1
+62|BH-10|BH-10|XP2|1
+63|DG330-2PIN||XP3, XP4, XP6, XP7, XP8, XP9, XP10, XP11, XP12, XP16, XP17, XP18|12
+64|DG330-3PIN||XP5|1
+65|PLD-06|PLD06|XP13|1
+66|PLS03|PLS03|XP14|1
+67|PLS04|PLS04|XP15|1

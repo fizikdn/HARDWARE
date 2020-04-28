@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetF1_1 Pin=X5-1
+Removed Member From Class: ClassName=Main Member=X5
+Removed Member From Class: ClassName=Main Member=X6
+Removed Member From Class: ClassName=Main Member=X7
+Added Pin To Net: NetName=NetC1_1 Pin=L1-1
+Added Pin To Net: NetName=NetC5_2 Pin=L1-2
+Added Pin To Net: NetName=NetC2_1 Pin=L2-1
+Added Pin To Net: NetName=NetC6_2 Pin=L2-2
+Added Pin To Net: NetName=NetC9_1 Pin=L3-1
+Added Pin To Net: NetName=NetC11_2 Pin=L3-2
+Added Pin To Net: NetName=NetF1_2 Pin=L4-1
+Added Pin To Net: NetName=NetBR1_1 Pin=L4-2
+Added Pin To Net: NetName=NetBR1_3 Pin=L5-1
+Added Pin To Net: NetName=NetC14_2 Pin=L5-2
+Added Pin To Net: NetName=NetBR1_2 Pin=L6-2
+Added Pin To Net: NetName=NetL6_1 Pin=L6-1
+Added Net: Name=NetL6_1

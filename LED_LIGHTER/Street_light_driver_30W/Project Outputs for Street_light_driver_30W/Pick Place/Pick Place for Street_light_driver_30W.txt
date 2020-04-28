@@ -1,0 +1,30 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+X3         PIN_7x3mm_SMD        130.95mm     166.925mm      130.95mm     166.925mm      130.95mm     166.925mm  T          0.00 PIN_7x3mm_SMD  
+XP1        Poke-In_2pin          114.9mm       151.5mm      110.05mm         153mm      110.05mm         153mm  T          0.00 *              
+X1         PIN_7x3mm_SMD       130.925mm          58mm     130.925mm          58mm     130.925mm          58mm  T          0.00 PIN_7x3mm_SMD  
+VD2        SMA                 107.475mm      93.225mm     107.475mm      93.225mm     107.475mm      95.275mm  T        270.00 ES1J           
+VD1        SMA                  114.75mm        97.9mm      114.75mm        97.9mm       116.8mm        97.9mm  T        180.00 ES1J           
+RU1        Varistor_7mm_SMD       119.9mm     129.725mm     120.025mm       129.8mm       122.4mm     129.725mm  T        270.00 KLS6-07D       
+REPER2     REPER1.2            110.725mm      52.925mm     110.725mm      52.925mm     110.725mm      52.925mm  T         90.00 REPER1.2       
+REPER1     REPER1.2            129.875mm     159.825mm     129.875mm     159.825mm     129.875mm     159.825mm  T         90.00 REPER1.2       
+R6         RC1206               129.35mm     130.175mm      129.35mm     130.175mm       130.8mm     130.175mm  T        180.00 3k3            
+R5         RC1206               107.95mm        98.1mm      107.95mm        98.1mm       106.5mm        98.1mm  T          0.00 3k6            
+R4         RC1206               107.95mm       130.1mm      107.95mm       130.1mm       106.5mm       130.1mm  T          0.00 3k3            
+R3         RC1206              116.625mm      93.625mm     116.625mm      93.625mm     116.625mm      95.075mm  T        270.00 1E2            
+R2         RC0805              126.775mm        80.2mm     126.775mm        80.2mm     127.725mm        80.2mm  T        180.00 100k           
+R1         RC0805                111.8mm      94.125mm       111.8mm      94.125mm       111.8mm      93.175mm  T         90.00 3k3            
+L4         IND_CDRH129          127.15mm     138.725mm       127.3mm       138.1mm      127.15mm     143.675mm  T        180.00 CDRH129        
+L3         IND_CDRH129          111.55mm       107.1mm       111.7mm     106.475mm      111.55mm      112.05mm  T        180.00 CDRH129        
+L2         IND_CDRH129         113.075mm     138.725mm     113.225mm       138.1mm     113.075mm     143.675mm  T        180.00 CDRH129        
+L1         IND_CDRH129         124.925mm      67.525mm      125.55mm      67.675mm     119.975mm      67.525mm  T        270.00 CDRH129        
+F1         Fuse_Belfuse        124.225mm      150.46mm       124.2mm      150.55mm     124.225mm         153mm  T        270.00 *              
+DA1        eSOP-12              111.95mm        77.9mm      111.85mm      77.675mm       116.4mm       83.35mm  T        270.00 LNK460KG       
+C6         CAP_630V_SMD        125.075mm     117.475mm     125.275mm      117.55mm     132.695mm     117.475mm  T        180.00 100nFx630V     
+C5         CAP_630V_SMD        125.075mm     124.025mm     125.275mm       124.1mm     132.695mm     124.025mm  T        180.00 100nFx630V     
+C4         CC1206              114.225mm      93.625mm     114.225mm      93.625mm     114.225mm      95.075mm  T        270.00 10uF           
+C3         CAP_7.5_SMD_2        126.75mm        83.5mm      127.05mm     101.225mm       130.5mm        83.5mm  T          0.00 470uFx100V     
+C2         CC0805               112.95mm        89.9mm      112.95mm        89.9mm      112.05mm        89.9mm  T          0.00 1uF            
+C1         CC1206               112.05mm      87.525mm      112.05mm      87.525mm       113.5mm      87.525mm  T        180.00 10uF           
+BR1        SDIP                 110.36mm     122.005mm       112.9mm      126.45mm       112.9mm      126.45mm  T          0.00 DF10S          
+

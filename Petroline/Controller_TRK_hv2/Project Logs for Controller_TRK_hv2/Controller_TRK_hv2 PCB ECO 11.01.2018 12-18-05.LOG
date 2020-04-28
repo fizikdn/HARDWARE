@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetFU8_2 Pin=VD12-1
+Removed Pin From Net: NetName=GND Pin=VD14-1
+Removed Pin From Net: NetName=NetC15_2 Pin=VD14-2
+Removed Member From Class: ClassName=Power Member=VD14
+Change Component Footprint: Designator=VD12 Old Footprint=SMA New Footprint=SMB
+Change Component Comment : Designator=VD12 Old Comment=n.p New Comment=SMBJ150A
+Change component parameters: Designator = "VD12"; Footprint = "SMB"; UniqueID = "\WWRBEWTF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMBJ150A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=VD12-1

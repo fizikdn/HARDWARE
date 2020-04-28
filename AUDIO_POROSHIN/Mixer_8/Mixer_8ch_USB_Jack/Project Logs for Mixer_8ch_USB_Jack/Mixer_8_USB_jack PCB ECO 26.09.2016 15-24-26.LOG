@@ -1,0 +1,4 @@
+Added Component: Designator=QR1(HC-49)
+Added Pin To Net: NetName=NetC30_2 Pin=QR1-1
+Added Pin To Net: NetName=NetC29_2 Pin=QR1-2
+Added Member To Class: ClassName=USB Member=Component QR1 12MHz

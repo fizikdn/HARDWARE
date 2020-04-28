@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VIN Pin=R1-1
+Removed Member From Class: ClassName=Main Member=R1
+Removed Member From Class: ClassName=Main Member=VD1
+Added Component: Designator=J1(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN Pin=J1-2
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=XP2-10
+Added Net: Name=NetJ1_1
+Added Member To Class: ClassName=Main Member=Component J1 PLS-02

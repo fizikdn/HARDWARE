@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=+5V Pin=R70-1
+Removed Pin From Net: NetName=NetC12_1 Pin=R70-2
+Removed Member From Class: ClassName=[5]-MCU_POWER Member=R70

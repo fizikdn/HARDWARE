@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Projects_Files\Projects\Altium_Projects\Petroline\Controller_TRK\Controller_TRK.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=controller_trk-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=controller_trk-nonplated.txt|DrillLayers=gtl,gbl

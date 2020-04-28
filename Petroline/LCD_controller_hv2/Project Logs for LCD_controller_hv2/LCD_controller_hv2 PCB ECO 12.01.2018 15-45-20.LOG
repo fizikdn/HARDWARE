@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=+5V Pin=C1-2
+Removed Pin From Net: NetName=BL Pin=R13-1
+Removed Pin From Net: NetName=BL Pin=R14-2
+Removed Pin From Net: NetName=GND Pin=VD2-2
+Removed Pin From Net: NetName=GND Pin=VD2-3
+Removed Member From Class: ClassName=Connections Member=FU2
+Change Component Comment : Designator=R2 Old Comment=27k 1% New Comment=18k 1%
+Change Component Comment : Designator=R8 Old Comment=27k 1% New Comment=22k 1%
+Change component parameters: Designator = "R2"; Footprint = "RC0603"; UniqueID = "\QQPBXGVK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "18k 1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8"; Footprint = "RC0603"; UniqueID = "\VRCYEWAB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "22k 1%"; VariantName = "[No Variations]"
+Added Component: Designator=R19(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10E"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=R19-1
+Added Pin To Net: NetName=BL Pin=VD2-2
+Added Pin To Net: NetName=BL Pin=VD2-3
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R19-2
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=VIN Pin=R13-1
+Added Pin To Net: NetName=VIN Pin=R14-2
+Added Pin To Net: NetName=VIN Pin=VD1-1
+Added Pin To Net: NetName=VIN Pin=XP4-3
+Added Net: Name=VIN
+Added Member To Class: ClassName=Connections Member=Component R19 10E

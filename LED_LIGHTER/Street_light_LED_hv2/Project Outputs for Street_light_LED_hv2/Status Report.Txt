@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Street_light_LED_hv2.PcbDoc]
+   Generated File[Street_light_LED_hv2.GTL]
+   Generated File[Street_light_LED_hv2.GBL]
+   Generated File[Street_light_LED_hv2.GTO]
+   Generated File[Street_light_LED_hv2.GTP]
+   Generated File[Street_light_LED_hv2.GTS]
+   Generated File[Street_light_LED_hv2.GBS]
+   Generated File[Street_light_LED_hv2.GBP]
+   Generated File[Street_light_LED_hv2.GBO]
+   Generated File[Street_light_LED_hv2.GKO]
+   Generated File[Street_light_LED_hv2.RUL]
+   Generated File[Street_light_LED_hv2.EXTREP]
+   Generated File[Street_light_LED_hv2.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 14:24:23 On 26.01.2017

@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=NetXP1_1 Pin=XP?-1
+Removed Pin From Net: NetName=NetXP1_2 Pin=XP?-2
+Removed Pin From Net: NetName=NetXP1_3 Pin=XP?-3
+Removed Pin From Net: NetName=NetXP1_4 Pin=XP?-4
+Removed Pin From Net: NetName=NetXP1_5 Pin=XP?-5
+Removed Pin From Net: NetName=NetXP1_6 Pin=XP?-6
+Removed Pin From Net: NetName=NetXP1_7 Pin=XP?-7
+Removed Pin From Net: NetName=NetXP1_8 Pin=XP?-8
+Removed Pin From Net: NetName=GND Pin=XP?-10
+Removed Member From Class: ClassName=Main Member=XP?
+Change Component Designator: OldDesignator=XP? NewDesignator=XP2
+Added Component: Designator=XP3(BH-10)
+Added Pin To Net: NetName=NetXP1_1 Pin=XP3-1
+Added Pin To Net: NetName=NetXP1_2 Pin=XP3-2
+Added Pin To Net: NetName=NetXP1_3 Pin=XP3-3
+Added Pin To Net: NetName=NetXP1_4 Pin=XP3-4
+Added Pin To Net: NetName=NetXP1_5 Pin=XP3-5
+Added Pin To Net: NetName=NetXP1_6 Pin=XP3-6
+Added Pin To Net: NetName=NetXP1_7 Pin=XP3-7
+Added Pin To Net: NetName=NetXP1_8 Pin=XP3-8
+Added Pin To Net: NetName=GND Pin=XP3-10
+Added Pin To Net: NetName=NetXP2_2 Pin=XP2-2
+Added Pin To Net: NetName=NetXP2_2 Pin=XP3-9
+Added Net: Name=NetXP2_2
+Added Member To Class: ClassName=Main Member=Component XP2 PLS03
+Added Member To Class: ClassName=Main Member=Component XP3 BH-10

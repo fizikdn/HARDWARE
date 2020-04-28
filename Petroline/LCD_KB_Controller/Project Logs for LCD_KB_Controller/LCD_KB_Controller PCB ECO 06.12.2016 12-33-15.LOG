@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=C40-1
+Removed Pin From Net: NetName=+3V3 Pin=C40-2
+Removed Member From Class: ClassName=RS232 Member=C40
+Added Member To Class: ClassName=MCU Member=Component C18 0.1uF

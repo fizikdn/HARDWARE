@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=XP1-2
+Added Component: Designator=XP3(DG330-2P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_2 Pin=XP3-1
+Added Member To Class: ClassName=Filter Member=Component XP3 DG330-2P

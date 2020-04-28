@@ -1,0 +1,84 @@
+Removed Pin From Net: NetName=GND Pin=C26-1
+Removed Pin From Net: NetName=VIN_F Pin=C26-2
+Removed Pin From Net: NetName=LED_DISPLAY Pin=R11-1
+Removed Pin From Net: NetName=VIN Pin=R20-2
+Removed Pin From Net: NetName=GND Pin=VD3-1
+Removed Pin From Net: NetName=SCL Pin=VD3-2
+Removed Pin From Net: NetName=GND Pin=VD4-1
+Removed Pin From Net: NetName=SDA Pin=VD4-2
+Removed Pin From Net: NetName=GND Pin=VD8-1
+Removed Pin From Net: NetName=NetVD7_1 Pin=VD8-2
+Removed Pin From Net: NetName=GND Pin=VD9-1
+Removed Pin From Net: NetName=NetVD6_1 Pin=VD9-2
+Removed Pin From Net: NetName=GND Pin=VD12-1
+Removed Pin From Net: NetName=NetVD10_1 Pin=VD12-2
+Removed Pin From Net: NetName=GND Pin=VD13-1
+Removed Pin From Net: NetName=NetVD11_1 Pin=VD13-2
+Removed Pin From Net: NetName=GND Pin=VD14-1
+Removed Pin From Net: NetName=ROW1 Pin=VD14-2
+Removed Pin From Net: NetName=GND Pin=VD15-1
+Removed Pin From Net: NetName=ROW2 Pin=VD15-2
+Removed Pin From Net: NetName=GND Pin=VD16-1
+Removed Pin From Net: NetName=ROW3 Pin=VD16-2
+Removed Pin From Net: NetName=GND Pin=VD17-1
+Removed Pin From Net: NetName=ROW4 Pin=VD17-2
+Removed Pin From Net: NetName=VIN_F Pin=VD20-2
+Removed Pin From Net: NetName=GND Pin=VT1-2
+Removed Pin From Net: NetName=VIN Pin=VT4-3
+Removed Pin From Net: NetName=MOSI_DISPLAY Pin=XP3-1
+Removed Pin From Net: NetName=MISO_DISPLAY Pin=XP3-2
+Removed Pin From Net: NetName=SCK_DISPLAY Pin=XP3-3
+Removed Pin From Net: NetName=SS_DISPLAY Pin=XP3-4
+Removed Pin From Net: NetName=D/C Pin=XP3-5
+Removed Pin From Net: NetName=RESET_DISP Pin=XP3-6
+Removed Pin From Net: NetName=+4V3 Pin=XP3-8
+Removed Pin From Net: NetName=GND Pin=XP3-9
+Removed Pin From Net: NetName=VIN Pin=XP3-10
+Removed Pin From Net: NetName=GND Pin=XP7-10
+Removed Member From Class: ClassName=Connection Member=R11
+Removed Member From Class: ClassName=Keyboard Member=R20
+Removed Member From Class: ClassName=Connection Member=VD3
+Removed Member From Class: ClassName=Connection Member=VD4
+Removed Member From Class: ClassName=Keyboard Member=VD8
+Removed Member From Class: ClassName=Keyboard Member=VD9
+Removed Member From Class: ClassName=Keyboard Member=VD12
+Removed Member From Class: ClassName=Keyboard Member=VD13
+Removed Member From Class: ClassName=Keyboard Member=VD14
+Removed Member From Class: ClassName=Keyboard Member=VD15
+Removed Member From Class: ClassName=Keyboard Member=VD16
+Removed Member From Class: ClassName=Keyboard Member=VD17
+Removed Member From Class: ClassName=Connection Member=VT1
+Removed Member From Class: ClassName=Keyboard Member=VT4
+Removed Member From Class: ClassName=Connection Member=XP3
+Change Component Footprint: Designator=C26 Old Footprint=CC16X10_CAP0.5(1)(Primary) New Footprint=CC8X3.5
+Change Component Comment : Designator=C26 Old Comment=470uFx35V New Comment=220uFx25V
+Change component parameters: Designator = "C26"; Footprint = "CC8X3.5"; UniqueID = "\DEVMWYJU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "220uFx25V"; VariantName = "[No Variations]"
+Added Component: Designator=DD7(TQFP-80_0.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nxp.com/"; VariantName = "[No Variations]"
+Added Component: Designator=FU10(MF-SMDF)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN_F Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=VIN_F Pin=FU10-2
+Added Pin To Net: NetName=+5V Pin=XP7-9
+Added Pin To Net: NetName=NetFU10_1 Pin=FU10-1
+Added Pin To Net: NetName=NetFU10_1 Pin=VD20-2
+Added Net: Name=NetFU10_1
+Added Pin To Net: NetName=NetVT5_3 Pin=VT5-3
+Added Pin To Net: NetName=NetVT5_3 Pin=XP7-10
+Added Net: Name=NetVT5_3
+Added Member To Class: ClassName=MCU Member=Component DD7 LPC1754FBD80
+Added Member To Class: ClassName=Power Member=Component FU10 MF-SMDF050
+Added Room: Name=Battery
+Added Room: Name=CAN
+Added Room: Name=Connection
+Added Room: Name=Keyboard
+Added Room: Name=MCU
+Added Room: Name=Power
+Added Room: Name=RS232
+Added Room: Name=RS485

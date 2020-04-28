@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+5V_F Pin=XP15-1
+Removed Pin From Net: NetName=GND Pin=XP15-2
+Added Pin To Net: NetName=GND Pin=XP15-1
+Added Pin To Net: NetName=+5V_F Pin=XP15-2

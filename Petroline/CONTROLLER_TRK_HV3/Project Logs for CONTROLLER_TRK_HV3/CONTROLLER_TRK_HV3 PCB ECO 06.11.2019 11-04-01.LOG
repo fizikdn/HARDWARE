@@ -1,0 +1,24 @@
+Change Component Comment : Designator=C31 Old Comment=TS08S02S104KBB0D0R New Comment=MKS4O121003F00KSSD
+Change Component Comment : Designator=C33 Old Comment=TS08S02S104KBB0D0R New Comment=MKS4O121003F00KSSD
+Change Component Comment : Designator=C37 Old Comment=TS08S02S104KBB0D0R New Comment=MKS4O121003F00KSSD
+Change Component Comment : Designator=R53 Old Comment=ÑFR 1/2W-S (3 x 9)  27E New Comment=KNP 1W-S (3.5 x 10)  33E
+Change Component Comment : Designator=R64 Old Comment=ÑFR 1/2W-S (3 x 9)  27E New Comment=KNP 1W-S (3.5 x 10)  33E
+Change Component Comment : Designator=R66 Old Comment=ÑFR 1/2W-S (3 x 9)  27E New Comment=KNP 1W-S (3.5 x 10)  33E
+Change component parameters: Designator = "C31"; Footprint = "CAP_HV_13x5"; UniqueID = "\DYDWBIYC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C33"; Footprint = "CAP_HV_13x5"; UniqueID = "\OVBMEGMU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C37"; Footprint = "CAP_HV_13x5"; UniqueID = "\LSBELRQX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "MKS4O121003F00KSSD"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R53"; Footprint = "RES_10x4_THD"; UniqueID = "\EHKKJIRX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "KNP 1W-S (3.5 x 10)  33E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R64"; Footprint = "RES_10x4_THD"; UniqueID = "\HEMVMKWV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "KNP 1W-S (3.5 x 10)  33E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R66"; Footprint = "RES_10x4_THD"; UniqueID = "\BTSAOJYD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "KNP 1W-S (3.5 x 10)  33E"; VariantName = "[No Variations]"

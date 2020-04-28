@@ -1,0 +1,17 @@
+﻿Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Mixer_8.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Mixer_8\Mixer_8.PrjPcb|ReportField=Title~Bill of Materials For Project [Mixer_8.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~69|ReportField=ReportTime~12:55:59|ReportField=ReportDate~04.11.2015|ReportField=ReportDateTime~04.11.2015 12:55:59|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~04.11.2015|ReportField=CurrentTime~12:55:43|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Mixer_8\Mix_8ch.SchDoc|ReportField=DocumentName~Mix_8ch.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~23.01.2015|ReportField=Organization~|ReportField=ProjectName~Mixer_8.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Mixer_8.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Mixer_8\Mixer_8.PrjPcb
+REPER1.2|REPER1.2|?|3
+470uFx25V|Jamicon TKR|C1|1
+0.1uFx50V|CC0603 X7R|C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C16, C17, C18|13
+220uFx16V|CAP0.35|C11|1
+1uFx50V|CC0603 X7R|C13, C14|2
+10uFx16V|Jamicon TKR|C15|1
+MC78M05CDTRK|MC78M05CDTRK|DA1|1
+LM358D||DA2|1
+DCJ25|DCJ25|J1|1
+1k|RC0603|R1|1
+12k|RC0603|R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R13, R14, R15, R16, R17, R18|16
+10E|RC0805|R12|1
+GS1M|GS1M|VD1|1
+GNL-3014HD|LED_3|VD2|1
+PIN_1mm||X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, X11, X12, X13, X14, X15, X16, X17, X18, X19, X20, X21, X22, X23, X24|24
+SJ-43516-SMT|3.5mm connector 4 conductors|X25|1

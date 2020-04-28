@@ -1,0 +1,4 @@
+Added Component: Designator=R61(RC0603)
+Added Pin To Net: NetName=BL_KB Pin=R61-1
+Added Pin To Net: NetName=NetR61_2 Pin=R61-2
+Added Member To Class: ClassName=Keyboard Member=Component R61 4k7

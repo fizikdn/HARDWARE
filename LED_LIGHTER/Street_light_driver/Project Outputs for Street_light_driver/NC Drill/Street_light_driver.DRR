@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Street_light_driver.PcbDoc   31.08.2015  10:55:45
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Street_light_driver-Plated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        11.8mil (0.29972mm)      Round          25               1.25 Inch (31.67 mm)
+T2        31.5mil (0.8001mm)       Round          12               7.07 Inch (179.65 mm)
+T3        47.2mil (1.19888mm)      Round          4                2.17 Inch (55.24 mm)
+---------------------------------------------------------------------------
+Totals                                            41               10.49 Inch (266.57 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

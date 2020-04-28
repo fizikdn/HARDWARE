@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Imported mix V4(3.8).PrjPcb\mix V4(3.8).PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=mix v4(3.8)-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=mix v4(3.8)-nonplated.txt|DrillLayers=gtl,gbl

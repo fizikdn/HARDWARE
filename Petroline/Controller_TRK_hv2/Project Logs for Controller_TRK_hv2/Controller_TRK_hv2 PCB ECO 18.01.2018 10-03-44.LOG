@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=VIN_F Pin=XP2-9
+Change Component Comment : Designator=L2 Old Comment==Value New Comment=L0603
+Added Pin To Net: NetName=+5V Pin=XP2-9

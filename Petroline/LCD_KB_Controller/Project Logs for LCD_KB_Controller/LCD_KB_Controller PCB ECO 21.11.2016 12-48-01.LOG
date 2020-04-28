@@ -1,0 +1,5 @@
+Added Component: Designator=VT2(D-PAK(TO-252AA))
+Added Pin To Net: NetName=NetR14_1 Pin=VT2-1
+Added Pin To Net: NetName=NetFU7_2 Pin=VT2-2
+Added Pin To Net: NetName=VIN Pin=VT2-3
+Added Member To Class: ClassName=Connection Member=Component VT2 FQD5P20TM

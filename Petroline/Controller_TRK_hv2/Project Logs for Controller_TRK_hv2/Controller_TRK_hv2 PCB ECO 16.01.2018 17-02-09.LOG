@@ -1,0 +1,13 @@
+Added Component: Designator=R61(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2k2"; VariantName = "[No Variations]"
+Added Component: Designator=VD26(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED_0805"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN_F Pin=R61-1
+Added Pin To Net: NetName=GND Pin=VD26-2
+Added Pin To Net: NetName=NetR61_2 Pin=R61-2
+Added Pin To Net: NetName=NetR61_2 Pin=VD26-1
+Added Net: Name=NetR61_2
+Added Member To Class: ClassName=Power Member=Component R61 2k2
+Added Member To Class: ClassName=Power Member=Component VD26 LED_0805

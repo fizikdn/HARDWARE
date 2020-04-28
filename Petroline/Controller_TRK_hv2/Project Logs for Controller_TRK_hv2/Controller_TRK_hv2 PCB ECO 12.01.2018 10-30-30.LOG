@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=CANH_F Pin=VD10-1
+Removed Pin From Net: NetName=CANL_F Pin=VD10-2
+Added Pin To Net: NetName=CANL_F Pin=VD10-1
+Added Pin To Net: NetName=CANH_F Pin=VD10-2

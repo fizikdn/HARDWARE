@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Keyboard_IDC10.PrjPcb]
+   Generated File[Bill of Materials-Keyboard_IDC10.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:04:15 On 11.11.2016

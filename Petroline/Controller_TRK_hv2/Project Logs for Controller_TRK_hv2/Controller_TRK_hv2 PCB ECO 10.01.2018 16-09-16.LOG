@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PUMP_L Pin=XP6-1
+Removed Pin From Net: NetName=EARTH Pin=XP6-3
+Added Pin To Net: NetName=EARTH Pin=XP6-1
+Added Pin To Net: NetName=PUMP_L Pin=XP6-3

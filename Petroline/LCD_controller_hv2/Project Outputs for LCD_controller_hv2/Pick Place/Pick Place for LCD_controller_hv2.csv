@@ -1,0 +1,53 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_controller_hv2\Project Outputs for LCD_controller_hv2\Pick Place\Pick Place for LCD_controller_hv2.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       20.03.18
+Time:       17:03
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"DD2","PCF8576C","BottomLayer","SOT190-1","83.6960","81.7530","360","LCD Controller"
+"REP2","REPER_POINT_1.2","BottomLayer","REPER1.2","169.5000","50.1250","90","REPER1.2"
+"REP1","REPER_POINT_1.2","BottomLayer","REPER1.2","35.8000","118.2750","90","REPER1.2"
+"XP5","MIF2X03PRP","BottomLayer","MIF2X03PRP","93.3750","51.9690","270","MIF2X03PRP"
+"R19","0E","BottomLayer","RC0603","27.7250","97.6003","270","RC0603"
+"VD2","LP-502-W","TopLayer","LP-502-W","103.0810","83.5400","360","Backlight for lcd display"
+"XP4","MIF2X03PRP","BottomLayer","MIF2X03PRP","45.5000","51.9690","270","MIF2X03PRP"
+"XP3","MIF2X02PRP","BottomLayer","MIF2X02PRP","106.4500","51.9590","270","MIF2X02PRP"
+"VT2","BC817-40","BottomLayer","SOT-23(123)","157.9160","111.8066","90","NPN 500ma transistor"
+"VT1","BC817-40","BottomLayer","SOT-23(123)","51.5160","111.8316","90","NPN 500ma transistor"
+"VD1","LL4148","BottomLayer","SOD-80","64.4250","70.6750","180","LL4148"
+"R18","0E","BottomLayer","RC0603","71.7997","76.3500","360","RC0603"
+"R17","0E","BottomLayer","RC0603","114.1000","77.2997","90","RC0603"
+"R16","n.p","BottomLayer","RC0603","71.3000","71.6247","90","RC0603"
+"R15","n.p","BottomLayer","RC0603","69.7750","71.6247","90","RC0603"
+"R14","68E","BottomLayer","RC0603","178.2497","101.8000","360","RC0603"
+"R13","68E","BottomLayer","RC0603","27.9500","65.8997","90","RC0603"
+"R12","10k 1%","BottomLayer","RC0603","119.7753","120.6000","180","RC0603"
+"R11","10k 1%","BottomLayer","RC0603","109.4247","118.3250","360","RC0603"
+"R10","n.p","BottomLayer","RC0603","155.1000","112.1753","270","RC0603"
+"R9","NCP18XH103J03RB","BottomLayer","RC0603","116.8253","120.6000","180","RC0603"
+"R8","22k 1%","BottomLayer","RC0603","113.9997","117.9500","360","RC0603"
+"R7","PRW 10W 47E","BottomLayer","R_5W_Cement","157.9250","83.4750","270",""
+"R6","10k 1%","BottomLayer","RC0603","101.9253","120.6000","180","RC0603"
+"R5","10k 1%","BottomLayer","RC0603","103.4750","115.3503","270","RC0603"
+"R4","n.p","BottomLayer","RC0603","49.7253","114.7500","180","RC0603"
+"R3","NCP18XH103J03RB","BottomLayer","RC0603","98.9503","120.6000","180","RC0603"
+"R2","18k 1%","BottomLayer","RC0603","101.1753","114.5750","180","RC0603"
+"R1","PRW 10W 47E","BottomLayer","R_5W_Cement","51.5250","83.4750","270",""
+"IND1","DE156","TopLayer","IND_DE156","104.6480","83.4390","90","6digit 7Segment indicator"
+"FU3","MICROSMD010F-2","BottomLayer","RC1210","55.8000","54.0500","360","MICROSMD"
+"FU1","MICROSMD010F-2","BottomLayer","RC1210","55.8000","50.7000","360","MICROSMD"
+"DD1","PCF8576C","BottomLayer","SOT190-1","124.9710","82.1340","360","LCD Controller"
+"DA1","LM358D","BottomLayer","SO-8","108.6190","113.9300","90","LM358D"
+"C4","0.1uF","BottomLayer","CC0603","71.9000","79.8750","180","CC0603"
+"C3","0.1uF","BottomLayer","CC0603","72.3500","74.2000","180","CC0603"
+"C2","0.1uF","BottomLayer","CC0603","113.2500","75.0000","180","CC0603"
+"C1","EEC-S5R5H105","BottomLayer","CR2032_ONBOARD","27.7250","84.2500","180",""
+"C6","0.1uF","BottomLayer","CC0603","115.3750","111.8250","360","CC0603"
+"RV1","3296W-10K","BottomLayer","PLS-03","182.9796","83.4500","0","3296W-10K"

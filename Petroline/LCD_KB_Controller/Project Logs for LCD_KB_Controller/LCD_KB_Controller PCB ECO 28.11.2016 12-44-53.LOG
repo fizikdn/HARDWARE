@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+4V3 Pin=C24-1
+Removed Pin From Net: NetName=+4V3 Pin=C25-1
+Removed Pin From Net: NetName=+4V3 Pin=FU3-2
+Removed Pin From Net: NetName=+4V3 Pin=L2-2
+Removed Pin From Net: NetName=+4V3 Pin=R30-2
+Added Component: Designator=VD26(SMA)
+Added Pin To Net: NetName=+4V3 Pin=VD26-2
+Added Pin To Net: NetName=+5V Pin=C24-1
+Added Pin To Net: NetName=+5V Pin=C25-1
+Added Pin To Net: NetName=+5V Pin=FU3-2
+Added Pin To Net: NetName=+5V Pin=L2-2
+Added Pin To Net: NetName=+5V Pin=R30-2
+Added Pin To Net: NetName=+5V Pin=VD26-1
+Added Net: Name=+5V
+Added Member To Class: ClassName=Power Member=Component VD26 GS1M

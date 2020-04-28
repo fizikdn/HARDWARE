@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: F:\WORK\Altium_Projects\Petroline\CONTROLLER_TRK_HV3\CONTROLLER_TRK_HV3.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

@@ -1,0 +1,46 @@
+Added Component: Designator=DD1(LQFP48)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LPC11C24FBD48"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PUMP_RELAY Pin=DD1-1
+Added Pin To Net: NetName=SS Pin=DD1-2
+Added Pin To Net: NetName=RESET Pin=DD1-3
+Added Pin To Net: NetName=ISP_START Pin=DD1-4
+Added Pin To Net: NetName=GND Pin=DD1-5
+Added Pin To Net: NetName=XTAL1 Pin=DD1-6
+Added Pin To Net: NetName=XTAL2 Pin=DD1-7
+Added Pin To Net: NetName=+3V3 Pin=DD1-8
+Added Pin To Net: NetName=LED_STATE Pin=DD1-9
+Added Pin To Net: NetName=LED_ERROR Pin=DD1-10
+Added Pin To Net: NetName=M_VALVE_RELAY Pin=DD1-11
+Added Pin To Net: NetName=L_FLOW_VALVE_RELAY Pin=DD1-12
+Added Pin To Net: NetName=SCK Pin=DD1-13
+Added Pin To Net: NetName=SCL Pin=DD1-15
+Added Pin To Net: NetName=SDA Pin=DD1-16
+Added Pin To Net: NetName=+3V3 Pin=DD1-17
+Added Pin To Net: NetName=CANL Pin=DD1-18
+Added Pin To Net: NetName=CANH Pin=DD1-19
+Added Pin To Net: NetName=+5V_RELAY Pin=DD1-20
+Added Pin To Net: NetName=GND Pin=DD1-21
+Added Pin To Net: NetName=PISTOL_MCU Pin=DD1-24
+Added Pin To Net: NetName=BL_KB Pin=DD1-25
+Added Pin To Net: NetName=MISO Pin=DD1-26
+Added Pin To Net: NetName=NetDD1_27 Pin=DD1-27
+Added Pin To Net: NetName=NetDD1_28 Pin=DD1-28
+Added Pin To Net: NetName=NetDD1_29 Pin=DD1-29
+Added Pin To Net: NetName=NetDD1_30 Pin=DD1-30
+Added Pin To Net: NetName=BL_7SEG Pin=DD1-31
+Added Pin To Net: NetName=NetDD1_32 Pin=DD1-32
+Added Pin To Net: NetName=COUNTER_2 Pin=DD1-33
+Added Pin To Net: NetName=V_SYS Pin=DD1-34
+Added Pin To Net: NetName=V_IN Pin=DD1-35
+Added Pin To Net: NetName=NetDD1_36 Pin=DD1-36
+Added Pin To Net: NetName=NetDD1_37 Pin=DD1-37
+Added Pin To Net: NetName=MOSI Pin=DD1-38
+Added Pin To Net: NetName=NetDD1_39 Pin=DD1-39
+Added Pin To Net: NetName=NetDD1_40 Pin=DD1-40
+Added Pin To Net: NetName=GND Pin=DD1-41
+Added Pin To Net: NetName=+3V3 Pin=DD1-44
+Added Pin To Net: NetName=COUNTER_1 Pin=DD1-45
+Added Pin To Net: NetName=RXD Pin=DD1-46
+Added Pin To Net: NetName=TXD Pin=DD1-47
+Added Member To Class: ClassName=CPU Member=Component DD1 LPC11C24FBD48

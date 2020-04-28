@@ -1,0 +1,9 @@
+Added Component: Designator=R10(RC0805)
+Added Component: Designator=R13(RC0805)
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=NetR1_2 Pin=R10-2
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR1_2 Pin=R13-2
+Change Net Name : Old Net Name=NetR1_2 New Net Name=BL
+Added Member To Class: ClassName=LED_backlight Member=Component R10 82E
+Added Member To Class: ClassName=LED_backlight Member=Component R13 82E

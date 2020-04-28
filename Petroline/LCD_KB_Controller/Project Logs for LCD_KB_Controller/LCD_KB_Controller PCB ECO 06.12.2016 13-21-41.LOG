@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=RXD Pin=XP4-2
+Removed Pin From Net: NetName=TXD Pin=XP4-3
+Added Component: Designator=FU6(RC1210)
+Added Component: Designator=FU10(RC1210)
+Added Pin To Net: NetName=TXD Pin=FU6-1
+Added Pin To Net: NetName=RXD Pin=FU10-1
+Added Pin To Net: NetName=NetFU6_2 Pin=FU6-2
+Added Pin To Net: NetName=NetFU6_2 Pin=XP4-3
+Added Net: Name=NetFU6_2
+Added Pin To Net: NetName=NetFU10_2 Pin=FU10-2
+Added Pin To Net: NetName=NetFU10_2 Pin=XP4-2
+Added Net: Name=NetFU10_2
+Added Member To Class: ClassName=RS232 Member=Component FU6 MICROSMD010F-2
+Added Member To Class: ClassName=RS232 Member=Component FU10 MICROSMD010F-2

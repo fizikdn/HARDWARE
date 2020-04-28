@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\projects\GPS_GPRS\DISM\S6\S6_Main\S6_Main_hv3\S6_Main_hv3.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=s6_main_hv3-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=s6_main_hv3-nonplated.txt|DrillLayers=gtl,gp1,gp2,gbl

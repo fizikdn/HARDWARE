@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=L_IN Pin=F2-1
+Removed Pin From Net: NetName=L_IN Pin=F2-1
+Removed Pin From Net: NetName=L_IN Pin=F3-1
+Removed Pin From Net: NetName=L_IN Pin=F3-1
+Removed Member From Class: ClassName=Relay Member=F2
+Removed Member From Class: ClassName=Relay Member=F3
+Added Pin To Net: NetName=NetF1_2 Pin=K2-14
+Added Pin To Net: NetName=NetF1_2 Pin=K3-14

@@ -1,0 +1,67 @@
+Protel Design System Design Rule Check
+PCB File : D:\Projects_Files\Projects\Altium_Projects\Street_Light\Street_light_LED\Street_light_LED.PcbDoc
+Date     : 31.08.2015
+Time     : 10:01:48
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (All),(All)
+   Violation between Polygon Track (197.225mm,174.3mm)(209.249mm,174.3mm)  Bottom Layer and 
+                     Polygon Arc (209.25mm,174.3mm)  Bottom Layer
+   Violation between Polygon Track (197.225mm,174.3mm)(209.249mm,174.3mm)  Bottom Layer and 
+                     Polygon Arc (209.2mm,174.251mm)  Bottom Layer
+   Violation between Polygon Track (201.676mm,151.8mm)(209.249mm,151.8mm)  Bottom Layer and 
+                     Polygon Arc (209.25mm,151.8mm)  Bottom Layer
+   Violation between Polygon Track (201.676mm,151.8mm)(209.249mm,151.8mm)  Bottom Layer and 
+                     Polygon Arc (209.2mm,151.751mm)  Bottom Layer
+Rule Violations :4
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=0.2mm) (Preferred=0.2mm) (All)
+   Violation between Width Constraint: Polygon Track (62.8mm,80.35mm)(66.6mm,80.35mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (62.8mm,80.35mm)(62.8mm,82.15mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (62.8mm,78.55mm)(62.8mm,80.35mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (59mm,80.35mm)(62.8mm,80.35mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (62.8mm,87.55mm)(66.6mm,87.55mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (62.8mm,87.55mm)(62.8mm,89.35mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (59mm,87.55mm)(62.8mm,87.55mm)  Top Layer
+Rule Violations :7
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (50.8mm,182.118mm)(212.8mm,182.118mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (50.8mm,136.7mm)(212.8mm,136.7mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (50.8mm,138.7mm)(212.8mm,138.7mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (50.8mm,93.218mm)(212.8mm,93.218mm)  Top Overlay
+Rule Violations :4
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint (4mm > 2.54mm) : Pad Free-0(132.301mm,137.668mm)  Multi-Layer
+Rule Violations :1
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 16
+Time Elapsed        : 00:00:18

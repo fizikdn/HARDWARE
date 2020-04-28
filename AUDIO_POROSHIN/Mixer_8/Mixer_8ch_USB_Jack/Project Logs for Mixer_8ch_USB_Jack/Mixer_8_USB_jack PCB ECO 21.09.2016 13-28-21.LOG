@@ -1,0 +1,91 @@
+Added Component: Designator=C1(CC0603-3M)
+Added Component: Designator=C2(CC0603-3M)
+Added Component: Designator=C3(CC0603-3M)
+Added Component: Designator=C4(CC0603-3M)
+Added Component: Designator=C5(CC0603-3M)
+Added Component: Designator=C6(CC0603-3M)
+Added Component: Designator=C7(CC0603-3M)
+Added Component: Designator=C8(CC0603-3M)
+Added Component: Designator=C9(CC0603-3M)
+Added Component: Designator=C10(CC0603-3M)
+Added Component: Designator=C11(CC0805-MIDI-2M1)
+Added Component: Designator=C12(CC0603-3M)
+Added Component: Designator=C13(CC0603-3M)
+Added Component: Designator=C14(CC0603-3M)
+Added Component: Designator=C15(CC0603-3M)
+Added Component: Designator=C31(CC0603-3M)
+Added Component: Designator=C32(CC0603-3M)
+Added Component: Designator=DA1(SO-8)
+Added Component: Designator=DA2(SO-8)
+Added Component: Designator=R1(RC0603-3M)
+Added Component: Designator=R2(RC0603-3M)
+Added Component: Designator=R3(RC0603-3M)
+Added Component: Designator=R4(RC0603-3M)
+Added Component: Designator=R5(RC0603-3M)
+Added Component: Designator=R6(RC0603-3M)
+Added Component: Designator=R7(RC0603-3M)
+Added Component: Designator=R8(RC0603-3M)
+Added Component: Designator=R9(RC0603-3M)
+Added Component: Designator=R10(RC0603-3M)
+Added Component: Designator=R11(RC0603-3M)
+Added Component: Designator=R12(RC0603-3M)
+Added Component: Designator=R13(RC0603-3M)
+Added Component: Designator=R14(RC0603-3M)
+Added Component: Designator=R16(RC0603-3M)
+Added Component: Designator=R17(RC0603-3M)
+Added Component: Designator=R18(RC0603-3M)
+Added Component: Designator=REPER1(REPER1.2)
+Added Component: Designator=REPER2(REPER1.2)
+Added Component: Designator=VD1(LED3)
+Added Component: Designator=X17(PIN_1mm)
+Added Component: Designator=X18(PIN_1mm)
+Added Component: Designator=X19(PIN_1mm)
+Added Component: Designator=X20(PIN_1mm)
+Added Component: Designator=X21(PIN_1mm)
+Added Component: Designator=X22(PIN_1mm)
+Added Component: Designator=X23(PIN_1mm)
+Added Component: Designator=X24(PIN_1mm)
+Added Component: Designator=X25(SJ-43516-SMT)
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=VCC Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=VCC Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=VCC_MIC Pin=C13-2
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC15_2 Pin=C15-2
+Added Pin To Net: NetName=GND Pin=DA1-4
+Added Pin To Net: NetName=VCC Pin=DA1-8
+Added Pin To Net: NetName=GND Pin=DA2-1
+Added Pin To Net: NetName=GND Pin=DA2-3
+Added Pin To Net: NetName=VCC_MIC Pin=DA2-6
+Added Pin To Net: NetName=+5V Pin=DA2-7
+Added Pin To Net: NetName=VCC_MIC Pin=DA2-8
+Added Pin To Net: NetName=VCC Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R10-2
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=VCC Pin=R12-2
+Added Pin To Net: NetName=VCC Pin=R15-1
+Added Pin To Net: NetName=VCC_MIC Pin=R15-2
+Added Pin To Net: NetName=GND Pin=R16-2
+Added Pin To Net: NetName=GND Pin=R17-2
+Added Pin To Net: NetName=VCC_MIC Pin=R18-1
+Added Pin To Net: NetName=GND Pin=VD1-1
+Added Pin To Net: NetName=GND Pin=X25-1
+Added Pin To Net: NetName=GND Pin=X25-4
+Added Pin To Net: NetName=NetC31_1 Pin=C31-1
+Added Net: Name=NetC31_1
+Added Pin To Net: NetName=NetC31_2 Pin=C31-2
+Added Pin To Net: NetName=NetC31_2 Pin=X25-3
+Added Net: Name=NetC31_2
+Added Pin To Net: NetName=NetC32_1 Pin=C32-1
+Added Net: Name=NetC32_1
+Added Pin To Net: NetName=NetC32_2 Pin=C32-2
+Added Pin To Net: NetName=NetC32_2 Pin=X25-2
+Added Net: Name=NetC32_2
+Added Class: Name=Analog_out
+Added Room: Name=Analog_out
+Added Room: Name=Main
+Added Room: Name=USB

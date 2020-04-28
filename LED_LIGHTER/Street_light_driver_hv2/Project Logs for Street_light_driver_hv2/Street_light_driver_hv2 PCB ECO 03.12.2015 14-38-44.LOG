@@ -1,0 +1,12 @@
+Added Component: Designator=C5(CAP_7.5_SMD_2)
+Added Component: Designator=C6(CAP_7.5_SMD_2)
+Added Component: Designator=C11(CAP_7.5_SMD_2)
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Member To Class: ClassName=ICS Member=Component C5 470uFx100V
+Added Member To Class: ClassName=ICS Member=Component C6 470uFx100V
+Added Member To Class: ClassName=ICS Member=Component C11 470uFx100V

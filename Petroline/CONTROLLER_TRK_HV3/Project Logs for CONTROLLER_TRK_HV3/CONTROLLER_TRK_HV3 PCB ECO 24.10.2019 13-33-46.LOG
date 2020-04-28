@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetF2_2 Pin=J7-1
+Removed Pin From Net: NetName=NetF2_2 Pin=J8-1
+Removed Pin From Net: NetName=NetF2_2 Pin=J9-1
+Removed Pin From Net: NetName=NetC36_1 Pin=VD14-2
+Removed Pin From Net: NetName=NetC37_2 Pin=VD15-2
+Removed Pin From Net: NetName=NetC35_1 Pin=VD16-2
+Removed Member From Class: ClassName=[9]-RELAYS Member=J7
+Removed Member From Class: ClassName=[9]-RELAYS Member=J8
+Removed Member From Class: ClassName=[9]-RELAYS Member=J9
+Removed Member From Class: ClassName=[9]-RELAYS Member=VD14
+Removed Member From Class: ClassName=[9]-RELAYS Member=VD15
+Removed Member From Class: ClassName=[9]-RELAYS Member=VD16

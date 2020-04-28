@@ -1,0 +1,683 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD18\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">18.01.2018</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">15:49:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc" class="file"><acronym title="E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc">E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">117</td></tr>
+</table>
+</td>
+</table><a name="IDGKYTBMJLT0BIDBEBF5DBQCP3EFEA55VMQK0N3EMS1RF5TDSBFQOP"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3H3SJQP5S3Y3B2BN3DGI4LGO4DBJS5ZSQGDYD4F2C5M0DTZXPMXD">Clearance Constraint (Gap=0.3mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4VHXUR3C3CJXNMOGGZ3YUGFD2HDTVE5J3UKHYTLYT23FI3QKPHXD">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHL1JR4BRMZOSAAYOWZUDUAPGEF24HHZYSIBH3LED0MTXX3HGIB">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUFXG52EJWV3IP1XALHGE4KX2AFHE3D3R1F11VUJCFPDQYMXG4EKO">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4CGHL5EBGMSOI3DQP0BA15U3KX1HYMDFIAGFXGAINBVTLRGKTLL">Width Constraint (Min=0.2mm) (Max=5mm) (Preferred=0.5mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2WO5GDNBE3N5BDB3LC5KVGVIFEY4CLQDQHVCUCPC21KIY5WV4MLD">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXSKRAKJMUSOFKBCEJYETBZFTNEGAKD32C01MUTGX1LEJFV0S50GM">Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCIJIWM1KWK5KENM0VYFE5IH3NGFLERWDT4FSWUEE32OS1MRRYCSK">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXCKDKZOOQNZIO2NOVMAQC20RQFTDKAFWBCYZFVFAIKCCYA1DPERF">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDP3A50QCU2DE4GLVPNSMCKCIFUFIF4HD0IBLEURNZJM1ITPUVS04E">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">90</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDB2SEKOOPUWFAIYRZ00CX5U0EKKMZQVXAFVUQMUJTL1D2CNJAWI5P">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">27</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHPFRHN5CEZLOMP4JMAQ2JW54YKOGSTRV2FM4VMTBRGY1RZM2QDM">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIUTAKYNULQYBE55ODJ5I3G53H2OKKKXAODZGZHV54JI1OSEPYR">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">117</td>
+</tr>
+</table><br><a name="IDP3A50QCU2DE4GLVPNSMCKCIFUFIF4HD0IBLEURNZJM1ITPUVS04E"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.157mil|Location2.X=4524.69mil|Location1.Y=2937.167mil|Location2.Y=2948.417mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.157mil|Location2.X=4524.69mil|Location1.Y=2937.167mil|Location2.Y=2948.417mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.151mm &lt; 0.254mm) Between Arc (115.2mm,73.311mm) on Top Overlay And Pad C2-1(115.2mm,74.175mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.151mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4548.471mil|Location2.X=4562.002mil|Location1.Y=2825.173mil|Location2.Y=2836.423mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4548.471mil|Location2.X=4562.002mil|Location1.Y=2825.173mil|Location2.Y=2836.423mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.153mm &lt; 0.254mm) Between Arc (115.2mm,73.337mm) on Top Overlay And Pad C2-2(115.2mm,72.475mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.153mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4623.312mil|Location2.X=4634.562mil|Location1.Y=2735.024mil|Location2.Y=2746.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4623.312mil|Location2.X=4634.562mil|Location1.Y=2735.024mil|Location2.Y=2746.274mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.125mm &lt; 0.254mm) Between Pad C1-1(117mm,70.4mm) on Top Layer And Track (114.45mm,69.5mm)(117.75mm,69.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4578.036mil|Location2.X=4589.286mil|Location1.Y=2797.032mil|Location2.Y=2808.282mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4578.036mil|Location2.X=4589.286mil|Location1.Y=2797.032mil|Location2.Y=2808.282mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.125mm &lt; 0.254mm) Between Pad C1-1(117mm,70.4mm) on Top Layer And Track (114.45mm,71.3mm)(117.75mm,71.3mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4625.773mil|Location2.X=4637.023mil|Location1.Y=2737.485mil|Location2.Y=2748.735mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4625.773mil|Location2.X=4637.023mil|Location1.Y=2737.485mil|Location2.Y=2748.735mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.125mm &lt; 0.254mm) Between Pad C1-1(117mm,70.4mm) on Top Layer And Track (117.75mm,69.5mm)(117.75mm,71.3mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4504.71mil|Location2.X=4515.96mil|Location1.Y=2794.572mil|Location2.Y=2805.822mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4504.71mil|Location2.X=4515.96mil|Location1.Y=2794.572mil|Location2.Y=2805.822mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.125mm &lt; 0.254mm) Between Pad C1-2(115.2mm,70.4mm) on Top Layer And Track (114.45mm,69.5mm)(114.45mm,71.3mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4552.446mil|Location2.X=4563.696mil|Location1.Y=2735.024mil|Location2.Y=2746.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4552.446mil|Location2.X=4563.696mil|Location1.Y=2735.024mil|Location2.Y=2746.274mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.125mm &lt; 0.254mm) Between Pad C1-2(115.2mm,70.4mm) on Top Layer And Track (114.45mm,69.5mm)(117.75mm,69.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4507.17mil|Location2.X=4518.42mil|Location1.Y=2797.032mil|Location2.Y=2808.282mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4507.17mil|Location2.X=4518.42mil|Location1.Y=2797.032mil|Location2.Y=2808.282mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.125mm &lt; 0.254mm) Between Pad C1-2(115.2mm,70.4mm) on Top Layer And Track (114.45mm,71.3mm)(117.75mm,71.3mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4509.952mil|Location2.X=4521.202mil|Location1.Y=2934.336mil|Location2.Y=2945.586mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4509.952mil|Location2.X=4521.202mil|Location1.Y=2934.336mil|Location2.Y=2945.586mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.109mm &lt; 0.254mm) Between Pad C2-1(115.2mm,74.175mm) on Top Layer And Track (114.552mm,71.8mm)(114.552mm,74.848mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.109mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4549.71mil|Location2.X=4560.96mil|Location1.Y=2894.966mil|Location2.Y=2906.216mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4549.71mil|Location2.X=4560.96mil|Location1.Y=2894.966mil|Location2.Y=2906.216mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad C2-1(115.2mm,74.175mm) on Top Layer And Track (115.85mm,71.8mm)(115.85mm,74.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4509.952mil|Location2.X=4521.202mil|Location1.Y=2867.407mil|Location2.Y=2878.657mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4509.952mil|Location2.X=4521.202mil|Location1.Y=2867.407mil|Location2.Y=2878.657mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.109mm &lt; 0.254mm) Between Pad C2-2(115.2mm,72.475mm) on Top Layer And Track (114.552mm,71.8mm)(114.552mm,74.848mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.109mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4549.71mil|Location2.X=4560.96mil|Location1.Y=2828.037mil|Location2.Y=2839.287mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4549.71mil|Location2.X=4560.96mil|Location1.Y=2828.037mil|Location2.Y=2839.287mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad C2-2(115.2mm,72.475mm) on Top Layer And Track (115.85mm,71.8mm)(115.85mm,74.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3353.41mil|Location2.X=3364.66mil|Location1.Y=3094.769mil|Location2.Y=3106.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3353.41mil|Location2.X=3364.66mil|Location1.Y=3094.769mil|Location2.Y=3106.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R1-1(85.825mm,78.4mm) on Top Layer And Track (85.175mm,77.85mm)(85.175mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3391.028mil|Location2.X=3402.278mil|Location1.Y=3065.025mil|Location2.Y=3076.275mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3391.028mil|Location2.X=3402.278mil|Location1.Y=3065.025mil|Location2.Y=3076.275mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R1-1(85.825mm,78.4mm) on Top Layer And Track (85.175mm,77.85mm)(86.475mm,77.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3393.214mil|Location2.X=3404.464mil|Location1.Y=3067.21mil|Location2.Y=3078.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3393.214mil|Location2.X=3404.464mil|Location1.Y=3067.21mil|Location2.Y=3078.46mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R1-1(85.825mm,78.4mm) on Top Layer And Track (86.475mm,77.85mm)(86.475mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3545.34mil|Location2.X=3556.59mil|Location1.Y=3356.58mil|Location2.Y=3367.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3545.34mil|Location2.X=3556.59mil|Location1.Y=3356.58mil|Location2.Y=3367.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R11-1(90.7mm,85.05mm) on Top Layer And Track (90.05mm,82.95mm)(90.05mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3547.525mil|Location2.X=3558.775mil|Location1.Y=3358.765mil|Location2.Y=3370.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3547.525mil|Location2.X=3558.775mil|Location1.Y=3358.765mil|Location2.Y=3370.015mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R11-1(90.7mm,85.05mm) on Top Layer And Track (90.05mm,85.6mm)(91.35mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3585.143mil|Location2.X=3596.393mil|Location1.Y=3329.021mil|Location2.Y=3340.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3585.143mil|Location2.X=3596.393mil|Location1.Y=3329.021mil|Location2.Y=3340.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R11-1(90.7mm,85.05mm) on Top Layer And Track (91.35mm,82.95mm)(91.35mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3545.34mil|Location2.X=3556.59mil|Location1.Y=3295.58mil|Location2.Y=3306.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3545.34mil|Location2.X=3556.59mil|Location1.Y=3295.58mil|Location2.Y=3306.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R11-2(90.7mm,83.501mm) on Top Layer And Track (90.05mm,82.95mm)(90.05mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3582.958mil|Location2.X=3594.208mil|Location1.Y=3265.824mil|Location2.Y=3277.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3582.958mil|Location2.X=3594.208mil|Location1.Y=3265.824mil|Location2.Y=3277.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R11-2(90.7mm,83.501mm) on Top Layer And Track (90.05mm,82.95mm)(91.35mm,82.95mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3585.143mil|Location2.X=3596.393mil|Location1.Y=3268.021mil|Location2.Y=3279.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3585.143mil|Location2.X=3596.393mil|Location1.Y=3268.021mil|Location2.Y=3279.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R11-2(90.7mm,83.501mm) on Top Layer And Track (91.35mm,82.95mm)(91.35mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3353.41mil|Location2.X=3364.66mil|Location1.Y=3155.769mil|Location2.Y=3167.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3353.41mil|Location2.X=3364.66mil|Location1.Y=3155.769mil|Location2.Y=3167.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R1-2(85.825mm,79.949mm) on Top Layer And Track (85.175mm,77.85mm)(85.175mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3355.595mil|Location2.X=3366.845mil|Location1.Y=3157.966mil|Location2.Y=3169.216mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3355.595mil|Location2.X=3366.845mil|Location1.Y=3157.966mil|Location2.Y=3169.216mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R1-2(85.825mm,79.949mm) on Top Layer And Track (85.175mm,80.5mm)(86.475mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3393.214mil|Location2.X=3404.464mil|Location1.Y=3128.21mil|Location2.Y=3139.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3393.214mil|Location2.X=3404.464mil|Location1.Y=3128.21mil|Location2.Y=3139.46mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R1-2(85.825mm,79.949mm) on Top Layer And Track (86.475mm,77.85mm)(86.475mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3355.379mil|Location2.X=3366.629mil|Location1.Y=3356.58mil|Location2.Y=3367.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3355.379mil|Location2.X=3366.629mil|Location1.Y=3356.58mil|Location2.Y=3367.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R12-1(85.875mm,85.05mm) on Top Layer And Track (85.225mm,82.95mm)(85.225mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3357.564mil|Location2.X=3368.814mil|Location1.Y=3358.765mil|Location2.Y=3370.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3357.564mil|Location2.X=3368.814mil|Location1.Y=3358.765mil|Location2.Y=3370.015mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R12-1(85.875mm,85.05mm) on Top Layer And Track (85.225mm,85.6mm)(86.525mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3395.182mil|Location2.X=3406.432mil|Location1.Y=3329.021mil|Location2.Y=3340.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3395.182mil|Location2.X=3406.432mil|Location1.Y=3329.021mil|Location2.Y=3340.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R12-1(85.875mm,85.05mm) on Top Layer And Track (86.525mm,82.95mm)(86.525mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3355.379mil|Location2.X=3366.629mil|Location1.Y=3295.58mil|Location2.Y=3306.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3355.379mil|Location2.X=3366.629mil|Location1.Y=3295.58mil|Location2.Y=3306.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R12-2(85.875mm,83.501mm) on Top Layer And Track (85.225mm,82.95mm)(85.225mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3392.997mil|Location2.X=3404.247mil|Location1.Y=3265.824mil|Location2.Y=3277.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3392.997mil|Location2.X=3404.247mil|Location1.Y=3265.824mil|Location2.Y=3277.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R12-2(85.875mm,83.501mm) on Top Layer And Track (85.225mm,82.95mm)(86.525mm,82.95mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3395.182mil|Location2.X=3406.432mil|Location1.Y=3268.021mil|Location2.Y=3279.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3395.182mil|Location2.X=3406.432mil|Location1.Y=3268.021mil|Location2.Y=3279.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R12-2(85.875mm,83.501mm) on Top Layer And Track (86.525mm,82.95mm)(86.525mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3419.355mil|Location2.X=3430.605mil|Location1.Y=3356.58mil|Location2.Y=3367.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3419.355mil|Location2.X=3430.605mil|Location1.Y=3356.58mil|Location2.Y=3367.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R13-1(87.5mm,85.05mm) on Top Layer And Track (86.85mm,82.95mm)(86.85mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3421.541mil|Location2.X=3432.791mil|Location1.Y=3358.765mil|Location2.Y=3370.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3421.541mil|Location2.X=3432.791mil|Location1.Y=3358.765mil|Location2.Y=3370.015mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R13-1(87.5mm,85.05mm) on Top Layer And Track (86.85mm,85.6mm)(88.15mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3459.159mil|Location2.X=3470.409mil|Location1.Y=3329.021mil|Location2.Y=3340.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3459.159mil|Location2.X=3470.409mil|Location1.Y=3329.021mil|Location2.Y=3340.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R13-1(87.5mm,85.05mm) on Top Layer And Track (88.15mm,82.95mm)(88.15mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3419.355mil|Location2.X=3430.605mil|Location1.Y=3295.58mil|Location2.Y=3306.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3419.355mil|Location2.X=3430.605mil|Location1.Y=3295.58mil|Location2.Y=3306.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R13-2(87.5mm,83.501mm) on Top Layer And Track (86.85mm,82.95mm)(86.85mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3456.974mil|Location2.X=3468.224mil|Location1.Y=3265.824mil|Location2.Y=3277.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3456.974mil|Location2.X=3468.224mil|Location1.Y=3265.824mil|Location2.Y=3277.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R13-2(87.5mm,83.501mm) on Top Layer And Track (86.85mm,82.95mm)(88.15mm,82.95mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3459.159mil|Location2.X=3470.409mil|Location1.Y=3268.021mil|Location2.Y=3279.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3459.159mil|Location2.X=3470.409mil|Location1.Y=3268.021mil|Location2.Y=3279.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R13-2(87.5mm,83.501mm) on Top Layer And Track (88.15mm,82.95mm)(88.15mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3482.347mil|Location2.X=3493.597mil|Location1.Y=3356.58mil|Location2.Y=3367.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3482.347mil|Location2.X=3493.597mil|Location1.Y=3356.58mil|Location2.Y=3367.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R15-1(89.1mm,85.05mm) on Top Layer And Track (88.45mm,82.95mm)(88.45mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3484.533mil|Location2.X=3495.783mil|Location1.Y=3358.765mil|Location2.Y=3370.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3484.533mil|Location2.X=3495.783mil|Location1.Y=3358.765mil|Location2.Y=3370.015mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R15-1(89.1mm,85.05mm) on Top Layer And Track (88.45mm,85.6mm)(89.75mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3522.151mil|Location2.X=3533.401mil|Location1.Y=3329.021mil|Location2.Y=3340.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3522.151mil|Location2.X=3533.401mil|Location1.Y=3329.021mil|Location2.Y=3340.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R15-1(89.1mm,85.05mm) on Top Layer And Track (89.75mm,82.95mm)(89.75mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3482.347mil|Location2.X=3493.597mil|Location1.Y=3295.58mil|Location2.Y=3306.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3482.347mil|Location2.X=3493.597mil|Location1.Y=3295.58mil|Location2.Y=3306.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R15-2(89.1mm,83.501mm) on Top Layer And Track (88.45mm,82.95mm)(88.45mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3519.966mil|Location2.X=3531.216mil|Location1.Y=3265.824mil|Location2.Y=3277.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3519.966mil|Location2.X=3531.216mil|Location1.Y=3265.824mil|Location2.Y=3277.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R15-2(89.1mm,83.501mm) on Top Layer And Track (88.45mm,82.95mm)(89.75mm,82.95mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3522.151mil|Location2.X=3533.401mil|Location1.Y=3268.021mil|Location2.Y=3279.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3522.151mil|Location2.X=3533.401mil|Location1.Y=3268.021mil|Location2.Y=3279.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R15-2(89.1mm,83.501mm) on Top Layer And Track (89.75mm,82.95mm)(89.75mm,85.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3438.056mil|Location2.X=3449.306mil|Location1.Y=3094.769mil|Location2.Y=3106.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3438.056mil|Location2.X=3449.306mil|Location1.Y=3094.769mil|Location2.Y=3106.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R2-1(87.975mm,78.4mm) on Top Layer And Track (87.325mm,77.85mm)(87.325mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3475.674mil|Location2.X=3486.924mil|Location1.Y=3065.025mil|Location2.Y=3076.275mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3475.674mil|Location2.X=3486.924mil|Location1.Y=3065.025mil|Location2.Y=3076.275mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R2-1(87.975mm,78.4mm) on Top Layer And Track (87.325mm,77.85mm)(88.625mm,77.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3477.859mil|Location2.X=3489.109mil|Location1.Y=3067.21mil|Location2.Y=3078.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3477.859mil|Location2.X=3489.109mil|Location1.Y=3067.21mil|Location2.Y=3078.46mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R2-1(87.975mm,78.4mm) on Top Layer And Track (88.625mm,77.85mm)(88.625mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3438.056mil|Location2.X=3449.306mil|Location1.Y=3155.769mil|Location2.Y=3167.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3438.056mil|Location2.X=3449.306mil|Location1.Y=3155.769mil|Location2.Y=3167.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R2-2(87.975mm,79.949mm) on Top Layer And Track (87.325mm,77.85mm)(87.325mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3440.241mil|Location2.X=3451.491mil|Location1.Y=3157.966mil|Location2.Y=3169.216mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3440.241mil|Location2.X=3451.491mil|Location1.Y=3157.966mil|Location2.Y=3169.216mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R2-2(87.975mm,79.949mm) on Top Layer And Track (87.325mm,80.5mm)(88.625mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3477.859mil|Location2.X=3489.109mil|Location1.Y=3128.21mil|Location2.Y=3139.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3477.859mil|Location2.X=3489.109mil|Location1.Y=3128.21mil|Location2.Y=3139.46mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R2-2(87.975mm,79.949mm) on Top Layer And Track (88.625mm,77.85mm)(88.625mm,80.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4562.288mil|Location2.X=4573.538mil|Location1.Y=3213.647mil|Location2.Y=3224.897mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4562.288mil|Location2.X=4573.538mil|Location1.Y=3213.647mil|Location2.Y=3224.897mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R3-1(115.675mm,82.275mm) on Top Layer And Track (113.575mm,81.625mm)(116.225mm,81.625mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4534.729mil|Location2.X=4545.979mil|Location1.Y=3253.45mil|Location2.Y=3264.7mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4534.729mil|Location2.X=4545.979mil|Location1.Y=3253.45mil|Location2.Y=3264.7mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R3-1(115.675mm,82.275mm) on Top Layer And Track (113.575mm,82.925mm)(116.225mm,82.925mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4564.473mil|Location2.X=4575.723mil|Location1.Y=3215.832mil|Location2.Y=3227.082mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4564.473mil|Location2.X=4575.723mil|Location1.Y=3215.832mil|Location2.Y=3227.082mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R3-1(115.675mm,82.275mm) on Top Layer And Track (116.225mm,81.625mm)(116.225mm,82.925mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4471.532mil|Location2.X=4482.782mil|Location1.Y=3251.265mil|Location2.Y=3262.515mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4471.532mil|Location2.X=4482.782mil|Location1.Y=3251.265mil|Location2.Y=3262.515mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R3-2(114.126mm,82.275mm) on Top Layer And Track (113.575mm,81.625mm)(113.575mm,82.925mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4501.288mil|Location2.X=4512.538mil|Location1.Y=3213.647mil|Location2.Y=3224.897mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4501.288mil|Location2.X=4512.538mil|Location1.Y=3213.647mil|Location2.Y=3224.897mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R3-2(114.126mm,82.275mm) on Top Layer And Track (113.575mm,81.625mm)(116.225mm,81.625mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4473.729mil|Location2.X=4484.979mil|Location1.Y=3253.45mil|Location2.Y=3264.7mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4473.729mil|Location2.X=4484.979mil|Location1.Y=3253.45mil|Location2.Y=3264.7mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R3-2(114.126mm,82.275mm) on Top Layer And Track (113.575mm,82.925mm)(116.225mm,82.925mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3880.97mil|Location2.X=3892.22mil|Location1.Y=2832.958mil|Location2.Y=2844.208mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3880.97mil|Location2.X=3892.22mil|Location1.Y=2832.958mil|Location2.Y=2844.208mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R4-1(99.225mm,71.75mm) on Top Layer And Track (98.575mm,71.2mm)(98.575mm,73.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3918.588mil|Location2.X=3929.838mil|Location1.Y=2803.214mil|Location2.Y=2814.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3918.588mil|Location2.X=3929.838mil|Location1.Y=2803.214mil|Location2.Y=2814.464mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R4-1(99.225mm,71.75mm) on Top Layer And Track (98.575mm,71.2mm)(99.875mm,71.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3920.773mil|Location2.X=3932.023mil|Location1.Y=2805.399mil|Location2.Y=2816.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3920.773mil|Location2.X=3932.023mil|Location1.Y=2805.399mil|Location2.Y=2816.649mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R4-1(99.225mm,71.75mm) on Top Layer And Track (99.875mm,71.2mm)(99.875mm,73.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3880.97mil|Location2.X=3892.22mil|Location1.Y=2893.958mil|Location2.Y=2905.208mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3880.97mil|Location2.X=3892.22mil|Location1.Y=2893.958mil|Location2.Y=2905.208mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R4-2(99.225mm,73.299mm) on Top Layer And Track (98.575mm,71.2mm)(98.575mm,73.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3883.155mil|Location2.X=3894.405mil|Location1.Y=2896.155mil|Location2.Y=2907.405mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3883.155mil|Location2.X=3894.405mil|Location1.Y=2896.155mil|Location2.Y=2907.405mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R4-2(99.225mm,73.299mm) on Top Layer And Track (98.575mm,73.85mm)(99.875mm,73.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3920.773mil|Location2.X=3932.023mil|Location1.Y=2866.399mil|Location2.Y=2877.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3920.773mil|Location2.X=3932.023mil|Location1.Y=2866.399mil|Location2.Y=2877.649mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R4-2(99.225mm,73.299mm) on Top Layer And Track (99.875mm,71.2mm)(99.875mm,73.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.993mil|Location2.X=3953.243mil|Location1.Y=2833.942mil|Location2.Y=2845.192mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.993mil|Location2.X=3953.243mil|Location1.Y=2833.942mil|Location2.Y=2845.192mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R5-1(100.775mm,71.775mm) on Top Layer And Track (100.125mm,71.225mm)(100.125mm,73.875mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3979.611mil|Location2.X=3990.861mil|Location1.Y=2804.198mil|Location2.Y=2815.448mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3979.611mil|Location2.X=3990.861mil|Location1.Y=2804.198mil|Location2.Y=2815.448mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R5-1(100.775mm,71.775mm) on Top Layer And Track (100.125mm,71.225mm)(101.425mm,71.225mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3981.796mil|Location2.X=3993.046mil|Location1.Y=2806.383mil|Location2.Y=2817.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3981.796mil|Location2.X=3993.046mil|Location1.Y=2806.383mil|Location2.Y=2817.633mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R5-1(100.775mm,71.775mm) on Top Layer And Track (101.425mm,71.225mm)(101.425mm,73.875mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.993mil|Location2.X=3953.243mil|Location1.Y=2894.942mil|Location2.Y=2906.192mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.993mil|Location2.X=3953.243mil|Location1.Y=2894.942mil|Location2.Y=2906.192mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R5-2(100.775mm,73.324mm) on Top Layer And Track (100.125mm,71.225mm)(100.125mm,73.875mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3944.178mil|Location2.X=3955.428mil|Location1.Y=2897.139mil|Location2.Y=2908.389mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3944.178mil|Location2.X=3955.428mil|Location1.Y=2897.139mil|Location2.Y=2908.389mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R5-2(100.775mm,73.324mm) on Top Layer And Track (100.125mm,73.875mm)(101.425mm,73.875mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3981.796mil|Location2.X=3993.046mil|Location1.Y=2867.383mil|Location2.Y=2878.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3981.796mil|Location2.X=3993.046mil|Location1.Y=2867.383mil|Location2.Y=2878.633mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R5-2(100.775mm,73.324mm) on Top Layer And Track (101.425mm,71.225mm)(101.425mm,73.875mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3993.607mil|Location2.X=4004.857mil|Location1.Y=3136.107mil|Location2.Y=3147.357mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3993.607mil|Location2.X=4004.857mil|Location1.Y=3136.107mil|Location2.Y=3147.357mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R6-1(101.175mm,80.25mm) on Top Layer And Track (101.725mm,79.6mm)(101.725mm,80.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3991.422mil|Location2.X=4002.672mil|Location1.Y=3133.922mil|Location2.Y=3145.172mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3991.422mil|Location2.X=4002.672mil|Location1.Y=3133.922mil|Location2.Y=3145.172mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R6-1(101.175mm,80.25mm) on Top Layer And Track (99.075mm,79.6mm)(101.725mm,79.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3963.863mil|Location2.X=3975.113mil|Location1.Y=3173.725mil|Location2.Y=3184.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3963.863mil|Location2.X=3975.113mil|Location1.Y=3173.725mil|Location2.Y=3184.975mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R6-1(101.175mm,80.25mm) on Top Layer And Track (99.075mm,80.9mm)(101.725mm,80.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3930.422mil|Location2.X=3941.672mil|Location1.Y=3133.922mil|Location2.Y=3145.172mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3930.422mil|Location2.X=3941.672mil|Location1.Y=3133.922mil|Location2.Y=3145.172mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R6-2(99.626mm,80.25mm) on Top Layer And Track (99.075mm,79.6mm)(101.725mm,79.6mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3900.666mil|Location2.X=3911.916mil|Location1.Y=3171.54mil|Location2.Y=3182.79mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3900.666mil|Location2.X=3911.916mil|Location1.Y=3171.54mil|Location2.Y=3182.79mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R6-2(99.626mm,80.25mm) on Top Layer And Track (99.075mm,79.6mm)(99.075mm,80.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3902.863mil|Location2.X=3914.113mil|Location1.Y=3173.725mil|Location2.Y=3184.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3902.863mil|Location2.X=3914.113mil|Location1.Y=3173.725mil|Location2.Y=3184.975mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R6-2(99.626mm,80.25mm) on Top Layer And Track (99.075mm,80.9mm)(101.725mm,80.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4596.737mil|Location2.X=4607.987mil|Location1.Y=2970.536mil|Location2.Y=2981.786mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4596.737mil|Location2.X=4607.987mil|Location1.Y=2970.536mil|Location2.Y=2981.786mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R7-1(116.55mm,76.1mm) on Top Layer And Track (114.45mm,75.45mm)(117.1mm,75.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4569.178mil|Location2.X=4580.428mil|Location1.Y=3010.34mil|Location2.Y=3021.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4569.178mil|Location2.X=4580.428mil|Location1.Y=3010.34mil|Location2.Y=3021.59mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R7-1(116.55mm,76.1mm) on Top Layer And Track (114.45mm,76.75mm)(117.1mm,76.75mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.922mil|Location2.X=4610.172mil|Location1.Y=2972.722mil|Location2.Y=2983.972mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.922mil|Location2.X=4610.172mil|Location1.Y=2972.722mil|Location2.Y=2983.972mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R7-1(116.55mm,76.1mm) on Top Layer And Track (117.1mm,75.45mm)(117.1mm,76.75mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4505.981mil|Location2.X=4517.231mil|Location1.Y=3008.155mil|Location2.Y=3019.405mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4505.981mil|Location2.X=4517.231mil|Location1.Y=3008.155mil|Location2.Y=3019.405mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R7-2(115.001mm,76.1mm) on Top Layer And Track (114.45mm,75.45mm)(114.45mm,76.75mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4535.737mil|Location2.X=4546.987mil|Location1.Y=2970.536mil|Location2.Y=2981.786mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4535.737mil|Location2.X=4546.987mil|Location1.Y=2970.536mil|Location2.Y=2981.786mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R7-2(115.001mm,76.1mm) on Top Layer And Track (114.45mm,75.45mm)(117.1mm,75.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4508.178mil|Location2.X=4519.428mil|Location1.Y=3010.34mil|Location2.Y=3021.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4508.178mil|Location2.X=4519.428mil|Location1.Y=3010.34mil|Location2.Y=3021.59mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R7-2(115.001mm,76.1mm) on Top Layer And Track (114.45mm,76.75mm)(117.1mm,76.75mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4505.993mil|Location2.X=4517.243mil|Location1.Y=3070.162mil|Location2.Y=3081.412mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4505.993mil|Location2.X=4517.243mil|Location1.Y=3070.162mil|Location2.Y=3081.412mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R8-1(115.001mm,77.675mm) on Top Layer And Track (114.451mm,77.025mm)(114.451mm,78.325mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4535.737mil|Location2.X=4546.987mil|Location1.Y=3032.544mil|Location2.Y=3043.794mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4535.737mil|Location2.X=4546.987mil|Location1.Y=3032.544mil|Location2.Y=3043.794mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R8-1(115.001mm,77.675mm) on Top Layer And Track (114.451mm,77.025mm)(117.101mm,77.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4508.178mil|Location2.X=4519.428mil|Location1.Y=3072.347mil|Location2.Y=3083.597mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4508.178mil|Location2.X=4519.428mil|Location1.Y=3072.347mil|Location2.Y=3083.597mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R8-1(115.001mm,77.675mm) on Top Layer And Track (114.451mm,78.325mm)(117.101mm,78.325mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4596.737mil|Location2.X=4607.987mil|Location1.Y=3032.544mil|Location2.Y=3043.794mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4596.737mil|Location2.X=4607.987mil|Location1.Y=3032.544mil|Location2.Y=3043.794mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R8-2(116.55mm,77.675mm) on Top Layer And Track (114.451mm,77.025mm)(117.101mm,77.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4569.178mil|Location2.X=4580.428mil|Location1.Y=3072.347mil|Location2.Y=3083.597mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4569.178mil|Location2.X=4580.428mil|Location1.Y=3072.347mil|Location2.Y=3083.597mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R8-2(116.55mm,77.675mm) on Top Layer And Track (114.451mm,78.325mm)(117.101mm,78.325mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.934mil|Location2.X=4610.184mil|Location1.Y=3034.729mil|Location2.Y=3045.979mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.934mil|Location2.X=4610.184mil|Location1.Y=3034.729mil|Location2.Y=3045.979mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R8-2(116.55mm,77.675mm) on Top Layer And Track (117.101mm,77.025mm)(117.101mm,78.325mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4505.97mil|Location2.X=4517.22mil|Location1.Y=3142.013mil|Location2.Y=3153.263mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4505.97mil|Location2.X=4517.22mil|Location1.Y=3142.013mil|Location2.Y=3153.263mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R9-1(115mm,79.5mm) on Top Layer And Track (114.45mm,78.85mm)(114.45mm,80.15mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4535.714mil|Location2.X=4546.964mil|Location1.Y=3104.395mil|Location2.Y=3115.645mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4535.714mil|Location2.X=4546.964mil|Location1.Y=3104.395mil|Location2.Y=3115.645mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R9-1(115mm,79.5mm) on Top Layer And Track (114.45mm,78.85mm)(117.1mm,78.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4508.155mil|Location2.X=4519.405mil|Location1.Y=3144.198mil|Location2.Y=3155.448mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4508.155mil|Location2.X=4519.405mil|Location1.Y=3144.198mil|Location2.Y=3155.448mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R9-1(115mm,79.5mm) on Top Layer And Track (114.45mm,80.15mm)(117.1mm,80.15mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4596.714mil|Location2.X=4607.964mil|Location1.Y=3104.395mil|Location2.Y=3115.645mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4596.714mil|Location2.X=4607.964mil|Location1.Y=3104.395mil|Location2.Y=3115.645mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R9-2(116.549mm,79.5mm) on Top Layer And Track (114.45mm,78.85mm)(117.1mm,78.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4569.155mil|Location2.X=4580.405mil|Location1.Y=3144.198mil|Location2.Y=3155.448mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4569.155mil|Location2.X=4580.405mil|Location1.Y=3144.198mil|Location2.Y=3155.448mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.111mm &lt; 0.254mm) Between Pad R9-2(116.549mm,79.5mm) on Top Layer And Track (114.45mm,80.15mm)(117.1mm,80.15mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.91mil|Location2.X=4610.16mil|Location1.Y=3106.58mil|Location2.Y=3117.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4598.91mil|Location2.X=4610.16mil|Location1.Y=3106.58mil|Location2.Y=3117.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.112mm &lt; 0.254mm) Between Pad R9-2(116.549mm,79.5mm) on Top Layer And Track (117.1mm,78.85mm)(117.1mm,80.15mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.112mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDB2SEKOOPUWFAIYRZ00CX5U0EKKMZQVXAFVUQMUJTL1D2CNJAWI5P"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4580.331mil|Location2.X=4591.581mil|Location1.Y=2807.859mil|Location2.Y=2819.109mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4580.331mil|Location2.X=4591.581mil|Location1.Y=2807.859mil|Location2.Y=2819.109mil|Absolute=True">Silk To Silk Clearance Constraint: (0.225mm &lt; 0.254mm) Between Text "C1" (116.35mm,71.675mm) on Top Overlay And Track (114.45mm,71.3mm)(117.75mm,71.3mm) on Top Overlay Silk Text to Silk Clearance [0.225mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4561.585mil|Location2.X=4572.835mil|Location1.Y=2883.149mil|Location2.Y=2894.399mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4561.585mil|Location2.X=4572.835mil|Location1.Y=2883.149mil|Location2.Y=2894.399mil|Absolute=True">Silk To Silk Clearance Constraint: (0.136mm &lt; 0.254mm) Between Text "C2" (116.975mm,72.975mm) on Top Overlay And Track (115.85mm,71.8mm)(115.85mm,74.85mm) on Top Overlay Silk Text to Silk Clearance [0.136mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3341.54mil|Location2.X=3352.79mil|Location1.Y=3088.863mil|Location2.Y=3100.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3341.54mil|Location2.X=3352.79mil|Location1.Y=3088.863mil|Location2.Y=3100.113mil|Absolute=True">Silk To Silk Clearance Constraint: (0.136mm &lt; 0.254mm) Between Text "R1" (84.85mm,78.6mm) on Top Overlay And Track (85.175mm,77.85mm)(85.175mm,80.5mm) on Top Overlay Silk Text to Silk Clearance [0.136mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3543.485mil|Location2.X=3556.153mil|Location1.Y=3371.155mil|Location2.Y=3382.405mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3543.485mil|Location2.X=3556.153mil|Location1.Y=3371.155mil|Location2.Y=3382.405mil|Absolute=True">Silk To Silk Clearance Constraint: (0.214mm &lt; 0.254mm) Between Text "R11" (91.05mm,85.95mm) on Top Overlay And Track (90.05mm,82.95mm)(90.05mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.214mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3547.535mil|Location2.X=3558.785mil|Location1.Y=3371.127mil|Location2.Y=3382.377mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3547.535mil|Location2.X=3558.785mil|Location1.Y=3371.127mil|Location2.Y=3382.377mil|Absolute=True">Silk To Silk Clearance Constraint: (0.161mm &lt; 0.254mm) Between Text "R11" (91.05mm,85.95mm) on Top Overlay And Track (90.05mm,85.6mm)(91.35mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.161mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3354.484mil|Location2.X=3366.264mil|Location1.Y=3370.68mil|Location2.Y=3381.93mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3354.484mil|Location2.X=3366.264mil|Location1.Y=3370.68mil|Location2.Y=3381.93mil|Absolute=True">Silk To Silk Clearance Constraint: (0.221mm &lt; 0.254mm) Between Text "R12" (86.275mm,85.925mm) on Top Overlay And Track (85.225mm,82.95mm)(85.225mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.221mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3359.543mil|Location2.X=3370.793mil|Location1.Y=3370.635mil|Location2.Y=3381.885mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3359.543mil|Location2.X=3370.793mil|Location1.Y=3370.635mil|Location2.Y=3381.885mil|Absolute=True">Silk To Silk Clearance Constraint: (0.136mm &lt; 0.254mm) Between Text "R12" (86.275mm,85.925mm) on Top Overlay And Track (85.225mm,85.6mm)(86.525mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.136mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3396.082mil|Location2.X=3407.804mil|Location1.Y=3370.68mil|Location2.Y=3381.93mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3396.082mil|Location2.X=3407.804mil|Location1.Y=3370.68mil|Location2.Y=3381.93mil|Absolute=True">Silk To Silk Clearance Constraint: (0.221mm &lt; 0.254mm) Between Text "R12" (86.275mm,85.925mm) on Top Overlay And Track (86.525mm,82.95mm)(86.525mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.221mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3424.503mil|Location2.X=3435.753mil|Location1.Y=3371.127mil|Location2.Y=3382.377mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3424.503mil|Location2.X=3435.753mil|Location1.Y=3371.127mil|Location2.Y=3382.377mil|Absolute=True">Silk To Silk Clearance Constraint: (0.161mm &lt; 0.254mm) Between Text "R13" (87.925mm,85.95mm) on Top Overlay And Track (86.85mm,85.6mm)(88.15mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.161mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3460.535mil|Location2.X=3472.838mil|Location1.Y=3371.161mil|Location2.Y=3382.411mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3460.535mil|Location2.X=3472.838mil|Location1.Y=3371.161mil|Location2.Y=3382.411mil|Absolute=True">Silk To Silk Clearance Constraint: (0.227mm &lt; 0.254mm) Between Text "R13" (87.925mm,85.95mm) on Top Overlay And Track (88.15mm,82.95mm)(88.15mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.227mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.48mil|Location2.X=3492.727mil|Location1.Y=3370.179mil|Location2.Y=3381.429mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.48mil|Location2.X=3492.727mil|Location1.Y=3370.179mil|Location2.Y=3381.429mil|Absolute=True">Silk To Silk Clearance Constraint: (0.172mm &lt; 0.254mm) Between Text "R15" (89.45mm,85.9mm) on Top Overlay And Track (88.45mm,82.95mm)(88.45mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.172mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3484.543mil|Location2.X=3495.793mil|Location1.Y=3370.143mil|Location2.Y=3381.393mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3484.543mil|Location2.X=3495.793mil|Location1.Y=3370.143mil|Location2.Y=3381.393mil|Absolute=True">Silk To Silk Clearance Constraint: (0.111mm &lt; 0.254mm) Between Text "R15" (89.45mm,85.9mm) on Top Overlay And Track (88.45mm,85.6mm)(89.75mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3522.087mil|Location2.X=3533.337mil|Location1.Y=3370.206mil|Location2.Y=3381.456mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3522.087mil|Location2.X=3533.337mil|Location1.Y=3370.206mil|Location2.Y=3381.456mil|Absolute=True">Silk To Silk Clearance Constraint: (0.235mm &lt; 0.254mm) Between Text "R15" (89.45mm,85.9mm) on Top Overlay And Track (89.75mm,82.95mm)(89.75mm,85.6mm) on Top Overlay Silk Text to Silk Clearance [0.235mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3489.734mil|Location2.X=3500.984mil|Location1.Y=3087.879mil|Location2.Y=3099.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3489.734mil|Location2.X=3500.984mil|Location1.Y=3087.879mil|Location2.Y=3099.129mil|Absolute=True">Silk To Silk Clearance Constraint: (0.136mm &lt; 0.254mm) Between Text "R2" (89.75mm,78.575mm) on Top Overlay And Track (88.625mm,77.85mm)(88.625mm,80.5mm) on Top Overlay Silk Text to Silk Clearance [0.136mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4576.864mil|Location2.X=4588.114mil|Location1.Y=3210.416mil|Location2.Y=3223.037mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4576.864mil|Location2.X=4588.114mil|Location1.Y=3210.416mil|Location2.Y=3223.037mil|Absolute=True">Silk To Silk Clearance Constraint: (0.214mm &lt; 0.254mm) Between Text "R3" (116.575mm,81.825mm) on Top Overlay And Track (113.575mm,81.625mm)(116.225mm,81.625mm) on Top Overlay Silk Text to Silk Clearance [0.214mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4576.836mil|Location2.X=4588.086mil|Location1.Y=3215.832mil|Location2.Y=3227.082mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4576.836mil|Location2.X=4588.086mil|Location1.Y=3215.832mil|Location2.Y=3227.082mil|Absolute=True">Silk To Silk Clearance Constraint: (0.161mm &lt; 0.254mm) Between Text "R3" (116.575mm,81.825mm) on Top Overlay And Track (116.225mm,81.625mm)(116.225mm,82.925mm) on Top Overlay Silk Text to Silk Clearance [0.161mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3883.165mil|Location2.X=3894.415mil|Location1.Y=2909.513mil|Location2.Y=2920.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3883.165mil|Location2.X=3894.415mil|Location1.Y=2909.513mil|Location2.Y=2920.763mil|Absolute=True">Silk To Silk Clearance Constraint: (0.211mm &lt; 0.254mm) Between Text "R4" (99.575mm,74.25mm) on Top Overlay And Track (98.575mm,73.85mm)(99.875mm,73.85mm) on Top Overlay Silk Text to Silk Clearance [0.211mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3946.157mil|Location2.X=3957.407mil|Location1.Y=2910.497mil|Location2.Y=2921.747mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3946.157mil|Location2.X=3957.407mil|Location1.Y=2910.497mil|Location2.Y=2921.747mil|Absolute=True">Silk To Silk Clearance Constraint: (0.211mm &lt; 0.254mm) Between Text "R5" (101.175mm,74.275mm) on Top Overlay And Track (100.125mm,73.875mm)(101.425mm,73.875mm) on Top Overlay Silk Text to Silk Clearance [0.211mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3907.761mil|Location2.X=3919.011mil|Location1.Y=3122.539mil|Location2.Y=3133.789mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3907.761mil|Location2.X=3919.011mil|Location1.Y=3122.539mil|Location2.Y=3133.789mil|Absolute=True">Silk To Silk Clearance Constraint: (0.111mm &lt; 0.254mm) Between Text "R6" (99.4mm,78.5mm) on Top Overlay And Track (99.075mm,79.6mm)(101.725mm,79.6mm) on Top Overlay Silk Text to Silk Clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3901.204mil|Location2.X=3912.454mil|Location1.Y=3122.47mil|Location2.Y=3133.72mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3901.204mil|Location2.X=3912.454mil|Location1.Y=3122.47mil|Location2.Y=3133.72mil|Absolute=True">Silk To Silk Clearance Constraint: (0.253mm &lt; 0.254mm) Between Text "R6" (99.4mm,78.5mm) on Top Overlay And Track (99.075mm,79.6mm)(99.075mm,80.9mm) on Top Overlay Silk Text to Silk Clearance [0.253mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4612.287mil|Location2.X=4623.537mil|Location1.Y=3100.145mil|Location2.Y=3113.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4612.287mil|Location2.X=4623.537mil|Location1.Y=3100.145mil|Location2.Y=3113.314mil|Absolute=True">Silk To Silk Clearance Constraint: (0.248mm &lt; 0.254mm) Between Text "R9" (117.5mm,79.025mm) on Top Overlay And Track (114.45mm,78.85mm)(117.1mm,78.85mm) on Top Overlay Silk Text to Silk Clearance [0.248mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4612.269mil|Location2.X=4623.519mil|Location1.Y=3105.595mil|Location2.Y=3116.845mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4612.269mil|Location2.X=4623.519mil|Location1.Y=3105.595mil|Location2.Y=3116.845mil|Absolute=True">Silk To Silk Clearance Constraint: (0.211mm &lt; 0.254mm) Between Text "R9" (117.5mm,79.025mm) on Top Overlay And Track (117.1mm,78.85mm)(117.1mm,80.15mm) on Top Overlay Silk Text to Silk Clearance [0.211mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3691.225mil|Location2.X=3702.475mil|Location1.Y=3481.634mil|Location2.Y=3492.884mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3691.225mil|Location2.X=3702.475mil|Location1.Y=3481.634mil|Location2.Y=3492.884mil|Absolute=True">Silk To Silk Clearance Constraint: (0.253mm &lt; 0.254mm) Between Text "VD1" (93.9mm,87.55mm) on Top Overlay And Track (90.776mm,88.83mm)(116.684mm,88.83mm) on Top Overlay Silk Text to Silk Clearance [0.253mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3892.013mil|Location2.X=3903.263mil|Location1.Y=3482.126mil|Location2.Y=3493.376mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3892.013mil|Location2.X=3903.263mil|Location1.Y=3482.126mil|Location2.Y=3493.376mil|Absolute=True">Silk To Silk Clearance Constraint: (0.228mm &lt; 0.254mm) Between Text "VD3" (99mm,87.575mm) on Top Overlay And Track (90.776mm,88.83mm)(116.684mm,88.83mm) on Top Overlay Silk Text to Silk Clearance [0.228mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4091.816mil|Location2.X=4103.066mil|Location1.Y=3482.126mil|Location2.Y=3493.376mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4091.816mil|Location2.X=4103.066mil|Location1.Y=3482.126mil|Location2.Y=3493.376mil|Absolute=True">Silk To Silk Clearance Constraint: (0.228mm &lt; 0.254mm) Between Text "VD4" (104.075mm,87.575mm) on Top Overlay And Track (90.776mm,88.83mm)(116.684mm,88.83mm) on Top Overlay Silk Text to Silk Clearance [0.228mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3766.541mil|Location2.X=3777.791mil|Location1.Y=2266.314mil|Location2.Y=2279.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3766.541mil|Location2.X=3777.791mil|Location1.Y=2266.314mil|Location2.Y=2279.898mil|Absolute=True">Silk To Silk Clearance Constraint: (0.192mm &lt; 0.254mm) Between Text "XP3" (96.8mm,57.825mm) on Top Overlay And Track (83.6mm,57.7mm)(95.6mm,57.7mm) on Top Overlay Silk Text to Silk Clearance [0.192mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3766.565mil|Location2.X=3777.815mil|Location1.Y=2270.95mil|Location2.Y=2282.2mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3766.565mil|Location2.X=3777.815mil|Location1.Y=2270.95mil|Location2.Y=2282.2mil|Absolute=True">Silk To Silk Clearance Constraint: (0.173mm &lt; 0.254mm) Between Text "XP3" (96.8mm,57.825mm) on Top Overlay And Track (95.6mm,57.7mm)(95.6mm,66.6mm) on Top Overlay Silk Text to Silk Clearance [0.173mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

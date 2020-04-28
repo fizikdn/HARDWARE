@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Mixer_6mic_1lin.PcbDoc   17.06.2016  10:01:43
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Mixer_6mic_1lin-Plated.TXT
+ASCII Non-Plated RoundHoles File : Mixer_6mic_1lin-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             2         PTH        0.73inch (18.63mm)
+T2      16mil (0.399mm)                                           Round             97        PTH        23.21inch (589.54mm)
+T3      38mil (0.965mm)                                           Round             4         PTH        0.63inch (15.98mm)
+T4      39mil (0.991mm)                                           Round             2         PTH        0.10inch (2.54mm)
+T5      47mil (1.199mm)                                           Round             18        PTH        5.11inch (129.69mm)
+T6      118mil (3mm)                                              Round             3         PTH        0.47inch (11.83mm)
+T7      67mil (1.699mm)                                           Round             6         NPTH       2.41inch (61.17mm)
+T8      122mil (3.099mm)                                          Round             2         NPTH       2.54inch (64.60mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              134
+
+Total Processing Time (hh:mm:ss) : 00:00:00

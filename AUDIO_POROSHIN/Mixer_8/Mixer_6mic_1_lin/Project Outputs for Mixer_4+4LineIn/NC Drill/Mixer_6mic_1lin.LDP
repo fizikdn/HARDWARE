@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Mixer_6mic_1_lin\Mixer_6mic_1lin.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=mixer_6mic_1lin-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=mixer_6mic_1lin-nonplated.txt|DrillLayers=gtl,gbl

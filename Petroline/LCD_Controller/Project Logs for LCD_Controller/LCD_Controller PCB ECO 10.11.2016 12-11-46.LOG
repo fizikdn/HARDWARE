@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=DA2-3
+Removed Pin From Net: NetName=GND Pin=DA2-4
+Removed Pin From Net: NetName=+5V Pin=DA2-8
+Removed Member From Class: ClassName=Heater Member=DA2
+Added Component: Designator=DA1(SO-8)
+Added Pin To Net: NetName=NetDA1_1 Pin=DA1-1
+Added Pin To Net: NetName=NetDA1_2 Pin=DA1-2
+Added Pin To Net: NetName=NetDA1_3 Pin=DA1-3
+Added Pin To Net: NetName=GND Pin=DA1-4
+Added Pin To Net: NetName=GND Pin=DA1-5
+Added Pin To Net: NetName=+5V Pin=DA1-8
+Added Pin To Net: NetName=NetDA1_6 Pin=DA1-6
+Added Pin To Net: NetName=NetDA1_6 Pin=DA1-7
+Added Net: Name=NetDA1_6
+Added Member To Class: ClassName=Heater Member=Component DA1 LM358D

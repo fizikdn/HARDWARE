@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=SCL Pin=FU4-2
+Removed Pin From Net: NetName=+4V3 Pin=FU5-2
+Removed Pin From Net: NetName=SDA Pin=FU6-2
+Removed Member From Class: ClassName=Connection Member=FU6
+Added Component: Designator=XP8(DG330-3PIN)
+Added Component: Designator=XP9(DG330-3PIN)
+Added Pin To Net: NetName=SDA Pin=FU4-2
+Added Pin To Net: NetName=SCL Pin=FU5-2
+Added Pin To Net: NetName=SCL Pin=VD3-2
+Added Pin To Net: NetName=SDA Pin=VD4-2
+Added Pin To Net: NetName=NetFU5_1 Pin=XP8-1
+Added Pin To Net: NetName=GND Pin=XP8-2
+Added Pin To Net: NetName=NetFU3_1 Pin=XP9-1
+Added Pin To Net: NetName=GND Pin=XP9-3
+Added Pin To Net: NetName=NetFU4_1 Pin=FU4-1
+Added Pin To Net: NetName=NetFU4_1 Pin=XP8-3
+Added Net: Name=NetFU4_1
+Added Pin To Net: NetName=NetFU7_1 Pin=FU7-1
+Added Pin To Net: NetName=NetFU7_1 Pin=XP9-2
+Added Net: Name=NetFU7_1
+Added Member To Class: ClassName=Connection Member=Component XP8 DG330-3PIN
+Added Member To Class: ClassName=Connection Member=Component XP9 DG330-3PIN

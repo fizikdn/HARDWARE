@@ -1,0 +1,13 @@
+﻿Field=#~Integer~#~50|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|Field=Comment~String~Comment~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Keyboard_IDC_I2C.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PrjPcb|ReportField=Title~Bill of Materials For Project [Keyboard_IDC_I2C.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~11:06:41|ReportField=ReportDate~18.01.2018|ReportField=ReportDateTime~18.01.2018 11:06:41|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~28|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~18.01.2018|ReportField=CurrentTime~10:15:57|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Main.SchDoc|ReportField=DocumentName~Main.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~18.01.2018|ReportField=Organization~|ReportField=ProjectName~Keyboard_IDC_I2C.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Keyboard_IDC_I2C.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\Petroline\Keyboard_IDC_I2C\Keyboard_IDC_I2C.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|CC0805|C1|1|10uFx10V
+2|CC0603|C2|1|0.1uF
+3|MICROSMD|FU1, FU2, FU3|3|MICROSMD010F-2
+4|RC0603|R1, R2|2|n.p
+5|RC0603|R3, R4, R5, R6, R7, R11, R12, R13, R15|9|10k
+6|RC0603|R8, R9|2|0E
+7|RC1206|R10|1|100E
+8|Remote 8-Bit I/O Expander for I2C-Bus, 2.5 to 6.0 V, -40 to 85 degC, 16-pin SOIC (DW), Green (RoHS & no Sb/Br)|U1|1|PCF8574ADWR
+9|LL4148|VD1, VD2, VD3, VD4, VD5|5|LL4148
+10|PLS-10|XP1|1|n.p
+11|BH-10|XP2|1|BH-10
+12|MIF2X03PRP|XP3|1|MIF2X03PRP

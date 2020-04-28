@@ -1,0 +1,21 @@
+Added Component: Designator=VD1(LED_SAMSUNG)
+Added Component: Designator=VD3(LED_SAMSUNG)
+Added Component: Designator=VD5(LED_SAMSUNG)
+Added Pin To Net: NetName=V_IN Pin=VD1-1
+Added Pin To Net: NetName=V_IN Pin=VD1-1
+Added Pin To Net: NetName=NetVD1_2 Pin=VD1-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD1-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD1-2
+Added Pin To Net: NetName=V_IN Pin=VD3-1
+Added Pin To Net: NetName=V_IN Pin=VD3-1
+Added Pin To Net: NetName=NetVD1_2 Pin=VD3-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD3-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD3-2
+Added Pin To Net: NetName=V_IN Pin=VD5-1
+Added Pin To Net: NetName=V_IN Pin=VD5-1
+Added Pin To Net: NetName=NetVD1_2 Pin=VD5-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD5-2
+Added Pin To Net: NetName=NetVD1_2 Pin=VD5-2
+Added Member To Class: ClassName=LED0_7 Member=Component VD1 SPWHT541MD5WAT0SB
+Added Member To Class: ClassName=LED0_7 Member=Component VD3 SPWHT541MD5WAT0SB
+Added Member To Class: ClassName=LED0_7 Member=Component VD5 SPWHT541MD5WAT0SB

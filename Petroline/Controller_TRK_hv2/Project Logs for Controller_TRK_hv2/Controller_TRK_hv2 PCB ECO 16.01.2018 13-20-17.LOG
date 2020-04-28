@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=VOUT_5_12 Pin=XP9-1
+Removed Pin From Net: NetName=GND Pin=XP9-2
+Removed Pin From Net: NetName=PISTOL Pin=XP9-3
+Removed Pin From Net: NetName=IMP_C_2 Pin=XP11-1
+Removed Pin From Net: NetName=IMP_C_1 Pin=XP11-3
+Change Component Footprint: Designator=XP9 Old Footprint=DG330-3PIN New Footprint=DG330-2PIN
+Change Component Footprint: Designator=XP11 Old Footprint=DG330-3PIN New Footprint=DG330-2PIN
+Change Component Comment : Designator=XP9 Old Comment=DG330-3PIN New Comment=DG330-2PIN
+Change Component Comment : Designator=XP11 Old Comment=DG330-3PIN New Comment=DG330-2PIN
+Change component parameters: Designator = "XP9"; Footprint = "DG330-2PIN"; UniqueID = "\KEHJKYJL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-2PIN"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP11"; Footprint = "DG330-2PIN"; UniqueID = "\JNCTHBRT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-2PIN"; VariantName = "[No Variations]"
+Added Component: Designator=XP17(DG330-2PIN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2PIN"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=IMP_C_2 Pin=XP9-1
+Added Pin To Net: NetName=IMP_C_1 Pin=XP9-2
+Added Pin To Net: NetName=PISTOL Pin=XP11-1
+Added Pin To Net: NetName=GND Pin=XP17-1
+Added Pin To Net: NetName=VOUT_5_12 Pin=XP17-2
+Added Member To Class: ClassName=Connections Member=Component XP17 DG330-2PIN

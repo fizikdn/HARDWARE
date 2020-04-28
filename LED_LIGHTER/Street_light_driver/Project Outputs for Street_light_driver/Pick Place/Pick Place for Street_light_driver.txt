@@ -1,0 +1,40 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+REPER2     REPER1.2             75.057mm      191.77mm      75.057mm      191.77mm      75.057mm      191.77mm  T         90.00 REPER1.2       
+REPER1     REPER1.2             53.848mm     87.8998mm      53.848mm     87.8998mm      53.848mm     87.8998mm  T         90.00 REPER1.2       
+C4         CAP_630V_100NF       60.325mm     142.367mm      60.325mm     142.367mm      52.705mm     142.367mm  T          0.00 100nFx630V     
+C5         CAP_ELEC_10x21       77.343mm     126.746mm      77.343mm     126.746mm      74.803mm     126.746mm  T        180.00 100uFx100V     
+C6         CAP_ELEC_10x21       77.343mm     100.965mm      77.343mm     100.965mm      74.803mm     100.965mm  T        180.00 100uFx100V     
+C7         CAP_630V_100NF       60.325mm     117.602mm      60.325mm     117.602mm      52.705mm     117.602mm  T          0.00 100nFx630V     
+C8         CAP_ELEC_10x21       77.343mm     152.019mm      77.343mm     152.019mm      74.803mm     152.019mm  T        180.00 100uFx100V     
+C9         CAP_ELEC_10x21       77.343mm     176.911mm      77.343mm     176.911mm      74.803mm     176.911mm  T        180.00 100uFx100V     
+DA1        eSOP-12              59.431mm      96.658mm      63.881mm     102.108mm      63.881mm     102.108mm  T        270.00 LNK460KG       
+L1         IND_CDRH129          58.166mm     162.436mm      58.166mm     167.386mm      58.166mm     167.386mm  T        180.00 CDRH129HF-102MC
+L2         IND_CDRH129          58.166mm     177.676mm      58.166mm     182.626mm      58.166mm     182.626mm  T        180.00 CDRH129HF-102MC
+L3         IND_CDRH129          61.973mm      82.804mm      57.023mm      82.804mm      57.023mm      82.804mm  T        270.00 CDRH129HF-331MC
+L4         IND_CDRH129          58.036mm     129.032mm      53.086mm     129.032mm      53.086mm     129.032mm  T        270.00 CDRH129HF-102MC
+R7         RC1206-2M           58.2422mm      137.16mm      56.642mm      137.16mm      56.642mm      137.16mm  T          0.00 3k6            
+VD1        SMA                  77.597mm      93.345mm      77.597mm      93.345mm      79.647mm      93.345mm  T        180.00 ES1J           
+VD2        SMB                  65.151mm     110.109mm      65.151mm     110.109mm      65.151mm     107.809mm  T        270.00 *SMBJ18A       
+VD3        SMB                  60.325mm     110.109mm      60.325mm     110.109mm      60.325mm     112.409mm  T         90.00 *SMBJ90A       
+VD5        SMA                  54.229mm      107.95mm      54.229mm      107.95mm      54.229mm         110mm  T        270.00 ES1J           
+X1         PIN_7x3mm_SMD        60.706mm     194.691mm      60.706mm     194.691mm      60.706mm     194.691mm  T          0.00 PIN_7x3mm_SMD  
+X2         PIN_7x3mm_SMD        60.579mm      187.96mm      60.579mm      187.96mm      60.579mm      187.96mm  T          0.00 PIN_7x3mm_SMD  
+X3         PIN_7x3mm_SMD        73.787mm      87.884mm      73.787mm      87.884mm      73.787mm      87.884mm  T          0.00 PIN_7x3mm_SMD  
+X4         PIN_7x3mm_SMD        73.787mm      79.248mm      73.787mm      79.248mm      73.787mm      79.248mm  T          0.00 PIN_7x3mm_SMD  
+RU1        Varistor_7mm         67.564mm     170.267mm      67.564mm     167.767mm      67.564mm     172.767mm  T          0.00 KLS6-07D       
+R1         RC1206                66.04mm      162.38mm       66.04mm      163.83mm       66.04mm      163.83mm  T        270.00 3k3            
+R2         RC1206                66.04mm      177.62mm       66.04mm      179.07mm       66.04mm      179.07mm  T        270.00 3k3            
+C1         CC0603               68.326mm      92.495mm      68.326mm      93.345mm      68.326mm      93.345mm  T        270.00 10uF           
+C2         CC0603               52.451mm      96.608mm      52.451mm      95.758mm      52.451mm      95.758mm  T         90.00 1uFx16V        
+C3         CC0603               66.548mm      92.544mm      66.548mm      91.694mm      66.548mm      91.694mm  T         90.00 10uFx16V       
+R5         RC0603              71.6153mm      95.377mm       72.39mm      95.377mm       72.39mm      95.377mm  T        180.00 3k3            
+R8         RC0805               75.184mm      83.627mm      75.184mm      82.677mm      75.184mm      82.677mm  T         90.00 100k           
+BR1        TO-269AA             58.393mm     149.352mm      61.468mm     150.622mm      61.468mm     150.622mm  T        270.00 MB6S           
+R3         RC0805               70.358mm      92.395mm      70.358mm      93.345mm      70.358mm      93.345mm  T        270.00 *20E           
+R4         RC0805               72.517mm      92.395mm      72.517mm      93.345mm      72.517mm      93.345mm  T        270.00 *2E            
+R6         RC0603               60.325mm    105.0417mm      60.325mm     104.267mm      60.325mm     104.267mm  T         90.00 *36k           
+VD4        SOD-323              68.072mm      99.822mm      68.072mm      99.822mm      68.072mm      98.622mm  T         90.00 BAV21WS        
+VD6        SOD-323              71.374mm      98.679mm      71.374mm      98.679mm      72.574mm      98.679mm  T        180.00 BAV21WS        
+FU1        FUSE_BELLFUSE        67.564mm     190.246mm      67.564mm     192.786mm      67.564mm     192.786mm  T        270.00 Fuse Belfuse_507-1181
+

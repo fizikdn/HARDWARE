@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetFU3_2 Pin=FU3-2
+Removed Member From Class: ClassName=[8]-OUTPUTS Member=FU3
+Removed Member From Class: ClassName=[8]-OUTPUTS Member=FU4
+Change Component Comment : Designator=R62 Old Comment=0E New Comment=n.p
+Change Component Comment : Designator=R63 Old Comment=0E New Comment=n.p
+Change component parameters: Designator = "R62"; Footprint = "RC0805"; UniqueID = "\TAMXNLYT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R63"; Footprint = "RC0805"; UniqueID = "\YCHPZAXR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetFU3_2 Pin=VD8-2
+Added Pin To Net: NetName=NetFU3_2 Pin=VT6-3
+Change Net Name : Old Net Name=NetFU3_2 New Net Name=NetVD8_2
+Added Pin To Net: NetName=NetVT5_3 Pin=VT5-3
+Added Pin To Net: NetName=NetVT5_3 Pin=XP13-5
+Added Net: Name=NetVT5_3

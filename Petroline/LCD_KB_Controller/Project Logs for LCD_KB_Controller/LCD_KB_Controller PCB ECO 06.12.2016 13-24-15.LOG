@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=RXD Pin=FU10-1
+Removed Member From Class: ClassName=RS232 Member=FU10
+Added Pin To Net: NetName=RXD Pin=XP4-2

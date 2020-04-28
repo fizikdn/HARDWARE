@@ -1,0 +1,19 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Mixer_4+4LineIn.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Mixer_4+2+LineIn\Mixer_4+4LineIn.PrjPcb|ReportField=Title~Bill of Materials For Project [Mixer_4+4LineIn.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~77|ReportField=ReportTime~9:31:23|ReportField=ReportDate~09.06.2016|ReportField=ReportDateTime~09.06.2016 9:31:23|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~09.06.2016|ReportField=CurrentTime~9:26:48|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Mixer_4+2+LineIn\Connection.SchDoc|ReportField=DocumentName~Connection.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~08.06.2016|ReportField=Organization~|ReportField=ProjectName~Mixer_4+4LineIn.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Mixer_4+4LineIn.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Mixer_8\Mixer_4+2+LineIn\Mixer_4+4LineIn.PrjPcb
+1|0.1uF|CC0603|C1, C2, C3, C6, C7, C8, C10, C11, C12, C15, C16, C20, C21, C24|14
+2|1uF|CC0603|C4, C9, C13, C17|4
+3|10uF|CC0805|C5, C14|2
+4|100uFx50V|CAP0.35|C19|1
+5|1000uFx10V|CAP0.35|C22|1
+6|10uF|CC1206|C23|1
+7|LM358D|LM358D|DA1, DA2|2
+8|MC78M05CDTRK|MC78M05CDTRK|DA3|1
+9|DCJ25|DCJ25|J1|1
+10|10k|RC0603|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R22, R23|22
+11|18k|RC0603|R21|1
+12|1k|RC0603|R24|1
+13|10E|RC0805|R25|1
+14|GNL-3014SRC|LED_3|VD1|1
+15|S1M|Schottky Rectifier|VD2|1
+16|PIN_1mm||X1, X2, X4, X5, X6, X7, X8, X9, X10, X12, X13, X14, X15, X17, X18, X19, X20, X21|18
+17|SJ-43516-SMT|3.5mm connector 4 conductors|X3, X11, X16|3
+18|REPER1.2|REPER1.2|rep1, rep2|2

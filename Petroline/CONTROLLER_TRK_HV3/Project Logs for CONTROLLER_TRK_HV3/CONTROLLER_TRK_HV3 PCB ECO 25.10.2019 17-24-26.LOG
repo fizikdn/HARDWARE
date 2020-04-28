@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=GND Pin=C33-1
+Removed Pin From Net: NetName=+12V_OUT Pin=C33-2
+Removed Pin From Net: NetName=+VIN_F Pin=FU8-1
+Removed Member From Class: ClassName=[8]-OUTPUTS Member=C31
+Removed Member From Class: ClassName=[8]-OUTPUTS Member=C33
+Removed Member From Class: ClassName=[8]-OUTPUTS Member=FU8
+Added Component: Designator=C16(CC8X3.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100uFx35V"; VariantName = "[No Variations]"
+Added Component: Designator=C30(CC8X3.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100uFx35V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VIN_F Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=+12V_OUT Pin=C30-1
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=+VIN_F Pin=C32-1
+Added Pin To Net: NetName=+VIN_F Pin=DA4-1
+Added Member To Class: ClassName=[8]-OUTPUTS Member=Component C16 100uFx35V
+Added Member To Class: ClassName=[8]-OUTPUTS Member=Component C30 100uFx35V

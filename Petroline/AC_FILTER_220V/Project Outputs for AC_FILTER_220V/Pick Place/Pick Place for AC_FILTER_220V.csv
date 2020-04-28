@@ -1,0 +1,22 @@
+Altium Designer Pick and Place Locations
+F:\Projects_Files\Projects\Altium_Projects\Petroline\AC_FILTER_220V\Project Outputs for AC_FILTER_220V\Pick Place\Pick Place for AC_FILTER_220V.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       18.12.19
+Time:       11:00
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"RV1","KLS6-14D431K","TopLayer","Varistor_14MM","10.3500","4.8500","360","Varistor diameter 14mm"
+"XP2","DG330-3PIN","TopLayer","DG330-3P","41.8000","15.3000","90","Degson 3 pin connector rear"
+"XP1","DG330-2P","TopLayer","DG330-2P","8.7250","15.4000","270","Degson 2 pin connector rear"
+"R3","ÑFR 1/2W-S (3 x 9)  27E","TopLayer","RES_10x4_THD","25.6450","21.6000","180","THR resisto r10x3mm 0.5W"
+"R2","ÑFR 1/2W-S (3 x 9)  27E","TopLayer","RES_10x4_THD","29.6450","1.1000","180","THR resisto r10x3mm 0.5W"
+"R1","ÑFR 1/2W-S (3 x 9)  27E","TopLayer","RES_10x4_THD","19.2550","28.8000","180","THR resisto r10x3mm 0.5W"
+"C3","TS08S02S104KBB0D0R","TopLayer","CAP_HV_13x5","26.0800","15.2000","360",""
+"C2","TS08S02S104KBB0D0R","TopLayer","CAP_HV_13x5","27.1000","7.7000","360",""
+"C1","TS08S02S104KBB0D0R","TopLayer","CAP_HV_13x5","37.6800","28.8000","360",""

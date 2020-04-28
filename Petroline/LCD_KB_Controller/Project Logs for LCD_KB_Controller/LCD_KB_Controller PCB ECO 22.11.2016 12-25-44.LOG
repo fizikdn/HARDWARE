@@ -1,0 +1,3 @@
+Added Component: Designator=XP11(DG330-2PIN)
+Added Pin To Net: NetName=GND Pin=XP11-2
+Added Member To Class: ClassName=Connection Member=Component XP11 DG330-2PIN

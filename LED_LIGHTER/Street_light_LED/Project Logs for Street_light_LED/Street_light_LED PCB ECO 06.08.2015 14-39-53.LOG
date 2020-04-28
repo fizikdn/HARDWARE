@@ -1,0 +1,9 @@
+Added Component: Designator=VD95(LED_SAMSUNG)
+Added Pin To Net: NetName=NetVD85_2 Pin=VD95-1
+Added Pin To Net: NetName=NetVD91_2 Pin=VD95-2
+Added Pin To Net: NetName=NetVD91_2 Pin=VD95-2
+Added Pin To Net: NetName=NetVD91_2 Pin=VD95-2
+Added Pin To Net: NetName=NetVD91_2 Pin=VD95-2
+Added Member To Class: ClassName=LED16_23 Member=Component VD95 SPWHT541MD5WAT0SB
+Added Room: Name=LED0_7
+Added Room: Name=LED8_15

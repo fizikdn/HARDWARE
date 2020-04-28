@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Mixer_6mic_1lin.PcbDoc]
+   Generated File[Mixer_6mic_1lin.GTL]
+   Generated File[Mixer_6mic_1lin.GBL]
+   Generated File[Mixer_6mic_1lin.GTO]
+   Generated File[Mixer_6mic_1lin.GTP]
+   Generated File[Mixer_6mic_1lin.GTS]
+   Generated File[Mixer_6mic_1lin.GBS]
+   Generated File[Mixer_6mic_1lin.GBP]
+   Generated File[Mixer_6mic_1lin.GBO]
+   Generated File[Mixer_6mic_1lin.GKO]
+   Generated File[Mixer_6mic_1lin.RUL]
+   Generated File[Mixer_6mic_1lin.EXTREP]
+   Generated File[Mixer_6mic_1lin.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 10:01:44 On 17.06.2016

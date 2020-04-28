@@ -1,0 +1,72 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Controller_TRK.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Petroline\Controller_TRK\Controller_TRK.PrjPcb|ReportField=Title~Bill of Materials For Project [Controller_TRK.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~192|ReportField=ReportTime~12:42:16|ReportField=ReportDate~15.12.2016|ReportField=ReportDateTime~15.12.2016 12:42:16|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~15.12.2016|ReportField=CurrentTime~12:39:02|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Petroline\Controller_TRK\5V_Source.SchDoc|ReportField=DocumentName~5V_Source.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~08.12.2016|ReportField=Organization~|ReportField=ProjectName~Controller_TRK.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Controller_TRK.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Petroline\Controller_TRK\Controller_TRK.PrjPcb
+1|10uF|CC0805|C1|1
+2|0.1uF|CC0603|C2, C4, C9, C10, C11, C12, C13, C18, C19, C29, C32, C36|12
+3|1uF|CC0603|C5, C6|2
+4|10uFx6.3V|CC0805|C7, C30|2
+5|10nF|CC0603|C8|1
+6|CC0603|CC0603|C14|1
+7|220pF|CC0603|C15|1
+8|22pF|CC0603|C16, C17|2
+9|0.1uFx250V|CC1206|C20|1
+10|0.1 uF|CC0603|C21, C22, C25, C33, C34, C37|6
+11|1000uFx6.3V|CAP0.35|C23, C35|2
+12|470uFx35V|CAP0.5(1)|C24|1
+13|10 nF|CC0603|C26, C38|2
+14|330pF|CC0603|C27, C39|2
+15|560pF|CC0603|C28, C40|2
+16|10uF 6.3V|CC0805|C31|1
+17|BQ24070|BQ24070|DA2|1
+18|TPS54260DGQ||DA3, DA5|2
+19|AP2210K-ADJTRG1|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA4|1
+20|LPC11C24FBD48||DD1|1
+21|M25PE16-VMW|S25FL016A0LMFI01|DD2|1
+22|KLS5-266(5x20) 2pcs||F1, F2, F3|3
+23|RXE-030|RXE-110|FU1|1
+24|MICROSMD010F-2|MICROSMD|FU2, FU3, FU5, FU6, FU7|5
+25|RXE-110|RXE-110|FU4|1
+26|PLS-02|PLS-02|J1, J2|2
+27|RY21|RY21|K1, K2, K3|3
+28|15uH|SDR0805|L1, L2|2
+29|NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+30|10k|RC0603|R1, R2, R3, R7, R11, R12, R13, R14, R15, R20, R21, R22, R23, R24, R45, R49, R53, R60|18
+31|51k|RC0603|R4|1
+32|100k|RC0603|R5, R6, R8, R19, R25, R27, R46, R50, R54, R58|10
+33|2k|RC0603|R9|1
+34|36k|RC0603|R10|1
+35|1k|RC0603|R16, R17, R55, R56, R57|5
+36|100E|RC0603|R18|1
+37|33k|RC0603|R26, R28, R59|3
+38|220k|RC0603|R29, R30, R31|3
+39|48k7 1%|RC0603|R32|1
+40|12k|RC0603|R33, R40|2
+41|240k|RC0603|R34, R41|2
+42|11k 1%|RC0603|R35, R36|2
+43|n.p|RC0805|R37|1
+44|18k 1%|RC0603|R38|1
+45|68k1 1%|RC0603|R39|1
+46|13k 1%|RC0603|R42|1
+47|4k7|RC0603|R43, R47, R51, R61, R62|5
+48|220E|RC0603|R44, R48, R52|3
+49|REPER_POINT_1.2|REPER1.2|REP1, REP2|2
+50|K10102C|K10102C|U1, U2, U3|3
+51|SMBJ15CA|SMBJ|VD1, VD2, VD3|3
+52|PESD2CAN|TVS for CAN|VD4|1
+53|BAT54S|1.0 Ampere General Purpose Rectifier|VD5, VD9, VD10|3
+54|LL4148|LL4148|VD6, VD18, VD19, VD20, VD24, VD27, VD28|7
+55|LED_0805||VD7, VD8, VD21, VD22, VD23|5
+56|GS1M|GS1M|VD11|1
+57|n.p|GS1M|VD12|1
+58|BZV55C15|Zener Voltage Regulator Diode|VD13|1
+59|1.5KE150A|1.5KE|VD14|1
+60|BZV55C39|Zener Voltage Regulator Diode|VD15|1
+61|SK34SMA|Schottky Rectifier|VD16, VD17|2
+62|ESD5Z3.3T1G/T5G|Supressor|VD25, VD26, VD29, VD30, VD31, VD32, VD33, VD34, VD35, VD36|10
+63|IRFR9220|HEXFET Power MOSFET|VT1|1
+64|BC857|PNP 100ma transistor|VT2|1
+65|BC817-40|NPN 500ma transistor|VT3, VT4, VT5, VT6, VT7, VT8, VT9, VT10|8
+66|MW03D|MW03D|XP1|1
+67|PLS03|PLS03|XP2, XP6, XP7|3
+68|DG330-2PIN||XP3, XP4, XP5, XP8, XP12, XP13, XP15|7
+69|BH-10|BH-10|XP9|1
+70|DG330-3PIN||XP10, XP11, XP14|3
+71|PLD-06|PLD06|XP16|1

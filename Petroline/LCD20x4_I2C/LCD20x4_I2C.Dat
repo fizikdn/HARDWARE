@@ -1,0 +1,16 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LCD20x4_I2C.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD20x4_I2C\LCD20x4_I2C.PrjPcb|ReportField=Title~Bill of Materials For Project [LCD20x4_I2C.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~12:19:46|ReportField=ReportDate~18.01.2018|ReportField=ReportDateTime~18.01.2018 12:19:46|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~21|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~18.01.2018|ReportField=CurrentTime~12:11:27|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD20x4_I2C\Main.SchDoc|ReportField=DocumentName~Main.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~18.01.2018|ReportField=Organization~|ReportField=ProjectName~LCD20x4_I2C.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~LCD20x4_I2C.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD20x4_I2C\LCD20x4_I2C.PrjPcb|ReportField=PCBConfigurationName~Default Configuration|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|10uFx10V|CC0805|C1, C2|2
+2|0.1uF|CC0603|C3|1
+3|MICROSMD010F-2|MICROSMD|FU1, FU2, FU3|3
+4|CA6V-10k|EVND8AA03B25|R1|1
+5|n.p|RC0603|R2, R3|2
+6|0E|RC0603|R8, R9|2
+7|39E|RC1206|R10|1
+8|10k|RC0603|R12|1
+9|100E|RC0603|R13|1
+10|REPER1.2|REPER1.2|REPER1, REPER2|2
+11|PCF8574ADWR|Remote 8-Bit I/O Expander for I2C-Bus, 2.5 to 6.0 V, -40 to 85 degC, 16-pin SOIC (DW), Green (RoHS & no Sb/Br)|U1|1
+12|LL4148|LL4148|VD1|1
+13|IRLML2402|N-Channel Enhancement Mode Vertical DMOS FET|VT1|1
+14|PLS-16|PLS-16|XP1|1
+15|MIF2X02PRP|MIF2X02PRP|XP2|1

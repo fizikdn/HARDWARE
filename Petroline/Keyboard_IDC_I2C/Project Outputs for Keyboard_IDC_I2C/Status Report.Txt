@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [Keyboard_IDC_I2C.PcbDoc]
+   Generated File[Pick Place for Keyboard_IDC_I2C.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:06:44 On 18.01.2018

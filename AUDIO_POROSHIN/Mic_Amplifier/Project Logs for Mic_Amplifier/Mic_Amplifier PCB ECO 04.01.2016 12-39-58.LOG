@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=DA1-3
+Removed Pin From Net: NetName=NetDA1_7 Pin=DA1-7
+Removed Pin From Net: NetName=NetDA1_6 Pin=R1-1
+Removed Pin From Net: NetName=NetDA1_6 Pin=R2-2
+Added Component: Designator=1(REPER1.2)
+Added Component: Designator=2(REPER1.2)
+Added Pin To Net: NetName=NetDA1_7 Pin=DA1-1
+Added Pin To Net: NetName=GND Pin=DA1-5
+Added Pin To Net: NetName=NetDA1_6 Pin=DA1-7
+Change Net Name : Old Net Name=NetDA1_7 New Net Name=NetDA1_1
+Added Pin To Net: NetName=NetDA1_2 Pin=DA1-2
+Added Pin To Net: NetName=NetDA1_2 Pin=R1-1
+Added Pin To Net: NetName=NetDA1_2 Pin=R2-2
+Added Net: Name=NetDA1_2
+Added Pin To Net: NetName=NetDA1_3 Pin=DA1-3
+Added Pin To Net: NetName=NetDA1_3 Pin=R5-1
+Added Pin To Net: NetName=NetDA1_3 Pin=R7-2
+Added Net: Name=NetDA1_3
+Added Member To Class: ClassName=Main Member=Component 1 REPER1.2
+Added Member To Class: ClassName=Main Member=Component 2 REPER1.2

@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator=? NewDesignator=1
+Change Component Designator: OldDesignator=? NewDesignator=2
+Added Component: Designator=X8(PIN_7x3mm_SMD)
+Added Component: Designator=X9(PIN_7x3mm_SMD)
+Added Component: Designator=X10(PIN_7x3mm_SMD)
+Added Component: Designator=X11(PIN_7x3mm_SMD)
+Added Pin To Net: NetName=GND Pin=X8-1
+Added Pin To Net: NetName=GND Pin=X9-1
+Added Pin To Net: NetName=GND Pin=X10-1
+Added Pin To Net: NetName=GND Pin=X11-1
+Added Member To Class: ClassName=LED1 Member=Component 1 REPER1
+Added Member To Class: ClassName=LED1 Member=Component X8 PIN_7x3mm_SMD
+Added Member To Class: ClassName=LED1 Member=Component X9 PIN_7x3mm_SMD
+Added Member To Class: ClassName=LED1 Member=Component X10 PIN_7x3mm_SMD
+Added Member To Class: ClassName=LED1 Member=Component X11 PIN_7x3mm_SMD

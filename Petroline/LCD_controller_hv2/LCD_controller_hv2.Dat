@@ -1,0 +1,23 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LCD_controller_hv2.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_controller_hv2\LCD_controller_hv2.PrjPcb|ReportField=Title~Bill of Materials For Project [LCD_controller_hv2.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~12:06:10|ReportField=ReportDate~18.01.2018|ReportField=ReportDateTime~18.01.2018 12:06:10|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~40|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~18.01.2018|ReportField=CurrentTime~10:50:52|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_controller_hv2\Connections.SchDoc|ReportField=DocumentName~Connections.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~18.01.2018|ReportField=Organization~|ReportField=ProjectName~LCD_controller_hv2.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~LCD_controller_hv2.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD_controller_hv2\LCD_controller_hv2.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|EEC-S5R5H105||C1|1
+2|0.1uF|CC0603|C2, C3, C4, C6|4
+3|LM358D|LM358D|DA1|1
+4|PCF8576C|LCD Controller|DD1, DD2|2
+5|MICROSMD010F-2|MICROSMD|FU1, FU3|2
+6|DE156|6digit 7Segment indicator|IND1|1
+7|PRW 10W 47E||R1, R7|2
+8|18k 1%|RC0603|R2|1
+9|NCP18XH103J03RB|RC0603|R3, R9|2
+10|n.p|RC0603|R4, R10, R15, R16|4
+11|10k 1%|RC0603|R5, R6, R11, R12|4
+12|22k 1%|RC0603|R8|1
+13|68E|RC0603|R13, R14|2
+14|0E|RC0603|R17, R18|2
+15|10E|RC0603|R19|1
+16|REPER_POINT_1.2|REPER1.2|REP1, REP2|2
+17|3296W-10K|3296W-10K|RV1|1
+18|LL4148|LL4148|VD1|1
+19|LP-502-W|Backlight for lcd display|VD2|1
+20|BC817-40|NPN 500ma transistor|VT1, VT2|2
+21|MIF2X02PRP|MIF2X02PRP|XP3|1
+22|MIF2X03PRP|MIF2X03PRP|XP4, XP5|2

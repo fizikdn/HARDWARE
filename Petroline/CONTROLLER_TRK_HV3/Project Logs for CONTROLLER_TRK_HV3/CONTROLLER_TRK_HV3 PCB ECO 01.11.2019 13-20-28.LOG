@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=NetVD8_2 Pin=VD34-1
+Removed Pin From Net: NetName=+VIN_F Pin=VD34-2
+Removed Member From Class: ClassName=[15]-MAIN_CONNECTORS Member=VD34

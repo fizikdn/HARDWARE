@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetL1_1 Pin=X1-1
+Added Component: Designator=X5(PIN_1mm)
+Added Component: Designator=X6(PIN_1mm)
+Added Pin To Net: NetName=NetL1_1 Pin=X6-1
+Added Pin To Net: NetName=NetX1_1 Pin=X1-1
+Added Pin To Net: NetName=NetX1_1 Pin=X5-1
+Added Net: Name=NetX1_1
+Added Member To Class: ClassName=Main Member=Component X5 PIN_1mm
+Added Member To Class: ClassName=Main Member=Component X6 PIN_1mm

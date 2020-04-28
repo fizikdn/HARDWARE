@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=GND Pin=R17-1
+Added Member To Class: ClassName=Main Member=Component DD2 PCF8576C

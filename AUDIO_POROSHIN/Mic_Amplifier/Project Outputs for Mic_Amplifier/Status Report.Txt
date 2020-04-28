@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Mic_Amplifier.PcbDoc]
+   Generated File[Mic_Amplifier-Plated.TXT]
+   Generated File[Mic_Amplifier.LDP]
+   Generated File[Mic_Amplifier.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:32:51 On 05.02.2016

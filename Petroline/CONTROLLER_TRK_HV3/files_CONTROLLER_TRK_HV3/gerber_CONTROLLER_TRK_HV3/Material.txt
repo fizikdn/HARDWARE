@@ -1,0 +1,6 @@
+Material FR4, 1.6mm/35um. With solder mask and silkscreen.
+Layer orders
+TOP
+GP1
+GP2
+BOT

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PISTOL_MCU Pin=DD1-24
+Change Net Name : Old Net Name=PISTOL_MCU New Net Name=NetR22_1
+Added Pin To Net: NetName=PISTOL_MCU Pin=DD1-24
+Added Net: Name=PISTOL_MCU

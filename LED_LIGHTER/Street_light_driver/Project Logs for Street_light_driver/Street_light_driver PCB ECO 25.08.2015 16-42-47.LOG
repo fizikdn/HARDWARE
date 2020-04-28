@@ -1,0 +1,12 @@
+Added Component: Designator=R3(RC0805)
+Added Component: Designator=R4(RC0805)
+Added Component: Designator=R6(RC0603)
+Added Pin To Net: NetName=NetC1_1 Pin=R3-1
+Added Pin To Net: NetName=NetC1_2 Pin=R3-2
+Added Pin To Net: NetName=NetC1_1 Pin=R4-1
+Added Pin To Net: NetName=NetC1_2 Pin=R4-2
+Added Pin To Net: NetName=NetC2_2 Pin=R6-1
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Member To Class: ClassName=Main Member=Component R3 *20E
+Added Member To Class: ClassName=Main Member=Component R4 *2E
+Added Member To Class: ClassName=Main Member=Component R6 *36k

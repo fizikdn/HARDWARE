@@ -1,0 +1,16 @@
+Added Component: Designator=FU7(RC1210)
+Added Component: Designator=R62(RC0603)
+Added Component: Designator=VT10(SOT-23(123))
+Added Pin To Net: NetName=NetDD1_30 Pin=FU7-2
+Added Pin To Net: NetName=GND Pin=VT10-2
+Added Pin To Net: NetName=NetFU7_1 Pin=FU7-1
+Added Pin To Net: NetName=NetFU7_1 Pin=VT10-3
+Added Net: Name=NetFU7_1
+Added Pin To Net: NetName=NetR62_1 Pin=R62-1
+Added Net: Name=NetR62_1
+Added Pin To Net: NetName=NetR62_2 Pin=R62-2
+Added Pin To Net: NetName=NetR62_2 Pin=VT10-1
+Added Net: Name=NetR62_2
+Added Member To Class: ClassName=Connections Member=Component FU7 MICROSMD010F-2
+Added Member To Class: ClassName=Connections Member=Component R62 4k7
+Added Member To Class: ClassName=Connections Member=Component VT10 BC817-40

@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=X1 Old DesignItemId=PIN_7x3mm_SMD New DesignItemId=PIN_3x3mm_SMD
+Change Component DesignItemId : Designator=X2 Old DesignItemId=PIN_7x3mm_SMD New DesignItemId=PIN_3x3mm_SMD
+Change Component Footprint: Designator=X1 Old Footprint=PIN_7x3mm_SMD New Footprint=PIN_3x3mm_SMD
+Change Component Footprint: Designator=X2 Old Footprint=PIN_7x3mm_SMD New Footprint=PIN_3x3mm_SMD
+Change Component Comment : Designator=R4 Old Comment=1E5 New Comment=1E2
+Change Component Comment : Designator=C2 Old Comment=1uF New Comment=10uF
+Change Component Comment : Designator=C3 Old Comment=10uF New Comment=1uF
+Change Component Comment : Designator=X1 Old Comment=PIN_7x3mm_SMD New Comment=PIN_3x3mm_SMD
+Change Component Comment : Designator=X2 Old Comment=PIN_7x3mm_SMD New Comment=PIN_3x3mm_SMD

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=XP11-2
+Added Pin To Net: NetName=CANH Pin=XP11-1
+Added Pin To Net: NetName=CANL Pin=XP11-2

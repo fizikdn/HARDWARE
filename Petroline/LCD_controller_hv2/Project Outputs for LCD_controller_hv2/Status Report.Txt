@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [LCD_controller_hv2.PcbDoc]
+   Generated File[LCD_controller_hv2.GTO]
+   Generated File[LCD_controller_hv2.GTP]
+   Generated File[LCD_controller_hv2.GTS]
+   Generated File[LCD_controller_hv2.GTL]
+   Generated File[LCD_controller_hv2.GBL]
+   Generated File[LCD_controller_hv2.GBS]
+   Generated File[LCD_controller_hv2.GBP]
+   Generated File[LCD_controller_hv2.GBO]
+   Generated File[LCD_controller_hv2.GKO]
+   Generated File[LCD_controller_hv2.RUL]
+   Generated File[LCD_controller_hv2.EXTREP]
+   Generated File[LCD_controller_hv2.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 17:03:25 On 20.03.2018

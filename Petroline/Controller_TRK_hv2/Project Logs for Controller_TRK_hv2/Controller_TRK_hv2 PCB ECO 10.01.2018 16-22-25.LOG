@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PISTOL Pin=XP9-1
+Removed Pin From Net: NetName=VOUT_5_12 Pin=XP9-3
+Added Pin To Net: NetName=VOUT_5_12 Pin=XP9-1
+Added Pin To Net: NetName=PISTOL Pin=XP9-3

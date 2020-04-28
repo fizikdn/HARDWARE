@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=NetFU7_2 Pin=XP12-3
+Change Component Footprint: Designator=XP12 Old Footprint=DG330-3PIN New Footprint=DG330-2PIN
+Change Component Comment : Designator=R18 Old Comment=10k New Comment=1k
+Change Component Comment : Designator=R24 Old Comment=10k New Comment=1k
+Change Component Comment : Designator=R30 Old Comment=10k New Comment=1k
+Change Component Comment : Designator=XP12 Old Comment=DG330-3PIN New Comment=DG330-2PIN
+Change component parameters: Designator = "R18"; Footprint = "RC0603"; UniqueID = "\PWJRPEMM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24"; Footprint = "RC0603"; UniqueID = "\OOSVMMSW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R30"; Footprint = "RC0603"; UniqueID = "\HPUOXOQY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XP12"; Footprint = "DG330-2PIN"; UniqueID = "\BCVHATNP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "DG330-2PIN"; VariantName = "[No Variations]"
+Added Component: Designator=XP16(DG330-2PIN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "DG330-2PIN"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetFU7_2 Pin=XP16-1
+Added Pin To Net: NetName=VIN Pin=XP16-2
+Added Member To Class: ClassName=Connections Member=Component XP16 DG330-2PIN

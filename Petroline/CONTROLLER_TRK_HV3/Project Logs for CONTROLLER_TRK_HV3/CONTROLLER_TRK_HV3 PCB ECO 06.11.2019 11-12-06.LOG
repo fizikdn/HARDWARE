@@ -1,0 +1,9 @@
+Added Component: Designator=R74(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3_F Pin=R74-1
+Added Pin To Net: NetName=CLK_INT Pin=DD1-34
+Added Pin To Net: NetName=CLK_INT Pin=DD4-3
+Added Pin To Net: NetName=CLK_INT Pin=R74-2
+Added Net: Name=CLK_INT
+Added Member To Class: ClassName=[14]-RTC Member=Component R74 10k

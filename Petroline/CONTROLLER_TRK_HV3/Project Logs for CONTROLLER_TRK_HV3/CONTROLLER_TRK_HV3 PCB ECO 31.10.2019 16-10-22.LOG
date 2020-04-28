@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=+5V_STEPUP Pin=R65-1
+Removed Member From Class: ClassName=[5]-MCU_POWER Member=R65
+Added Pin To Net: NetName=+5V_STEPUP Pin=C12-1
+Added Pin To Net: NetName=+5V_STEPUP Pin=DA1-1
+Added Pin To Net: NetName=+5V_STEPUP Pin=DA1-3

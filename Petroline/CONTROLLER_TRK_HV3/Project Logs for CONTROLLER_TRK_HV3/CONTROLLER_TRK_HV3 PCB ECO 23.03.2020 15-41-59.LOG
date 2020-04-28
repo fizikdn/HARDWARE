@@ -1,0 +1,19 @@
+Change Component Comment : Designator=R50 Old Comment=20E New Comment=n.p
+Change Component Comment : Designator=DA3 Old Comment=CME0303S3C New Comment=n.p
+Change Component Comment : Designator=R62 Old Comment=n.p New Comment=0E
+Change Component Comment : Designator=R63 Old Comment=n.p New Comment=0E
+Change component parameters: Designator = "R50"; Footprint = "R2512"; UniqueID = "\NCCZUMDU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R62"; Footprint = "RC0805"; UniqueID = "\TAMXNLYT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R63"; Footprint = "RC0805"; UniqueID = "\YCHPZAXR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "0E"; VariantName = "[No Variations]"
+Added Component: Designator=VD25(SOD-80)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBUZ1_2 Pin=VD25-1
+Added Pin To Net: NetName=NetBUZ1_1 Pin=VD25-2
+Added Member To Class: ClassName=[6]-MCU_CONNECTORS Member=Component VD25 LL4148

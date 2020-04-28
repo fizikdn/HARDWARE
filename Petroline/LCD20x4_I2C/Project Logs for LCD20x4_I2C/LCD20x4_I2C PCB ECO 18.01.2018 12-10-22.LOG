@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=+5V Pin=R10-1
+Removed Pin From Net: NetName=+5V Pin=R11-1
+Removed Pin From Net: NetName=NetR10_2 Pin=R11-2
+Removed Pin From Net: NetName=GND Pin=R14-1
+Removed Pin From Net: NetName=NetR13_2 Pin=R14-2
+Removed Pin From Net: NetName=NetR13_2 Pin=VT1-1
+Removed Pin From Net: NetName=GND Pin=VT1-2
+Removed Member From Class: ClassName=Main Member=FU2
+Removed Member From Class: ClassName=Main Member=R11
+Removed Member From Class: ClassName=Main Member=R14
+Removed Member From Class: ClassName=Main Member=VT1
+Change Component Footprint: Designator=VD1 Old Footprint=SMA New Footprint=SOD-80
+Change Component Comment : Designator=R13 Old Comment=2k2 New Comment=100E
+Change Component Comment : Designator=R2 Old Comment=2k2 New Comment=n.p
+Change Component Comment : Designator=R3 Old Comment=2k2 New Comment=n.p
+Change Component Comment : Designator=VD1 Old Comment=SS14 New Comment=LL4148
+Change component parameters: Designator = "R2"; Footprint = "RC0603"; UniqueID = "\DYFUAVVI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3"; Footprint = "RC0603"; UniqueID = "\PSWLQJDP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R13"; Footprint = "RC0603"; UniqueID = "\VAVNRQCO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD1"; Footprint = "SOD-80"; UniqueID = "\JLPQYLPT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=FU?(RC1210)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "MICROSMD010F-2"; VariantName = "[No Variations]"
+Added Component: Designator=VT?(SOT-23(123))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "OriginalName"; Value = "2N7002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR13_2 Pin=VT?-1
+Added Pin To Net: NetName=GND Pin=VT?-2
+Change Net Name : Old Net Name=+5V New Net Name=+5V_F
+Added Pin To Net: NetName=+5V Pin=FU?-1
+Added Pin To Net: NetName=+5V Pin=R10-1
+Added Pin To Net: NetName=+5V Pin=XP2-3
+Added Net: Name=+5V
+Added Pin To Net: NetName=NetFU?_2 Pin=FU?-2
+Added Pin To Net: NetName=NetFU?_2 Pin=VD1-1
+Added Net: Name=NetFU?_2
+Added Pin To Net: NetName=NetVT?_3 Pin=VT?-3
+Added Pin To Net: NetName=NetVT?_3 Pin=XP1-16
+Added Net: Name=NetVT?_3
+Added Member To Class: ClassName=Main Member=Component FU? MICROSMD010F-2
+Added Member To Class: ClassName=Main Member=Component VT? IRLML2402

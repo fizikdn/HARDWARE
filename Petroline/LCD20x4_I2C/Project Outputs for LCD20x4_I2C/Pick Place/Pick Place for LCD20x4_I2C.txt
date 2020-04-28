@@ -1,0 +1,34 @@
+Altium Designer Pick and Place Locations
+E:\Projects_Files\Projects\Altium_Projects\Petroline\LCD20x4_I2C\Project Outputs for LCD20x4_I2C\Pick Place\Pick Place for LCD20x4_I2C.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       18.01.18
+Time:       12:19
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment        Layer       Footprint   Center-X(mm) Center-Y(mm) Rotation Description                                                                                                      
+VT1        IRLML2402      TopLayer    SOT-23(123) 104.7590     84.5807      270      "N-Channel Enhancement Mode Vertical DMOS FET"                                                                   
+FU2        MICROSMD010F-2 TopLayer    RC1210      94.5000      84.2250      0        MICROSMD                                                                                                         
+C1         10uFx10V       TopLayer    CC0805      134.6250     85.7500      180      CC0805                                                                                                           
+C2         10uFx10V       TopLayer    CC0805      116.1500     79.1500      270      CC0805                                                                                                           
+C3         0.1uF          TopLayer    CC0603      116.1500     75.6250      90       CC0603                                                                                                           
+FU1        MICROSMD010F-2 TopLayer    RC1210      109.0000     75.4500      0        MICROSMD                                                                                                         
+FU3        MICROSMD010F-2 TopLayer    RC1210      108.9750     78.7750      0        MICROSMD                                                                                                         
+R1         CA6V-10k       TopLayer    3318P-1     140.9000     81.6500      0        EVND8AA03B25                                                                                                     
+R2         n.p            TopLayer    RC0603      113.2250     78.6747      90       RC0603                                                                                                           
+R3         n.p            TopLayer    RC0603      114.2250     75.6997      90       RC0603                                                                                                           
+R8         0E             TopLayer    RC0603      133.8247     77.6250      360      RC0603                                                                                                           
+R9         0E             TopLayer    RC0603      133.7997     79.3750      360      RC0603                                                                                                           
+R10        39E            TopLayer    RC1206      109.2250     84.7500      180      RC1206                                                                                                           
+R12        10k            TopLayer    RC0603      133.8253     75.9750      180      RC0603                                                                                                           
+R13        100E           TopLayer    RC0603      104.5503     81.5750      180      RC0603                                                                                                           
+U1         PCF8574ADWR    TopLayer    DW16_N      123.7250     80.4000      180      "Remote 8-Bit I/O Expander for I2C-Bus, 2.5 to 6.0 V, -40 to 85 degC, 16-pin SOIC (DW), Green (RoHS & no Sb/Br)" 
+VD1        LL4148         TopLayer    SOD-80      99.7500      84.2000      180      LL4148                                                                                                           
+XP1        PLS-16         BottomLayer PIN16S      123.1250     88.2750      180      PLS-16                                                                                                           
+XP2        MIF2X02PRP     TopLayer    MIF2X02PRP  99.3150      77.1250      180      MIF2X02PRP                                                                                                       
+REPER1     REPER1.2       TopLayer    REPER1.2    142.2500     75.3250      90       REPER1.2                                                                                                         
+REPER2     REPER1.2       TopLayer    REPER1.2    93.1750      88.3250      90       REPER1.2                                                                                                         

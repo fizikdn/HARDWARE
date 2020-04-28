@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: LCD_controller_hv2.PcbDoc   26.04.2017  11:50:30
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : LCD_controller_hv2-Plated.TXT
+ASCII Non-Plated RoundHoles File : LCD_controller_hv2-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             307       PTH        80.20inch (2037.05mm)
+T2      20mil (0.5mm)                                             Round             7         PTH        5.98inch (151.88mm)
+T3      32mil (0.8mm)                                             Round             4         PTH        12.50inch (317.53mm)
+T4      38mil (0.965mm)                                           Round             20        PTH        2.58inch (65.53mm)
+T5      39mil (1.001mm)                                           Round             74        PTH        11.85inch (301.00mm)
+T6      43mil (1.1mm)                                             Round             10        PTH        3.29inch (83.48mm)
+T7      47mil (1.199mm)                                           Round             2         PTH        0.79inch (20.00mm)
+T8      118mil (3mm)                                              Round             2         NPTH       2.40inch (60.98mm)
+T9      236mil (5.999mm)                                          Round             4         NPTH       14.92inch (378.96mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              430
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,10 @@
+Change Component Comment : Designator=R3 Old Comment=200E New Comment=1k5
+Change component parameters: Designator = "R3"; Footprint = "RC0603"; UniqueID = "\IRYOVKFK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1k5"; VariantName = "[No Variations]"
+Added Component: Designator=R37(RC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetDD1_10 Pin=R37-1
+Added Pin To Net: NetName=GND Pin=R37-2
+Added Member To Class: ClassName=[1]-MCU Member=Component R37 4k7
