@@ -1,0 +1,58 @@
+Added Component: Designator=XP1(330-021)
+Added Component: Designator=XP2(DG330-5.0-03P)
+Added Component: Designator=XP3(DG330-5.0-03P)
+Added Component: Designator=XP4(DG330-5.0-03P)
+Added Component: Designator=XP5(DG330-5.0-03P)
+Added Component: Designator=XP6(330-021)
+Added Component: Designator=XP7(DG330-5.0-03P)
+Added Component: Designator=XP8(DG330-5.0-03P)
+Added Component: Designator=XP9(DG330-5.0-03P)
+Added Component: Designator=XP10(DG330-5.0-03P)
+Added Component: Designator=XP11(DG330-5.0-03P)
+Added Component: Designator=XP12(DG330-5.0-03P)
+Added Pin To Net: NetName=GND Pin=XP1-1
+Added Pin To Net: NetName=+12V Pin=XP1-2
+Added Pin To Net: NetName=NetFU1_2 Pin=XP2-1
+Added Pin To Net: NetName=NetFU11_1 Pin=XP2-2
+Added Pin To Net: NetName=GND Pin=XP2-3
+Added Pin To Net: NetName=NetFU2_2 Pin=XP3-1
+Added Pin To Net: NetName=NetFU16_1 Pin=XP3-2
+Added Pin To Net: NetName=GND Pin=XP3-3
+Added Pin To Net: NetName=NetFU3_2 Pin=XP4-1
+Added Pin To Net: NetName=NetFU12_1 Pin=XP4-2
+Added Pin To Net: NetName=GND Pin=XP4-3
+Added Pin To Net: NetName=NetFU4_2 Pin=XP5-1
+Added Pin To Net: NetName=NetFU17_1 Pin=XP5-2
+Added Pin To Net: NetName=GND Pin=XP5-3
+Added Pin To Net: NetName=NetFU21_2 Pin=XP6-1
+Added Pin To Net: NetName=NetFU22_2 Pin=XP6-2
+Added Pin To Net: NetName=NetFU5_2 Pin=XP7-1
+Added Pin To Net: NetName=NetFU13_1 Pin=XP7-2
+Added Pin To Net: NetName=GND Pin=XP7-3
+Added Pin To Net: NetName=NetFU6_2 Pin=XP8-1
+Added Pin To Net: NetName=NetFU18_1 Pin=XP8-2
+Added Pin To Net: NetName=GND Pin=XP8-3
+Added Pin To Net: NetName=NetFU7_2 Pin=XP9-1
+Added Pin To Net: NetName=NetFU14_1 Pin=XP9-2
+Added Pin To Net: NetName=GND Pin=XP9-3
+Added Pin To Net: NetName=NetFU8_2 Pin=XP10-1
+Added Pin To Net: NetName=NetFU19_1 Pin=XP10-2
+Added Pin To Net: NetName=GND Pin=XP10-3
+Added Pin To Net: NetName=NetFU9_2 Pin=XP11-1
+Added Pin To Net: NetName=NetFU15_1 Pin=XP11-2
+Added Pin To Net: NetName=GND Pin=XP11-3
+Added Pin To Net: NetName=NetFU10_2 Pin=XP12-1
+Added Pin To Net: NetName=NetFU20_1 Pin=XP12-2
+Added Pin To Net: NetName=GND Pin=XP12-3
+Added Member To Class: ClassName=Connectors Member=Component XP1 DG330-5.0-02P
+Added Member To Class: ClassName=Connectors Member=Component XP2 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP3 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP4 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP5 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP6 DG330-5.0-02P
+Added Member To Class: ClassName=Connectors Member=Component XP7 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP8 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP9 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP10 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP11 DG330-5.0-03P
+Added Member To Class: ClassName=Connectors Member=Component XP12 DG330-5.0-03P

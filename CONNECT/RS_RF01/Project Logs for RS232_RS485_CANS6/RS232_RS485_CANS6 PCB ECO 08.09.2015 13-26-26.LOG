@@ -1,0 +1,68 @@
+Removed Pin From Net: NetName=+3V3 Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=RXD Pin=U1-1
+Removed Pin From Net: NetName=GND Pin=U1-5
+Removed Pin From Net: NetName=+3V3 Pin=U1-8
+Removed Pin From Net: NetName=GND Pin=VD9-2
+Removed Pin From Net: NetName=RXD Pin=XP1-3
+Removed Member From Class: ClassName=Interfaces Member=U1
+Change Component DesignItemId : Designator=VD10 Old DesignItemId=BAV99 New DesignItemId=SMBJ
+Change Component DesignItemId : Designator=VD9 Old DesignItemId=SMBJ New DesignItemId=BAV99
+Change Component Footprint: Designator=VD9 Old Footprint=SMB New Footprint=SOT-23(GSD)
+Change Component Footprint: Designator=VD10 Old Footprint=SOT-23(GSD) New Footprint=SMB
+Change Component Comment : Designator=C1 Old Comment=0.1uF New Comment=0.1 uF
+Change Component Comment : Designator=VD10 Old Comment=BAV99 New Comment=SMBJ5.0A
+Change Component Comment : Designator=FU4 Old Comment=MICROSMD010F-2 New Comment=MICROSMD010F
+Change Component Comment : Designator=FU5 Old Comment=MICROSMD010F-2 New Comment=MICROSMD010F
+Change Component Comment : Designator=VD9 Old Comment=SMBJ5.0A New Comment=BAV99
+Change Component Library : Designator=C1 Old Library=Schetchik.SchLib New Library=*
+Change Component Library : Designator=FU4 Old Library=Schetchik.SchLib New Library=*
+Change Component Library : Designator=FU5 Old Library=Schetchik.SchLib New Library=*
+Added Component: Designator=DD4(SO-8)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=+3V3 Pin=C1-2
+Added Pin To Net: NetName=RXD Pin=DD4-1
+Added Pin To Net: NetName=GND Pin=DD4-5
+Added Pin To Net: NetName=+3V3 Pin=DD4-8
+Added Pin To Net: NetName=GND Pin=VD10-2
+Change Net Name : Old Net Name=A New Net Name=NetVD9_1
+Added Pin To Net: NetName=A/RXD_INT Pin=DD1-8
+Added Pin To Net: NetName=A/RXD_INT Pin=DD4-6
+Added Pin To Net: NetName=A/RXD_INT Pin=FU5-2
+Added Pin To Net: NetName=A/RXD_INT Pin=VD11-3
+Added Net: Name=A/RXD_INT
+Added Pin To Net: NetName=A/RXD Pin=FU5-1
+Added Net: Name=A/RXD
+Added Pin To Net: NetName=B/TXD_INT Pin=DD1-7
+Added Pin To Net: NetName=B/TXD_INT Pin=DD4-7
+Added Pin To Net: NetName=B/TXD_INT Pin=FU4-2
+Added Pin To Net: NetName=B/TXD_INT Pin=VD9-3
+Added Net: Name=B/TXD_INT
+Added Pin To Net: NetName=B/TXD Pin=FU4-1
+Added Net: Name=B/TXD
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetVD9_2 Pin=VD9-2
+Added Pin To Net: NetName=NetVD9_2 Pin=VD11-2
+Added Pin To Net: NetName=NetVD9_2 Pin=VD12-2
+Added Net: Name=NetVD9_2
+Added Pin To Net: NetName=NetXP1_1 Pin=XP1-1
+Added Net: Name=NetXP1_1
+Added Pin To Net: NetName=NetXP1_2 Pin=XP1-2
+Added Net: Name=NetXP1_2
+Added Pin To Net: NetName=NetXP1_3 Pin=XP1-3
+Added Net: Name=NetXP1_3
+Added Pin To Net: NetName=NetXP1_4 Pin=XP1-4
+Added Net: Name=NetXP1_4
+Added Pin To Net: NetName=NetXP1_5 Pin=XP1-5
+Added Net: Name=NetXP1_5
+Added Pin To Net: NetName=RS_DIR Pin=DD2-48
+Added Pin To Net: NetName=RS_DIR Pin=DD4-2
+Added Pin To Net: NetName=RS_DIR Pin=DD4-3
+Added Net: Name=RS_DIR
+Added Pin To Net: NetName=RS_TXD Pin=DD1-10
+Added Pin To Net: NetName=RS_TXD Pin=DD2-47
+Added Pin To Net: NetName=RS_TXD Pin=DD4-4
+Added Net: Name=RS_TXD
+Added Member To Class: ClassName=Interfaces Member=Component DD4 ST3485EBDR
+Added Room: Name=Power

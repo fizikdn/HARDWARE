@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [wifi_can.PcbDoc]
+   Generated File[wifi_can-Plated.TXT]
+   Generated File[wifi_can-NonPlated.TXT]
+   Generated File[wifi_can.LDP]
+   Generated File[wifi_can.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 14:32:47 On 31.05.2017

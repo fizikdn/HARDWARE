@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: RS232_RS485_CANS6.PcbDoc   24.03.2016  12:11:43
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : RS232_RS485_CANS6-Plated.TXT
+ASCII Non-Plated RoundHoles File : RS232_RS485_CANS6-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      16mil (0.399mm)                                           Round             184       PTH        26.82inch (681.25mm)
+T2      38mil (0.965mm)                                           Round             14        PTH        4.74inch (120.29mm)
+T3      39mil (0.991mm)                                           Round             4         PTH        0.71inch (18.13mm)
+T4      43mil (1.1mm)                                             Round             10        PTH        2.03inch (51.50mm)
+T5      95mil (2.4mm)                                             Round             2         NPTH       2.59inch (65.90mm)
+T6      118mil (3mm)                                              Round             2         NPTH       1.14inch (29.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              216
+
+Total Processing Time (hh:mm:ss) : 00:00:01

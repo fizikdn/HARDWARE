@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [wifi_can.PrjPcb]
+   Generated File[Bill of Materials-wifi_can.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:06:53 On 04.07.2017

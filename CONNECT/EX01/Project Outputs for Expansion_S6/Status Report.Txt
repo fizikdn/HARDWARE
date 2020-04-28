@@ -1,0 +1,17 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:12:47 On 23.10.2015
+
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [ExpansionS6_PCB.PcbDoc]
+   Generated File[ExpansionS6_PCB-Plated.TXT]
+   Generated File[ExpansionS6_PCB-NonPlated.TXT]
+   Generated File[ExpansionS6_PCB.LDP]
+   Generated File[ExpansionS6_PCB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 15:12:47 On 23.10.2015

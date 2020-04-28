@@ -1,0 +1,4 @@
+Added Component: Designator=REP1(REPER1.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "REPER_POINT_1.2"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=MCU Member=Component REP1 REPER_POINT_1.2

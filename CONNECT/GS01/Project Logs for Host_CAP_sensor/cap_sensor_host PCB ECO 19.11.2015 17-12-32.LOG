@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=+12V Pin=C22-2
+Added Pin To Net: NetName=+12V Pin=C23-2
+Added Pin To Net: NetName=+12V Pin=DA1-6
+Added Pin To Net: NetName=+12V Pin=R39-2
+Added Pin To Net: NetName=+12V Pin=R40-2
+Added Pin To Net: NetName=+12V Pin=VT3-3
+Added Member To Class: ClassName=MCU Member=Component J2 PLS-02
+Added Member To Class: ClassName=Power Member=Component J2 PLS-02
+Added Member To Class: ClassName=LED_indication Member=Component VD25 LED_0805
+Added Member To Class: ClassName=Power Member=Component VD25 SMBJ150A

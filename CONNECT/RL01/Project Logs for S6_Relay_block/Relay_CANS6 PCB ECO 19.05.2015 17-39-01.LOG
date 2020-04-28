@@ -1,0 +1,20 @@
+Removed Member From Class: ClassName=Power Member=C4
+Removed Member From Class: ClassName=Main Member=C15
+Removed Member From Class: ClassName=Main Member=C17
+Removed Member From Class: ClassName=Output Member=C17
+Removed Member From Class: ClassName=Output Member=R8
+Removed Member From Class: ClassName=Power Member=R16
+Removed Member From Class: ClassName=Power Member=R17
+Added Member To Class: ClassName=Main Member=Component C2 4.7uFx10V
+Added Member To Class: ClassName=Main Member=Component C3 0.1uF
+Added Member To Class: ClassName=Output Member=Component C14 0.1uF
+Added Member To Class: ClassName=Power Member=Component C16 0.1uFx250V
+Added Member To Class: ClassName=Main Member=Component R8 10k
+Added Member To Class: ClassName=Output Member=Component R17 47k
+Added Member To Class: ClassName=Power Member=Component R18 220k
+Added Member To Class: ClassName=Power Member=Component R26 15k 1%
+Added Member To Class: ClassName=Main Member=Component VD1 BL-B45V1F
+Added Member To Class: ClassName=Power Member=Component XP5 MIF2X02PRP
+Added Room: Name=Main
+Added Room: Name=Output
+Added Room: Name=Power

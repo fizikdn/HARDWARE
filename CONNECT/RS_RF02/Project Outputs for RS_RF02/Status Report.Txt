@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [RS_RF02.PrjPcb]
+   Generated File[Bill of Materials-RS_RF02.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:45:46 On 22.01.2018

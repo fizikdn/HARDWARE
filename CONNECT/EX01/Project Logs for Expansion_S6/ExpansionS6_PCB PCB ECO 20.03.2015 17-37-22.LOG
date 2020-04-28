@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=INP0_1HF Pin=FU1-2
+Removed Pin From Net: NetName=INP0_2HF Pin=FU2-2
+Removed Pin From Net: NetName=ANALOG1 Pin=R1-1
+Removed Pin From Net: NetName=ANALOG2 Pin=R2-1
+Removed Pin From Net: NetName=ANALOG3 Pin=R5-1
+Removed Pin From Net: NetName=ANALOG4 Pin=R6-1
+Removed Pin From Net: NetName=INP1_2HF Pin=R17-2
+Removed Pin From Net: NetName=INP1_1HF Pin=R18-2
+Removed Pin From Net: NetName=ANALOG1 Pin=XP3-1
+Removed Pin From Net: NetName=ANALOG3 Pin=XP3-2
+Removed Pin From Net: NetName=INP1_1HF Pin=XP3-3
+Removed Pin From Net: NetName=INP0_1HF Pin=XP3-5
+Removed Pin From Net: NetName=ANALOG2 Pin=XP3-10
+Removed Pin From Net: NetName=ANALOG4 Pin=XP3-11
+Removed Pin From Net: NetName=INP1_2HF Pin=XP3-12
+Removed Pin From Net: NetName=INP0_2HF Pin=XP3-14
+Change Net Name : Old Net Name=1WIRE New Net Name=1WIRE_IN
+Change Net Name : Old Net Name=INP0_3 New Net Name=INP0_3_IN
+Change Net Name : Old Net Name=INP0_4 New Net Name=INP0_4_IN
+Change Net Name : Old Net Name=INP1_3 New Net Name=INP1_3_IN
+Change Net Name : Old Net Name=INP1_4 New Net Name=INP1_4_IN
+Added Pin To Net: NetName=ANALOG1_IN Pin=R1-1
+Added Pin To Net: NetName=ANALOG1_IN Pin=XP3-1
+Added Net: Name=ANALOG1_IN
+Added Pin To Net: NetName=ANALOG2_IN Pin=R2-1
+Added Pin To Net: NetName=ANALOG2_IN Pin=XP3-10
+Added Net: Name=ANALOG2_IN
+Added Pin To Net: NetName=ANALOG3_IN Pin=R5-1
+Added Pin To Net: NetName=ANALOG3_IN Pin=XP3-2
+Added Net: Name=ANALOG3_IN
+Added Pin To Net: NetName=ANALOG4IN Pin=R6-1
+Added Pin To Net: NetName=ANALOG4IN Pin=XP3-11
+Added Net: Name=ANALOG4IN
+Added Pin To Net: NetName=INP0_1HF_IN Pin=FU1-2
+Added Pin To Net: NetName=INP0_1HF_IN Pin=XP3-5
+Added Net: Name=INP0_1HF_IN
+Added Pin To Net: NetName=INP0_2HF_IN Pin=FU2-2
+Added Pin To Net: NetName=INP0_2HF_IN Pin=XP3-14
+Added Net: Name=INP0_2HF_IN
+Added Pin To Net: NetName=INP1_1HF_IN Pin=R18-2
+Added Pin To Net: NetName=INP1_1HF_IN Pin=XP3-3
+Added Net: Name=INP1_1HF_IN
+Added Pin To Net: NetName=INP1_2HF_IN Pin=R17-2
+Added Pin To Net: NetName=INP1_2HF_IN Pin=XP3-12
+Added Net: Name=INP1_2HF_IN

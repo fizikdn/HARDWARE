@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Files_Shared\Projects\Altium_Projects\S6_Line\RS485-CAN\RS485-CAN.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=rs485-can-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=rs485-can-nonplated.txt|DrillLayers=gtl,gbl

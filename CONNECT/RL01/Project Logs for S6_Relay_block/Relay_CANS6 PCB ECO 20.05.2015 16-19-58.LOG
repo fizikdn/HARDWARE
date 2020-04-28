@@ -1,0 +1,17 @@
+Removed Member From Class: ClassName=Output Member=C3
+Removed Member From Class: ClassName=Power Member=C13
+Change Component Designator: OldDesignator=J1 NewDesignator=J2
+Change Component Designator: OldDesignator=XP2 NewDesignator=XP1
+Change Component Designator: OldDesignator=XP3 NewDesignator=XP2
+Change Component Designator: OldDesignator=XP4 NewDesignator=XP3
+Added Component: Designator=J1(PLS-02)
+Added Pin To Net: NetName=RESET Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Member To Class: ClassName=Main Member=Component C5 0.1uF
+Added Member To Class: ClassName=Main Member=Component C9 0.1uF
+Added Member To Class: ClassName=Output Member=Component C12 0.1uF
+Added Member To Class: ClassName=Power Member=Component C15 1000uF x 6.3V
+Added Member To Class: ClassName=Power Member=Component C16 1uFx10V
+Added Member To Class: ClassName=Main Member=Component J2 PLS-02
+Added Member To Class: ClassName=Main Member=Component R7 10k
+Added Member To Class: ClassName=Output Member=Component XP2 MIF2X05PRP

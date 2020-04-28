@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=VIN Pin=XP1-1
+Removed Pin From Net: NetName=GND Pin=XP1-2
+Removed Member From Class: ClassName=Main Member=XP1
+Removed Member From Class: ClassName=Main Member=XP2
+Added Component: Designator=XP?(MIF2X03PRP)
+Added Pin To Net: NetName=A Pin=FU1-1
+Added Pin To Net: NetName=A Pin=FU1-2
+Added Pin To Net: NetName=NetFU2_1 Pin=FU2-2
+Added Pin To Net: NetName=A Pin=U1-6
+Added Pin To Net: NetName=A Pin=VD2-3
+Added Pin To Net: NetName=A Pin=XP?-1
+Added Pin To Net: NetName=NetFU2_1 Pin=XP?-2
+Added Pin To Net: NetName=VIN Pin=XP?-3
+Added Pin To Net: NetName=VIN Pin=XP?-4
+Added Pin To Net: NetName=GND Pin=XP?-5
+Added Pin To Net: NetName=GND Pin=XP?-6
+Change Net Name : Old Net Name=NetFU2_1 New Net Name=B
+Added Member To Class: ClassName=Main Member=Component XP? MIF2X03PRP

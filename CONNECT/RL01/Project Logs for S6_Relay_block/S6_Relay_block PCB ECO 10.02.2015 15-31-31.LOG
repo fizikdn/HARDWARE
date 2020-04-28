@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=CANL Pin=R1-1
+Removed Pin From Net: NetName=RESET Pin=S1-1
+Removed Pin From Net: NetName=RESET Pin=S1-2
+Removed Pin From Net: NetName=GND Pin=S1-3
+Removed Pin From Net: NetName=GND Pin=S1-4
+Removed Pin From Net: NetName=CANH Pin=XP1-3
+Removed Pin From Net: NetName=CANH Pin=XP1-4
+Removed Member From Class: ClassName=Main Member=R1
+Removed Member From Class: ClassName=Main Member=S1
+Removed Member From Class: ClassName=Main Member=XP1
+Change Net Name : Old Net Name=NetFU3_1 New Net Name=SENSE1
+Change Net Name : Old Net Name=NetFU4_1 New Net Name=SENSE2
+Change Net Name : Old Net Name=NetR7_1 New Net Name=ANALOG2
+Change Net Name : Old Net Name=NetR8_1 New Net Name=ANALOG1

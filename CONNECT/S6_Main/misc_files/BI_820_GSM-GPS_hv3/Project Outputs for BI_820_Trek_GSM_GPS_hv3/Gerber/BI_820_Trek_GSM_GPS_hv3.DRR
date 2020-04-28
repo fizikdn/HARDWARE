@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: BI_820_Trek_GSM_GPS_hv2.PcbDoc   23.05.2014  15:32:33
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : BI_820_Trek_GSM_GPS_hv2-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : BI_820_Trek_GSM_GPS_hv2-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : BI_820_Trek_GSM_GPS_hv2-SlotHoles-Plated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        15.7mil (0.39878mm)      Round          220              31.97 Inch (811.98 mm)
+T2        19.7mil (0.50038mm)      Round          3                1.52 Inch (38.56 mm)
+T3        38mil (0.9652mm)         Round          37               7.03 Inch (178.47 mm)
+T4        39mil (0.9906mm)         Round          6                0.57 Inch (14.54 mm)
+T5        47.2mil (1.19888mm)      Round          1                0.00 Inch (0.00 mm)
+T6        55.1mil (1.39954mm)      Slot           2                287.64 Inch (7306.12 mm)
+T7        47.2mil (1.19888mm)      Round          1         NPTH   0.00 Inch (0.00 mm)
+T8        66.9mil (1.69926mm)      Round          1         NPTH   0.00 Inch (0.00 mm)
+---------------------------------------------------------------------------
+Totals                                            271              328.73 Inch (8349.67 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

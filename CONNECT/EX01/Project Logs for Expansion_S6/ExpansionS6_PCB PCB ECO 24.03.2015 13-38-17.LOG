@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+3.3V Pin=R27-1
+Removed Pin From Net: NetName=ISP_START Pin=R27-2
+Removed Pin From Net: NetName=ISP_START Pin=XP2-1
+Removed Pin From Net: NetName=GND Pin=XP2-2
+Removed Pin From Net: NetName=GND Pin=XP2-3
+Removed Pin From Net: NetName=ISP_VAR Pin=XP2-4
+Removed Member From Class: ClassName=Main Member=R27
+Removed Member From Class: ClassName=Main Member=XP2
+Added Component: Designator=J?(PIN2W)
+Added Component: Designator=J?(PIN2W)
+Added Component: Designator=R28(RC0603-3M)
+Added Pin To Net: NetName=ISP_START Pin=J?-1
+Added Pin To Net: NetName=ISP_VAR Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=+3.3V Pin=R28-1
+Added Pin To Net: NetName=ISP_START Pin=R28-2
+Added Member To Class: ClassName=Main Member=Component J? PLS-02

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=Sense2 Pin=DD1-2
+Removed Pin From Net: NetName=RESET Pin=DD1-3
+Removed Pin From Net: NetName=ISP_Start Pin=DD1-4
+Added Pin To Net: NetName=ISP_Start Pin=DD1-3
+Added Pin To Net: NetName=RESET Pin=DD1-4
+Change Net Name : Old Net Name=ISP_Start New Net Name=RESET
+Change Net Name : Old Net Name=RESET New Net Name=ISP_Start

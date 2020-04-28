@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\Projects_Files\Projects\Altium_Projects\S6_Line\wifi_can\wifi_can.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=wifi_can-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=wifi_can-nonplated.txt|DrillLayers=gtl,gbl

@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=NetC7_2 New Net Name=INP0_3F
+Change Net Name : Old Net Name=NetC8_2 New Net Name=INP0_4F
+Added Pin To Net: NetName=1WIRE Pin=DD1-31
+Added Pin To Net: NetName=1WIRE Pin=R30-1
+Added Pin To Net: NetName=1WIRE Pin=XP2-16
+Added Net: Name=1WIRE

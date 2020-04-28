@@ -1,0 +1,5 @@
+Change Component Comment : Designator=C18 Old Comment=470uF New Comment=470uF x 35V
+Change Component Comment : Designator=C22 Old Comment=1000uFx10V New Comment=1000uF x 6.3V
+Change Component Library : Designator=DD1 Old Library=VHF.SchLib New Library=gprs_modem_2.SchLib
+Added Pin To Net: NetName=GND Pin=DD1-5
+Added Member To Class: ClassName=Power Member=Component R22 1E

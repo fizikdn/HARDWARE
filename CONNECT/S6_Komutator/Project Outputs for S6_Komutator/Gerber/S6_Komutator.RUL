@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: D:\Projects_Files\Projects\Altium_Projects\S6_Line\S6_Komutator\S6_Komutator.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=11.81
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00

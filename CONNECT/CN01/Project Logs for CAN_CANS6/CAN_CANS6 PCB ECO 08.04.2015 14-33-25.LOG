@@ -1,0 +1,14 @@
+Removed Member From Class: ClassName=Main Member=C20
+Removed Member From Class: ClassName=Main Member=C22
+Removed Member From Class: ClassName=Main Member=R8
+Removed Member From Class: ClassName=Main Member=R11
+Change Component Comment : Designator=C2 Old Comment=CC0603 New Comment=0.1uF
+Change Net Name : Old Net Name=NetXP3_2 New Net Name=CANL_S6
+Change Net Name : Old Net Name=NetXP3_4 New Net Name=CANH_S6
+Added Member To Class: ClassName=Main Member=Component C4 220pF
+Added Member To Class: ClassName=Main Member=Component C5 0.1uF
+Added Member To Class: ClassName=Power Member=Component C17 330pFx50V
+Added Member To Class: ClassName=Main Member=Component J1 PLS-02
+Added Member To Class: ClassName=Main Member=Component R3 10k
+Added Member To Class: ClassName=Main Member=Component R4 330
+Added Member To Class: ClassName=Power Member=Component R8 18k 1%

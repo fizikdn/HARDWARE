@@ -1,0 +1,49 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Host_CAP_sensor.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\Host_CAP_sensor\Host_CAP_sensor.PrjPcb|ReportField=Title~Bill of Materials For Project [Host_CAP_sensor.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~162|ReportField=ReportTime~14:38:34|ReportField=ReportDate~20.11.2015|ReportField=ReportDateTime~20.11.2015 14:38:34|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~20.11.2015|ReportField=CurrentTime~12:37:18|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\Host_CAP_sensor\Connectors.SchDoc|ReportField=DocumentName~Connectors.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~19.11.2015|ReportField=Organization~|ReportField=ProjectName~Host_CAP_sensor.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Host_CAP_sensor.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\Host_CAP_sensor\Host_CAP_sensor.PrjPcb
+1|0.1uF|CC0603|C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C15, C16, C21, C22, C24, C26|19
+2|220pF|CC0603|C14, C27|2
+3|22pF|CC0603|C17, C18|2
+4|330pF|CC0603|C19|1
+5|1000uFx10V|CAP0.35|C20|1
+6|470uF|CAP0.5(1)|C23|1
+7|4.7uF 6.3V|CC0805|C25|1
+8|0.1uFx250V|CC1206|C28|1
+9|1000uFx6.3V|CAP0.35|C29|1
+10|MC33063|MC34063|DA1|1
+11|AP2210K-ADJTRG1|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA2|1
+12|LPC11C24FBD48||DD1|1
+13|M25PE16|S25FL016A0LMFI01|DD2|1
+14|MICROSMD010F-2|MICROSMD|FU1, FU2, FU3, FU4, FU5, FU6, FU7, FU8, FU9, FU10, FU11, FU12, FU13, FU14, FU15, FU16, FU17, FU18, FU19, FU20, FU21, FU22|22
+15|RXE-110|RXE-110|FU23|1
+16|PLS-02|PLS-02|J1, J2, J2|3
+17|220uH|SDR0805|L1|1
+18|NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+19|4k7|RC0603|R1, R2, R3, R4, R9, R10, R11, R12, R17, R18|10
+20|100k|RC0603|R5, R6, R7, R8, R13, R14, R15, R16, R19, R20|10
+21|6k8|RC0603|R21, R22, R23, R24, R25, R26, R27, R28, R29, R30|10
+22|100E|RC0603|R31|1
+23|10k|RC0603|R32, R33|2
+24|330E|RC0603|R34, R35|2
+25|560k 1%|RC0603|R36|1
+26|3k 1%|RC0603|R37|1
+27|1k 1%|RC0603|R38|1
+28|1E|RC0805|R39, R40|2
+29|18k 1%|RC0603|R41|1
+30|11k 1%|RC0603|R42|1
+31|120E|RC0805|R43|1
+32|220k|RC1206|R44, R45, R46|3
+33|REPER1.2|REPER1.2|Rep1, Rep2|2
+34|P6SMBJ28A|SMBJ|VD1, VD2, VD3, VD4, VD9, VD10, VD11, VD12, VD17, VD18|10
+35|BAT54A|BAT54A|VD5, VD6, VD7, VD8, VD13, VD14, VD15, VD16, VD19, VD20|10
+36|BL-HS135A-TRB||VD21, VD22, VD23, VD24, VD25, VD26, VD27, VD28, VD29, VD30, VD31|11
+37|BL-HG035A-TRB||VD32|1
+38|SS14|Schottky Rectifier|VD33|1
+39|PESD2CAN|TVS for CAN|VD34|1
+40|GS1M|GS1M|VD35|1
+41|BZX84C36|Zener Voltage Regulator Diode|VD36|1
+42|BZX84C15|Zener Voltage Regulator Diode|VD37|1
+43|1.5KE150A|1.5KE|VD38|1
+44|BC856B|BC856B|VT2|1
+45|IRFR9220|HEXFET Power MOSFET|VT3|1
+46|DG330-5.0-02P|DG330-5.0-02P|XP1, XP6|2
+47|DG330-5.0-03P|DG330-5.0-03P|XP2, XP3, XP4, XP5, XP7, XP8, XP9, XP10, XP11, XP12|10
+48|PLD-06|PLD06|XP13|1

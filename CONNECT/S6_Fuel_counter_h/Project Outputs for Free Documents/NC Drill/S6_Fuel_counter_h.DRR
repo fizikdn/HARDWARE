@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: S6_Fuel_counter_h.PcbDoc   14.02.2017  10:38:01
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : S6_Fuel_counter_h-Plated.TXT
+ASCII Non-Plated RoundHoles File : S6_Fuel_counter_h-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             145       PTH        20.46inch (519.59mm)
+T2      20mil (0.5mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T3      39mil (1.001mm)                                           Round             12        PTH        1.84inch (46.76mm)
+T4      98mil (2.499mm)                                           Round             5         PTH        0.64inch (16.30mm)
+T5      158mil (4.001mm)                                          Round             2         PTH        3.37inch (85.62mm)
+T6      591mil (15.001mm)                                         Round             1         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              166
+
+Total Processing Time (hh:mm:ss) : 00:00:00

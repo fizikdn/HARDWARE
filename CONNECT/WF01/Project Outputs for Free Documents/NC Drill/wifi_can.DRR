@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: wifi_can.PcbDoc   31.05.2017  14:32:47
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : wifi_can-Plated.TXT
+ASCII Non-Plated RoundHoles File : wifi_can-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             156       PTH        22.75inch (577.76mm)
+T2      20mil (0.5mm)                                             Round             26        PTH        6.44inch (163.54mm)
+T3      32mil (0.8mm)                                             Round             3         PTH        0.20inch (5.08mm)
+T4      38mil (0.965mm)                                           Round             4         PTH        1.14inch (29.07mm)
+T5      39mil (1.001mm)                                           Round             18        PTH        2.65inch (67.22mm)
+T6      43mil (1.1mm)                                             Round             8         PTH        0.97inch (24.60mm)
+T7      118mil (3mm)                                              Round             2         PTH        2.94inch (74.56mm)
+T8      118mil (3mm)                                              Round             2         NPTH       0.38inch (9.60mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              219
+
+Total Processing Time (hh:mm:ss) : 00:00:00

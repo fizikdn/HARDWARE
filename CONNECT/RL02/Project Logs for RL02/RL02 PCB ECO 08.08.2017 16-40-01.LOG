@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=CANL Pin=XP2-2
+Removed Pin From Net: NetName=CANH Pin=XP2-4
+Removed Pin From Net: NetName=CANL Pin=XP3-2
+Removed Pin From Net: NetName=CANH Pin=XP3-4
+Added Pin To Net: NetName=NetDD1_18 Pin=XP2-2
+Added Pin To Net: NetName=NetDD1_19 Pin=XP2-4
+Added Pin To Net: NetName=NetDD1_18 Pin=XP3-2
+Added Pin To Net: NetName=NetDD1_19 Pin=XP3-4
+Added Member To Class: ClassName=Connections Member=Component XP1 MIF2X05PRP

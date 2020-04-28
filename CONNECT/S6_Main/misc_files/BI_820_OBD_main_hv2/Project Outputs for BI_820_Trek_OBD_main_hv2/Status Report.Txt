@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [BI_820_Trek_OBD_main_hv2.PcbDoc]
+   Generated File[Pick Place for BI_820_Trek_OBD_main_hv2.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:50:38 On 02.10.2014

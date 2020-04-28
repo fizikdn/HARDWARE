@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Expansion_hv2.PcbDoc   25.09.2017  11:35:36
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Expansion_hv2-Plated.TXT
+ASCII Non-Plated RoundHoles File : Expansion_hv2-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             220       PTH        30.04inch (763.08mm)
+T2      20mil (0.5mm)                                             Round             21        PTH        4.88inch (124.04mm)
+T3      38mil (0.965mm)                                           Round             6         PTH        2.54inch (64.47mm)
+T4      39mil (0.991mm)                                           Round             2         PTH        0.10inch (2.54mm)
+T5      39mil (1.001mm)                                           Round             12        PTH        3.04inch (77.29mm)
+T6      43mil (1.1mm)                                             Round             24        PTH        3.51inch (89.22mm)
+T7      118mil (3mm)                                              Round             6         NPTH       5.32inch (135.07mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              291
+
+Total Processing Time (hh:mm:ss) : 00:00:00

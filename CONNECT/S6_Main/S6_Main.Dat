@@ -1,0 +1,69 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~S6_Main.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\S6_Line\S6_Main\S6_Main.PrjPcb|ReportField=Title~Bill of Materials For Project [S6_Main.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~122|ReportField=ReportTime~11:40:57|ReportField=ReportDate~12.04.2016|ReportField=ReportDateTime~12.04.2016 11:40:57|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~12.04.2016|ReportField=CurrentTime~11:22:50|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\S6_Line\S6_Main\CPU.SchDoc|ReportField=DocumentName~CPU.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~08.04.2016|ReportField=Organization~|ReportField=ProjectName~S6_Main.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~S6_Main.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\S6_Line\S6_Main\S6_Main.PrjPcb
+1|22pF|CC0603|C1, C2, C4, C5|4
+2|220pF|CC0603|C3, C6|2
+3|0.1uF|CC0603|C7, C8, C9, C10, C12, C13, C14, C15, C16, C17, C19, C20, C36, C39|14
+4|10uF|CC0805|C11|1
+5|10uF 6.3V|CC0805|C18|1
+6|0.1 uF|CC0603|C21, C40, C41, C44|4
+7|0.1 uF|CC0603|C22, C23, C49|3
+8|1 nF|CC0603|C24, C25, C30, C31|4
+9|22 pF|CC0603|C26, C27, C28, C29|4
+10|0.1uF|CC1206|C32, C34, C35|3
+11|10nF|CC1206|C33|1
+12|4.7uF 6.3V|CC0805|C37, C38|2
+13|1uF 50V|CC1206|C42|1
+14|220uF x 50V|CAP0.5(1)|C43|1
+15|1000uFx6.3V|CAP0.35|C45|1
+16|10 nF|CC0603|C46|1
+17|330pF|CC0603|C47|1
+18|560 pF|CC0603|C48|1
+19|1 uF|CC0603|C50, C51|2
+20|47uF x 6.3V|TAJ-B|C52|1
+21|10 nF|CC0603|C53|1
+22|LIS2DH12|LIS2DH12|DA1|1
+23|AP2210K-ADJTRG1|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA2|1
+24|TPS54260DGQ||DA3|1
+25|BQ24070|BQ24070|DA4|1
+26|LPC1765FBD100|Cortex -M3 32-Bit Microcontroller, 512KB Flash, 64KB RAM, 100-Lead LQFP|DD1|1
+27|M25PE16|S25FL016A0LMFI01|DD3|1
+28|SN65HVD234D|CAN Transceiver|DD4|1
+29|MICROSMD010F-2|MICROSMD|FU1, FU2|2
+30|RXE-110|RXE-110|FU3|1
+31|PLS-02|PLS-02|J1|1
+32|10uH|L0603|L1|1
+33|BLM21PG221|BLM21PG221|L2, L3, L4, L5|4
+34|47uH|SDR0603|L6|1
+35|15uH|SDR0805|L7|1
+36|12MHz|AC5032/2|QR1|1
+37|MS3V-T1R|CRYSTAL_32768 Hz|QR2|1
+38|10k|RC0603|R1, R2|2
+39|0|RC0603|R3|1
+40|12k 1%|RC0603|R4|1
+41|120k|RC0603|R5|1
+42|10k|RC0603|R6, R22|2
+43|20k 1%|RC0603|R7|1
+44|1k|RC0603|R8|1
+45|11k 1%|RC0603|R9, R17|2
+46|220k|RC1206|R10, R11, R13|3
+47|16k 1%|RC0603|R12|1
+48|48.7k 1%|RC0603|R14|1
+49|12k|RC0603|R15|1
+50|240k|RC0603|R16|1
+51|51k|RC0603|R18|1
+52|100k|RC0603|R19, R20, R21|3
+53|2k|RC0603|R23|1
+54|36k|RC0603|R24|1
+55|REPER1.2|REPER1.2|REPER1, REPER2, REPER3, REPER4|4
+56|PESD2CAN|TVS for CAN|VD1|1
+57|BAT54S|1.0 Ampere General Purpose Rectifier|VD2|1
+58|GS1M|GS1M|VD3|1
+59|1.5KE150A|1.5KE|VD4|1
+60|BZX84C15|Zener Voltage Regulator Diode|VD5|1
+61|BZX84C39|Zener Voltage Regulator Diode|VD6|1
+62|SK34SMA|Schottky Rectifier|VD7|1
+63|SMBJ5.0A|SMBJ|VD8|1
+64|FQD5P20TM|HEXFET Power MOSFET|VT1|1
+65|BC807-40|BC857B|VT2|1
+66|PIN_1.2mm||X1, X2, X3, X4, X5, X6, X7, X8|8
+67|MW03D|MW03D|XP1|1
+68|PBD-16|PBD-16|XP2, XP3|2

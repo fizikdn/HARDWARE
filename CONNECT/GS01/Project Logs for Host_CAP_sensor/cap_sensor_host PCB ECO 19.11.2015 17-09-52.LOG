@@ -1,0 +1,13 @@
+Change Component DesignItemId : Designator=VD25 Old DesignItemId=LED_0805 New DesignItemId=SMBJ
+Change Component DesignItemId : Designator=FU23 Old DesignItemId=MF-SMDF New DesignItemId=RXE-110
+Change Component DesignItemId : Designator=VD25 Old DesignItemId=SMBJ New DesignItemId=LED_0805
+Change Component Footprint: Designator=VD25 Old Footprint=LED0805 New Footprint=SMB
+Change Component Footprint: Designator=FU23 Old Footprint=MF-SMDF New Footprint=RXE-110
+Change Component Footprint: Designator=VD25 Old Footprint=SMB New Footprint=LED0805
+Change Component Comment : Designator=VD25 Old Comment=LED_0805 New Comment=SMBJ150A
+Change Component Comment : Designator=FU23 Old Comment=MF-SMDF050 New Comment=RXE-110
+Change Component Comment : Designator=VD25 Old Comment=SMBJ150A New Comment=LED_0805
+Added Member To Class: ClassName=MCU Member=Component J2 PLS-02
+Added Member To Class: ClassName=Power Member=Component J2 PLS-02
+Added Member To Class: ClassName=LED_indication Member=Component VD25 LED_0805
+Added Member To Class: ClassName=Power Member=Component VD25 SMBJ150A

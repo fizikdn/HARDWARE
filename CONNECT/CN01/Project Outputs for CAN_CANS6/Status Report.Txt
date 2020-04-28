@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:15:36 On 04.12.2015
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [CAN_CANS6.PcbDoc]
+   Generated File[Pick Place for CAN_CANS6.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:15:36 On 04.12.2015

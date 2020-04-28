@@ -1,0 +1,19 @@
+Added Component: Designator=XP?(MIF2X08PRP)
+Added Pin To Net: NetName=ANALOG1_IN Pin=XP?-1
+Added Pin To Net: NetName=ANALOG3_IN Pin=XP?-2
+Added Pin To Net: NetName=INP1_1HF_IN Pin=XP?-3
+Added Pin To Net: NetName=INP1_3_IN Pin=XP?-4
+Added Pin To Net: NetName=INP0_1HF_IN Pin=XP?-5
+Added Pin To Net: NetName=INP0_3_IN Pin=XP?-6
+Added Pin To Net: NetName=1WIREPWR Pin=XP?-7
+Added Pin To Net: NetName=OUT1 Pin=XP?-8
+Added Pin To Net: NetName=GND Pin=XP?-9
+Added Pin To Net: NetName=ANALOG2_IN Pin=XP?-10
+Added Pin To Net: NetName=INP1_2HF_IN Pin=XP?-11
+Added Pin To Net: NetName=INP1_4_IN Pin=XP?-12
+Added Pin To Net: NetName=INP0_2HF_IN Pin=XP?-13
+Added Pin To Net: NetName=INP0_4_IN Pin=XP?-14
+Added Pin To Net: NetName=1WIRE_IN Pin=XP?-15
+Added Pin To Net: NetName=OUT2 Pin=XP?-16
+Change Net Name : Old Net Name=ANALOG4IN New Net Name=NetR6_1
+Added Member To Class: ClassName=Main Member=Component XP? MIF2X08PRP

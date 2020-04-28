@@ -1,0 +1,21 @@
+Added Component: Designator=C35(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=DD3(EIAJ_SO8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "M25PE16"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=C35-1
+Added Pin To Net: NetName=GND Pin=C35-2
+Added Pin To Net: NetName=MISO Pin=DD3-2
+Added Pin To Net: NetName=+3V3 Pin=DD3-3
+Added Pin To Net: NetName=GND Pin=DD3-4
+Added Pin To Net: NetName=MOSI Pin=DD3-5
+Added Pin To Net: NetName=SCK Pin=DD3-6
+Added Pin To Net: NetName=+3V3 Pin=DD3-7
+Added Pin To Net: NetName=+3V3 Pin=DD3-8
+Added Pin To Net: NetName=SS1 Pin=DD1-1
+Added Pin To Net: NetName=SS1 Pin=DD3-1
+Added Net: Name=SS1
+Added Member To Class: ClassName=MCU Member=Component C35 0.1uF
+Added Member To Class: ClassName=MCU Member=Component DD3 M25PE16
+Added Member To Class: ClassName=Input_analog Member=Component VD17 BAT54S

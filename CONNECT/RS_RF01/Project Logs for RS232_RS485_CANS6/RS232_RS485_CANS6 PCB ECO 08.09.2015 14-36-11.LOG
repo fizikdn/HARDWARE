@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=C11 Old Footprint=CC0603-3M New Footprint=CC0603
+Change Component Library : Designator=C15 Old Library=gprs_modem.SchLib New Library=gprs_modem2.SchLib

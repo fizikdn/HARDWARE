@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=CAN_D_S6 Pin=DD1-4
+Added Pin To Net: NetName=CAN_R_S6 Pin=DD1-4

@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=VCC Pin=R2-1
+Removed Pin From Net: NetName=ISP_START Pin=R2-2
+Removed Pin From Net: NetName=VCC Pin=R3-1
+Removed Pin From Net: NetName=ISP_VAR Pin=R3-2
+Removed Pin From Net: NetName=ISP_START Pin=XP2-1
+Removed Pin From Net: NetName=GND Pin=XP2-2
+Removed Pin From Net: NetName=GND Pin=XP2-3
+Removed Pin From Net: NetName=ISP_VAR Pin=XP2-4
+Change Component Designator: OldDesignator=XP3 NewDesignator=XP2
+Change Component Designator: OldDesignator=XP4 NewDesignator=XP3
+Added Component: Designator=J2(PLS-02)
+Added Pin To Net: NetName=ISP_START Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=ISP_START Pin=R2-1
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=ISP_VAR Pin=R3-1
+Added Pin To Net: NetName=VCC Pin=R3-2
+Added Member To Class: ClassName=Main Member=Component J2 PLS-02
+Added Member To Class: ClassName=Main Member=Component U1 ST3485EBDR

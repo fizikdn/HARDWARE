@@ -1,0 +1,10 @@
+Added Component: Designator=U1(SO8(3d))
+Added Pin To Net: NetName=NetU1_1 Pin=U1-1
+Added Pin To Net: NetName=NetU1_2 Pin=U1-2
+Added Pin To Net: NetName=NetU1_2 Pin=U1-3
+Added Pin To Net: NetName=NetU1_4 Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=NetFU1_1 Pin=U1-6
+Added Pin To Net: NetName=NetFU2_1 Pin=U1-7
+Added Pin To Net: NetName=VCC Pin=U1-8
+Added Member To Class: ClassName=Main Member=Component U1 ST3485EBDR

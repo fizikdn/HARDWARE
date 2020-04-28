@@ -1,0 +1,6 @@
+Added Component: Designator=R11(RC0603)
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=VIN Pin=R11-2
+Added Member To Class: ClassName=MCU Member=Component C12 22pF
+Added Member To Class: ClassName=MCU Member=Component C13 22pF
+Added Member To Class: ClassName=MCU Member=Component R11 10k

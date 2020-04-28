@@ -1,0 +1,41 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~wifi_can.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\S6_Line\wifi_can\wifi_can.PrjPcb|ReportField=Title~Bill of Materials For Project [wifi_can.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~64|ReportField=ReportTime~15:06:50|ReportField=ReportDate~04.07.2017|ReportField=ReportDateTime~04.07.2017 15:06:50|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~04.07.2017|ReportField=CurrentTime~10:27:54|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\S6_Line\wifi_can\CAN.SchDoc|ReportField=DocumentName~CAN.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~02.06.2017|ReportField=Organization~|ReportField=ProjectName~wifi_can.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~wifi_can.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\S6_Line\wifi_can\wifi_can.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|0.1uF|CC0603|C1, C6, C7, C8, C9, C11, C12, C13, C15, C18, C21|11
+2|22pF|CC0603|C2, C3|2
+3|220pF|CC0603|C4, C5, C19|3
+4|4.7uF|CC0805|C10|1
+5|0.1uF|CC1206|C14|1
+6|470uFx35V|CAP0.5(1)|C16|1
+7|1000uFx6.3V|CAP0.35|C17|1
+8|10uF|CC0805|C20|1
+9|MC34063|MC34063|DA1|1
+10|SN65HVD234D|CAN Transceiver|DD1|1
+11|LPC1754FBD80|Cortex -M3 32-Bit Microcontroller, 128KB Flash, 64KB RAM, 800-Lead LQFP|DD2|1
+12|M25PE16-VHW|S25FL016A0LMFI01|DD3|1
+13|MICROSMD010F-2|MICROSMD|FU1, FU2|2
+14|MF-SMDF050|MF-SMDF|FU3|1
+15|PLS-02|PLS-02|J1, J2|2
+16|220uH|SDR0805|L1|1
+17|ESP WROOM-02||M1|1
+18|NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+19|100E|RC0603|R1|1
+20|10k|RC0603|R2, R3, R14, R15, R16|5
+21|200E|RC0603|R4|1
+22|300E|RC0603|R5|1
+23|220k|RC1206|R6, R7, R8|3
+24|1E|RC0805|R9, R10|2
+25|560k|RC0603|R11|1
+26|18k 1%|RC0603|R12|1
+27|11k 1%|RC0603|R13|1
+28|REPER_POINT_1.2|REPER1.2|REP1, REP2|2
+29|PESD2CAN|TVS for CAN|VD1|1
+30|GNL3015UEUGW||VD2|1
+31|GS1M|GS1M|VD3|1
+32|SMBJ150A|SMBJ|VD4|1
+33|BZX84C15|Zener Voltage Regulator Diode|VD5|1
+34|BZX84C39|Zener Voltage Regulator Diode|VD6|1
+35|SS14|Schottky Rectifier|VD7|1
+36|FQD5P20TM|HEXFET Power MOSFET|VT1|1
+37|BC807-40|BC857B|VT2|1
+38|PLD-06|PLD06|XP1|1
+39|MIF2X02PRP|MIF2X02PRP|XP2, XP3|2
+40|PLS-08|PLS-08|XP4|1

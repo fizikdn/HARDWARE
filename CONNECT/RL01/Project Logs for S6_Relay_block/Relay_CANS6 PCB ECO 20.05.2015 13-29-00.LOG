@@ -1,0 +1,12 @@
+Added Component: Designator=XP4(MIF2X05PRP)
+Added Pin To Net: NetName=ANALOG1 Pin=XP4-1
+Added Pin To Net: NetName=SENSE1 Pin=XP4-2
+Added Pin To Net: NetName=SENSE2 Pin=XP4-3
+Added Pin To Net: NetName=ANALOG2 Pin=XP4-4
+Added Pin To Net: NetName=NetK1_14 Pin=XP4-5
+Added Pin To Net: NetName=NetK2_11 Pin=XP4-6
+Added Pin To Net: NetName=NetK2_12 Pin=XP4-7
+Added Pin To Net: NetName=NetK2_14 Pin=XP4-8
+Added Pin To Net: NetName=NetK1_11 Pin=XP4-9
+Added Pin To Net: NetName=NetK1_12 Pin=XP4-10
+Added Member To Class: ClassName=Output Member=Component XP4 MIF2X05PRP

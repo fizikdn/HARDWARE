@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: BI_820_Trek_OBD_main_hv2.PcbDoc   02.10.2014  11:50:37
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : BI_820_Trek_OBD_main_hv2-Plated.TXT
+ASCII Non-Plated RoundHoles File : BI_820_Trek_OBD_main_hv2-NonPlated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        11.8mil (0.29972mm)      Round          64               11.00 Inch (279.52 mm)
+T2        15.7mil (0.39878mm)      Round          170              33.14 Inch (841.81 mm)
+T3        19.7mil (0.50038mm)      Round          9                3.13 Inch (79.38 mm)
+T4        23.6mil (0.59944mm)      Round          2                0.08 Inch (2.10 mm)
+T5        38mil (0.9652mm)         Round          36               7.73 Inch (196.33 mm)
+T6        39.4mil (1.00076mm)      Round          2                0.20 Inch (5.08 mm)
+T7        47.2mil (1.19888mm)      Round          9                2.63 Inch (66.77 mm)
+T8        55.1mil (1.39954mm)      Round          2                0.24 Inch (6.00 mm)
+T9        157.5mil (4.0005mm)      Round          4         NPTH   2.94 Inch (74.60 mm)
+T10       255.9mil (6.49986mm)     Round          4         NPTH   8.23 Inch (208.98 mm)
+---------------------------------------------------------------------------
+Totals                                            302              69.31 Inch (1760.57 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

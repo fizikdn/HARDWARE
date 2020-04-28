@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=D_OUT1 Pin=R42-1
+Removed Pin From Net: NetName=D_OUT2 Pin=R43-1
+Removed Pin From Net: NetName=PWM_CH2 Pin=VT3-5
+Removed Pin From Net: NetName=PWM_CH2 Pin=VT3-6
+Removed Pin From Net: NetName=PWM_CH1 Pin=VT3-7
+Removed Pin From Net: NetName=PWM_CH1 Pin=VT3-8
+Change Component Comment : Designator=FU4 Old Comment=MICROSMD New Comment=MICROSMD010F-2
+Change Component Comment : Designator=FU5 Old Comment=MICROSMD New Comment=MICROSMD010F-2
+Change Component Comment : Designator=FU6 Old Comment=MICROSMD New Comment=MICROSMD010F-2
+Change Component Comment : Designator=FU7 Old Comment=MICROSMD New Comment=MICROSMD010F-2
+Added Pin To Net: NetName=D_OUT2 Pin=R42-1
+Added Pin To Net: NetName=D_OUT1 Pin=R43-1
+Added Pin To Net: NetName=PWM_CH1 Pin=VT3-5
+Added Pin To Net: NetName=PWM_CH1 Pin=VT3-6
+Added Pin To Net: NetName=PWM_CH2 Pin=VT3-7
+Added Pin To Net: NetName=PWM_CH2 Pin=VT3-8

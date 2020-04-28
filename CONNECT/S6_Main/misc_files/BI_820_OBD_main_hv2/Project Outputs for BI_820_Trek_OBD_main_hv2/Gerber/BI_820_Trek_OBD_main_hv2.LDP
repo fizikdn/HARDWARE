@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\projects\GPS_GPRS\DISM\BI 820 Trek OBD\main_hv2\BI_820_Trek_OBD_main_hv2.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=bi_820_trek_obd_main_hv2-plated.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=bi_820_trek_obd_main_hv2-nonplated.txt|LayerPairs=gtl,gbl

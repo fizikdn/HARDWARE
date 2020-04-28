@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: RS_RF02.PcbDoc   22.01.2018  11:45:40
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : RS_RF02-Plated.TXT
+ASCII Non-Plated RoundHoles File : RS_RF02-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             178       PTH        0.00inch (0.00mm)
+T2      16mil (0.399mm)                                           Round             15        PTH        0.00inch (0.00mm)
+T3      20mil (0.5mm)                                             Round             4         PTH        0.00inch (0.00mm)
+T4      38mil (0.965mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T5      39mil (0.991mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T6      39mil (1.001mm)                                           Round             12        PTH        0.00inch (0.00mm)
+T7      43mil (1.1mm)                                             Round             14        PTH        0.00inch (0.00mm)
+T8      118mil (3mm)                                              Round             2         PTH        0.00inch (0.00mm)
+T9      118mil (3mm)                                              Round             3         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              234
+
+Total Processing Time (hh:mm:ss) : 00:00:00

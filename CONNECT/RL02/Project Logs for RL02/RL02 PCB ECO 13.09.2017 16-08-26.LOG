@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=XTALIN Pin=DD1-5
+Removed Pin From Net: NetName=XTALOUT Pin=DD1-6
+Added Pin To Net: NetName=GND Pin=DD1-5
+Added Pin To Net: NetName=XTALIN Pin=DD1-6
+Added Pin To Net: NetName=XTALOUT Pin=DD1-7

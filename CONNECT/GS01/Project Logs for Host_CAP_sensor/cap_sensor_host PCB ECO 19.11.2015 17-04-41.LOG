@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=ISP_START Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=NetR25_1 Pin=VD25-1
+Removed Pin From Net: NetName=NetFU15_1 Pin=VD25-2
+Removed Pin From Net: NetName=+12V Pin=XP1-2
+Added Component: Designator=J2(PIN2W)
+Added Component: Designator=VD25(LED0805)
+Added Pin To Net: NetName=ISP_START Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=NetFU21_2 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=VD25-1
+Added Pin To Net: NetName=NetR25_1 Pin=VD25-1
+Added Pin To Net: NetName=NetC28_2 Pin=VD25-2
+Added Pin To Net: NetName=NetFU15_1 Pin=VD25-2
+Added Pin To Net: NetName=VIN Pin=XP1-2
+Added Member To Class: ClassName=MCU Member=Component J2 PLS-02
+Added Member To Class: ClassName=Power Member=Component J2 PLS-02

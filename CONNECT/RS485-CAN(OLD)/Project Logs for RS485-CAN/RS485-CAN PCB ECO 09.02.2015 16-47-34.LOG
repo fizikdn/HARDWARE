@@ -1,0 +1,25 @@
+Added Component: Designator=DD?(LQFP48)
+Added Pin To Net: NetName=SS Pin=DD?-2
+Added Pin To Net: NetName=RESET Pin=DD?-3
+Added Pin To Net: NetName=ISP_START Pin=DD?-4
+Added Pin To Net: NetName=XTALIN Pin=DD?-6
+Added Pin To Net: NetName=XTALOUT Pin=DD?-7
+Added Pin To Net: NetName=VCC Pin=DD?-8
+Added Pin To Net: NetName=SCK Pin=DD?-13
+Added Pin To Net: NetName=ISP_VAR Pin=DD?-14
+Added Pin To Net: NetName=VCC Pin=DD?-17
+Added Pin To Net: NetName=CANL Pin=DD?-18
+Added Pin To Net: NetName=CANH Pin=DD?-19
+Added Pin To Net: NetName=+5V Pin=DD?-20
+Added Pin To Net: NetName=GND Pin=DD?-21
+Added Pin To Net: NetName=STB Pin=DD?-22
+Added Pin To Net: NetName=STB Pin=DD?-23
+Added Pin To Net: NetName=MISO Pin=DD?-26
+Added Pin To Net: NetName=CAN_CON Pin=DD?-28
+Added Pin To Net: NetName=RS485_CON Pin=DD?-29
+Added Pin To Net: NetName=MOSI Pin=DD?-38
+Added Pin To Net: NetName=GND Pin=DD?-41
+Added Pin To Net: NetName=VCC Pin=DD?-44
+Added Pin To Net: NetName=RXD Pin=DD?-46
+Added Pin To Net: NetName=TXD Pin=DD?-47
+Added Member To Class: ClassName=Main Member=Component DD? LPC11C24FBD48

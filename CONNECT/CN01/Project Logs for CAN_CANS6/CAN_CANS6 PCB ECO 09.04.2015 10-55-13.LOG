@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=CAN_H Pin=FU4-2
+Removed Pin From Net: NetName=CAN_H Pin=XP1-5
+Added Pin To Net: NetName=VIN Pin=XP1-4
+Added Pin To Net: NetName=CAN_L Pin=FU4-2
+Added Pin To Net: NetName=CAN_L Pin=XP1-5
+Added Net: Name=CAN_L

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [S6_Fuel_counter_h.PcbDoc]
+   Generated File[S6_Fuel_counter_h-Plated.TXT]
+   Generated File[S6_Fuel_counter_h-NonPlated.TXT]
+   Generated File[S6_Fuel_counter_h.LDP]
+   Generated File[S6_Fuel_counter_h.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:38:02 On 14.02.2017

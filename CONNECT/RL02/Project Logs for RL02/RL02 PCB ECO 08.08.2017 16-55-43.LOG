@@ -1,0 +1,18 @@
+Added Component: Designator=C23(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=DD2(EIAJ_SO8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "M25PE16"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=NetDD1_10 Pin=DD2-1
+Added Pin To Net: NetName=MISO0 Pin=DD2-2
+Added Pin To Net: NetName=+3V3 Pin=DD2-3
+Added Pin To Net: NetName=GND Pin=DD2-4
+Added Pin To Net: NetName=MOSI0 Pin=DD2-5
+Added Pin To Net: NetName=SCK0 Pin=DD2-6
+Added Pin To Net: NetName=+3V3 Pin=DD2-7
+Added Pin To Net: NetName=+3V3 Pin=DD2-8
+Added Member To Class: ClassName=MCU Member=Component C23 0.1uF
+Added Member To Class: ClassName=MCU Member=Component DD2 M25PE16

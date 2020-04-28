@@ -1,0 +1,60 @@
+﻿Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Expansion_S6.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\S6_Line\Expansion_S6\Expansion_S6.PrjPcb|ReportField=Title~Bill of Materials For Project [Expansion_S6.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~127|ReportField=ReportTime~15:01:41|ReportField=ReportDate~23.10.2015|ReportField=ReportDateTime~23.10.2015 15:01:41|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~23.10.2015|ReportField=CurrentTime~15:00:52|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\S6_Line\Expansion_S6\Input.SchDoc|ReportField=DocumentName~Input.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~30.07.2015|ReportField=Organization~|ReportField=ProjectName~Expansion_S6.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Expansion_S6.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\S6_Line\Expansion_S6\Expansion_S6.PrjPcb
+0.1uF|CC0603|C1, C2, C3, C6, C7, C10, C11, C12, C13, C14, C16, C17, C20|13
+100 pF|CC0603|C4, C5|2
+100pF|CC0603|C8, C9|2
+200pF|CC0603|C15|1
+22pF|CC0603|C18, C19|2
+0.1 uF|CC0603|C21|1
+100uFx35V|CAP0.25|C22|1
+330pFx50V|CC0603|C23|1
+1000uFx10V|CAP0.35|C24|1
+0.1uFx16V|CC0603|C25|1
+0.1uFx50V|CC0603|C26, C29|2
+0.1uFx250V|CC1206|C27|1
+470uF|CAP0.5(1)|C28|1
+4.7uFx16V|CC0805|C30|1
+1uFx10V|CC0603|C31|1
+MC33063|MC34063|DA1|1
+MCP1824T-ADJE/DC|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA2|1
+LPC11C24FBD48||DD1|1
+M25P40|S25FL016A0LMFI01|DD2|1
+MICROSMD010F|MICROSMD|FU1, FU2, FU3, FU4, FU5, FU7, FU8|7
+MF-SMDF050|MF-SMDF|FU6|1
+PLS-02|PLS-02|J1, J2|2
+220uH|SDR0805|L1|1
+NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+100k|RC0603|R1, R2, R5, R9, R10, R13, R14, R15, R16, R19, R20|11
+10k|RC0603|R3, R4, R6, R24, R25, R31, R33|7
+4k7|RC0603|R7, R8, R11, R12, R32|5
+33k|RC0603|R17, R18, R21, R22|4
+100E|RC0603|R23|1
+330|RC0603|R27, R30|2
+220|RC0603|R28, R29|2
+51|RC1206|R34|1
+3k 1%|RC0603|R35|1
+1k 1%|RC0603|R36|1
+1E|RC0805|R37, R38|2
+220k|RC1206|R39, R40, R42|3
+15k 1%|RC0603|R41|1
+105k 1%|RC0603|R43|1
+560k|RC0603|R44|1
+REPER1.2|REPER1.2|Rep1, Rep2, Rep3, Rep4|4
+BAT54S|1.0 Ampere General Purpose Rectifier, 1.0 Ampere General Purpose Rectifier, 1.0 Ampere General Purpose Rectifier, BAT54S, BAT54S, BAT54S, BAT54S, 1.0 Ampere General Purpose Rectifier|VD1, VD2, VD3, VD12, VD13, VD14, VD15, VD19|8
+P6SMBJ28A|SMBJ|VD4, VD5, VD8, VD9|4
+BAT54A|BAT54A|VD6, VD7, VD10, VD11|4
+BL-B45V1-L|LED_3|VD16|1
+BZV55C5V6|BZV55C3V0|VD17, VD18|2
+SMBJ5.0A|SMBJ|VD20|1
+BZV55C3V6|BZV55C12|VD21|1
+SS14|Schottky Rectifier|VD22|1
+PESD2CAN|TVS for CAN|VD23|1
+GS1M|GS1M|VD24|1
+SMBJ150A|SMBJ|VD25|1
+BZV55C36|Zener Voltage Regulator Diode|VD26|1
+BZV55C15|Zener Voltage Regulator Diode|VD27|1
+IRF9956|IRF9956|VT1|1
+BC856B|BC856B|VT2|1
+IRFR9220|HEXFET Power MOSFET|VT3|1
+PLD-06|PLD06|XP1|1
+MIF2X08PRP|MIF2X08PRP|XP2|1
+MIF2X02PRP|MIF2X02PRP|XP3|1

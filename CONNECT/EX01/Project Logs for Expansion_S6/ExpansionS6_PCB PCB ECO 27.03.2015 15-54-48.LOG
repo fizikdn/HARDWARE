@@ -1,0 +1,15 @@
+Removed Member From Class: ClassName=Output&1Wire Member=R37
+Removed Member From Class: ClassName=Output&1Wire Member=R40
+Removed Member From Class: ClassName=Output&1Wire Member=R41
+Removed Member From Class: ClassName=Output&1Wire Member=R44
+Added Pin To Net: NetName=NetC21_2 Pin=DD1-31
+Change Net Name : Old Net Name=NetC21_2 New Net Name=1WIRE
+Added Pin To Net: NetName=1WIRE_IN Pin=R32-1
+Added Pin To Net: NetName=1WIRE_IN Pin=XP2-16
+Added Net: Name=1WIRE_IN
+Added Member To Class: ClassName=Output&1Wire Member=Component R30 220
+Added Member To Class: ClassName=Output&1Wire Member=Component R31 220
+Added Member To Class: ClassName=Output&1Wire Member=Component R32 330
+Added Member To Class: ClassName=Output&1Wire Member=Component R33 10k
+Added Member To Class: ClassName=Power Member=Component R37 3k 1%
+Added Member To Class: ClassName=Power Member=Component R38 1k 1%

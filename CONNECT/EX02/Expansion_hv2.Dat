@@ -1,0 +1,62 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Expansion_hv2.PrjPcb|ReportField=ProjectFullPath~E:\Projects_Files\Projects\Altium_Projects\S6_Line\EX02\Expansion_hv2.PrjPcb|ReportField=Title~Bill of Materials For Project [Expansion_hv2.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~137|ReportField=ReportTime~11:35:28|ReportField=ReportDate~25.09.2017|ReportField=ReportDateTime~25.09.2017 11:35:28|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~25.09.2017|ReportField=CurrentTime~11:30:28|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Projects_Files\Projects\Altium_Projects\S6_Line\EX02\1Wire.SchDoc|ReportField=DocumentName~1Wire.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~21.09.2017|ReportField=Organization~|ReportField=ProjectName~Expansion_hv2.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Expansion_hv2.PrjPcb|ReportField=DataSourceFullPath~E:\Projects_Files\Projects\Altium_Projects\S6_Line\EX02\Expansion_hv2.PrjPcb|ReportField=PCBConfigurationName~Default Configuration|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|33pF|CC0603|C1|1
+2|0.1uF|CC0603|C2, C6, C7, C10, C11, C12, C13, C14, C15, C16, C17, C18, C26, C29, C31, C34, C35|17
+3|100uFx35V|CAP0.25|C3|1
+4|100pF|CC0603|C4, C5, C8, C9|4
+5|10uFx10V|CC0805|C19|1
+6|200pF|CC0603|C20, C24|2
+7|0.1uF|CC0603|C21|1
+8|22pF|CC0603|C22, C23|2
+9|0.1uF|CC1206|C25|1
+10|470uFx35V|CAP0.5(1)|C27|1
+11|1000uFx6.3V|CAP0.35|C28|1
+12|300pF|CC0603|C30|1
+13|10uFx6.3V|CC0805|C32|1
+14|4.7uF 6.3V|CC0805|C33|1
+15|MC34063|MC34063|DA1|1
+16|AP2210K-ADJTRG1|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA2|1
+17|LPC11C24FBD48||DD1|1
+18|FM25CL64-G|FM25CL64-G|DD2|1
+19|M25PE16|S25FL016A0LMFI01|DD3|1
+20|MICROSMD010F-2|MICROSMD|FU1, FU2, FU3, FU4, FU5, FU6, FU7|7
+21|MF-SMDF050|MF-SMDF|FU8|1
+22|PLS-02|PLS-02|J1, J2, J3|3
+23|220uH|SDR0805|L1|1
+24|NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+25|4k7|RC0603|R1, R4, R5, R8, R9|5
+26|330E|RC0603|R2, R26|2
+27|51E|RC0603|R3|1
+28|100k|RC0603|R6, R7, R10, R11, R12, R13, R16, R17|8
+29|33k|RC0603|R14, R15, R18, R19|4
+30|75k|RC0603|R20, R21, R24|3
+31|10k|RC0603|R22, R23, R25, R28, R29, R30, R31, R44, R45|9
+32|100E|RC0603|R27|1
+33|220k|RC1206|R32, R33, R34|3
+34|1E|RC0805|R35, R36|2
+35|560k|RC0603|R37|1
+36|3k 1%|RC0603|R38|1
+37|1k 1%|RC0603|R39|1
+38|11k 1%|RC0603|R40|1
+39|18k 1%|RC0603|R41|1
+40|220E|RC0603|R42, R43|2
+41|120E|RC0805|R46|1
+42|REPER_POINT_1.2|REPER1.2|REP1, REP2, REP3, REP4|4
+43|BAT54S|1.0 Ampere General Purpose Rectifier|VD1, VD13, VD14, VD15, VD16, VD17, VD18, VD19|8
+44|BZV55C3V6|Zener Voltage Regulator Diode|VD2|1
+45|SMBJ5.0A|SMBJ|VD3|1
+46|PESD2CAN|TVS for CAN|VD4|1
+47|BAT54A|1.0 Ampere General Purpose Rectifier|VD5, VD6, VD9, VD10|4
+48|P6SMBJ28A|SMBJ|VD7, VD8, VD11, VD12|4
+49|BL-B45V1-L|LED_3|VD20|1
+50|GS1M|GS1M|VD21|1
+51|SMBJ150A|SMBJ|VD22|1
+52|BZX84C15|Zener Voltage Regulator Diode|VD23|1
+53|BZX84C39|Zener Voltage Regulator Diode|VD24|1
+54|SS14|Schottky Rectifier|VD25|1
+55|BZV55C5V1|Zener Voltage Regulator Diode|VD26, VD27|2
+56|FQD5P20TM|HEXFET Power MOSFET|VT1|1
+57|BC807-40|BC857B|VT2|1
+58|IRF9956|HEXFET Power MOSFET|VT3|1
+59|MIF2X02PRP|MIF2X02PRP|XP1, XP3|2
+60|MIF2X08PRP|MIF2X08PRP|XP2|1
+61|PLD-06|PLD06|XP4|1

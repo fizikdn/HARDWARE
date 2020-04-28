@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=XTALOUT New Net Name=XTALIN
+Added Pin To Net: NetName=XTALOUT Pin=C11-2
+Added Pin To Net: NetName=XTALOUT Pin=DD3-7
+Added Pin To Net: NetName=XTALOUT Pin=QR1-2
+Added Net: Name=XTALOUT

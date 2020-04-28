@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=FU3 NewDesignator=FU2
+Change Component Designator: OldDesignator=FU5 NewDesignator=FU3
+Change Component Designator: OldDesignator=FU7 NewDesignator=FU4
+Added Member To Class: ClassName=Connectors Member=Component FU3 MICROSMD010F-2
+Added Member To Class: ClassName=Connectors Member=Component FU4 MICROSMD010F-2

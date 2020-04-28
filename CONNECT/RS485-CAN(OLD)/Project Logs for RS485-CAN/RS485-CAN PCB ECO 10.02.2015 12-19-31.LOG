@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=TXD Pin=U1-1
+Added Pin To Net: NetName=RXD Pin=U1-4
+Added Pin To Net: NetName=RE_DE Pin=DD1-48
+Added Pin To Net: NetName=RE_DE Pin=U1-2
+Added Pin To Net: NetName=RE_DE Pin=U1-3
+Added Net: Name=RE_DE

@@ -1,0 +1,5 @@
+Change Component Comment : Designator=C19 Old Comment=1uFx16V New Comment=0.1uFx16V
+Added Component: Designator=R13(RC0603-3M)
+Added Pin To Net: NetName=NetDA1_2 Pin=R13-1
+Added Pin To Net: NetName=NetC17_2 Pin=R13-2
+Added Member To Class: ClassName=Power Member=Component R13 560k

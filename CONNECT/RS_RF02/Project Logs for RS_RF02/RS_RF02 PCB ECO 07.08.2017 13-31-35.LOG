@@ -1,0 +1,22 @@
+Change Component Comment : Designator=DD4 Old Comment=M25P40 New Comment=M25PE16
+Change component parameters: Designator = "DD4"; Footprint = "EIAJ_SO8"; UniqueID = "\BPCAFKHS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "M25PE16"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CC0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=QR1(AC5032_2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "NX5032GA-12.000MHz LN-CD-1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=XTALOUT Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=XTALIN Pin=C12-2
+Added Pin To Net: NetName=XTALIN Pin=QR1-1
+Added Pin To Net: NetName=XTALOUT Pin=QR1-2
+Added Member To Class: ClassName=MCU Member=Component C11 22pF
+Added Member To Class: ClassName=MCU Member=Component C12 22pF
+Added Member To Class: ClassName=MCU Member=Component QR1 NX5032GA-12.000MHz LN-CD-1

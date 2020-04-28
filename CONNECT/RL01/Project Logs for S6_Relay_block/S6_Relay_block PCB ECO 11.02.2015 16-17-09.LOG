@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=RELAY1 Pin=DD1-30
+Removed Pin From Net: NetName=RELAY2 Pin=DD1-31
+Added Pin To Net: NetName=RELAY2 Pin=DD1-36
+Added Pin To Net: NetName=RELAY1 Pin=DD1-37
+Added Member To Class: ClassName=Main Member=Component C3 0.1uF

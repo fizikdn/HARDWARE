@@ -1,0 +1,4 @@
+Added Component: Designator=J2(PIN2W)
+Added Pin To Net: NetName=RESET Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Member To Class: ClassName=Main Member=Component J2 PLS-02

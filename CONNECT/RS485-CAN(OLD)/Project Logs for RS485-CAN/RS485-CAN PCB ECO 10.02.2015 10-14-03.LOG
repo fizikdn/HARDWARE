@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=CANL Pin=FU3-2
+Removed Pin From Net: NetName=CANH Pin=FU4-2
+Removed Pin From Net: NetName=CANL Pin=XP5-2
+Removed Pin From Net: NetName=CANH Pin=XP5-4
+Added Pin To Net: NetName=CANHF Pin=FU4-2
+Added Pin To Net: NetName=CANHF Pin=XP5-4
+Added Net: Name=CANHF
+Added Pin To Net: NetName=CANLF Pin=FU3-2
+Added Pin To Net: NetName=CANLF Pin=XP5-2
+Added Net: Name=CANLF

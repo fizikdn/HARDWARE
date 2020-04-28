@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Change Component Designator: OldDesignator=R28 NewDesignator=R27
+Change Component Designator: OldDesignator=XP3 NewDesignator=XP2
+Change Component Designator: OldDesignator=XP4 NewDesignator=XP3
+Added Member To Class: ClassName=Main Member=Component J3 PLS-02
+Added Member To Class: ClassName=Main Member=Component R27 10k

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [RS232_RS485_CANS6.PcbDoc]
+   Generated File[RS232_RS485_CANS6-Plated.TXT]
+   Generated File[RS232_RS485_CANS6-NonPlated.TXT]
+   Generated File[RS232_RS485_CANS6.LDP]
+   Generated File[RS232_RS485_CANS6.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:11:44 On 24.03.2016

@@ -1,0 +1,9 @@
+Added Component: Designator=XP1(MIF2X03PRP)
+Added Pin To Net: NetName=NetDD1_13 Pin=XP1-2
+Added Pin To Net: NetName=GND Pin=XP1-3
+Added Pin To Net: NetName=NetDD1_8 Pin=XP1-5
+Added Pin To Net: NetName=VIN Pin=XP1-6
+Added Pin To Net: NetName=NetXP1_1 Pin=XP1-1
+Added Net: Name=NetXP1_1
+Added Pin To Net: NetName=NetXP1_4 Pin=XP1-4
+Added Net: Name=NetXP1_4

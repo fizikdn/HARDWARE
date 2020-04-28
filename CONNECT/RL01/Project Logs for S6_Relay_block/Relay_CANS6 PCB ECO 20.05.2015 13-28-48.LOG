@@ -1,0 +1,8 @@
+Added Component: Designator=VD7(SMB)
+Added Component: Designator=VD9(SMB)
+Added Pin To Net: NetName=GND Pin=VD7-1
+Added Pin To Net: NetName=NetFU3_2 Pin=VD7-2
+Added Pin To Net: NetName=GND Pin=VD9-1
+Added Pin To Net: NetName=NetFU4_2 Pin=VD9-2
+Added Member To Class: ClassName=Output Member=Component VD7 P6SMBJ28A
+Added Member To Class: ClassName=Output Member=Component VD9 P6SMBJ28A

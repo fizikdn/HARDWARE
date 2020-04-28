@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=ISP_VAR Pin=J3-1
+Removed Pin From Net: NetName=GND Pin=J3-2
+Removed Pin From Net: NetName=+3.3V Pin=R26-1
+Removed Pin From Net: NetName=ISP_VAR Pin=R26-2
+Removed Member From Class: ClassName=Input_1 Member=C6
+Removed Member From Class: ClassName=Main Member=C10
+Removed Member From Class: ClassName=Output&1Wire Member=C19
+Removed Member From Class: ClassName=Power Member=C21
+Removed Member From Class: ClassName=Main Member=J3
+Removed Member From Class: ClassName=Input_0 Member=R6
+Removed Member From Class: ClassName=Input_1 Member=R8
+Removed Member From Class: ClassName=Input_1 Member=R11
+Removed Member From Class: ClassName=Input_1 Member=R14
+Removed Member From Class: ClassName=Main Member=R15
+Removed Member From Class: ClassName=Main Member=R18
+Removed Member From Class: ClassName=Main Member=R21
+Removed Member From Class: ClassName=Main Member=R22
+Removed Member From Class: ClassName=Output&1Wire Member=R25
+Removed Member From Class: ClassName=Output&1Wire Member=R26
+Removed Member From Class: ClassName=Power Member=R31
+Removed Member From Class: ClassName=Power Member=R32
+Removed Member From Class: ClassName=Input_1 Member=VD10
+Removed Member From Class: ClassName=Input_1 Member=VD11
+Removed Member From Class: ClassName=Main Member=VD14
+Removed Member From Class: ClassName=Output&1Wire Member=VD15
+Removed Member From Class: ClassName=Power Member=VD21
+Change Component Comment : Designator=R3 Old Comment=33k New Comment=10k
+Change Component Comment : Designator=R4 Old Comment=33k New Comment=10k
+Change Component Comment : Designator=R6 Old Comment=33k New Comment=10k
+Change Component Comment : Designator=VD21 Old Comment=BZV55C3V3 New Comment=BZV55C3V6
+Added Component: Designator=R44(RC0603-3M)
+Added Pin To Net: NetName=NetC23_2 Pin=R44-1
+Added Pin To Net: NetName=NetDA1_2 Pin=R44-2
+Added Member To Class: ClassName=Input_0 Member=Component C7 0.1uF
+Added Member To Class: ClassName=Input_1 Member=Component C11 0.1uF
+Added Member To Class: ClassName=Main Member=Component C19 22pF
+Added Member To Class: ClassName=Output&1Wire Member=Component C22 100uFx35V
+Added Member To Class: ClassName=Power Member=Component C31 1uFx10V
+Added Member To Class: ClassName=Input_0 Member=Component R13 100k
+Added Member To Class: ClassName=Input_0 Member=Component R14 100k
+Added Member To Class: ClassName=Input_1 Member=Component R16 100k
+Added Member To Class: ClassName=Input_1 Member=Component R21 33k
+Added Member To Class: ClassName=Input_1 Member=Component R22 33k
+Added Member To Class: ClassName=Main Member=Component R23 100E
+Added Member To Class: ClassName=Main Member=Component R24 10k
+Added Member To Class: ClassName=Output&1Wire Member=Component R33 10k
+Added Member To Class: ClassName=Output&1Wire Member=Component R34 51
+Added Member To Class: ClassName=Power Member=Component R44 560k
+Added Member To Class: ClassName=Input_0 Member=Component VD11 BAT54A
+Added Member To Class: ClassName=Input_1 Member=Component VD12 BAT54S
+Added Member To Class: ClassName=Input_1 Member=Component VD15 BAT54S
+Added Member To Class: ClassName=Main Member=Component VD16 BL-B45V1-L
+Added Member To Class: ClassName=Output&1Wire Member=Component VD21 BZV55C3V6
+Added Member To Class: ClassName=Power Member=Component VD27 BZV55C15

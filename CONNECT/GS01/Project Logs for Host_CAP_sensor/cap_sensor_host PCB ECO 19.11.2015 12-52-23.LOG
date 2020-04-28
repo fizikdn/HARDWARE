@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=ISP_START Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Added Component: Designator=J2(PIN2W)
+Added Component: Designator=R43(RC0805)
+Added Pin To Net: NetName=ISP_START Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=NetFU21_2 Pin=J2-2
+Added Pin To Net: NetName=NetFU22_2 Pin=R43-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=R43-2
+Added Net: Name=NetJ2_1
+Added Member To Class: ClassName=Power Member=Component J2 PLS-02
+Added Member To Class: ClassName=Power Member=Component R43 120E

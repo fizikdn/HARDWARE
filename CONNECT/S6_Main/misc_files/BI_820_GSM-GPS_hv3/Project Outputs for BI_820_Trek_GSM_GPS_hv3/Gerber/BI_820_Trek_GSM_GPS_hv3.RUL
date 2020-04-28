@@ -1,0 +1,11 @@
+DRC Rules Export File for PCB: D:\projects\GPS_GPRS\DISM\BI 820 Trek\GSM-GPS_hv3\BI_820_Trek_GSM_GPS_hv2.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_MH|Scope=Board|Minimum=78.74
+RuleKind=Clearance|RuleName=Clearance_keepout|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_RF|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=Clearance_Poly|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_VIA|Scope=Board|Minimum=-1000.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=1.97
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.99
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

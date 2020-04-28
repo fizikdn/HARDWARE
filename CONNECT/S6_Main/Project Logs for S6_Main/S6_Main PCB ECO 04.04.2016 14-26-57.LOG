@@ -1,0 +1,12 @@
+Added Component: Designator=FU1(RC1210)
+Added Component: Designator=FU2(RC1210)
+Added Pin To Net: NetName=NetDD4_7 Pin=FU1-1
+Added Pin To Net: NetName=NetDD4_6 Pin=FU2-1
+Added Pin To Net: NetName=NetFU1_2 Pin=FU1-2
+Added Pin To Net: NetName=NetFU1_2 Pin=X3-1
+Added Net: Name=NetFU1_2
+Added Pin To Net: NetName=NetFU2_2 Pin=FU2-2
+Added Pin To Net: NetName=NetFU2_2 Pin=X4-1
+Added Net: Name=NetFU2_2
+Added Member To Class: ClassName=Interface Member=Component FU1 MICROSMD010F-2
+Added Member To Class: ClassName=Interface Member=Component FU2 MICROSMD010F-2

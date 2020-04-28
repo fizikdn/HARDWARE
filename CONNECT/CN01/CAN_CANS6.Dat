@@ -1,0 +1,46 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~CAN_CANS6.PrjPcb|ReportField=ProjectFullPath~D:\Projects_Files\Projects\Altium_Projects\S6_Line\CAN_CANS6\CAN_CANS6.PrjPcb|ReportField=Title~Bill of Materials For Project [CAN_CANS6.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~72|ReportField=ReportTime~12:36:58|ReportField=ReportDate~04.12.2015|ReportField=ReportDateTime~04.12.2015 12:36:58|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~04.12.2015|ReportField=CurrentTime~12:36:31|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Projects_Files\Projects\Altium_Projects\S6_Line\CAN_CANS6\Interface.SchDoc|ReportField=DocumentName~Interface.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~14.04.2015|ReportField=Organization~|ReportField=ProjectName~CAN_CANS6.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~CAN_CANS6.PrjPcb|ReportField=DataSourceFullPath~D:\Projects_Files\Projects\Altium_Projects\S6_Line\CAN_CANS6\CAN_CANS6.PrjPcb
+1|REPER1.2|REPER1.2|1, 2|2
+2|0.1uF|CC0603|C1, C2, C3, C5, C6, C7, C8, C9, C10, C11, C12, C16|12
+3|220pF|CC0603|C4|1
+4|22pF|CC0603|C13, C14|2
+5|200pF|CC0603|C15|1
+6|330pFx50V|CC0603|C17|1
+7|1000uFx10V|CAP0.35|C18|1
+8|0.1uFx16V|CC0603|C19|1
+9|0.1uFx50V|CC0603|C20|1
+10|0.1uFx250V|CC1206|C21|1
+11|470uF|CAP0.5(1)|C22|1
+12|MC33063|MC34063|DA1|1
+13|SN65HVD234D|CAN Transceiver|DD1, DD2|2
+14|LPC1768FBD100|Cortex -M3 32-Bit Microcontroller, 512KB Flash, 64KB RAM, 100-Lead LQFP|DD3|1
+15|M25PE16|S25FL016A0LMFI01|DD4|1
+16|MICROSMD010F-2|MICROSMD|FU1, FU2, FU3, FU4, FU5, FU6|6
+17|MF-SMDF050|MF-SMDF|FU7|1
+18|PLS-02|PLS-02|J1|1
+19|PLS-02|PLS-02|J2|1
+20|220uH|SDR0805|L1|1
+21|NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+22|10k|RC0603|R1, R5|2
+23|330|RC0603|R2, R3|2
+24|100E|RC0603|R4|1
+25|18k 1%|RC0603|R6|1
+26|11k 1%|RC0603|R7|1
+27|1E|RC0805|R8, R9|2
+28|220k|RC1206|R10, R11, R12|3
+29|560k|RC0603|R13|1
+30|ST3485EBDR||U1|1
+31|PESD2CAN|TVS for CAN|VD1, VD2|2
+32|SMBJ5.0A|SMBJ|VD3, VD6|2
+33|BAV99|1.0 Ampere General Purpose Rectifier|VD4, VD5|2
+34|BL-B45V1-L|LED_3|VD7|1
+35|GNL-3014GC|LED_3|VD8|1
+36|SS14|Schottky Rectifier|VD9|1
+37|GS1M|GS1M|VD10|1
+38|SMBJ150A|SMBJ|VD11|1
+39|BZV55C36|Zener Voltage Regulator Diode|VD12|1
+40|BZV55C15|Zener Voltage Regulator Diode|VD13|1
+41|BC856B|BC856B|VT1|1
+42|IRFR9220|HEXFET Power MOSFET|VT2|1
+43|MIF2X03PRP|MIF2x03PRP|XP1|1
+44|PLD-06|PLD06|XP2|1
+45|MIF2X02PRP|MIF2X02PRP|XP3|1

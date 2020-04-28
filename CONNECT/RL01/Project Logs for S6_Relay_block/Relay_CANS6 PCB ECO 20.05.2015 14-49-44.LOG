@@ -1,0 +1,4 @@
+Added Component: Designator=R17(RC0603-3M)
+Added Pin To Net: NetName=GND Pin=R17-1
+Added Pin To Net: NetName=NetR16_2 Pin=R17-2
+Added Member To Class: ClassName=Output Member=Component R17 47k

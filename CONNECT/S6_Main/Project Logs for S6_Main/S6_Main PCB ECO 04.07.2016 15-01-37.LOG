@@ -1,0 +1,11 @@
+Added Component: Designator=DA1(LGA-12)
+Added Pin To Net: NetName=MISO Pin=DA1-1
+Added Pin To Net: NetName=MOSI Pin=DA1-2
+Added Pin To Net: NetName=+3V Pin=DA1-3
+Added Pin To Net: NetName=GND Pin=DA1-4
+Added Pin To Net: NetName=+3V Pin=DA1-7
+Added Pin To Net: NetName=GND Pin=DA1-8
+Added Pin To Net: NetName=GND Pin=DA1-9
+Added Pin To Net: NetName=SS0 Pin=DA1-10
+Added Pin To Net: NetName=SCK Pin=DA1-12
+Added Member To Class: ClassName=CPU Member=Component DA1 KX022-1020

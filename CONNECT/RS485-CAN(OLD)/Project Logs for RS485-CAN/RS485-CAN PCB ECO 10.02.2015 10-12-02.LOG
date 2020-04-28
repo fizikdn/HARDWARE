@@ -1,0 +1,23 @@
+Change Component Designator: OldDesignator=DD? NewDesignator=DD1
+Change Component Designator: OldDesignator=R3 NewDesignator=R2
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Change Component Designator: OldDesignator=R9 NewDesignator=R7
+Change Component Designator: OldDesignator=R10 NewDesignator=R8
+Change Component Designator: OldDesignator=R11 NewDesignator=R9
+Change Component Designator: OldDesignator=R12 NewDesignator=R10
+Change Component Designator: OldDesignator=R13 NewDesignator=R11
+Change Component Designator: OldDesignator=R14 NewDesignator=R12
+Change Component Designator: OldDesignator=R15 NewDesignator=R13
+Change Component Designator: OldDesignator=R16 NewDesignator=R14
+Change Component Designator: OldDesignator=R17 NewDesignator=R15
+Change Component Designator: OldDesignator=XP6 NewDesignator=XP5
+Change Component Designator: OldDesignator=XP? NewDesignator=XP1
+Change Net Name : Old Net Name=NetR5_2 New Net Name=NetR4_2
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetR5_2
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetR6_2
+Change Net Name : Old Net Name=NetR13_1 New Net Name=NetR11_1
+Change Net Name : Old Net Name=NetR16_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR17_1 New Net Name=NetR15_1

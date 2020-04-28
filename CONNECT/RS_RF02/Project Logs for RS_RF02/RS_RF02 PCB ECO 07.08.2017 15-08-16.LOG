@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=CANL Pin=DD3-18
+Removed Pin From Net: NetName=CANH Pin=DD3-19
+Added Member To Class: ClassName=Interface Member=Component VD1 BAV99

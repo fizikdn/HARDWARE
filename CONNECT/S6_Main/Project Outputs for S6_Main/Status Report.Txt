@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [S6_Main.PcbDoc]
+   Generated File[S6_Main-Plated.TXT]
+   Generated File[S6_Main-NonPlated.TXT]
+   Generated File[S6_Main.LDP]
+   Generated File[S6_Main.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 14:05:13 On 02.09.2016

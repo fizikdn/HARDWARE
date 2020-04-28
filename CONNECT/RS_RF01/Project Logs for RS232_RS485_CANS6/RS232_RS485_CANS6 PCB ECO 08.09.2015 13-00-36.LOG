@@ -1,0 +1,36 @@
+Added Component: Designator=FU4(RC1210)
+Added Component: Designator=FU5(RC1210)
+Added Component: Designator=VD9(SMB)
+Added Component: Designator=VD10(SOT-23(GSD))
+Added Component: Designator=VD11(SOT-23(GSD))
+Added Component: Designator=VD12(SMB)
+Added Pin To Net: NetName=GND Pin=VD9-2
+Added Pin To Net: NetName=GND Pin=VD12-1
+Added Pin To Net: NetName=A Pin=VD9-1
+Added Pin To Net: NetName=A Pin=VD10-1
+Added Pin To Net: NetName=A Pin=VD11-1
+Added Net: Name=A
+Added Pin To Net: NetName=K Pin=VD10-2
+Added Pin To Net: NetName=K Pin=VD11-2
+Added Pin To Net: NetName=K Pin=VD12-2
+Added Net: Name=K
+Added Pin To Net: NetName=NetFU4_1 Pin=FU4-1
+Added Pin To Net: NetName=NetFU4_1 Pin=U1-6
+Added Pin To Net: NetName=NetFU4_1 Pin=VD10-3
+Added Net: Name=NetFU4_1
+Added Pin To Net: NetName=NetFU4_2 Pin=FU4-2
+Added Pin To Net: NetName=NetFU4_2 Pin=XP1-1
+Added Net: Name=NetFU4_2
+Added Pin To Net: NetName=NetFU5_1 Pin=FU5-1
+Added Pin To Net: NetName=NetFU5_1 Pin=U1-7
+Added Pin To Net: NetName=NetFU5_1 Pin=VD11-3
+Added Net: Name=NetFU5_1
+Added Pin To Net: NetName=NetFU5_2 Pin=FU5-2
+Added Pin To Net: NetName=NetFU5_2 Pin=XP1-4
+Added Net: Name=NetFU5_2
+Added Member To Class: ClassName=Interfaces Member=Component FU4 MICROSMD010F-2
+Added Member To Class: ClassName=Interfaces Member=Component FU5 MICROSMD010F-2
+Added Member To Class: ClassName=Interfaces Member=Component VD9 SMBJ5.0A
+Added Member To Class: ClassName=Interfaces Member=Component VD10 BAV99
+Added Member To Class: ClassName=Interfaces Member=Component VD11 BAV99
+Added Member To Class: ClassName=Interfaces Member=Component VD12 SMBJ5.0A

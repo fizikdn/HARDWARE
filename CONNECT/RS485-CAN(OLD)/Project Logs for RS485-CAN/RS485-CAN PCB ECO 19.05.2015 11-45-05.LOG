@@ -1,0 +1,6 @@
+Added Component: Designator=XP4(MIF2X02PRP)
+Added Pin To Net: NetName=GND Pin=XP4-1
+Added Pin To Net: NetName=CANLF Pin=XP4-2
+Added Pin To Net: NetName=VIN Pin=XP4-3
+Added Pin To Net: NetName=CANHF Pin=XP4-4
+Added Member To Class: ClassName=Power Member=Component XP4 MIF2X02PRP

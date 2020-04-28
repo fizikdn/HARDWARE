@@ -1,0 +1,49 @@
+﻿Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~RS485-CAN.PrjPcb|ReportField=ProjectFullPath~D:\Files_Shared\Projects\Altium_Projects\S6_Line\RS485-CAN\RS485-CAN.PrjPcb|ReportField=Title~Bill of Materials For PCB Document [RS485-CAN.PcbDoc]|ReportField=TotalQuantity~67|ReportField=ReportTime~12:53:32|ReportField=ReportDate~25.05.2015|ReportField=ReportDateTime~25.05.2015 12:53:32|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~RS485-CAN.PcbDoc|ReportField=DataSourceFullPath~D:\Files_Shared\Projects\Altium_Projects\S6_Line\RS485-CAN\RS485-CAN.PcbDoc
+0.1uF|CC0603|C1, C2, C3, C6, C7, C9|6
+200pF|CC0603|C4, C5|2
+22pF|CC0603|C8, C10|2
+330pFx50V|CC0603|C11|1
+1000uFx10V|CAP0.35|C12|1
+1uFx16V|CC0603|C13|1
+0.1uFx50V|CC0603|C14, C17|2
+470uF|CAP0.5(1)|C15|1
+0.1uFx250V|CC1206|C16|1
+4.7uFx16V|CC0805|C18|1
+1uFx10V|CC0603|C19|1
+MC34063|MC34063|DA1|1
+MCP1824T-ADJE/DC|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA2|1
+LPC11C24FBD48||DD1|1
+M25P40|S25FL016A0LMFI01|DD2|1
+MICROSMD010F-2|MICROSMD|FU1, FU2|2
+MICROSMD010F|MICROSMD|FU3, FU4|2
+MF-SMDF050|MF-SMDF|FU5|1
+PLS-02|PLS-02|J1|1
+PLS-02|PLS-02|J2|1
+220uH|SDR0805|L1|1
+NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+10k|RC0603|R1, R2, R3|3
+100E|RC0603|R4|1
+330|RC0603|R5, R6|2
+3k 1%|RC0603|R7|1
+1k 1%|RC0603|R8|1
+1E|RC0805|R9, R10|2
+220k|RC1206|R11, R13, R15|3
+15k 1%|RC0603|R12|1
+105k 1%|RC0603|R14|1
+REPER1.2|REPER1.2|Rep1, Rep2|2
+ST3485EBDR||U1|1
+SMBJ5.0A|SMBJ|VD1, VD4|2
+BAV99|1.0 Ampere General Purpose Rectifier|VD2, VD3|2
+BL-B45V1-L|LED_3|VD5|1
+GNL-3014GC|LED_3|VD6|1
+PESD2CAN|TVS for CAN|VD7|1
+SS14|Schottky Rectifier|VD8|1
+GS1M|GS1M|VD9|1
+SMBJ150A|SMBJ|VD10|1
+BZV55C36|Zener Voltage Regulator Diode|VD11|1
+BZV55C15|Zener Voltage Regulator Diode|VD12|1
+BC856B|BC856B|VT1|1
+IRFR9220|HEXFET Power MOSFET|VT2|1
+MIF2X03PRP|MIF2x03PRP|XP1|1
+PLD-06|PLD06|XP2|1
+MIF2X02PRP|MIF2X02PRP|XP3|1

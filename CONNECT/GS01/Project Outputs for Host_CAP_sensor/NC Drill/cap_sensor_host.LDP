@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Projects_Files\Projects\Altium_Projects\Host_CAP_sensor\cap_sensor_host.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=cap_sensor_host-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=cap_sensor_host-nonplated.txt|DrillLayers=gtl,gbl

@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Project [Host_CAP_sensor.PrjPcb]
+   Generated File[Bill of Materials-Host_CAP_sensor.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 14:38:38 On 20.11.2015

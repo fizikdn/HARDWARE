@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Relay_CANS6.PcbDoc   22.05.2015  11:14:49
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Relay_CANS6-Plated.TXT
+ASCII Non-Plated RoundHoles File : Relay_CANS6-NonPlated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        15.7mil (0.39878mm)      Round          118              20.35 Inch (516.95 mm)
+T2        38mil (0.9652mm)         Round          14               2.90 Inch (73.69 mm)
+T3        39mil (0.9906mm)         Round          2                0.10 Inch (2.54 mm)
+T4        43.3mil (1.09982mm)      Round          14               2.56 Inch (65.02 mm)
+T5        51.2mil (1.30048mm)      Round          10               2.81 Inch (71.34 mm)
+T6        94.5mil (2.4003mm)       Round          2         NPTH   2.59 Inch (65.74 mm)
+T7        118.1mil (2.99974mm)     Round          3         NPTH   1.35 Inch (34.38 mm)
+---------------------------------------------------------------------------
+Totals                                            163              32.66 Inch (829.66 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

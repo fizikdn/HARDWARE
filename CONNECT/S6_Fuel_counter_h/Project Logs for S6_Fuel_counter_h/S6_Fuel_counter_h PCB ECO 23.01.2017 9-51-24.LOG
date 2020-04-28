@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=C12 NewDesignator=C28
+Change Component Designator: OldDesignator=C13 NewDesignator=C29
+Added Component: Designator=C12(CC0603)
+Added Component: Designator=C13(CC0603)
+Added Component: Designator=QR1(AC5032_2)
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=NetC12_2 Pin=C12-2
+Added Pin To Net: NetName=NetC12_2 Pin=QR1-2
+Added Net: Name=NetC12_2
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=NetC13_2 Pin=QR1-1
+Added Net: Name=NetC13_2
+Added Member To Class: ClassName=MCU Member=Component C28 0.1uF
+Added Member To Class: ClassName=MCU Member=Component C29 0.1uF
+Added Member To Class: ClassName=MCU Member=Component QR1 NX5032GA-12.000MHz LN-CD-1

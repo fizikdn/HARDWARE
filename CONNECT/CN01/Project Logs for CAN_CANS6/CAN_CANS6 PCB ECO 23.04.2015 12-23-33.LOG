@@ -1,0 +1,5 @@
+Added Component: Designator=XP2(PLD-06)
+Added Pin To Net: NetName=NetR4_2 Pin=XP2-2
+Added Pin To Net: NetName=RXD Pin=XP2-3
+Added Pin To Net: NetName=GND Pin=XP2-5
+Added Member To Class: ClassName=Main Member=Component XP2 PLD-06

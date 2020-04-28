@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: D:\Projects_Files\Projects\Altium_Projects\S6_Line\RS232_RS485_CANS6\RS232_RS485_CANS6.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87

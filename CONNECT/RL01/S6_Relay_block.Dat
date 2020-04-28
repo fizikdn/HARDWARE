@@ -1,0 +1,54 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~S6_Relay_block.PrjPcb|ReportField=ProjectFullPath~D:\projects\GPS_GPRS\DISM\S6\Relay_block\S6_Relay_block.PrjPcb|ReportField=Title~Bill of Materials For Project [S6_Relay_block.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~91|ReportField=ReportTime~15:32:17|ReportField=ReportDate~12.02.2015|ReportField=ReportDateTime~12.02.2015 15:32:17|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~S6_Relay_block.PrjPcb|ReportField=DataSourceFullPath~D:\projects\GPS_GPRS\DISM\S6\Relay_block\S6_Relay_block.PrjPcb
+0.1uF|CC0603|C1, C2, C3, C4, C5, C11, C12, C13, C14, C17, C19, C20|12
+22pF|CC0603|C6, C7|2
+200pF|CC0603|C8|1
+220pF|CC0603|C9, C10|2
+0.1uFx250V|CC1206|C15|1
+4.7uFx10V|CC0805|C16, C24, C25|3
+470uF x 35V|CAP0.5(1)|C18|1
+330pFx50V|CC0603|C21|1
+1000uF x 6.3V|CAP0.35|C22|1
+1uFx10V|CC0603|C23|1
+MC34063|MC34063|DA1|1
+MCP1824T-ADJE/DC|300 mA, Low Voltage, Low Quiescent Current LDO Regulator, 5-Pin SOT-223, Extended Temperature, Tape and Reel|DA2|1
+LPC11C24FBD48||DD1|1
+M25P40|S25FL016A0LMFI01|DD2|1
+MICROSMD010F|MICROSMD|FU1, FU2, FU3, FU4|4
+MF-SMDF050|MF-SMDF|FU5|1
+RY21|RY21|K1, K2|2
+220uH|SDR0805|L1|1
+NX5032GA-12.000MHz LN-CD-1|AC5032/2|QR1|1
+330|RC0603|R2|1
+100E|RC0603|R3|1
+10k|RC0603|R4, R5, R6, R9, R10|5
+75k|RC0603|R7, R8|2
+4k7|RC0603|R11, R15|2
+100k|RC0603|R12, R16|2
+4.7k|RC0603|R13, R17|2
+47k|RC0603|R14, R18|2
+220k|RC1206|R19, R20, R21|3
+1E|RC0805|R22, R23|2
+105k 1%|RC0603|R24|1
+3k 1%|RC0603|R25|1
+1k 1%|RC0603|R26|1
+15k 1%|RC0603|R27|1
+PESD2CAN|TVS for CAN|VD1|1
+BL-B45V1F|LED_3|VD2|1
+BAT54S|1.0 Ampere General Purpose Rectifier|VD3, VD4|2
+LL4148|LL4148|VD5, VD10|2
+BAT54A|1.0 Ampere General Purpose Rectifier|VD6, VD8|2
+P6SMBJ28A|SMBJ|VD7, VD9|2
+GS1M|GS1M|VD11|1
+BZV55C15|Zener Voltage Regulator Diode|VD12|1
+SMBJ150A|SMBJ|VD13|1
+BZV55C36|Zener Voltage Regulator Diode|VD14|1
+SS14|Schottky Rectifier|VD15|1
+BC817-40|BC846BLT1|VT1, VT2|2
+IRFR9220|HEXFET Power MOSFET|VT3|1
+BC856B|BC856B|VT4|1
+PLS-02|PLS-02|XP1|1
+PLD-06|PLD06|XP2|1
+PLS04|PLS04|XP3|1
+TC020060|TC020060|XP4, XP5|2
+MIF2X02PRP|MIF2X02PRP|XP6|1
+TC030060|TC030060|XP7, XP8|2

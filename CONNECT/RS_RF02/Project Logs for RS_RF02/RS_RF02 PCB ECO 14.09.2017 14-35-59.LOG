@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=XTALOUT Pin=C11-2
+Removed Pin From Net: NetName=XTALIN Pin=C12-2
+Removed Pin From Net: NetName=XTALIN Pin=DD3-5
+Removed Pin From Net: NetName=XTALIN Pin=QR1-1
+Removed Pin From Net: NetName=XTALOUT Pin=QR1-2
+Change Component Comment : Designator=DD1 Old Comment=SP485EEN New Comment=ST3485EBDR
+Change component parameters: Designator = "DD1"; Footprint = "SO-8"; UniqueID = "\NCVKQTLC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "ST3485EBDR"; VariantName = "[No Variations]"
+Added Component: Designator=J3(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R16(RC0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "120E"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=XTALIN Pin=C11-2
+Added Pin To Net: NetName=XTALOUT Pin=C12-2
+Added Pin To Net: NetName=GND Pin=DD3-5
+Added Pin To Net: NetName=NetDD3_18 Pin=J3-1
+Added Pin To Net: NetName=XTALOUT Pin=QR1-1
+Added Pin To Net: NetName=XTALIN Pin=QR1-2
+Added Pin To Net: NetName=NetDD3_19 Pin=R16-2
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=R16-1
+Added Net: Name=NetJ3_2
+Added Member To Class: ClassName=Interface Member=Component J3 PLS-02
+Added Member To Class: ClassName=Interface Member=Component R16 120E

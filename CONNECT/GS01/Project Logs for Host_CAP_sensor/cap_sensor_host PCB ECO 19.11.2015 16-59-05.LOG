@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=+12V Pin=FU23-2
+Removed Pin From Net: NetName=ISP_START Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=NetR25_1 Pin=VD25-1
+Removed Pin From Net: NetName=NetFU15_1 Pin=VD25-2
+Removed Pin From Net: NetName=NetFU23_1 Pin=VD35-1
+Removed Pin From Net: NetName=NetC22_2 Pin=VD35-2
+Change Component DesignItemId : Designator=VD25 Old DesignItemId=LED_0805 New DesignItemId=SMBJ
+Change Component Footprint: Designator=VD25 Old Footprint=LED0805 New Footprint=SMB
+Change Component Comment : Designator=VD25 Old Comment=LED_0805 New Comment=SMBJ150A
+Change Component Library : Designator=C20 Old Library=gprs_modem.SchLib New Library=gprs_modem_2.SchLib
+Change Component Library : Designator=C23 Old Library=gprs_modem.SchLib New Library=gprs_modem_2.SchLib
+Added Component: Designator=C28(CC1206)
+Added Component: Designator=C29(CC8X3.5)
+Added Component: Designator=J2(PIN2W)
+Added Component: Designator=R44(RC1206)
+Added Component: Designator=R45(RC1206)
+Added Component: Designator=R46(RC1206)
+Added Component: Designator=VD25(LED0805)
+Added Component: Designator=VD36(SOT-23(123))
+Added Component: Designator=VD37(SOT-23(123))
+Added Component: Designator=VT2(SOT-23(123))
+Added Component: Designator=VT3(D-PAK(TO-252AA))
+Added Pin To Net: NetName=GND Pin=C28-1
+Added Pin To Net: NetName=+3V3 Pin=C29-1
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Pin To Net: NetName=ISP_START Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=NetFU21_2 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=R46-1
+Added Pin To Net: NetName=GND Pin=VD25-1
+Added Pin To Net: NetName=NetR25_1 Pin=VD25-1
+Added Pin To Net: NetName=NetFU15_1 Pin=VD25-2
+Added Pin To Net: NetName=NetFU23_1 Pin=VD35-2
+Added Pin To Net: NetName=GND Pin=VD36-1
+Added Pin To Net: NetName=NetC22_2 Pin=VT3-3
+Change Net Name : Old Net Name=NetC22_2 New Net Name=VIN_F
+Added Pin To Net: NetName=NetC28_2 Pin=C28-2
+Added Pin To Net: NetName=NetC28_2 Pin=FU23-2
+Added Pin To Net: NetName=NetC28_2 Pin=R44-2
+Added Pin To Net: NetName=NetC28_2 Pin=VD25-2
+Added Pin To Net: NetName=NetC28_2 Pin=VD37-3
+Added Pin To Net: NetName=NetC28_2 Pin=VT2-2
+Added Pin To Net: NetName=NetC28_2 Pin=VT3-2
+Added Net: Name=NetC28_2
+Added Pin To Net: NetName=NetR44_1 Pin=R44-1
+Added Pin To Net: NetName=NetR44_1 Pin=R45-2
+Added Pin To Net: NetName=NetR44_1 Pin=VD36-3
+Added Net: Name=NetR44_1
+Added Pin To Net: NetName=NetR45_1 Pin=R45-1
+Added Pin To Net: NetName=NetR45_1 Pin=VT2-1
+Added Net: Name=NetR45_1
+Added Pin To Net: NetName=NetR46_2 Pin=R46-2
+Added Pin To Net: NetName=NetR46_2 Pin=VD37-1
+Added Pin To Net: NetName=NetR46_2 Pin=VT2-3
+Added Pin To Net: NetName=NetR46_2 Pin=VT3-1
+Added Net: Name=NetR46_2
+Added Pin To Net: NetName=VIN Pin=VD35-1
+Added Net: Name=VIN
+Added Member To Class: ClassName=Power Member=Component C28 0.1uFx250V
+Added Member To Class: ClassName=Power Member=Component C29 1000uFx6.3V
+Added Member To Class: ClassName=Power Member=Component R44 220k
+Added Member To Class: ClassName=Power Member=Component R45 220k
+Added Member To Class: ClassName=Power Member=Component R46 220k
+Added Member To Class: ClassName=Power Member=Component VD25 SMBJ150A
+Added Member To Class: ClassName=Power Member=Component VD36 BZX84C36
+Added Member To Class: ClassName=Power Member=Component VD37 BZX84C15
+Added Member To Class: ClassName=Power Member=Component VT2 BC856B
+Added Member To Class: ClassName=Power Member=Component VT3 IRFR9220

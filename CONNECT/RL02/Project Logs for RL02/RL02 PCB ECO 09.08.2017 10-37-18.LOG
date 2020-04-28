@@ -1,0 +1,9 @@
+Added Component: Designator=REP3(REPER1.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "REPER_POINT_1.2"; VariantName = "[No Variations]"
+Added Component: Designator=REP4(REPER1.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "REPER_POINT_1.2"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Power Member=Component R19 3k 1%
+Added Member To Class: ClassName=MCU Member=Component REP3 REPER_POINT_1.2
+Added Member To Class: ClassName=MCU Member=Component REP4 REPER_POINT_1.2

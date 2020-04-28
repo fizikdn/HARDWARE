@@ -1,0 +1,5 @@
+Added Component: Designator=VD2(SOT-23(123))
+Added Pin To Net: NetName=NetDD2_6 Pin=VD2-1
+Added Pin To Net: NetName=NetDD2_7 Pin=VD2-2
+Added Pin To Net: NetName=GND Pin=VD2-3
+Added Member To Class: ClassName=Interface Member=Component VD2 PESD2CAN

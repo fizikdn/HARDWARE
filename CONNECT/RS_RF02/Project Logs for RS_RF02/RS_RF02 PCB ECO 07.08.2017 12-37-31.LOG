@@ -1,0 +1,6 @@
+Added Component: Designator=VD13(LED0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "n.p"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR2_2 Pin=VD13-1
+Added Pin To Net: NetName=GND Pin=VD13-2
+Added Member To Class: ClassName=MCU Member=Component VD13 n.p

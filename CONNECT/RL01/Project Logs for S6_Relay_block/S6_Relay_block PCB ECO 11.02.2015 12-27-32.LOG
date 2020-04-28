@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetR2_2 Pin=VD2-1
+Removed Pin From Net: NetName=GND Pin=VD2-2
+Change Component DesignItemId : Designator=VD2 Old DesignItemId=LHR974 New DesignItemId=LED_3
+Change Component Footprint: Designator=VD2 Old Footprint=LED0805 New Footprint=LED3
+Change Component Comment : Designator=VD2 Old Comment=LHR974 New Comment=BL-B45V1F
+Added Pin To Net: NetName=GND Pin=VD2-1
+Added Pin To Net: NetName=NetR2_2 Pin=VD2-2

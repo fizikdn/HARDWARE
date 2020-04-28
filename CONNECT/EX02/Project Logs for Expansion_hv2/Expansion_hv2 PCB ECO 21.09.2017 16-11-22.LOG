@@ -1,0 +1,4 @@
+Change Component Comment : Designator=C1 Old Comment=0.1uF New Comment=33pF
+Change component parameters: Designator = "C1"; Footprint = "CC0603"; UniqueID = "\NDIXLIQY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"

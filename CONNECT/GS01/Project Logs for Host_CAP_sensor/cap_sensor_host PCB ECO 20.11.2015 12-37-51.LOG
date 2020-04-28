@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=GND Pin=C24-1
+Removed Pin From Net: NetName=+5V Pin=C24-2
+Removed Pin From Net: NetName=GND Pin=C26-1
+Removed Pin From Net: NetName=+3V3 Pin=C26-2
+Removed Pin From Net: NetName=+5V Pin=DA2-2
+Removed Pin From Net: NetName=GND Pin=DA2-3
+Removed Pin From Net: NetName=+3V3 Pin=DA2-4
+Removed Pin From Net: NetName=GND Pin=DA2-6
+Removed Pin From Net: NetName=+3V3 Pin=R42-1
+Removed Pin From Net: NetName=GND Pin=VD25-1
+Removed Pin From Net: NetName=NetC28_2 Pin=VD25-2
+Change Component DesignItemId : Designator=DA2 Old DesignItemId=MCP1824T-ADJE/DC New DesignItemId=MCP1824T-ADJE/OT
+Change Component Footprint: Designator=DA2 Old Footprint=SOT223-6 New Footprint=SOT23-5
+Change Component Comment : Designator=C26 Old Comment=1uFx10V New Comment=0.1uF
+Change Component Comment : Designator=C25 Old Comment=4.7uFx16V New Comment=4.7uF 6.3V
+Change Component Comment : Designator=R41 Old Comment=15k 1% New Comment=18k 1%
+Change Component Comment : Designator=R42 Old Comment=105k 1% New Comment=11k 1%
+Change Component Comment : Designator=DA2 Old Comment=MCP1824T-ADJE/DC New Comment=AP2210K-ADJTRG1
+Change Component Description : Designator=VD25 Old Description=1.5KE New Description=
+Added Component: Designator=VD38(DO-201)
+Added Pin To Net: NetName=+5V Pin=C24-1
+Added Pin To Net: NetName=GND Pin=C24-2
+Added Pin To Net: NetName=+3V3 Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=GND Pin=DA2-2
+Added Pin To Net: NetName=+5V Pin=DA2-3
+Added Pin To Net: NetName=+3V3 Pin=DA2-5
+Added Pin To Net: NetName=+3V3 Pin=R42-2
+Added Pin To Net: NetName=GND Pin=VD38-1
+Added Pin To Net: NetName=NetC28_2 Pin=VD38-2
+Added Pin To Net: NetName=NetDA2_4 Pin=DA2-4
+Added Pin To Net: NetName=NetDA2_4 Pin=R41-2
+Added Pin To Net: NetName=NetDA2_4 Pin=R42-1
+Added Net: Name=NetDA2_4
+Added Member To Class: ClassName=LED_indication Member=Component VD25 LED_0805
+Added Member To Class: ClassName=Power Member=Component VD38 1.5KE150A

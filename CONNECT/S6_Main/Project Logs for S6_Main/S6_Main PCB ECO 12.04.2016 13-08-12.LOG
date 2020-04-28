@@ -1,0 +1,6 @@
+Added Component: Designator=X9(PIN_2.5x4mm_SMD)
+Added Component: Designator=X10(PIN_2.5x4mm_SMD)
+Added Pin To Net: NetName=GND Pin=X9-1
+Added Pin To Net: NetName=VIN Pin=X10-1
+Added Member To Class: ClassName=IO Member=Component X9 PIN_2.5x4mm_SMD
+Added Member To Class: ClassName=IO Member=Component X10 PIN_2.5x4mm_SMD

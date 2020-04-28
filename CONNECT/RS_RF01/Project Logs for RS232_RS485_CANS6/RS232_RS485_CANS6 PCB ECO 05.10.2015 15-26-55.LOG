@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=A/RXD Pin=XP1-1
+Removed Pin From Net: NetName=NetR3_2 Pin=XP1-2
+Removed Pin From Net: NetName=VIN Pin=XP1-2
+Removed Pin From Net: NetName=GND Pin=XP1-3
+Removed Pin From Net: NetName=RS_RXD Pin=XP1-3
+Removed Pin From Net: NetName=B/TXD Pin=XP1-4
+Removed Pin From Net: NetName=GND Pin=XP1-5
+Removed Pin From Net: NetName=VIN Pin=XP1-5
+Removed Pin From Net: NetName=GND Pin=XP1-6
+Change Component DesignItemId : Designator=XP1 Old DesignItemId=PLD-06 New DesignItemId=MIF2X03PRP
+Change Component Footprint: Designator=XP1 Old Footprint=PIN6 New Footprint=MIF2X03PRP
+Change Component Comment : Designator=XP1 Old Comment=PLD-06 New Comment=MIF2X03PRP
+Added Component: Designator=XP3(PIN6)
+Added Pin To Net: NetName=A/RXD Pin=XP1-1
+Added Pin To Net: NetName=VIN Pin=XP1-2
+Added Pin To Net: NetName=GND Pin=XP1-3
+Added Pin To Net: NetName=B/TXD Pin=XP1-4
+Added Pin To Net: NetName=VIN Pin=XP1-5
+Added Pin To Net: NetName=GND Pin=XP1-6
+Added Pin To Net: NetName=NetR3_2 Pin=XP1-2
+Added Pin To Net: NetName=RS_RXD Pin=XP1-3
+Added Pin To Net: NetName=GND Pin=XP1-5
+Added Member To Class: ClassName=Main Member=Component XP3 PLD-06

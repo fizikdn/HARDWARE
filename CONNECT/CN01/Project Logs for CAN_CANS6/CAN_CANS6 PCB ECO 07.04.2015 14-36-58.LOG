@@ -1,0 +1,89 @@
+Removed Pin From Net: NetName=+3V3 Pin=DD3-10
+Removed Pin From Net: NetName=GND Pin=DD3-11
+Removed Pin From Net: NetName=+3V3 Pin=DD3-12
+Removed Pin From Net: NetName=GND Pin=DD3-15
+Removed Pin From Net: NetName=NetC14_2 Pin=DD3-17
+Removed Pin From Net: NetName=NetC12_2 Pin=DD3-22
+Removed Pin From Net: NetName=NetC13_2 Pin=DD3-23
+Removed Pin From Net: NetName=+3V3 Pin=DD3-28
+Removed Pin From Net: NetName=GND Pin=DD3-31
+Removed Pin From Net: NetName=GND Pin=DD3-41
+Removed Pin From Net: NetName=+3V3 Pin=DD3-42
+Removed Pin From Net: NetName=CAN_EN Pin=DD3-45
+Removed Pin From Net: NetName=CAN_R Pin=DD3-46
+Removed Pin From Net: NetName=CAN_D Pin=DD3-47
+Removed Pin From Net: NetName=+3V3 Pin=DD3-54
+Removed Pin From Net: NetName=GND Pin=DD3-55
+Removed Pin From Net: NetName=MOSI Pin=DD3-60
+Removed Pin From Net: NetName=MISO Pin=DD3-61
+Removed Pin From Net: NetName=SCK Pin=DD3-62
+Removed Pin From Net: NetName=MISO Pin=DD3-63
+Removed Pin From Net: NetName=CAN_D_S6 Pin=DD3-65
+Removed Pin From Net: NetName=CAN_R_S6 Pin=DD3-66
+Removed Pin From Net: NetName=CAN_EN_S6 Pin=DD3-67
+Removed Pin From Net: NetName=CAN_CON Pin=DD3-68
+Removed Pin From Net: NetName=+3V3 Pin=DD3-71
+Removed Pin From Net: NetName=GND Pin=DD3-72
+Removed Pin From Net: NetName=RS485_CON Pin=DD3-73
+Removed Pin From Net: NetName=RXD_485 Pin=DD3-74
+Removed Pin From Net: NetName=TXD_485 Pin=DD3-75
+Removed Pin From Net: NetName=GND Pin=DD3-83
+Removed Pin From Net: NetName=+3V3 Pin=DD3-84
+Removed Pin From Net: NetName=+3V3 Pin=DD3-96
+Removed Pin From Net: NetName=GND Pin=DD3-97
+Removed Pin From Net: NetName=TXD Pin=DD3-98
+Removed Pin From Net: NetName=RXD Pin=DD3-99
+Removed Member From Class: ClassName=Main Member=DD3
+Added Component: Designator=C?(CC0603-3M)
+Added Component: Designator=DD?(TQFP-80_0.5)
+Added Component: Designator=DD?(TQFP-80_0.5)
+Added Component: Designator=DD?(TQFP-80_0.5)
+Added Component: Designator=J?(PIN2W)
+Added Component: Designator=R?(RC0603-3M)
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=+3V3 Pin=DD?-8
+Added Pin To Net: NetName=GND Pin=DD?-9
+Added Pin To Net: NetName=+3V3 Pin=DD?-10
+Added Pin To Net: NetName=GND Pin=DD?-12
+Added Pin To Net: NetName=NetC14_2 Pin=DD?-14
+Added Pin To Net: NetName=NetC12_2 Pin=DD?-19
+Added Pin To Net: NetName=NetC13_2 Pin=DD?-20
+Added Pin To Net: NetName=+3V3 Pin=DD?-21
+Added Pin To Net: NetName=GND Pin=DD?-24
+Added Pin To Net: NetName=GND Pin=DD?-33
+Added Pin To Net: NetName=+3V3 Pin=DD?-34
+Added Pin To Net: NetName=CAN_EN Pin=DD?-36
+Added Pin To Net: NetName=CAN_R Pin=DD?-37
+Added Pin To Net: NetName=CAN_D Pin=DD?-38
+Added Pin To Net: NetName=+3V3 Pin=DD?-42
+Added Pin To Net: NetName=GND Pin=DD?-43
+Added Pin To Net: NetName=MOSI Pin=DD?-45
+Added Pin To Net: NetName=MISO Pin=DD?-46
+Added Pin To Net: NetName=SCK Pin=DD?-47
+Added Pin To Net: NetName=MISO Pin=DD?-48
+Added Pin To Net: NetName=CAN_D_S6 Pin=DD?-50
+Added Pin To Net: NetName=CAN_R_S6 Pin=DD?-51
+Added Pin To Net: NetName=CAN_EN_S6 Pin=DD?-52
+Added Pin To Net: NetName=CAN_CON Pin=DD?-53
+Added Pin To Net: NetName=+3V3 Pin=DD?-56
+Added Pin To Net: NetName=GND Pin=DD?-57
+Added Pin To Net: NetName=RS485_CON Pin=DD?-58
+Added Pin To Net: NetName=RXD_485 Pin=DD?-59
+Added Pin To Net: NetName=TXD_485 Pin=DD?-60
+Added Pin To Net: NetName=GND Pin=DD?-66
+Added Pin To Net: NetName=+3V3 Pin=DD?-67
+Added Pin To Net: NetName=+3V3 Pin=DD?-77
+Added Pin To Net: NetName=GND Pin=DD?-78
+Added Pin To Net: NetName=TXD Pin=DD?-79
+Added Pin To Net: NetName=RXD Pin=DD?-80
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=+3V3 Pin=R?-2
+Added Pin To Net: NetName=TST Pin=C?-1
+Added Pin To Net: NetName=TST Pin=DD?-41
+Added Pin To Net: NetName=TST Pin=J?-1
+Added Pin To Net: NetName=TST Pin=R?-1
+Added Net: Name=TST
+Added Member To Class: ClassName=Main Member=Component C? 220pF
+Added Member To Class: ClassName=Main Member=Component DD? LPC1754FBD80
+Added Member To Class: ClassName=Main Member=Component J? PLS-02
+Added Member To Class: ClassName=Main Member=Component R? 10k

@@ -1,0 +1,82 @@
+Removed Pin From Net: NetName=+3V3 Pin=DD3-8
+Removed Pin From Net: NetName=GND Pin=DD3-9
+Removed Pin From Net: NetName=+3V3 Pin=DD3-10
+Removed Pin From Net: NetName=GND Pin=DD3-12
+Removed Pin From Net: NetName=NetC15_2 Pin=DD3-14
+Removed Pin From Net: NetName=NetC13_2 Pin=DD3-19
+Removed Pin From Net: NetName=NetC14_2 Pin=DD3-20
+Removed Pin From Net: NetName=+3V3 Pin=DD3-21
+Removed Pin From Net: NetName=GND Pin=DD3-24
+Removed Pin From Net: NetName=GND Pin=DD3-33
+Removed Pin From Net: NetName=+3V3 Pin=DD3-34
+Removed Pin From Net: NetName=CAN_EN Pin=DD3-36
+Removed Pin From Net: NetName=CAN_R Pin=DD3-37
+Removed Pin From Net: NetName=CAN_D Pin=DD3-38
+Removed Pin From Net: NetName=TST Pin=DD3-41
+Removed Pin From Net: NetName=+3V3 Pin=DD3-42
+Removed Pin From Net: NetName=GND Pin=DD3-43
+Removed Pin From Net: NetName=MOSI Pin=DD3-45
+Removed Pin From Net: NetName=MISO Pin=DD3-46
+Removed Pin From Net: NetName=SCK Pin=DD3-47
+Removed Pin From Net: NetName=SS Pin=DD3-48
+Removed Pin From Net: NetName=CAN_D_S6 Pin=DD3-50
+Removed Pin From Net: NetName=CAN_R_S6 Pin=DD3-51
+Removed Pin From Net: NetName=CAN_EN_S6 Pin=DD3-52
+Removed Pin From Net: NetName=CAN_CON Pin=DD3-53
+Removed Pin From Net: NetName=+3V3 Pin=DD3-56
+Removed Pin From Net: NetName=GND Pin=DD3-57
+Removed Pin From Net: NetName=RS485_CON Pin=DD3-58
+Removed Pin From Net: NetName=RXD_485 Pin=DD3-59
+Removed Pin From Net: NetName=TXD_485 Pin=DD3-60
+Removed Pin From Net: NetName=RS485_EN Pin=DD3-61
+Removed Pin From Net: NetName=GND Pin=DD3-66
+Removed Pin From Net: NetName=+3V3 Pin=DD3-67
+Removed Pin From Net: NetName=+3V3 Pin=DD3-77
+Removed Pin From Net: NetName=GND Pin=DD3-78
+Removed Pin From Net: NetName=TXD Pin=DD3-79
+Removed Pin From Net: NetName=RXD Pin=DD3-80
+Removed Member From Class: ClassName=Main Member=DD3
+Added Component: Designator=DD?(TQFP-100)
+Added Component: Designator=DD?(TQFP-100)
+Added Component: Designator=DD?(TQFP-100)
+Added Pin To Net: NetName=+3V3 Pin=DD?-10
+Added Pin To Net: NetName=GND Pin=DD?-11
+Added Pin To Net: NetName=+3V3 Pin=DD?-12
+Added Pin To Net: NetName=GND Pin=DD?-15
+Added Pin To Net: NetName=NetC15_2 Pin=DD?-17
+Added Pin To Net: NetName=NetC13_2 Pin=DD?-22
+Added Pin To Net: NetName=NetC14_2 Pin=DD?-23
+Added Pin To Net: NetName=+3V3 Pin=DD?-28
+Added Pin To Net: NetName=GND Pin=DD?-31
+Added Pin To Net: NetName=GND Pin=DD?-41
+Added Pin To Net: NetName=+3V3 Pin=DD?-42
+Added Pin To Net: NetName=CAN_EN Pin=DD?-45
+Added Pin To Net: NetName=CAN_R Pin=DD?-46
+Added Pin To Net: NetName=CAN_D Pin=DD?-47
+Added Pin To Net: NetName=TST Pin=DD?-53
+Added Pin To Net: NetName=+3V3 Pin=DD?-54
+Added Pin To Net: NetName=GND Pin=DD?-55
+Added Pin To Net: NetName=MOSI Pin=DD?-60
+Added Pin To Net: NetName=MISO Pin=DD?-61
+Added Pin To Net: NetName=SCK Pin=DD?-62
+Added Pin To Net: NetName=SS Pin=DD?-63
+Added Pin To Net: NetName=CAN_D_S6 Pin=DD?-65
+Added Pin To Net: NetName=CAN_R_S6 Pin=DD?-66
+Added Pin To Net: NetName=CAN_EN_S6 Pin=DD?-67
+Added Pin To Net: NetName=CAN_CON Pin=DD?-68
+Added Pin To Net: NetName=+3V3 Pin=DD?-71
+Added Pin To Net: NetName=GND Pin=DD?-72
+Added Pin To Net: NetName=RS485_CON Pin=DD?-73
+Added Pin To Net: NetName=RXD_485 Pin=DD?-74
+Added Pin To Net: NetName=TXD_485 Pin=DD?-75
+Added Pin To Net: NetName=RS485_EN Pin=DD?-76
+Added Pin To Net: NetName=GND Pin=DD?-83
+Added Pin To Net: NetName=+3V3 Pin=DD?-84
+Added Pin To Net: NetName=+3V3 Pin=DD?-96
+Added Pin To Net: NetName=GND Pin=DD?-97
+Added Pin To Net: NetName=TXD Pin=DD?-98
+Added Pin To Net: NetName=RXD Pin=DD?-99
+Added Member To Class: ClassName=Main Member=Component DD? LPC1768FBD100
+Added Room: Name=Interface
+Added Room: Name=Main
+Added Room: Name=Power

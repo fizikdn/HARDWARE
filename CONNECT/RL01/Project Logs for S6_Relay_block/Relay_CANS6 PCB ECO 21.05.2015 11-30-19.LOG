@@ -1,0 +1,16 @@
+Removed Member From Class: ClassName=Output Member=C15
+Removed Member From Class: ClassName=Main Member=C16
+Removed Member From Class: ClassName=Output Member=C16
+Added Component: Designator=1(REPER1.2)
+Added Component: Designator=2(REPER1.2)
+Added Component: Designator=3(REPER1.2)
+Added Component: Designator=4(REPER1.2)
+Added Member To Class: ClassName=Main Member=Component 1 REPER1.2
+Added Member To Class: ClassName=Main Member=Component 2 REPER1.2
+Added Member To Class: ClassName=Main Member=Component 3 REPER1.2
+Added Member To Class: ClassName=Main Member=Component 4 REPER1.2
+Added Member To Class: ClassName=Main Member=Component C12 220pF
+Added Member To Class: ClassName=Output Member=Component C13 0.1uF
+Added Member To Class: ClassName=Output Member=Component C14 0.1uF
+Added Member To Class: ClassName=Power Member=Component C15 330pFx50V
+Added Member To Class: ClassName=Power Member=Component C17 1uFx10V

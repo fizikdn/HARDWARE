@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=Power Member=R4
+Removed Member From Class: ClassName=Power Member=R5
+Added Member To Class: ClassName=Main Member=Component R1 10k
+Added Member To Class: ClassName=Main Member=Component R2 330
+Added Member To Class: ClassName=Power Member=Component R6 18k 1%
+Added Member To Class: ClassName=Power Member=Component R7 11k 1%
