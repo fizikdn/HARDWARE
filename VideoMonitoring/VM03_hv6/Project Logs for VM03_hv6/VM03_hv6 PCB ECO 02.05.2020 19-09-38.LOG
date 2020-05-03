@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VUSB Pin=C112-2
+Removed Pin From Net: NetName=VUSB Pin=C113-1
+Removed Pin From Net: NetName=VUSB Pin=DA8-1
+Added Pin To Net: NetName=+5V3 Pin=C112-2
+Added Pin To Net: NetName=+5V3 Pin=C113-1
+Added Pin To Net: NetName=+5V3 Pin=DA8-1

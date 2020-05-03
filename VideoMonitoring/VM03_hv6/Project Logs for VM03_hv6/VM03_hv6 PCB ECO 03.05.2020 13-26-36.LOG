@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=RESET Pin=C13-2
+Removed Pin From Net: NetName=ISP_START Pin=C14-2
+Removed Pin From Net: NetName=RESET Pin=R10-1
+Removed Pin From Net: NetName=+3V3_MCU Pin=R10-2
+Removed Pin From Net: NetName=MCU_TXD Pin=R11-2
+Removed Pin From Net: NetName=ISP_START Pin=R12-1
+Removed Pin From Net: NetName=+3V3_MCU Pin=R12-2
+Removed Pin From Net: NetName=+3V3_MCU Pin=XP1-1
+Removed Pin From Net: NetName=RESET Pin=XP1-2
+Removed Pin From Net: NetName=MCU_RXD Pin=XP1-4
+Removed Pin From Net: NetName=ISP_START Pin=XP1-5
+Removed Pin From Net: NetName=GND Pin=XP1-6
+Change Component Footprint: Designator=XP1 Old Footprint=PLS-06 New Footprint=PLS-03
+Change Component Comment : Designator=R10 Old Comment=10k New Comment=100E
+Change Component Comment : Designator=R11 Old Comment=100E New Comment=10k
+Change Component Comment : Designator=XP1 Old Comment=PLS-06 New Comment=PLS03
+Change component parameters: Designator = "R10"; Footprint = "RC0603"; UniqueID = "\ZAQYFNDR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100E"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11"; Footprint = "RC0603"; UniqueID = "\AHSNGFCU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=J2(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J3(PLS-02)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ISP_START Pin=C13-2
+Added Pin To Net: NetName=RESET Pin=C14-2
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=ISP_START Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=RESET Pin=J3-2
+Added Pin To Net: NetName=MCU_TXD Pin=R10-2
+Added Pin To Net: NetName=+3V3_MCU Pin=R11-1
+Added Pin To Net: NetName=ISP_START Pin=R11-2
+Added Pin To Net: NetName=+3V3_MCU Pin=R12-1
+Added Pin To Net: NetName=RESET Pin=R12-2
+Added Pin To Net: NetName=GND Pin=XP1-2
+Added Pin To Net: NetName=MCU_RXD Pin=XP1-3
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=NetR10_1 Pin=XP1-1
+Added Net: Name=NetR10_1
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component J2 PLS-02
+Added Member To Class: ClassName=[5]-MCU_CONNECTORS Member=Component J3 PLS-02

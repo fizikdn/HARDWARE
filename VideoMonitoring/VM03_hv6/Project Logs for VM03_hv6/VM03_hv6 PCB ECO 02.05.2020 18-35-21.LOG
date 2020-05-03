@@ -1,0 +1,4 @@
+Change Component Comment : Designator=DA5 Old Comment=LM324D New Comment=LM224DT
+Change component parameters: Designator = "DA5"; Footprint = "SO14"; UniqueID = "\HWYLXDQV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "LM224DT"; VariantName = "[No Variations]"

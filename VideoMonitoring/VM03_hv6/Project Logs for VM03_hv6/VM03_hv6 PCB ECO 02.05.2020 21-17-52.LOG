@@ -1,0 +1,40 @@
+Change Component Footprint: Designator=VD30 Old Footprint=SMB New Footprint=SMA
+Change Component Footprint: Designator=VD31 Old Footprint=SMB New Footprint=SMA
+Change Component Footprint: Designator=VD32 Old Footprint=SMB New Footprint=SMA
+Change Component Footprint: Designator=VD33 Old Footprint=SMB New Footprint=SMA
+Change Component Footprint: Designator=VD34 Old Footprint=SMB New Footprint=SMA
+Change Component Footprint: Designator=VD35 Old Footprint=SMB New Footprint=SMA
+Change Component Footprint: Designator=VD36 Old Footprint=SMB New Footprint=SMA
+Change Component Footprint: Designator=VD37 Old Footprint=SMB New Footprint=SMA
+Change Component Comment : Designator=VD30 Old Comment=SMBJ15A New Comment=SMAJ15A
+Change Component Comment : Designator=VD31 Old Comment=SMBJ15A New Comment=SMAJ15A
+Change Component Comment : Designator=VD32 Old Comment=SMBJ15A New Comment=SMAJ15A
+Change Component Comment : Designator=VD33 Old Comment=SMBJ15A New Comment=SMAJ15A
+Change Component Comment : Designator=VD34 Old Comment=SMBJ15A New Comment=SMAJ15A
+Change Component Comment : Designator=VD35 Old Comment=SMBJ15A New Comment=SMAJ15A
+Change Component Comment : Designator=VD36 Old Comment=SMBJ15A New Comment=SMAJ15A
+Change Component Comment : Designator=VD37 Old Comment=SMBJ15A New Comment=SMAJ15A
+Change component parameters: Designator = "VD30"; Footprint = "SMA"; UniqueID = "\QMZYQVBU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMAJ15A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD31"; Footprint = "SMA"; UniqueID = "\DAOJJVWX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMAJ15A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD32"; Footprint = "SMA"; UniqueID = "\LEALYMEX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMAJ15A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD33"; Footprint = "SMA"; UniqueID = "\OUBEGDAP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMAJ15A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD34"; Footprint = "SMA"; UniqueID = "\IRUERXWC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMAJ15A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD35"; Footprint = "SMA"; UniqueID = "\JJPFUXGG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMAJ15A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD36"; Footprint = "SMA"; UniqueID = "\FCQUDMZX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMAJ15A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD37"; Footprint = "SMA"; UniqueID = "\UGQFPUWI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "SMAJ15A"; VariantName = "[No Variations]"

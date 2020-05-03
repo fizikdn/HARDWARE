@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+3V3 Pin=C45-1
+Removed Pin From Net: NetName=+3V3 Pin=DA5-4
+Added Pin To Net: NetName=+3V3_ETH Pin=C45-1
+Added Pin To Net: NetName=+3V3_ETH Pin=DA5-4

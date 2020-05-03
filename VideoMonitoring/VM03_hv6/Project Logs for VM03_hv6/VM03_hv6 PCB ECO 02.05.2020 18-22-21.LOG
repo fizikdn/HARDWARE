@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=R44-1
+Removed Pin From Net: NetName=CAM2_GND Pin=R44-2
+Removed Pin From Net: NetName=GND Pin=R45-1
+Removed Pin From Net: NetName=CAM1_GND Pin=R45-2
+Removed Pin From Net: NetName=GND Pin=R50-1
+Removed Pin From Net: NetName=CAM3_GND Pin=R50-2
+Removed Pin From Net: NetName=GND Pin=R51-1
+Removed Pin From Net: NetName=CAM4_GND Pin=R51-2
+Change Component Footprint: Designator=R44 Old Footprint=R2512 New Footprint=RC1206
+Change Component Footprint: Designator=R45 Old Footprint=R2512 New Footprint=RC1206
+Change Component Footprint: Designator=R50 Old Footprint=R2512 New Footprint=RC1206
+Change Component Footprint: Designator=R51 Old Footprint=R2512 New Footprint=RC1206
+Added Pin To Net: NetName=CAM2_GND Pin=R44-1
+Added Pin To Net: NetName=GND Pin=R44-2
+Added Pin To Net: NetName=CAM1_GND Pin=R45-1
+Added Pin To Net: NetName=GND Pin=R45-2
+Added Pin To Net: NetName=CAM3_GND Pin=R50-1
+Added Pin To Net: NetName=GND Pin=R50-2
+Added Pin To Net: NetName=CAM4_GND Pin=R51-1
+Added Pin To Net: NetName=GND Pin=R51-2
